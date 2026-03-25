@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { Send, Users } from "lucide-react";
 
 const FinalCtaSection = () => {
   const [email, setEmail] = useState("");
@@ -27,18 +28,23 @@ const FinalCtaSection = () => {
           className="text-center max-w-2xl mx-auto"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-display text-primary-foreground mb-6">
-            Inizia il tuo percorso{" "}
-            <span className="italic">oggi stesso</span>
+            È il momento di{" "}
+            <span className="italic">prenderti cura di te</span>
           </h2>
           <p className="text-lg text-primary-foreground/80 font-body mb-4 leading-relaxed">
-            14 video gratuiti per scoprire il tuo core profondo, migliorare la consapevolezza del
-            pavimento pelvico e iniziare a lavorare sul tuo corpo con sicurezza.
+            14 video gratuiti, dal vivo su Telegram, per iniziare a capire cosa succede nel tuo corpo e ritrovare il contatto con il tuo core profondo. Con Michela e Moreno, al tuo fianco ogni giorno.
           </p>
-          <p className="text-primary-foreground/70 font-body mb-8">
-            CORE 101 è la parte introduttiva e gratuita del{" "}
-            <strong className="text-primary-foreground">CORE MASTERPLAN</strong> — il programma
-            completo di Michela e Moreno.
-          </p>
+
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8 text-sm font-body text-primary-foreground/70">
+            <span className="flex items-center gap-1.5">
+              <Send className="w-4 h-4" />
+              Si parte il <strong className="text-primary-foreground">20 aprile</strong> su Telegram
+            </span>
+            <span className="flex items-center gap-1.5">
+              <Users className="w-4 h-4" />
+              <strong className="text-primary-foreground">+300</strong> iscrittə nelle edizioni precedenti
+            </span>
+          </div>
 
           {!submitted ? (
             <form
@@ -57,7 +63,7 @@ const FinalCtaSection = () => {
                 type="submit"
                 className="px-8 py-3.5 rounded-lg bg-background text-foreground font-semibold font-body hover:bg-background/90 transition-all whitespace-nowrap shadow-warm"
               >
-                Iscriviti Gratis →
+                Voglio Partecipare →
               </button>
             </form>
           ) : (
@@ -67,16 +73,16 @@ const FinalCtaSection = () => {
               className="bg-white/15 backdrop-blur-sm border border-white/20 rounded-lg p-5 max-w-lg mx-auto"
             >
               <p className="text-primary-foreground font-semibold font-body text-lg">
-                🌿 Fantastico, ci sei!
+                🌿 Benvenutə nel training!
               </p>
               <p className="text-primary-foreground/80 font-body mt-1">
-                Controlla la tua email per iniziare CORE 101.
+                Controlla la tua email — riceverai il link al canale Telegram prima del 20 aprile.
               </p>
             </motion.div>
           )}
 
           <p className="text-sm text-primary-foreground/60 mt-4 font-body">
-            ✓ 100% Gratuito · ✓ 14 Video Guidati · ✓ Con Michela & Moreno
+            ✓ 100% Gratuito · ✓ Dal vivo su Telegram · ✓ Con Michela & Moreno
           </p>
         </motion.div>
       </div>

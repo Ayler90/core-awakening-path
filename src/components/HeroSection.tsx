@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { Send, Users, Calendar } from "lucide-react";
 import heroImage from "@/assets/hero-wellness.jpg";
 
 const HeroSection = () => {
@@ -15,46 +16,55 @@ const HeroSection = () => {
 
   return (
     <section className="relative min-h-screen gradient-hero overflow-hidden">
-      {/* Decorative shapes */}
       <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-accent/40 blur-3xl -translate-y-1/2 translate-x-1/3" />
       <div className="absolute bottom-0 left-0 w-80 h-80 rounded-full bg-sage-light/50 blur-3xl translate-y-1/3 -translate-x-1/4" />
 
       <div className="container mx-auto px-4 sm:px-6 pt-12 pb-20 lg:pt-20 lg:pb-28 relative z-10">
-        {/* Badge */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           className="text-center mb-8"
         >
-          <span className="inline-block px-4 py-1.5 rounded-full bg-sage-light text-sage-dark text-sm font-semibold tracking-wide uppercase font-body">
-            Percorso Gratuito · 14 Video · 2 Settimane
+          <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-sage-light text-sage-dark text-sm font-semibold tracking-wide uppercase font-body">
+            <Send className="w-3.5 h-3.5" />
+            Training Live su Telegram · Inizia il 20 Aprile
           </span>
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          {/* Text content */}
           <motion.div
             initial={{ opacity: 0, x: -40 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-display leading-tight text-foreground mb-6">
-              Scopri il tuo{" "}
-              <span className="text-primary italic">Core Profondo</span>
-              <br />
-              in 14 giorni
+              Perdite, pesantezza, pancia che non torna?{" "}
+              <span className="text-primary italic">Non sei sola.</span>
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground font-body leading-relaxed mb-4">
-              Un percorso gratuito con <strong className="text-foreground">Michela e Moreno</strong> per
-              ritrovare consapevolezza del pavimento pelvico e della parete addominale.
+              Forse non sai ancora cos'è il pavimento pelvico, ma <strong className="text-foreground">senti che qualcosa non va</strong>. 
+              Quel senso di pesantezza, le piccole perdite, la pancia che sembra non ascoltarti più.
             </p>
-            <p className="text-base text-muted-foreground font-body mb-8">
-              Ideale per chi soffre di <em>diastasi</em>, <em>incontinenza</em>, <em>prolasso</em> o
-              vuole prendersi cura del proprio corpo in gravidanza e nel post parto.
+            <p className="text-base text-muted-foreground font-body mb-4">
+              <strong className="text-foreground">CORE 101</strong> è il training gratuito dal vivo con cui <strong className="text-foreground">Michela e Moreno</strong> ti 
+              guidano, giorno dopo giorno, a capire cosa succede nel tuo corpo — e a iniziare a prendertene cura con dolcezza.
+            </p>
+            <p className="text-base text-foreground font-body mb-8 bg-accent/40 rounded-lg p-3 border border-accent">
+              📱 <strong>14 video in 2 settimane</strong>, dal vivo sul nostro canale Telegram. Si parte il <strong>20 aprile</strong>.
             </p>
 
-            {/* Form */}
+            <div className="flex items-center gap-4 mb-6 text-sm font-body text-muted-foreground">
+              <span className="flex items-center gap-1.5">
+                <Users className="w-4 h-4 text-primary" />
+                <strong className="text-foreground">+300</strong> iscrittə nelle edizioni precedenti
+              </span>
+              <span className="flex items-center gap-1.5">
+                <Calendar className="w-4 h-4 text-primary" />
+                100% Gratuito
+              </span>
+            </div>
+
             {!submitted ? (
               <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-lg">
                 <input
@@ -69,7 +79,7 @@ const HeroSection = () => {
                   type="submit"
                   className="px-8 py-3.5 rounded-lg gradient-cta text-primary-foreground font-semibold font-body shadow-warm hover:opacity-90 transition-all whitespace-nowrap"
                 >
-                  Iscriviti Gratis →
+                  Voglio Partecipare →
                 </button>
               </form>
             ) : (
@@ -78,19 +88,18 @@ const HeroSection = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 className="bg-sage-light/60 border border-sage/20 rounded-lg p-5 max-w-lg"
               >
-                <p className="text-sage-dark font-semibold font-body text-lg">🌿 Sei dentro!</p>
+                <p className="text-sage-dark font-semibold font-body text-lg">🌿 Benvenutə!</p>
                 <p className="text-muted-foreground font-body mt-1">
-                  Controlla la tua email per iniziare il percorso.
+                  Controlla la tua email — ti invieremo il link al canale Telegram prima del 20 aprile.
                 </p>
               </motion.div>
             )}
 
             <p className="text-sm text-muted-foreground mt-4 font-body">
-              ✓ Completamente gratuito · ✓ Nessuna carta richiesta · ✓ Accesso immediato
+              ✓ Completamente gratuito · ✓ Dal vivo su Telegram · ✓ Nessuna carta richiesta
             </p>
           </motion.div>
 
-          {/* Image */}
           <motion.div
             initial={{ opacity: 0, x: 40 }}
             animate={{ opacity: 1, x: 0 }}
@@ -100,13 +109,12 @@ const HeroSection = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-warm">
               <img
                 src={heroImage}
-                alt="Esercizio di respirazione e consapevolezza del core profondo"
+                alt="Donna che pratica esercizi di consapevolezza del core profondo"
                 className="w-full h-auto object-cover aspect-[16/10]"
                 loading="eager"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-foreground/10 to-transparent" />
             </div>
-            {/* Floating badge */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -114,7 +122,7 @@ const HeroSection = () => {
               className="absolute -bottom-4 -left-4 bg-background/95 backdrop-blur-sm rounded-xl p-4 shadow-card border border-border"
             >
               <p className="text-sm font-semibold text-foreground font-body">Con Michela & Moreno</p>
-              <p className="text-xs text-muted-foreground font-body">OfficinaMM</p>
+              <p className="text-xs text-muted-foreground font-body">OfficinaMM · Dal vivo su Telegram</p>
             </motion.div>
           </motion.div>
         </div>

@@ -5,32 +5,32 @@ const benefits = [
   {
     icon: Heart,
     title: "Pavimento Pelvico",
-    description: "Impara a conoscere, attivare e rilassare il tuo pavimento pelvico con consapevolezza.",
+    description: "Imparerai a sentirlo, capirlo e prendertene cura — con gentilezza, al tuo ritmo.",
   },
   {
     icon: Wind,
     title: "Respirazione Diaframmatica",
-    description: "Scopri come il diaframma supporta il core e migliora la gestione della pressione interna.",
+    description: "Scoprirai come il respiro è il primo alleato del tuo core — e come usarlo ogni giorno.",
   },
   {
     icon: Shield,
     title: "Core Profondo",
-    description: "Comprendi come diaframma, pavimento pelvico e trasverso lavorano in sinergia.",
+    description: "Capirai come diaframma, pavimento pelvico e trasverso lavorano insieme per sostenerti.",
   },
   {
     icon: Baby,
     title: "Gravidanza & Post Parto",
-    description: "Esercizi sicuri e mirati per prevenire e migliorare diastasi, incontinenza e prolasso.",
+    description: "Esercizi sicuri e pensati per te, che tu sia in attesa o stia ritrovando il tuo corpo dopo il parto.",
   },
   {
     icon: Zap,
-    title: "Esercizi Pratici Guidati",
-    description: "Video guidati con test e visualizzazioni per lavorare in modo consapevole sul tuo corpo.",
+    title: "Esercizi Guidati dal Vivo",
+    description: "Video pratici con test e visualizzazioni, guidati da Michela e Moreno sul canale Telegram.",
   },
   {
     icon: Eye,
     title: "Consapevolezza Corporea",
-    description: "Un approccio gentile per riconnetterti al tuo corpo senza giudizio, con curiosità.",
+    description: "Un approccio dolce per riconnetterti al tuo corpo, senza giudizio, con curiosità e rispetto.",
   },
 ];
 
@@ -50,7 +50,7 @@ const BenefitsSection = () => {
             <span className="text-primary italic">Core 101</span>
           </h2>
           <p className="text-lg text-muted-foreground font-body max-w-2xl mx-auto">
-            14 video per scoprire, capire e iniziare a lavorare sul tuo core profondo in modo sicuro e consapevole.
+            14 video dal vivo su Telegram per scoprire, capire e iniziare a prenderti cura del tuo corpo — passo dopo passo, con dolcezza.
           </p>
         </motion.div>
 

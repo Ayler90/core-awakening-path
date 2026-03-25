@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
-import { Check } from "lucide-react";
+import { Check, Users } from "lucide-react";
 
 const targets = [
-  "Soffri di incontinenza, prolasso o urgenza",
+  "Hai piccole perdite quando ridi, starnutisci o fai sforzi",
+  "Senti pesantezza o fastidio nella zona pelvica",
   "Hai scoperto di avere una diastasi addominale",
-  "Sei in gravidanza o nel post parto",
-  "Vuoi capire meglio il tuo pavimento pelvico",
-  "Senti tensione, pesantezza o fastidio nella zona pelvica",
-  "Vuoi iniziare ad allenarti partendo dal centro, con consapevolezza",
+  "Sei in gravidanza o nel post parto e vuoi prenderti cura del tuo corpo",
+  "La tua pancia \"spinge fuori\" e non capisci perché",
+  "Vuoi capire cosa succede nel tuo corpo e iniziare a stare meglio",
 ];
 
 const TargetSection = () => {
@@ -22,14 +22,17 @@ const TargetSection = () => {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl sm:text-4xl font-bold font-display text-foreground mb-4">
-              Questo percorso è per te{" "}
-              <span className="text-primary italic">se...</span>
+              Ti riconosci in{" "}
+              <span className="text-primary italic">qualcuna di queste situazioni?</span>
             </h2>
-            <p className="text-lg text-muted-foreground font-body leading-relaxed">
-              CORE 101 è pensato per chiunque voglia iniziare a prendersi cura
-              del proprio core profondo in modo sicuro e consapevole, guidatə da
-              professionisti del settore.
+            <p className="text-lg text-muted-foreground font-body leading-relaxed mb-4">
+              Non sei sola. Sono situazioni più comuni di quanto pensi — e il primo passo è capire cosa sta succedendo.
+              CORE 101 è qui per questo. 💛
             </p>
+            <div className="flex items-center gap-2 text-sm font-body text-muted-foreground bg-accent/30 rounded-lg p-3">
+              <Users className="w-4 h-4 text-primary flex-shrink-0" />
+              <span>Oltre <strong className="text-foreground">300 persone</strong> si sono già iscritte nelle edizioni precedenti</span>
+            </div>
           </motion.div>
 
           <motion.div
