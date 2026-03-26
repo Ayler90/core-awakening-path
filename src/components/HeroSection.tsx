@@ -39,8 +39,8 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-display leading-tight text-foreground mb-6">
-              Perdite, pesantezza, pancia che non torna?{" "}
-              <span className="text-primary italic">Non sei sola.</span>
+              Allena il tuo pavimento pelvico{" "}
+<span className="text-primary italic">in 14 giorni live</span>
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground font-body leading-relaxed mb-4">
               Forse non sai ancora cos'è il pavimento pelvico, ma <strong className="text-foreground">senti che qualcosa non va</strong>. 
