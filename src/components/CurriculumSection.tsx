@@ -1,101 +1,151 @@
 import { motion } from "framer-motion";
-import { PlayCircle, Dumbbell } from "lucide-react";
-import { useState } from "react";
+import { Play } from "lucide-react";
+
+const RED = "#bd4033";
 
 const videos = [
-  { day: 1, title: "Introduzione a Core 101", practical: false },
-  { day: 2, title: "Il Core Profondo – Anatomia e Funzioni", practical: false },
-  { day: 3, title: "Allineamento e Postura", practical: true },
-  { day: 4, title: "Il Diaframma – Funzioni e Importanza", practical: false },
-  { day: 5, title: "Respirazione Diaframmatica – Esercizio Guidato", practical: true },
-  { day: 6, title: "Il Pavimento Pelvico – Cos'è e Funzioni", practical: false },
-  { day: 7, title: "Visualizzazioni per il Pavimento Pelvico", practical: true },
-  { day: 8, title: "Il Muscolo Trasverso – Funzioni e Importanza", practical: false },
-  { day: 9, title: "Pressione Intra-Addominale – Stress Test", practical: true },
-  { day: 10, title: "La Diastasi Addominale – Cos'è e Perché Conoscerla", practical: false },
-  { day: 11, title: "Auto-Valutazione della Diastasi", practical: true },
-  { day: 12, title: "Conoscersi Davvero – Guardarsi è Rivoluzionario", practical: true },
-  { day: 13, title: "Stretching per il Pavimento Pelvico", practical: true },
-  { day: 14, title: "I Tuoi Prossimi Passi con Core Foundation", practical: false },
+  {
+    thumb: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=640&q=80",
+    day: "Giorno 1",
+    title: "Il pavimento pelvico - cos'è e dove si trova",
+    duration: "12 min",
+  },
+  {
+    thumb: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=640&q=80",
+    day: "Giorno 2",
+    title: "Respira: il diaframma è il tuo primo alleato",
+    duration: "10 min",
+  },
+  {
+    thumb: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=640&q=80",
+    day: "Giorno 3",
+    title: "Sentire il pavimento pelvico - il primo contatto",
+    duration: "14 min",
+  },
+  {
+    thumb: "https://images.unsplash.com/photo-1552196563-55cd4e45efb3?w=640&q=80",
+    day: "Giorno 4",
+    title: "Core profondo - diaframma, trasverso e pavimento pelvico",
+    duration: "11 min",
+  },
+  {
+    thumb: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=640&q=80",
+    day: "Giorno 5",
+    title: "Perdite e sforzi - perché succede e cosa fare",
+    duration: "13 min",
+  },
+  {
+    thumb: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=640&q=80",
+    day: "Giorno 6",
+    title: "Diastasi addominale - riconoscerla e iniziare il recupero",
+    duration: "15 min",
+  },
+  {
+    thumb: "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=640&q=80",
+    day: "Giorno 7",
+    title: "Pressione addominale - come gestirla nella vita quotidiana",
+    duration: "10 min",
+  },
+  {
+    thumb: "https://images.unsplash.com/photo-1593810451137-5dc55105dace?w=640&q=80",
+    day: "Giorno 8 - 14",
+    title: "Esercizi guidati dal vivo + sessioni di domande",
+    duration: "7 video",
+  },
 ];
 
 const CurriculumSection = () => {
-  const [expanded, setExpanded] = useState(false);
-  const displayedVideos = expanded ? videos : videos.slice(0, 7);
-
   return (
-    <section className="py-20 lg:py-28 bg-warm-peach/30">
+    <section id="programma" className="py-20 lg:py-28 bg-background">
       <div className="container mx-auto px-4 sm:px-6">
+
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-14"
+          className="text-center mb-4 max-w-2xl mx-auto"
         >
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-display text-foreground mb-4">
-            Il Programma <span className="text-primary italic">Completo</span>
+          <span
+            className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold font-body border mb-6"
+            style={{ backgroundColor: RED + "12", borderColor: RED + "30", color: RED }}
+          >
+            ◆ Training live su Telegram - dal 20 aprile
+          </span>
+
+          <h2 className="text-3xl sm:text-4xl font-bold font-display text-foreground mb-4 leading-tight">
+            I video del{" "}
+            <span className="italic" style={{ color: RED }}>training</span>
           </h2>
-          <p className="text-lg text-muted-foreground font-body max-w-2xl mx-auto">
-            14 video in 2 settimane — teoria, esercizi pratici guidati e test per conoscere il tuo corpo.
+          <p className="text-muted-foreground font-body leading-relaxed">
+            14 video in 2 settimane - un argomento al giorno, in progressione.
+            Ogni video è breve, pratico e pensato per essere seguito anche con pochi minuti a disposizione.
           </p>
-          <div className="flex items-center justify-center gap-6 mt-6 text-sm font-body">
-            <span className="flex items-center gap-2 text-muted-foreground">
-              <PlayCircle className="w-4 h-4 text-primary" /> Teoria
-            </span>
-            <span className="flex items-center gap-2 text-muted-foreground">
-              <Dumbbell className="w-4 h-4 text-secondary" /> Esercizio Pratico
-            </span>
-          </div>
         </motion.div>
 
-        <div className="max-w-3xl mx-auto space-y-3">
-          {displayedVideos.map((video, index) => (
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 max-w-6xl mx-auto mt-12">
+          {videos.map((v, i) => (
             <motion.div
-              key={video.day}
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
+              key={i}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: index * 0.05 }}
-              className={`flex items-center gap-4 p-4 rounded-xl border transition-all ${
-                video.practical
-                  ? "bg-sage-light/40 border-sage/20"
-                  : "bg-background border-border"
-              }`}
+              transition={{ duration: 0.45, delay: i * 0.06 }}
+              className="group rounded-2xl overflow-hidden border flex flex-col"
+              style={{ borderColor: "hsl(30 20% 90%)" }}
             >
-              <div
-                className={`w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 text-sm font-bold font-body ${
-                  video.practical
-                    ? "bg-secondary text-secondary-foreground"
-                    : "bg-accent text-foreground"
-                }`}
-              >
-                {video.day}
+              <div className="relative aspect-video overflow-hidden bg-muted">
+                <img
+                  src={v.thumb}
+                  alt={v.title}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 flex items-center justify-center bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <div
+                    className="w-11 h-11 rounded-full flex items-center justify-center"
+                    style={{ backgroundColor: RED }}
+                  >
+                    <Play className="w-4 h-4 text-white fill-white ml-0.5" />
+                  </div>
+                </div>
+                <span
+                  className="absolute top-2 left-2 px-2 py-0.5 rounded-full text-xs font-semibold font-body text-white"
+                  style={{ backgroundColor: RED }}
+                >
+                  {v.day}
+                </span>
               </div>
-              <div className="flex-1">
-                <p className="font-semibold text-foreground font-body text-sm sm:text-base">
-                  {video.title}
+
+              <div className="p-4 flex flex-col gap-1 flex-1">
+                <p className="text-sm font-semibold font-display text-foreground leading-snug">{v.title}</p>
+                <p className="text-xs font-body mt-auto pt-2" style={{ color: RED + "cc" }}>
+                  ◇ {v.duration}
                 </p>
               </div>
-              {video.practical ? (
-                <Dumbbell className="w-5 h-5 text-secondary flex-shrink-0" />
-              ) : (
-                <PlayCircle className="w-5 h-5 text-primary/60 flex-shrink-0" />
-              )}
             </motion.div>
           ))}
         </div>
 
-        {!expanded && (
-          <div className="text-center mt-6">
-            <button
-              onClick={() => setExpanded(true)}
-              className="text-primary font-semibold font-body hover:underline transition-all"
-            >
-              Mostra tutti i 14 video ↓
-            </button>
-          </div>
-        )}
+        <motion.div
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+          className="text-center mt-12"
+        >
+          <a
+            href="#iscrizione"
+            className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold font-body text-white text-sm transition-opacity hover:opacity-90"
+            style={{ backgroundColor: RED }}
+          >
+            Voglio seguire il training dal vivo →
+          </a>
+          <p className="text-xs text-muted-foreground font-body mt-3">
+            ◇ Gratuito - ◇ Dal 20 aprile su Telegram - ◇ Accesso immediato al canale dopo l'iscrizione
+          </p>
+        </motion.div>
+
       </div>
     </section>
   );

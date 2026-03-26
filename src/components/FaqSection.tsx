@@ -1,98 +1,107 @@
-import { motion } from "framer-motion";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { ChevronDown } from "lucide-react";
+
+const RED = "#bd4033";
 
 const faqs = [
   {
-    question: "Il training è davvero gratuito?",
-    answer:
-      "Sì, CORE 101 è completamente gratuito. 14 video in 2 settimane, dal vivo sul nostro canale Telegram. Non ti verrà chiesto nessun pagamento e nessuna carta di credito.",
+    q: "Il training è davvero gratuito?",
+    a: "Sì, CORE 101 è completamente gratuito. Nessuna carta di credito richiesta, nessun abbonamento. Ti iscrivi, entri nel canale Telegram e segui i video dal vivo. Fine.",
   },
   {
-    question: "Come funziona il training su Telegram?",
-    answer:
-      "Una volta iscrittə, riceverai il link al nostro canale Telegram. Ogni giorno, a partire dal 20 aprile, pubblicheremo un nuovo video con la lezione del giorno. Potrai guardarlo quando vuoi durante la giornata e fare domande nel gruppo.",
+    q: "Come funziona il training su Telegram?",
+    a: "Dopo l'iscrizione riceverai un link per entrare nel canale Telegram dedicato. Dal 20 aprile, ogni giorno troverai un video pubblicato direttamente nel canale - potrai guardarlo quando vuoi, al tuo ritmo.",
   },
   {
-    question: "Devo avere esperienza con il pavimento pelvico?",
-    answer:
-      "Assolutamente no! CORE 101 è pensato proprio per chi parte da zero. Ti spieghiamo tutto dall'inizio — cos'è il pavimento pelvico, come funziona, e come iniziare a prendertene cura. Non servono conoscenze pregresse.",
+    q: "Devo avere esperienza con gli esercizi?",
+    a: "No. CORE 101 è pensato per chi parte da zero - o quasi. I video sono progressivi, guidati passo dopo passo, e accessibili anche se non ti sei mai allenata o non sai da dove iniziare.",
   },
   {
-    question: "È adatto a chi è in gravidanza o nel post parto?",
-    answer:
-      "Sì! Il percorso è pensato anche per chi è in gravidanza o nel post parto. Gli esercizi sono sicuri e guidati, e ti aiuteranno a capire meglio il tuo corpo in questa fase così importante.",
+    q: "Posso partecipare se sono ancora in gravidanza?",
+    a: "Sì. I contenuti sono pensati anche per chi è in gravidanza, sempre con un approccio sicuro e rispettoso del corpo. In caso di dubbi specifici, ti consigliamo di confrontarti con il tuo medico.",
   },
   {
-    question: "Quanto tempo devo dedicare ogni giorno?",
-    answer:
-      "Ogni video dura pochi minuti. Ti basteranno circa 10-15 minuti al giorno per guardare la lezione e, nei giorni di esercizio pratico, provare gli esercizi guidati.",
+    q: "Quanto tempo devo dedicarci ogni giorno?",
+    a: "Ogni video dura circa 10-15 minuti. Non di più. L'obiettivo è creare una routine reale, sostenibile - non aggiungere un'altra cosa impossibile alla tua giornata.",
   },
   {
-    question: "Posso recuperare i video se ne perdo uno?",
-    answer:
-      "Sì, i video restano disponibili sul canale Telegram, quindi puoi guardarli al tuo ritmo anche se salti un giorno. Il bello del live è che puoi fare domande in tempo reale!",
-  },
-  {
-    question: "Cos'è Core Foundation e devo iscrivermi?",
-    answer:
-      "Core Foundation è il nostro percorso avanzato a pagamento — 5 settimane di allenamento quotidiano guidato. È il passo successivo dopo CORE 101, ma non sei obbligatə a iscriverti. Chi partecipa al training live avrà accesso a un bonus esclusivo.",
-  },
-  {
-    question: "Ho un problema specifico (incontinenza, diastasi, prolasso). Questo training fa per me?",
-    answer:
-      "CORE 101 ti aiuta a capire meglio queste condizioni e a iniziare a lavorarci con consapevolezza. Non sostituisce una visita medica, ma ti dà gli strumenti per comprendere il tuo corpo e iniziare il percorso giusto.",
+    q: "Se ho qualche domanda sul training, posso scrivervi?",
+    a: "Certo - siamo qui. Puoi scriverci in qualsiasi momento all'indirizzo ciao@officinamm.com e risponderemo il prima possibile.",
   },
 ];
 
 const FaqSection = () => {
+  const [open, setOpen] = useState<number | null>(null);
+
   return (
     <section className="py-20 lg:py-28 bg-background">
       <div className="container mx-auto px-4 sm:px-6">
+
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-14"
+          className="text-center mb-12 max-w-2xl mx-auto"
         >
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-display text-foreground mb-4">
+          <h2 className="text-3xl sm:text-4xl font-bold font-display text-foreground mb-3 leading-tight">
             Domande{" "}
-            <span className="text-primary italic">frequenti</span>
+            <span className="italic" style={{ color: RED }}>frequenti</span>
           </h2>
-          <p className="text-lg text-muted-foreground font-body max-w-2xl mx-auto">
-            Tutto quello che vuoi sapere prima di iscriverti. E se hai altre domande, scrivici! 💛
+          <p className="text-muted-foreground font-body leading-relaxed">
+            Tutto quello che vuoi sapere prima di iscriverti. E se hai altre domande, scrivici!
           </p>
         </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className="max-w-3xl mx-auto"
-        >
-          <Accordion type="single" collapsible className="space-y-3">
-            {faqs.map((faq, index) => (
-              <AccordionItem
-                key={index}
-                value={`item-${index}`}
-                className="bg-card rounded-xl border border-border px-5 data-[state=open]:shadow-card transition-all"
+        <div className="max-w-2xl mx-auto flex flex-col gap-3">
+          {faqs.map((faq, i) => (
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, y: 12 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: i * 0.06 }}
+              className="rounded-xl border overflow-hidden"
+              style={{ borderColor: open === i ? RED + "40" : "hsl(30 20% 90%)" }}
+            >
+              <button
+                onClick={() => setOpen(open === i ? null : i)}
+                className="w-full flex items-center justify-between px-6 py-5 text-left gap-4"
+                style={{ backgroundColor: open === i ? RED + "06" : "hsl(30 20% 97%)" }}
               >
-                <AccordionTrigger className="text-left font-body font-semibold text-foreground hover:no-underline py-5">
-                  {faq.question}
-                </AccordionTrigger>
-                <AccordionContent className="text-muted-foreground font-body leading-relaxed pb-5">
-                  {faq.answer}
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
-        </motion.div>
+                <span className="font-semibold font-body text-sm text-foreground leading-snug">
+                  {faq.q}
+                </span>
+                <ChevronDown
+                  className="w-4 h-4 shrink-0 transition-transform duration-300"
+                  style={{
+                    color: RED,
+                    transform: open === i ? "rotate(180deg)" : "rotate(0deg)",
+                  }}
+                />
+              </button>
+
+              <AnimatePresence initial={false}>
+                {open === i && (
+                  <motion.div
+                    key="content"
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: "auto", opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.3, ease: "easeInOut" }}
+                    className="overflow-hidden"
+                  >
+                    <p className="px-6 pb-5 pt-1 text-sm font-body text-muted-foreground leading-relaxed">
+                      {faq.a}
+                    </p>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </motion.div>
+          ))}
+        </div>
+
       </div>
     </section>
   );

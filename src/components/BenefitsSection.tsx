@@ -1,36 +1,45 @@
 import { motion } from "framer-motion";
-import { Heart, Wind, Shield, Baby, Zap, Eye } from "lucide-react";
+import { Droplets, Weight, CircleDashed, Zap, Heart, Eye } from "lucide-react";
+
+const RED = "#bd4033";
+const VIOLET = "#6b5fa6";
 
 const benefits = [
   {
-    icon: Heart,
-    title: "Pavimento Pelvico",
-    description: "Imparerai a sentirlo, capirlo e prendertene cura — con gentilezza, al tuo ritmo.",
+    icon: <Droplets className="w-5 h-5" />,
+    color: RED,
+    title: "Perdi pipì quando ridi, starnutisci o salti",
+    text: "Nel training live capirai perché succede davvero - non è inevitabile - e inizierai a lavorare sulla coordinazione tra respiro, pavimento pelvico e core per ridurre le perdite nella vita quotidiana.",
   },
   {
-    icon: Wind,
-    title: "Respirazione Diaframmatica",
-    description: "Scoprirai come il respiro è il primo alleato del tuo core — e come usarlo ogni giorno.",
+    icon: <Weight className="w-5 h-5" />,
+    color: VIOLET,
+    title: "Senti pesantezza o pressione in vagina",
+    text: "Scoprirai cosa provoca quella sensazione di \"pallina\" o discesa, come gestire la pressione addominale con strategie pratiche - e perché certi movimenti peggiorano i sintomi e come cambiarli.",
   },
   {
-    icon: Shield,
-    title: "Core Profondo",
-    description: "Capirai come diaframma, pavimento pelvico e trasverso lavorano insieme per sostenerti.",
+    icon: <CircleDashed className="w-5 h-5" />,
+    color: RED,
+    title: "La pancia è gonfia e senti un avvallamento al centro",
+    text: "Michela e Moreno ti guidano - dal vivo su Telegram - nel capire cos'è la diastasi, cosa aggrava la separazione e quali abitudini quotidiane puoi cambiare subito per iniziare il recupero.",
   },
   {
-    icon: Baby,
-    title: "Gravidanza & Post Parto",
-    description: "Esercizi sicuri e pensati per te, che tu sia in attesa o stia ritrovando il tuo corpo dopo il parto.",
+    icon: <Zap className="w-5 h-5" />,
+    color: VIOLET,
+    title: "Non sai da dove iniziare e hai paura di fare danni",
+    text: "14 video in 2 settimane - dal 20 aprile - costruiti in progressione. Niente salti nel vuoto, niente contraddizioni: un filo conduttore chiaro per tornare a muoverti con fiducia.",
   },
   {
-    icon: Zap,
-    title: "Esercizi Guidati dal Vivo",
-    description: "Video pratici con test e visualizzazioni, guidati da Michela e Moreno sul canale Telegram.",
+    icon: <Heart className="w-5 h-5" />,
+    color: RED,
+    title: "Senti il tuo corpo come qualcosa di estraneo",
+    text: "Lavorerai sulla consapevolezza corporea - imparare a sentire il pavimento pelvico, a respirare con il diaframma, a ritrovare il contatto con l'addome - senza fretta e senza giudizio.",
   },
   {
-    icon: Eye,
-    title: "Consapevolezza Corporea",
-    description: "Un approccio dolce per riconnetterti al tuo corpo, senza giudizio, con curiosità e rispetto.",
+    icon: <Eye className="w-5 h-5" />,
+    color: VIOLET,
+    title: "Hai provato esercizi a caso ma non hai visto risultati",
+    text: "Con CORE 101 ogni video ha un perché. Capirai come respiro, pavimento pelvico e core profondo lavorano insieme - e potrai finalmente smettere di fare cose a caso sperando che funzionino.",
   },
 ];
 
@@ -38,44 +47,68 @@ const BenefitsSection = () => {
   return (
     <section className="py-20 lg:py-28 bg-background">
       <div className="container mx-auto px-4 sm:px-6">
+
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-16"
+          className="text-center mb-14 max-w-2xl mx-auto"
         >
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-display text-foreground mb-4">
+          <h2 className="text-3xl sm:text-4xl font-bold font-display text-foreground mb-4 leading-tight">
             Cosa imparerai in{" "}
-            <span className="text-primary italic">Core 101</span>
+            <span className="italic" style={{ color: VIOLET }}>Core 101</span>
           </h2>
-          <p className="text-lg text-muted-foreground font-body max-w-2xl mx-auto">
-            14 video dal vivo su Telegram per scoprire, capire e iniziare a prenderti cura del tuo corpo — passo dopo passo, con dolcezza.
+          <p className="text-muted-foreground font-body leading-relaxed">
+            14 video dal vivo su Telegram per scoprire, capire e iniziare a
+            prenderti cura del tuo corpo - passo dopo passo, con dolcezza.
+            Inizia il{" "}
+            <span className="font-semibold" style={{ color: RED }}>20 aprile</span>.
           </p>
         </motion.div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-          {benefits.map((benefit, index) => (
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-5xl mx-auto">
+          {benefits.map((b, i) => (
             <motion.div
-              key={benefit.title}
-              initial={{ opacity: 0, y: 30 }}
+              key={i}
+              initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="group bg-card rounded-xl p-6 lg:p-8 shadow-card border border-border hover:shadow-warm transition-all duration-300"
+              transition={{ duration: 0.5, delay: i * 0.08 }}
+              className="rounded-2xl p-6 flex flex-col gap-4"
+              style={{ backgroundColor: "hsl(30 20% 97%)" }}
             >
-              <div className="w-12 h-12 rounded-lg bg-accent flex items-center justify-center mb-5 group-hover:bg-primary/10 transition-colors">
-                <benefit.icon className="w-6 h-6 text-primary" />
+              <div
+                className="w-10 h-10 rounded-xl flex items-center justify-center"
+                style={{ backgroundColor: b.color + "18", color: b.color }}
+              >
+                {b.icon}
               </div>
-              <h3 className="text-xl font-semibold font-display text-foreground mb-2">
-                {benefit.title}
-              </h3>
-              <p className="text-muted-foreground font-body leading-relaxed">
-                {benefit.description}
-              </p>
+              <h3 className="font-bold font-display text-base text-foreground leading-snug">{b.title}</h3>
+              <p className="text-sm text-muted-foreground font-body leading-relaxed">{b.text}</p>
             </motion.div>
           ))}
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+          className="text-center mt-12"
+        >
+          <a
+            href="#iscrizione"
+            className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold font-body text-white text-sm transition-opacity hover:opacity-90"
+            style={{ backgroundColor: RED }}
+          >
+            Iscriviti gratis al training →
+          </a>
+          <p className="text-xs text-muted-foreground font-body mt-3">
+            ◇ Training live dal 20 aprile su Telegram - ◇ 100% gratuito
+          </p>
+        </motion.div>
+
       </div>
     </section>
   );

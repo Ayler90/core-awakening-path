@@ -1,103 +1,113 @@
 import { motion } from "framer-motion";
-import { Gift, ArrowRight, Calendar, MessageCircle, Video } from "lucide-react";
+import { Video, MessageCircle, CalendarDays } from "lucide-react";
+
+const RED = "#bd4033";
+
+const features = [
+  {
+    icon: <Video className="w-5 h-5" />,
+    title: "5 settimane",
+    text: "Video guidati da 10 min al giorno, progressivi e mirati",
+  },
+  {
+    icon: <MessageCircle className="w-5 h-5" />,
+    title: "Supporto quotidiano",
+    text: "Gruppo Telegram dedicato con contatto diretto ogni giorno",
+  },
+  {
+    icon: <CalendarDays className="w-5 h-5" />,
+    title: "2 LIVE in diretta",
+    text: "Sessioni dal vivo per confrontarti e allenarti insieme",
+  },
+];
 
 const BonusSection = () => {
   return (
-    <section className="py-20 lg:py-28 bg-card">
+    <section className="py-20 lg:py-28" style={{ backgroundColor: "hsl(30 25% 97%)" }}>
       <div className="container mx-auto px-4 sm:px-6">
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-5xl mx-auto grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, x: -24 }}
+            whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="text-center mb-12"
           >
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-semibold font-body mb-6">
-              <Gift className="w-4 h-4" />
-              Anteprima Esclusiva
-            </div>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-display text-foreground mb-4">
+            <span
+              className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold font-body border mb-6"
+              style={{ backgroundColor: RED + "12", borderColor: RED + "30", color: RED }}
+            >
+              ◆ Anteprima esclusiva
+            </span>
+
+            <h2 className="text-3xl sm:text-4xl font-bold font-display text-foreground mb-5 leading-tight">
               Dopo CORE 101, si apre{" "}
-              <span className="text-primary italic">Core Foundation</span>
+              <span className="italic" style={{ color: RED }}>Core Foundation</span>
             </h2>
-            <p className="text-lg text-muted-foreground font-body leading-relaxed">
-              CORE 101 è solo l'inizio. Al termine del training gratuito, apriremo le iscrizioni a{" "}
-              <strong className="text-foreground">CORE FOUNDATION</strong> — il percorso completo per 
+
+            <p className="text-muted-foreground font-body leading-relaxed mb-7">
+              CORE 101 è solo l'inizio. Al termine del training gratuito,
+              apriremo le iscrizioni a{" "}
+              <strong>CORE FOUNDATION</strong> - il percorso completo per
               allenare il tuo pavimento pelvico e core profondo con esercizi quotidiani guidati.
             </p>
-          </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="bg-gradient-to-br from-accent/40 to-warm-peach/40 rounded-2xl p-6 lg:p-8 border border-primary/15 mb-8"
-          >
-            <div className="flex items-start gap-3 mb-5">
-              <Gift className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-              <div>
-                <h3 className="text-xl font-bold font-display text-foreground mb-2">
-                  🎁 Bonus speciale per chi partecipa al training live
-                </h3>
-                <p className="text-muted-foreground font-body leading-relaxed">
-                  Chi segue CORE 101 dal vivo su Telegram avrà accesso a un <strong className="text-foreground">bonus esclusivo</strong> riservato 
-                  solo ai partecipanti del training. I dettagli verranno svelati durante il percorso!
-                </p>
-              </div>
+            <div
+              className="rounded-xl p-5 mb-8 border"
+              style={{ backgroundColor: RED + "08", borderColor: RED + "25" }}
+            >
+              <p className="font-bold font-display text-sm text-foreground mb-1">
+                🎁 Bonus speciale per chi partecipa al training live
+              </p>
+              <p className="text-sm font-body text-muted-foreground leading-relaxed">
+                Chi segue CORE 101 dal vivo su Telegram avrà accesso a un{" "}
+                <strong style={{ color: RED }}>bonus esclusivo</strong>{" "}
+                riservato solo ai partecipanti del training. I dettagli verranno svelati durante il percorso!
+              </p>
+            </div>
+
+            <div className="flex flex-col gap-4">
+              {features.map((f, i) => (
+                <div key={i} className="flex items-start gap-3">
+                  <div
+                    className="w-9 h-9 rounded-xl flex items-center justify-center shrink-0"
+                    style={{ backgroundColor: RED + "15", color: RED }}
+                  >
+                    {f.icon}
+                  </div>
+                  <div>
+                    <p className="font-semibold font-body text-sm text-foreground">{f.title}</p>
+                    <p className="text-xs text-muted-foreground font-body">{f.text}</p>
+                  </div>
+                </div>
+              ))}
             </div>
           </motion.div>
 
-          <div className="grid sm:grid-cols-3 gap-4">
-            {[
-              {
-                icon: Video,
-                title: "5 settimane",
-                description: "Video guidati da 10 min al giorno, progressivi e mirati",
-              },
-              {
-                icon: MessageCircle,
-                title: "Supporto quotidiano",
-                description: "Gruppo Telegram dedicato con contatto diretto ogni giorno",
-              },
-              {
-                icon: Calendar,
-                title: "2 LIVE in diretta",
-                description: "Sessioni dal vivo per confrontarti e allenarti insieme",
-              },
-            ].map((feature, index) => (
-              <motion.div
-                key={feature.title}
-                initial={{ opacity: 0, y: 15 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: 0.3 + index * 0.1 }}
-                className="bg-background rounded-xl p-5 border border-border text-center"
-              >
-                <feature.icon className="w-6 h-6 text-primary mx-auto mb-3" />
-                <h4 className="font-semibold font-body text-foreground mb-1">{feature.title}</h4>
-                <p className="text-sm text-muted-foreground font-body">{feature.description}</p>
-              </motion.div>
-            ))}
-          </div>
-
           <motion.div
-            initial={{ opacity: 0, y: 15 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, x: 24 }}
+            whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.4, delay: 0.5 }}
-            className="text-center mt-8"
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="relative"
           >
-            <a
-              href="https://www.officinamm.com/iscrizione"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-primary font-semibold font-body hover:underline transition-all"
+            <div className="rounded-2xl overflow-hidden shadow-lg">
+              <img
+                src="https://static.wixstatic.com/media/40e4ee_9447390c95e64e6580b911076248d791~mv2.jpg/v1/crop/x_521,y_144,w_3556,h_2639/fill/w_642,h_476,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Foto%20Michi_Percorsi%20online.jpg"
+                alt="Michela e Moreno di OfficinaMM"
+                className="w-full h-full object-cover"
+                loading="lazy"
+              />
+            </div>
+            <div
+              className="absolute -bottom-5 -right-4 rounded-xl p-4 shadow-lg border"
+              style={{ backgroundColor: "hsl(30 25% 97%)", borderColor: RED + "20" }}
             >
-              Scopri di più su Core Foundation <ArrowRight className="w-4 h-4" />
-            </a>
+              <p className="font-bold font-display text-sm" style={{ color: RED }}>Michela & Moreno</p>
+              <p className="text-xs text-muted-foreground font-body">OfficinaMM</p>
+            </div>
           </motion.div>
+
         </div>
       </div>
     </section>
