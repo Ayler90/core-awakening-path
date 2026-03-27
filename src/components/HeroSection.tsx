@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const HeroSection = () => {
   return (
     <section
-      className="relative min-h-screen pt-16 overflow-hidden"
+      className="relative min-h-screen overflow-hidden"
       style={{
         background:
           "linear-gradient(160deg, hsl(30 25% 97%), hsl(38 40% 95%), hsl(20 50% 92%))",
@@ -18,7 +18,7 @@ const HeroSection = () => {
         style={{ backgroundColor: "hsl(145 20% 42% / 0.08)" }}
       />
 
-      <div className="container mx-auto px-4 sm:px-6 pt-12 pb-20 lg:pt-16 lg:pb-28 relative z-10">
+      <div className="container mx-auto px-4 sm:px-6 pt-8 pb-20 lg:pt-12 lg:pb-28 relative z-10">
 
         <div className="flex justify-start mb-8">
           <span
