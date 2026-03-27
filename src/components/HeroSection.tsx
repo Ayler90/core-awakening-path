@@ -1,15 +1,6 @@
-import { useState } from "react";
-import { Users, Calendar, Video, MessageCircle } from "lucide-react";
+import { motion } from "framer-motion";
 
 const HeroSection = () => {
-  const [email, setEmail] = useState("");
-  const [submitted, setSubmitted] = useState(false);
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (email.trim()) setSubmitted(true);
-  };
-
   return (
     <section
       className="relative min-h-screen pt-16 overflow-hidden"
@@ -44,7 +35,11 @@ const HeroSection = () => {
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
-          <div>
+          <motion.div
+            initial={{ opacity: 0, y: 24 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7 }}
+          >
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-display leading-tight text-foreground mb-6">
               Perdite, pesantezza,{" "}
               <br className="hidden sm:block" />
@@ -55,83 +50,50 @@ const HeroSection = () => {
             </h1>
 
             <p className="text-lg text-muted-foreground font-body leading-relaxed mb-4">
-              Forse senti che qualcosa è cambiato nel tuo corpo — piccole perdite
+              Forse senti che qualcosa è cambiato nel tuo corpo - piccole perdite
               quando ridi o starnutisci, una sensazione di pesantezza, la pancia
               che non risponde più. E non sai da dove iniziare.
             </p>
 
-            <p className="text-base text-muted-foreground font-body leading-relaxed mb-6">
+            <p className="text-base text-muted-foreground font-body leading-relaxed mb-8">
               <strong className="text-foreground">CORE 101</strong> è un training
               gratuito di{" "}
               <strong className="text-foreground">
                 2 settimane, dal vivo su Telegram
               </strong>
               , in cui Michela e Moreno ti guidano giorno dopo giorno a capire cosa
-              succede nel tuo corpo — e a iniziare a prendertene cura, con dolcezza
+              succede nel tuo corpo - e a iniziare a prendertene cura, con dolcezza
               e senza stress.
             </p>
 
-            <div className="grid sm:grid-cols-2 gap-3 mb-8">
-              {[
-                { icon: <Video className="w-4 h-4" />, text: "14 video guidati in 2 settimane" },
-                { icon: <MessageCircle className="w-4 h-4" />, text: "Canale Telegram dedicato" },
-                { icon: <Calendar className="w-4 h-4" />, text: "Inizia il 20 aprile" },
-                { icon: <Users className="w-4 h-4" />, text: "+300 iscrittə nelle edizioni precedenti" },
-              ].map((item, i) => (
-                <div key={i} className="flex items-center gap-2.5 text-sm font-body text-foreground">
-                  <span style={{ color: "#bd4033" }}>{item.icon}</span>
-                  {item.text}
-                </div>
-              ))}
+            <div className="flex flex-col sm:flex-row gap-3">
+              <a
+                href="#iscrizione"
+                className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-lg text-white font-semibold font-body text-base shadow-sm hover:opacity-90 transition-all"
+                style={{ backgroundColor: "#bd4033" }}
+              >
+                Voglio iscrivermi →
+              </a>
+              <a
+                href="#programma"
+                className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-lg border-2 font-semibold font-body text-base transition-all hover:bg-foreground/5"
+                style={{ borderColor: "#bd4033", color: "#bd4033" }}
+              >
+                Scopri il programma ↓
+              </a>
             </div>
 
-            {!submitted ? (
-              <div className="space-y-4" id="iscrizione">
-                <form
-                  onSubmit={handleSubmit}
-                  className="flex flex-col sm:flex-row gap-3 max-w-lg"
-                >
-                  <input
-                    type="email"
-                    required
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    placeholder="La tua email migliore"
-                    className="flex-1 px-5 py-3.5 rounded-lg border border-border bg-background/80 text-foreground placeholder:text-muted-foreground font-body focus:outline-none focus:ring-2 transition-all"
-                  />
-                  <button
-                    type="submit"
-                    className="px-7 py-3.5 rounded-lg text-white font-semibold font-body shadow-sm hover:opacity-90 transition-all whitespace-nowrap"
-                    style={{ backgroundColor: "#bd4033" }}
-                  >
-                    Voglio iscrivermi →
-                  </button>
-                </form>
-                <div>
-                  <a
-                    href="#programma"
-                    className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border-2 font-semibold font-body text-sm transition-all hover:bg-foreground/5"
-                    style={{ borderColor: "#bd4033", color: "#bd4033" }}
-                  >
-                    Scopri il programma ↓
-                  </a>
-                </div>
-              </div>
-            ) : (
-              <div className="bg-green-50 border border-green-200 rounded-lg p-5 max-w-lg">
-                <p className="text-green-800 font-semibold font-body text-lg">✓ Benvenutə!</p>
-                <p className="text-green-700 font-body mt-1 text-sm">
-                  Controlla la tua email — ti invieremo il link al canale Telegram prima del 20 aprile.
-                </p>
-              </div>
-            )}
-
-            <p className="text-sm text-muted-foreground mt-4 font-body">
+            <p className="text-sm text-muted-foreground mt-5 font-body">
               ✓ Completamente gratuito · ✓ Dal vivo su Telegram · ✓ Nessuna carta richiesta
             </p>
-          </div>
+          </motion.div>
 
-          <div className="relative">
+          <motion.div
+            initial={{ opacity: 0, x: 30 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.7, delay: 0.2 }}
+            className="relative"
+          >
             <div className="relative rounded-2xl overflow-hidden shadow-lg">
               <img
                 src="https://static.wixstatic.com/media/40e4ee_51df092982b84d3cb2b271e3629b6c1b~mv2.jpg/v1/crop/x_0,y_94,w_4500,h_4312/fill/w_860,h_824,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Bacino%20illustrato%20Pavimento%20pelvico_scritte.jpg"
@@ -141,10 +103,14 @@ const HeroSection = () => {
               />
             </div>
             <div className="absolute -bottom-4 -left-4 bg-background/95 backdrop-blur-sm rounded-xl p-4 shadow-md border border-border">
-              <p className="text-sm font-semibold text-foreground font-body">Con Michela & Moreno</p>
-              <p className="text-xs text-muted-foreground font-body">OfficinaMM · Dal vivo su Telegram</p>
+              <p className="text-sm font-semibold text-foreground font-body">
+                Con Michela & Moreno
+              </p>
+              <p className="text-xs text-muted-foreground font-body">
+                OfficinaMM · Dal vivo su Telegram
+              </p>
             </div>
-          </div>
+          </motion.div>
 
         </div>
       </div>

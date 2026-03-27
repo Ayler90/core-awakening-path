@@ -7,10 +7,14 @@ const items = [
   "◇ 10 minuti al giorno",
   "◆ 100% gratuito",
   "◇ +300 iscrittə",
-  "◆ Nessuna carta richiesta",
-  "◇ Per donnə nel post parto e non solo",
-  "◆ Esercizi guidati dal vivo",
+  "◆ Inizia il 20 aprile",
+  "◇ Nessuna carta richiesta",
+  "◆ Per donnə nel post parto e non solo",
+  "◇ Esercizi guidati dal vivo",
+  "◆ Inizia il 20 aprile",
   "◇ Pavimento pelvico · Diastasi · Core profondo",
+  "◆ Training live su Telegram",
+  "◇ Inizia il 20 aprile",
 ];
 
 const InfiniteSlider = () => {

@@ -48,9 +48,45 @@ const videos = [
   },
   {
     thumb: "https://images.unsplash.com/photo-1593810451137-5dc55105dace?w=640&q=80",
-    day: "Giorno 8 - 14",
-    title: "Esercizi guidati dal vivo + sessioni di domande",
-    duration: "7 video",
+    day: "Giorno 8",
+    title: "Esercizi guidati dal vivo - prima sessione",
+    duration: "20 min",
+  },
+  {
+    thumb: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=640&q=80",
+    day: "Giorno 9",
+    title: "Rilascio e mobilità - sciogliere le tensioni",
+    duration: "12 min",
+  },
+  {
+    thumb: "https://images.unsplash.com/photo-1534258936925-c58bed479fcb?w=640&q=80",
+    day: "Giorno 10",
+    title: "Integrazione nel quotidiano - abitudini che supportano il recupero",
+    duration: "11 min",
+  },
+  {
+    thumb: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=640&q=80",
+    day: "Giorno 11",
+    title: "Esercizi guidati dal vivo - seconda sessione",
+    duration: "20 min",
+  },
+  {
+    thumb: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=640&q=80",
+    day: "Giorno 12",
+    title: "Connessione corpo-mente - ritrovare la fiducia nel tuo corpo",
+    duration: "13 min",
+  },
+  {
+    thumb: "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=640&q=80",
+    day: "Giorno 13",
+    title: "Domande dal vivo - sessione di Q&A con Michela e Moreno",
+    duration: "25 min",
+  },
+  {
+    thumb: "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=640&q=80",
+    day: "Giorno 14",
+    title: "Chiusura e prossimi passi - cosa fare dopo CORE 101",
+    duration: "15 min",
   },
 ];
 

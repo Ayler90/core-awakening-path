@@ -4,7 +4,6 @@ import { Calendar, MessageCircle, Users, Video } from "lucide-react";
 const RegistrationSection = () => {
   return (
     <section
-      id="iscrizione"
       className="py-20 lg:py-28"
       style={{
         background: "linear-gradient(160deg, hsl(30 25% 97%), hsl(20 50% 94%))",
@@ -61,6 +60,7 @@ const RegistrationSection = () => {
                 Sostituire questo blocco con il codice embed di MailerLite.
             */}
             <div
+              id="iscrizione"
               className="rounded-xl border-2 border-dashed p-8 text-center"
               style={{ borderColor: "#bd403340" }}
             >
