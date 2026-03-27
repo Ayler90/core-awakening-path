@@ -33,7 +33,7 @@ const Footer = () => {
               ciao@officinamm.com
             </a>
             <a
-              href="/privacy-policy"
+              href="https://www.officinamm.com/privacy"
               className="text-sm text-muted-foreground font-body hover:underline mt-1"
             >
               Privacy Policy
@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
 
         <p className="text-center text-xs text-muted-foreground font-body mt-10">
-          © 2024 by Officina M.M, Michela Imperio e Resnati Moreno
+          © 2026 by Officina M.M, Michela Imperio e Resnati Moreno
         </p>
       </div>
     </footer>
