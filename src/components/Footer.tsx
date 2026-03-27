@@ -34,7 +34,8 @@ const Footer = () => {
             </a>
             <a
               href="https://www.officinamm.com/privacy"
-              className="text-sm text-muted-foreground font-body hover:underline mt-1"
+              className="text-sm font-body underline mt-1"
+              style={{ color: "#bd4033" }}
             >
               Privacy Policy
             </a>
