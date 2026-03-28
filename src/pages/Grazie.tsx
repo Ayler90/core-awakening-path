@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { Send, ClipboardList, CalendarPlus, CheckCircle2, Mail } from "lucide-react";
-import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 
 const steps = [
@@ -35,9 +34,7 @@ const steps = [
 
 const Grazie = () => {
   return (
-    <main className="pt-16">
-      <NavBar />
-
+    <main>
       {/* Hero ringraziamento + video */}
       <section
         className="py-16 lg:py-24 relative overflow-hidden"
@@ -94,7 +91,8 @@ const Grazie = () => {
               <Mail className="w-5 h-5 shrink-0" style={{ color: "#bd4033" }} />
               <p className="text-sm font-body text-foreground">
                 <strong>Non trovi l'email?</strong> Controlla nelle cartelle{" "}
-                <strong>Spam</strong> e <strong>Promozioni</strong> — a volte finisce lì!
+                <strong>Spam</strong> e <strong>Promozioni</strong> e, se la trovi lì,
+                spostala in <strong>Posta in Arrivo</strong> per non perderti le prossime comunicazioni.
               </p>
             </div>
           </motion.div>
@@ -109,28 +107,36 @@ const Grazie = () => {
               Un messaggio per te
             </h2>
             <p className="text-muted-foreground font-body text-sm mb-6">
-              Guardalo per scoprire cosa ti aspetta nelle prossime 2 settimane.
+              Vogliamo darti il benvenuto all'interno del training che partirà il 20 aprile e spiegarti cosa faremo insieme.
             </p>
-
-            <div className="aspect-video rounded-2xl overflow-hidden bg-muted border border-border shadow-sm">
-              {/* Placeholder — sostituire con embed YouTube */}
-              <div className="w-full h-full flex items-center justify-center text-muted-foreground font-body text-sm">
-                <div className="text-center">
-                  <div
-                    className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3"
-                    style={{ backgroundColor: "#bd403318" }}
-                  >
-                    <svg viewBox="0 0 24 24" fill="#bd4033" className="w-7 h-7 ml-1">
-                      <path d="M8 5v14l11-7z" />
-                    </svg>
-                  </div>
-                  <p className="font-semibold text-foreground">Video di benvenuto</p>
-                  <p className="text-xs mt-1">Inserisci qui l'embed del video</p>
-                </div>
-              </div>
-            </div>
           </motion.div>
         </div>
+
+        {/* Video allargato oltre il container del testo */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.3 }}
+          className="container mx-auto px-4 sm:px-6 relative z-10 max-w-5xl"
+        >
+          <div className="aspect-video rounded-2xl overflow-hidden bg-muted border border-border shadow-sm">
+            {/* Placeholder - sostituire con embed YouTube */}
+            <div className="w-full h-full flex items-center justify-center text-muted-foreground font-body text-sm">
+              <div className="text-center">
+                <div
+                  className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3"
+                  style={{ backgroundColor: "#bd403318" }}
+                >
+                  <svg viewBox="0 0 24 24" fill="#bd4033" className="w-7 h-7 ml-1">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </div>
+                <p className="font-semibold text-foreground">Video di benvenuto</p>
+                <p className="text-xs mt-1">Inserisci qui l'embed del video</p>
+              </div>
+            </div>
+          </div>
+        </motion.div>
       </section>
 
       {/* Prossimi passi */}
