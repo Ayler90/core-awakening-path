@@ -35,12 +35,12 @@ const steps = [
 
 const Grazie = () => {
   return (
-    <main className="pt-28 sm:pt-16">
+    <main className="pt-16">
       <NavBar />
 
-      {/* Hero ringraziamento */}
+      {/* Hero ringraziamento + video */}
       <section
-        className="py-20 lg:py-28 relative overflow-hidden"
+        className="py-16 lg:py-24 relative overflow-hidden"
         style={{
           background:
             "linear-gradient(160deg, hsl(30 25% 97%), hsl(38 40% 95%), hsl(20 50% 92%))",
@@ -58,10 +58,10 @@ const Grazie = () => {
             transition={{ duration: 0.7 }}
           >
             <div
-              className="inline-flex items-center justify-center w-20 h-20 rounded-full mb-6"
+              className="inline-flex items-center justify-center w-16 h-16 rounded-full mb-5"
               style={{ backgroundColor: "#bd403318" }}
             >
-              <CheckCircle2 className="w-10 h-10" style={{ color: "#bd4033" }} />
+              <CheckCircle2 className="w-8 h-8" style={{ color: "#bd4033" }} />
             </div>
 
             <h1 className="text-3xl sm:text-5xl font-bold font-display leading-tight text-foreground mb-4">
@@ -79,13 +79,13 @@ const Grazie = () => {
               e noi non vediamo l'ora di accompagnarti in questo percorso. 💛
             </p>
 
-            <p className="text-base text-muted-foreground font-body leading-relaxed mb-6">
+            <p className="text-base text-muted-foreground font-body leading-relaxed mb-5">
               Ti abbiamo inviato un'email di conferma con tutte le informazioni.
             </p>
 
             {/* Avviso email */}
             <div
-              className="inline-flex items-center gap-3 px-6 py-4 rounded-xl border text-left max-w-md mx-auto"
+              className="inline-flex items-center gap-3 px-6 py-4 rounded-xl border text-left max-w-md mx-auto mb-10"
               style={{
                 backgroundColor: "#bd403310",
                 borderColor: "#bd403330",
@@ -98,48 +98,38 @@ const Grazie = () => {
               </p>
             </div>
           </motion.div>
-        </div>
-      </section>
 
-      {/* Video di presentazione */}
-      <section className="py-16 bg-background">
-        <div className="container mx-auto px-4 sm:px-6 max-w-3xl">
+          {/* Video */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-8"
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.2 }}
           >
-            <h2 className="text-2xl sm:text-3xl font-bold font-display text-foreground mb-3">
+            <h2 className="text-xl sm:text-2xl font-bold font-display text-foreground mb-2">
               Un messaggio per te
             </h2>
-            <p className="text-muted-foreground font-body">
+            <p className="text-muted-foreground font-body text-sm mb-6">
               Guardalo per scoprire cosa ti aspetta nelle prossime 2 settimane.
             </p>
-          </motion.div>
 
-          <div className="aspect-video rounded-2xl overflow-hidden bg-muted border border-border shadow-sm">
-            {/* Placeholder per il video — sostituire con embed YouTube */}
-            <div className="w-full h-full flex items-center justify-center text-muted-foreground font-body text-sm">
-              <div className="text-center">
-                <div
-                  className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3"
-                  style={{ backgroundColor: "#bd403318" }}
-                >
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="#bd4033"
-                    className="w-7 h-7 ml-1"
+            <div className="aspect-video rounded-2xl overflow-hidden bg-muted border border-border shadow-sm">
+              {/* Placeholder — sostituire con embed YouTube */}
+              <div className="w-full h-full flex items-center justify-center text-muted-foreground font-body text-sm">
+                <div className="text-center">
+                  <div
+                    className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3"
+                    style={{ backgroundColor: "#bd403318" }}
                   >
-                    <path d="M8 5v14l11-7z" />
-                  </svg>
+                    <svg viewBox="0 0 24 24" fill="#bd4033" className="w-7 h-7 ml-1">
+                      <path d="M8 5v14l11-7z" />
+                    </svg>
+                  </div>
+                  <p className="font-semibold text-foreground">Video di benvenuto</p>
+                  <p className="text-xs mt-1">Inserisci qui l'embed del video</p>
                 </div>
-                <p className="font-semibold text-foreground">Video di benvenuto</p>
-                <p className="text-xs mt-1">Inserisci qui l'embed del video</p>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </section>
 
