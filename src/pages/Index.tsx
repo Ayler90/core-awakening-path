@@ -16,7 +16,7 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <main className="pt-16">
+    <main className="pt-28 sm:pt-16">
       <NavBar />
       <HeroSection />
       <HeroBenefits />
