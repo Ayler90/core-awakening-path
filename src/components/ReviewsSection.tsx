@@ -1,12 +1,16 @@
 import { motion } from "framer-motion";
-import { Star, MessageSquare } from "lucide-react";
+import { Star } from "lucide-react";
 
 const RED = "#bd4033";
 
-const placeholders = [
-  { label: "Screenshot recensione 1" },
-  { label: "Screenshot recensione 2" },
-  { label: "Screenshot recensione 3" },
+const reviews = [
+  "https://static.wixstatic.com/media/40e4ee_ac844cd9c7d34870a3750067c2f66974~mv2.jpg",
+  "https://static.wixstatic.com/media/40e4ee_eeb8cb03df2d4527a41544b250826c61~mv2.jpg",
+  "https://static.wixstatic.com/media/40e4ee_d0a971609621468485f9edb5cc0f63a0~mv2.jpg",
+  "https://static.wixstatic.com/media/40e4ee_f2c788489afe470ca9d8e62fbe570962~mv2.jpg",
+  "https://static.wixstatic.com/media/40e4ee_ac44822aea314c8f96979b6f511748da~mv2.jpg",
+  "https://static.wixstatic.com/media/40e4ee_08fceb317ba1424b9b5eeb163d2f86df~mv2.jpg",
+  "https://static.wixstatic.com/media/40e4ee_9fca9dedca28462ea95c56be11b3728e~mv2.jpg",
 ];
 
 const ReviewsSection = () => {
@@ -35,25 +39,23 @@ const ReviewsSection = () => {
           </div>
         </motion.div>
 
-        <div className="grid sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
-          {placeholders.map((p, i) => (
+        <div className="columns-2 sm:columns-3 lg:columns-4 gap-4 max-w-5xl mx-auto">
+          {reviews.map((src, i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.45, delay: i * 0.1 }}
-              className="rounded-2xl border-2 border-dashed flex flex-col items-center justify-center gap-3 py-16 px-6 text-center"
-              style={{ borderColor: RED + "30", backgroundColor: RED + "06" }}
+              transition={{ duration: 0.45, delay: i * 0.07 }}
+              className="mb-4 break-inside-avoid rounded-xl overflow-hidden border shadow-sm"
+              style={{ borderColor: "hsl(30 20% 90%)" }}
             >
-              <div
-                className="w-12 h-12 rounded-full flex items-center justify-center"
-                style={{ backgroundColor: RED + "15" }}
-              >
-                <MessageSquare className="w-5 h-5" style={{ color: RED }} />
-              </div>
-              <p className="text-sm font-semibold font-body" style={{ color: RED }}>{p.label}</p>
-              <p className="text-xs text-muted-foreground font-body">Inserisci qui lo screenshot</p>
+              <img
+                src={src}
+                alt={`Recensione ${i + 1}`}
+                className="w-full h-auto block"
+                loading="lazy"
+              />
             </motion.div>
           ))}
         </div>

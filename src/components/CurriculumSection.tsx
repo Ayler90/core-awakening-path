@@ -5,88 +5,79 @@ const RED = "#bd4033";
 
 const videos = [
   {
-    thumb: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=640&q=80",
-    day: "Giorno 1",
+    thumb: "https://static.wixstatic.com/media/40e4ee_6693434b49a043ef8db54847dd7a1386~mv2.png",
+    day: "Introduzione",
     title: "Il pavimento pelvico - cos'è e dove si trova",
-    duration: "12 min",
   },
   {
-    thumb: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=640&q=80",
-    day: "Giorno 2",
+    thumb: "https://static.wixstatic.com/media/40e4ee_d1b08dd959a0472e84eb8da0073bf187~mv2.png",
+    day: "Giorno 1",
     title: "Respira: il diaframma è il tuo primo alleato",
-    duration: "10 min",
   },
   {
-    thumb: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=640&q=80",
-    day: "Giorno 3",
+    thumb: "https://static.wixstatic.com/media/40e4ee_aefdd7284001497d935aae477c55f3ba~mv2.png",
+    day: "Giorno 2",
     title: "Sentire il pavimento pelvico - il primo contatto",
-    duration: "14 min",
   },
   {
-    thumb: "https://images.unsplash.com/photo-1552196563-55cd4e45efb3?w=640&q=80",
-    day: "Giorno 4",
+    thumb: "https://static.wixstatic.com/media/40e4ee_dedaece22b414536b7afd87caeacbebc~mv2.png",
+    day: "Giorno 3",
     title: "Core profondo - diaframma, trasverso e pavimento pelvico",
-    duration: "11 min",
   },
   {
-    thumb: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=640&q=80",
-    day: "Giorno 5",
+    thumb: "https://static.wixstatic.com/media/40e4ee_931754391e2f4cb3894e45f7f4a0f541~mv2.png",
+    day: "Giorno 4",
     title: "Perdite e sforzi - perché succede e cosa fare",
-    duration: "13 min",
   },
   {
-    thumb: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=640&q=80",
-    day: "Giorno 6",
+    thumb: "https://static.wixstatic.com/media/40e4ee_0181bc66abb849b788f2892420e1f5a3~mv2.png",
+    day: "Giorno 5",
     title: "Diastasi addominale - riconoscerla e iniziare il recupero",
-    duration: "15 min",
   },
   {
-    thumb: "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=640&q=80",
-    day: "Giorno 7",
+    thumb: "https://static.wixstatic.com/media/40e4ee_9ec8af03953d441fad166c0353ae0a22~mv2.png",
+    day: "Giorno 6",
     title: "Pressione addominale - come gestirla nella vita quotidiana",
-    duration: "10 min",
   },
   {
-    thumb: "https://images.unsplash.com/photo-1593810451137-5dc55105dace?w=640&q=80",
-    day: "Giorno 8",
+    thumb: "https://static.wixstatic.com/media/40e4ee_22d552b114704159bd83588cf694e905~mv2.png",
+    day: "Giorno 7",
     title: "Esercizi guidati dal vivo - prima sessione",
-    duration: "20 min",
   },
   {
-    thumb: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=640&q=80",
-    day: "Giorno 9",
+    thumb: "https://static.wixstatic.com/media/40e4ee_b80e8a94931f4c7fac047e78781c12c4~mv2.png",
+    day: "Giorno 8",
     title: "Rilascio e mobilità - sciogliere le tensioni",
-    duration: "12 min",
   },
   {
-    thumb: "https://images.unsplash.com/photo-1534258936925-c58bed479fcb?w=640&q=80",
-    day: "Giorno 10",
+    thumb: "https://static.wixstatic.com/media/40e4ee_defd223bb7634f70adb6a72d060184ef~mv2.png",
+    day: "Giorno 9",
     title: "Integrazione nel quotidiano - abitudini che supportano il recupero",
-    duration: "11 min",
   },
   {
-    thumb: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=640&q=80",
-    day: "Giorno 11",
+    thumb: "https://static.wixstatic.com/media/40e4ee_be6d0b9f501f4f16ae635745ffc72366~mv2.png",
+    day: "Giorno 10",
     title: "Esercizi guidati dal vivo - seconda sessione",
-    duration: "20 min",
   },
   {
-    thumb: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=640&q=80",
-    day: "Giorno 12",
+    thumb: "https://static.wixstatic.com/media/40e4ee_a8ab5e5c3e55410b966440970f71346b~mv2.png",
+    day: "Giorno 11",
     title: "Connessione corpo-mente - ritrovare la fiducia nel tuo corpo",
-    duration: "13 min",
   },
   {
-    thumb: "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=640&q=80",
-    day: "Giorno 13",
+    thumb: "https://static.wixstatic.com/media/40e4ee_b4c5d57aea3c4c5ea80ba46f39d4571d~mv2.png",
+    day: "Giorno 12",
     title: "Domande dal vivo - sessione di Q&A con Michela e Moreno",
-    duration: "25 min",
   },
   {
-    thumb: "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=640&q=80",
-    day: "Giorno 14",
+    thumb: "https://static.wixstatic.com/media/40e4ee_cb2d1d643a584fe087a6481c250bd982~mv2.png",
+    day: "Giorno 13",
     title: "Chiusura e prossimi passi - cosa fare dopo CORE 101",
-    duration: "15 min",
+  },
+  {
+    thumb: "https://static.wixstatic.com/media/40e4ee_b1b85528436b49219582f1696d6f6cb2~mv2.png",
+    day: "Giorno 14",
+    title: "Recap finale e prossimi passi",
   },
 ];
 
@@ -114,7 +105,7 @@ const CurriculumSection = () => {
             <span className="italic" style={{ color: RED }}>training</span>
           </h2>
           <p className="text-muted-foreground font-body leading-relaxed">
-            14 video in 2 settimane - un argomento al giorno, in progressione.
+            14 video in 2 settimane, un argomento al giorno in progressione.
             Ogni video è breve, pratico e pensato per essere seguito anche con pochi minuti a disposizione.
           </p>
         </motion.div>
@@ -155,9 +146,6 @@ const CurriculumSection = () => {
 
               <div className="p-4 flex flex-col gap-1 flex-1">
                 <p className="text-sm font-semibold font-display text-foreground leading-snug">{v.title}</p>
-                <p className="text-xs font-body mt-auto pt-2" style={{ color: RED + "cc" }}>
-                  ◇ {v.duration}
-                </p>
               </div>
             </motion.div>
           ))}
