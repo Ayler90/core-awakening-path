@@ -1,5 +1,6 @@
-import { motion } from "framer-motion";
-import { Star } from "lucide-react";
+import { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { Star, X } from "lucide-react";
 
 const RED = "#bd4033";
 
@@ -14,6 +15,23 @@ const reviews = [
 ];
 
 const ReviewsSection = () => {
+  const [selected, setSelected] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (selected) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => { document.body.style.overflow = ""; };
+  }, [selected]);
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") setSelected(null); };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
+
   return (
     <section className="py-20 lg:py-28 bg-background">
       <div className="container mx-auto px-4 sm:px-6">
@@ -47,13 +65,14 @@ const ReviewsSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.45, delay: i * 0.07 }}
-              className="mb-4 break-inside-avoid rounded-xl overflow-hidden border shadow-sm"
+              className="mb-4 break-inside-avoid rounded-xl overflow-hidden border shadow-sm cursor-zoom-in"
               style={{ borderColor: "hsl(30 20% 90%)" }}
+              onClick={() => setSelected(src)}
             >
               <img
                 src={src}
                 alt={`Recensione ${i + 1}`}
-                className="w-full h-auto block"
+                className="w-full h-auto block transition-opacity hover:opacity-90"
                 loading="lazy"
               />
             </motion.div>
@@ -61,6 +80,40 @@ const ReviewsSection = () => {
         </div>
 
       </div>
+
+      {/* Lightbox */}
+      <AnimatePresence>
+        {selected && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            className="fixed inset-0 z-50 flex items-center justify-center p-4"
+            style={{ backgroundColor: "rgba(0,0,0,0.85)" }}
+            onClick={() => setSelected(null)}
+          >
+            <button
+              onClick={() => setSelected(null)}
+              className="absolute top-4 right-4 w-10 h-10 rounded-full flex items-center justify-center text-white transition-colors"
+              style={{ backgroundColor: "rgba(255,255,255,0.15)" }}
+            >
+              <X className="w-5 h-5" />
+            </button>
+
+            <motion.img
+              initial={{ scale: 0.9, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.9, opacity: 0 }}
+              transition={{ duration: 0.2 }}
+              src={selected}
+              alt="Recensione"
+              className="max-w-full max-h-[90vh] rounded-xl shadow-2xl object-contain"
+              onClick={(e) => e.stopPropagation()}
+            />
+          </motion.div>
+        )}
+      </AnimatePresence>
     </section>
   );
 };
