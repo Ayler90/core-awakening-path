@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import NavBar from "@/components/NavBar";
 import HeroSection from "@/components/HeroSection";
 import HeroBenefits from "@/components/HeroBenefits";
@@ -15,6 +16,23 @@ import FinalCtaSection from "@/components/FinalCtaSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
+  useEffect(() => {
+    const handleClick = (e: MouseEvent) => {
+      const link = (e.target as Element).closest('a[href="#iscrizione"]');
+      if (!link) return;
+      const el = document.getElementById("iscrizione");
+      if (!el) return;
+      e.preventDefault();
+      const rect = el.getBoundingClientRect();
+      const elCenter = rect.top + window.scrollY + rect.height / 2;
+      const scrollTo = elCenter - window.innerHeight / 2;
+      window.scrollTo({ top: Math.max(0, scrollTo), behavior: "smooth" });
+    };
+
+    document.addEventListener("click", handleClick);
+    return () => document.removeEventListener("click", handleClick);
+  }, []);
+
   return (
     <main className="pt-28 sm:pt-16">
       <NavBar showCountdown />
