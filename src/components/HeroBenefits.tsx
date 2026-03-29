@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { Video, MessageCircle, Calendar, Users } from "lucide-react";
 
 const RED = "#bd4033";
@@ -17,11 +16,7 @@ const HeroBenefits = () => {
       style={{ background: "linear-gradient(160deg, hsl(38 40% 95%), hsl(20 50% 92%))" }}
     >
       <div className="container mx-auto px-4 sm:px-6">
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
+        <div
           className="grid grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto"
         >
           {benefits.map((b, i) => (
@@ -37,7 +32,7 @@ const HeroBenefits = () => {
               </p>
             </div>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

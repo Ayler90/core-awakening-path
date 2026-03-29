@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { Droplets, Weight, CircleDashed, Zap, Heart, Eye } from "lucide-react";
 
 const RED = "#bd4033";
@@ -48,11 +47,7 @@ const BenefitsSection = () => {
     <section className="py-20 lg:py-28 bg-background">
       <div className="container mx-auto px-4 sm:px-6">
 
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
+        <div
           className="text-center mb-14 max-w-2xl mx-auto"
         >
           <h2 className="text-3xl sm:text-4xl font-bold font-display text-foreground mb-4 leading-tight">
@@ -65,16 +60,12 @@ const BenefitsSection = () => {
             Inizia il{" "}
             <span className="font-semibold" style={{ color: RED }}>20 aprile</span>.
           </p>
-        </motion.div>
+        </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-5xl mx-auto">
           {benefits.map((b, i) => (
-            <motion.div
+            <div
               key={i}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: i * 0.08 }}
               className="rounded-2xl p-6 flex flex-col gap-4"
               style={{ backgroundColor: "hsl(30 20% 97%)" }}
             >
@@ -86,15 +77,11 @@ const BenefitsSection = () => {
               </div>
               <h3 className="font-bold font-display text-base text-foreground leading-snug">{b.title}</h3>
               <p className="text-sm text-muted-foreground font-body leading-relaxed">{b.text}</p>
-            </motion.div>
+            </div>
           ))}
         </div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.4 }}
+        <div
           className="text-center mt-12"
         >
           <a
@@ -107,7 +94,7 @@ const BenefitsSection = () => {
           <p className="text-xs text-muted-foreground font-body mt-3">
             ◇ Training live dal 20 aprile su Telegram - ◇ 100% gratuito
           </p>
-        </motion.div>
+        </div>
 
       </div>
     </section>

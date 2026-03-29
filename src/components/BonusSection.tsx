@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { Video, MessageCircle, CalendarDays } from "lucide-react";
 
 const RED = "#bd4033";
@@ -27,12 +26,7 @@ const BonusSection = () => {
       <div className="container mx-auto px-4 sm:px-6">
         <div className="max-w-5xl mx-auto grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
 
-          <motion.div
-            initial={{ opacity: 0, x: -24 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
+          <div>
             <span
               className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold font-body border mb-6"
               style={{ backgroundColor: RED + "12", borderColor: RED + "30", color: RED }}
@@ -82,13 +76,9 @@ const BonusSection = () => {
                 </div>
               ))}
             </div>
-          </motion.div>
+          </div>
 
-          <motion.div
-            initial={{ opacity: 0, x: 24 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+          <div
             className="relative"
           >
             <div className="rounded-2xl overflow-hidden shadow-lg">
@@ -106,7 +96,7 @@ const BonusSection = () => {
               <p className="font-bold font-display text-sm" style={{ color: RED }}>Michela & Moreno</p>
               <p className="text-xs text-muted-foreground font-body">OfficinaMM</p>
             </div>
-          </motion.div>
+          </div>
 
         </div>
       </div>

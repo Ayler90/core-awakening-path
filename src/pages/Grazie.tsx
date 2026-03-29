@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { Send, ClipboardList, CalendarPlus, CheckCircle2, Mail } from "lucide-react";
 import Footer from "@/components/Footer";
 
@@ -49,11 +48,7 @@ const Grazie = () => {
         />
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10 max-w-3xl text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7 }}
-          >
+          <div>
             <div
               className="inline-flex items-center justify-center w-16 h-16 rounded-full mb-5"
               style={{ backgroundColor: "#bd403318" }}
@@ -95,28 +90,21 @@ const Grazie = () => {
                 spostala in <strong>Posta in Arrivo</strong> per non perderti le prossime comunicazioni.
               </p>
             </div>
-          </motion.div>
+          </div>
 
           {/* Video */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.2 }}
-          >
+          <div>
             <h2 className="text-xl sm:text-2xl font-bold font-display text-foreground mb-2">
               Un messaggio per te
             </h2>
             <p className="text-muted-foreground font-body text-sm mb-6">
               Vogliamo darti il benvenuto all'interno del training che partirà il 20 aprile e spiegarti cosa faremo insieme.
             </p>
-          </motion.div>
+          </div>
         </div>
 
         {/* Video allargato oltre il container del testo */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.3 }}
+        <div
           className="container mx-auto px-4 sm:px-6 relative z-10 max-w-5xl"
         >
           <div className="aspect-video rounded-2xl overflow-hidden bg-muted border border-border shadow-sm">
@@ -136,7 +124,7 @@ const Grazie = () => {
               </div>
             </div>
           </div>
-        </motion.div>
+        </div>
       </section>
 
       {/* Prossimi passi */}
@@ -148,11 +136,7 @@ const Grazie = () => {
         }}
       >
         <div className="container mx-auto px-4 sm:px-6 max-w-3xl">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
+          <div
             className="text-center mb-14"
           >
             <h2 className="text-2xl sm:text-3xl font-bold font-display text-foreground mb-3">
@@ -161,16 +145,12 @@ const Grazie = () => {
             <p className="text-muted-foreground font-body max-w-lg mx-auto">
               Completa questi 3 semplici step per prepararti al meglio al training.
             </p>
-          </motion.div>
+          </div>
 
           <div className="flex flex-col gap-6">
             {steps.map((step, i) => (
-              <motion.div
+              <div
                 key={step.num}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: i * 0.1 }}
                 className="relative bg-background rounded-2xl border border-border shadow-sm p-6 sm:p-8"
               >
                 <div className="flex items-start gap-5">
@@ -200,7 +180,7 @@ const Grazie = () => {
                     </a>
                   </div>
                 </div>
-              </motion.div>
+              </div>
             ))}
           </div>
         </div>

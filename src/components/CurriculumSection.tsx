@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { Play } from "lucide-react";
 
 const RED = "#bd4033";
@@ -86,11 +85,7 @@ const CurriculumSection = () => {
     <section id="programma" className="py-20 lg:py-28 bg-background">
       <div className="container mx-auto px-4 sm:px-6">
 
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
+        <div
           className="text-center mb-4 max-w-2xl mx-auto"
         >
           <span
@@ -108,16 +103,12 @@ const CurriculumSection = () => {
             14 video in 2 settimane, un argomento al giorno in progressione.
             Ogni video è breve, pratico e pensato per essere seguito anche con pochi minuti a disposizione.
           </p>
-        </motion.div>
+        </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 max-w-6xl mx-auto mt-12">
           {videos.map((v, i) => (
-            <motion.div
+            <div
               key={i}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.45, delay: i * 0.06 }}
               className="group rounded-2xl overflow-hidden border flex flex-col"
               style={{ borderColor: "hsl(30 20% 90%)" }}
             >
@@ -147,15 +138,11 @@ const CurriculumSection = () => {
               <div className="p-4 flex flex-col gap-1 flex-1">
                 <p className="text-sm font-semibold font-display text-foreground leading-snug">{v.title}</p>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.3 }}
+        <div
           className="text-center mt-12"
         >
           <a
@@ -168,7 +155,7 @@ const CurriculumSection = () => {
           <p className="text-xs text-muted-foreground font-body mt-3">
             ◇ Gratuito - ◇ Dal 20 aprile su Telegram - ◇ Accesso immediato al canale dopo l'iscrizione
           </p>
-        </motion.div>
+        </div>
 
       </div>
     </section>

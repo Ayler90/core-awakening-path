@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 const symptoms = [
   {
     icon: "◆",
@@ -46,12 +44,7 @@ const SymptomsSection = () => {
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
 
-          <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
+          <div>
             <span
               className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold font-body border mb-6"
               style={{
@@ -78,12 +71,8 @@ const SymptomsSection = () => {
 
             <div className="space-y-4 mb-10">
               {symptoms.map((s, i) => (
-                <motion.div
+                <div
                   key={i}
-                  initial={{ opacity: 0, y: 10 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.3, delay: i * 0.07 }}
                   className="flex gap-3 p-4 rounded-xl border border-border bg-card"
                 >
                   <span className="text-sm mt-0.5 shrink-0 font-bold" style={{ color: "#bd4033" }}>
@@ -93,7 +82,7 @@ const SymptomsSection = () => {
                     <p className="font-semibold font-body text-foreground text-sm mb-0.5">{s.title}</p>
                     <p className="text-sm text-muted-foreground font-body leading-relaxed">{s.description}</p>
                   </div>
-                </motion.div>
+                </div>
               ))}
             </div>
 
@@ -107,13 +96,9 @@ const SymptomsSection = () => {
             <p className="text-xs text-muted-foreground font-body mt-3">
               ◇ Gratuito - ◇ Dal vivo su Telegram - ◇ Inizia il 20 aprile
             </p>
-          </motion.div>
+          </div>
 
-          <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+          <div
             className="relative"
           >
             <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/5]">
@@ -131,7 +116,7 @@ const SymptomsSection = () => {
               <p className="text-white font-semibold font-body text-sm">+300 donnə</p>
               <p className="text-white/80 font-body text-xs">hanno già partecipato</p>
             </div>
-          </motion.div>
+          </div>
 
         </div>
       </div>

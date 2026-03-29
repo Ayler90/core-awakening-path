@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { Send, Users } from "lucide-react";
 
 const FinalCtaSection = () => {
@@ -19,13 +18,7 @@ const FinalCtaSection = () => {
       />
 
       <div className="container mx-auto px-4 sm:px-6 relative z-10">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
-          className="text-center max-w-2xl mx-auto"
-        >
+        <div className="text-center max-w-2xl mx-auto">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold font-body border border-white/30 text-white/80 mb-8">
             <Send className="w-3 h-3" />
             Training live su Telegram - dal 20 aprile - 100% gratuito
@@ -65,7 +58,7 @@ const FinalCtaSection = () => {
           <p className="text-white/50 font-body text-xs mt-5">
             ◇ 100% Gratuito - ◇ Dal vivo su Telegram - ◇ Con Michela & Moreno
           </p>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

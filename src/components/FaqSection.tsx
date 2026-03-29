@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 
 const RED = "#bd4033";
@@ -38,13 +37,7 @@ const FaqSection = () => {
     <section className="py-20 lg:py-28 bg-background">
       <div className="container mx-auto px-4 sm:px-6">
 
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-12 max-w-2xl mx-auto"
-        >
+        <div className="text-center mb-12 max-w-2xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold font-display text-foreground mb-3 leading-tight">
             Domande{" "}
             <span className="italic" style={{ color: RED }}>frequenti</span>
@@ -52,16 +45,12 @@ const FaqSection = () => {
           <p className="text-muted-foreground font-body leading-relaxed">
             Tutto quello che vuoi sapere prima di iscriverti. E se hai altre domande, scrivici!
           </p>
-        </motion.div>
+        </div>
 
         <div className="max-w-2xl mx-auto flex flex-col gap-3">
           {faqs.map((faq, i) => (
-            <motion.div
+            <div
               key={i}
-              initial={{ opacity: 0, y: 12 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: i * 0.06 }}
               className="rounded-xl border overflow-hidden"
               style={{ borderColor: open === i ? RED + "40" : "hsl(30 20% 90%)" }}
             >
@@ -82,23 +71,12 @@ const FaqSection = () => {
                 />
               </button>
 
-              <AnimatePresence initial={false}>
-                {open === i && (
-                  <motion.div
-                    key="content"
-                    initial={{ height: 0, opacity: 0 }}
-                    animate={{ height: "auto", opacity: 1 }}
-                    exit={{ height: 0, opacity: 0 }}
-                    transition={{ duration: 0.3, ease: "easeInOut" }}
-                    className="overflow-hidden"
-                  >
-                    <p className="px-6 pb-5 pt-1 text-sm font-body text-muted-foreground leading-relaxed">
-                      {faq.a}
-                    </p>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </motion.div>
+              {open === i && (
+                <p className="px-6 pb-5 pt-1 text-sm font-body text-muted-foreground leading-relaxed">
+                  {faq.a}
+                </p>
+              )}
+            </div>
           ))}
         </div>
 

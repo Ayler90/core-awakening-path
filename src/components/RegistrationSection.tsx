@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { Calendar, MessageCircle, Users, Video } from "lucide-react";
 import MailerLiteForm from "@/components/MailerLiteForm";
 
@@ -13,12 +12,7 @@ const RegistrationSection = () => {
       <div className="container mx-auto px-4 sm:px-6">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center max-w-5xl mx-auto">
 
-          <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
+          <div>
             <span
               className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold font-body border mb-6"
               style={{
@@ -64,13 +58,9 @@ const RegistrationSection = () => {
             <p className="text-xs text-muted-foreground font-body mt-4">
               ✓ Completamente gratuito - ✓ Nessuna carta richiesta - ✓ Puoi cancellarti quando vuoi
             </p>
-          </motion.div>
+          </div>
 
-          <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+          <div
             className="relative"
           >
             <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/5]">
@@ -88,7 +78,7 @@ const RegistrationSection = () => {
               <p className="font-bold font-display text-sm" style={{ color: "#bd4033" }}>Michela & Moreno</p>
               <p className="text-xs text-muted-foreground font-body">OfficinaMM - Dal vivo su Telegram</p>
             </div>
-          </motion.div>
+          </div>
 
         </div>
       </div>

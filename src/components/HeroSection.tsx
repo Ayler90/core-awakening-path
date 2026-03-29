@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 const HeroSection = () => {
   return (
     <section
@@ -35,11 +33,7 @@ const HeroSection = () => {
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7 }}
-          >
+          <div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-display leading-tight text-foreground mb-6">
               Perdite, pesantezza,{" "}
               <br className="hidden sm:block" />
@@ -86,12 +80,9 @@ const HeroSection = () => {
             <p className="text-sm text-muted-foreground mt-5 font-body">
               ✓ Completamente gratuito · ✓ Dal vivo su Telegram · ✓ Nessuna carta richiesta
             </p>
-          </motion.div>
+          </div>
 
-          <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.7, delay: 0.2 }}
+          <div
             className="relative"
           >
             <div className="relative rounded-2xl overflow-hidden shadow-lg">
@@ -110,7 +101,7 @@ const HeroSection = () => {
                 OfficinaMM · Dal vivo su Telegram
               </p>
             </div>
-          </motion.div>
+          </div>
 
         </div>
       </div>

@@ -1,16 +1,10 @@
-import { motion } from "framer-motion";
-
 const PelvicFloorSection = () => {
   return (
     <section className="py-20 lg:py-28" style={{ backgroundColor: "hsl(30 25% 96%)" }}>
       <div className="container mx-auto px-4 sm:px-6">
         <div className="max-w-3xl mx-auto">
 
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
+          <div
             className="text-center mb-12"
           >
             <span
@@ -33,15 +27,11 @@ const PelvicFloorSection = () => {
             <p className="text-lg text-muted-foreground font-body leading-relaxed">
               Forse ne hai sentito parlare. Ma nessuno te lo ha mai spiegato davvero.
             </p>
-          </motion.div>
+          </div>
 
           <div className="space-y-6">
 
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
+            <div
               className="bg-background rounded-2xl p-6 lg:p-8 border border-border shadow-sm"
             >
               <p className="text-foreground font-body leading-relaxed text-lg mb-4">
@@ -56,13 +46,9 @@ const PelvicFloorSection = () => {
                 starnutisci, una sensazione di pesantezza, la pancia che "spinge
                 fuori", difficoltà a trattenere lo stimolo.
               </p>
-            </motion.div>
+            </div>
 
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.1 }}
+            <div
               className="bg-background rounded-2xl p-6 lg:p-8 border border-border shadow-sm"
             >
               <p className="text-foreground font-body leading-relaxed text-lg mb-4">
@@ -77,13 +63,9 @@ const PelvicFloorSection = () => {
                 puoi ritrovare il contatto con il tuo corpo e migliorare questi
                 sintomi. Ed è esattamente quello che faremo insieme in CORE 101.
               </p>
-            </motion.div>
+            </div>
 
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.2 }}
+            <div
               className="rounded-2xl p-6 lg:p-8 border text-center"
               style={{ backgroundColor: "#bd403310", borderColor: "#bd403330" }}
             >
@@ -100,7 +82,7 @@ const PelvicFloorSection = () => {
               >
                 Iscriviti al training gratuito →
               </a>
-            </motion.div>
+            </div>
 
           </div>
         </div>

@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 const RED = "#bd4033";
 
 const teachers = [
@@ -32,11 +30,7 @@ const TeachersSection = () => {
     <section className="py-20 lg:py-28" style={{ backgroundColor: "hsl(30 25% 97%)" }}>
       <div className="container mx-auto px-4 sm:px-6">
 
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
+        <div
           className="text-center mb-14 max-w-2xl mx-auto"
         >
           <span
@@ -53,16 +47,12 @@ const TeachersSection = () => {
           <p className="text-muted-foreground font-body leading-relaxed">
             Due professionisti che hanno aiutato centinaia di persone a ritrovare il contatto con il proprio corpo.
           </p>
-        </motion.div>
+        </div>
 
         <div className="grid sm:grid-cols-2 gap-8 max-w-3xl mx-auto">
           {teachers.map((t, i) => (
-            <motion.div
+            <div
               key={i}
-              initial={{ opacity: 0, y: 24 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.55, delay: i * 0.15 }}
               className="rounded-2xl overflow-hidden border flex flex-col"
               style={{ backgroundColor: "hsl(0 0% 100%)", borderColor: "hsl(30 20% 90%)" }}
             >
@@ -99,15 +89,11 @@ const TeachersSection = () => {
                   {t.description}
                 </p>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.3 }}
+        <div
           className="text-center mt-12"
         >
           <a
@@ -120,7 +106,7 @@ const TeachersSection = () => {
           <p className="text-xs text-muted-foreground font-body mt-3">
             ◇ Gratuito - ◇ Dal 20 aprile su Telegram
           </p>
-        </motion.div>
+        </div>
 
       </div>
     </section>

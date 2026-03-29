@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 import { Star, X } from "lucide-react";
 
 const RED = "#bd4033";
@@ -36,11 +36,7 @@ const ReviewsSection = () => {
     <section className="py-20 lg:py-28 bg-background">
       <div className="container mx-auto px-4 sm:px-6">
 
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
+        <div
           className="text-center mb-12 max-w-2xl mx-auto"
         >
           <h2 className="text-3xl sm:text-4xl font-bold font-display text-foreground mb-4 leading-tight">
@@ -55,16 +51,12 @@ const ReviewsSection = () => {
               <Star key={i} className="w-5 h-5 fill-current" style={{ color: RED }} />
             ))}
           </div>
-        </motion.div>
+        </div>
 
         <div className="columns-2 sm:columns-3 lg:columns-4 gap-4 max-w-5xl mx-auto">
           {reviews.map((src, i) => (
-            <motion.div
+            <div
               key={i}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.45, delay: i * 0.07 }}
               className="mb-4 break-inside-avoid rounded-xl overflow-hidden border shadow-sm cursor-zoom-in"
               style={{ borderColor: "hsl(30 20% 90%)" }}
               onClick={() => setSelected(src)}
@@ -75,7 +67,7 @@ const ReviewsSection = () => {
                 className="w-full h-auto block transition-opacity hover:opacity-90"
                 loading="lazy"
               />
-            </motion.div>
+            </div>
           ))}
         </div>
 
