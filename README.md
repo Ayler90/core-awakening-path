@@ -1,3 +1,8 @@
-# Welcome to your Lovable project
+# CORE 101 - OfficinaMM
 
-TODO: Document your project here
+Sales page per il training gratuito sul pavimento pelvico.
+
+## Pagine del sito
+
+- `/` → Landing page opt-in CORE 101
+- `/grazie` → Pagina di ringraziamento post-iscrizione
