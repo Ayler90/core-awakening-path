@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Calendar, MessageCircle, Users, Video } from "lucide-react";
+import MailerLiteForm from "@/components/MailerLiteForm";
 
 const RegistrationSection = () => {
   return (
@@ -56,22 +57,9 @@ const RegistrationSection = () => {
               ))}
             </div>
 
-            {/* PLACEHOLDER FORM MAILERLITE
-                Sostituire questo blocco con il codice embed di MailerLite.
-            */}
-            <div
-              id="iscrizione"
-              className="rounded-xl border-2 border-dashed p-8 text-center"
-              style={{ borderColor: "#bd403340" }}
-            >
-              <p className="font-semibold font-body text-sm mb-1" style={{ color: "#bd4033" }}>
-                ✉ Form MailerLite
-              </p>
-              <p className="text-xs text-muted-foreground font-body">
-                Incolla qui il codice embed del form di iscrizione da MailerLite.
-              </p>
+            <div id="iscrizione">
+              <MailerLiteForm />
             </div>
-            {/* FINE PLACEHOLDER */}
 
             <p className="text-xs text-muted-foreground font-body mt-4">
               ✓ Completamente gratuito - ✓ Nessuna carta richiesta - ✓ Puoi cancellarti quando vuoi
