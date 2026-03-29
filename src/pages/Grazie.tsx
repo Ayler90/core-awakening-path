@@ -34,6 +34,13 @@ const steps = [
 const Grazie = () => {
   return (
     <main>
+      {/* Banner top */}
+      <div
+        className="w-full py-3 px-4 text-center text-white font-body font-semibold text-sm sm:text-base"
+        style={{ backgroundColor: "#bd4033" }}
+      >
+        Sei dentro! Più in basso trovi il link per accedere al canale Telegram.
+      </div>
       {/* Hero ringraziamento + video */}
       <section
         className="py-16 lg:py-24 relative overflow-hidden"
