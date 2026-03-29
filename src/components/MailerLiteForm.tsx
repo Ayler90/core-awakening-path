@@ -30,11 +30,12 @@ const FORM_HTML = `
 #mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow.ml-last-item{margin:0}
 #mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input{background-color:#fff!important;color:#333!important;border-color:#ccc;border-radius:4px!important;border-style:solid!important;border-width:1px!important;font-family:'Open Sans',Arial,Helvetica,sans-serif;font-size:14px!important;height:auto;line-height:21px!important;margin:0;padding:10px!important;width:100%!important;box-sizing:border-box!important;max-width:100%!important}
 #mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::placeholder{color:#333}
-#mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type="checkbox"]{box-sizing:border-box;padding:0;position:absolute;z-index:-1;opacity:0;margin-top:5px;margin-left:-1.5rem;overflow:visible}
 #mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description{color:#000;display:block;font-family:'Open Sans',Arial,Helvetica,sans-serif;font-size:12px;text-align:left;margin-bottom:0;position:relative;vertical-align:top}
-#mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label{font-weight:normal;margin:0;padding:0;position:relative;display:block;min-height:24px;padding-left:24px}
+#mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label{font-weight:normal;margin:0;padding:0;position:relative;display:flex;align-items:flex-start;gap:8px;min-height:24px;cursor:pointer}
 #mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label a{color:#000;text-decoration:underline}
-#mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label p{color:#000!important;font-family:'Open Sans',Arial,Helvetica,sans-serif!important;font-size:12px!important;font-weight:normal!important;line-height:18px!important;padding:0!important;margin:0 5px 0 0!important}
+#mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label p{color:#000!important;font-family:'Open Sans',Arial,Helvetica,sans-serif!important;font-size:12px!important;font-weight:normal!important;line-height:18px!important;padding:0!important;margin:0!important}
+/* Checkbox nativa visibile */
+#mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type="checkbox"]{position:relative!important;opacity:1!important;z-index:1!important;margin:2px 0 0 0!important;width:15px!important;height:15px!important;min-width:15px!important;cursor:pointer!important;box-sizing:border-box!important;padding:0!important}
 #mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit{margin:0 0 20px;float:left;width:100%}
 #mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button{background-color:#000!important;border:none!important;border-radius:4px!important;box-shadow:none!important;color:#fff!important;cursor:pointer;font-family:'Open Sans',Arial,Helvetica,sans-serif!important;font-size:14px!important;font-weight:700!important;line-height:21px!important;height:auto;padding:10px!important;width:100%!important;box-sizing:border-box!important}
 #mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button.loading{display:none}
@@ -45,6 +46,23 @@ const FORM_HTML = `
 #mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsContent p a{color:#000;text-decoration:underline}
 .ml-error input,.ml-error textarea,.ml-error select{border-color:red!important}
 .ml-error .label-description,.ml-error .label-description p,.ml-error label:first-child{color:#ff0000!important}
+
+/* ── Personalizzazioni OfficinaMM ── */
+/* Sfondo rosso sul wrapper */
+#mlb2-39140121 .ml-form-embedWrapper{background-color:#bd4033!important;border-radius:12px!important;padding:24px!important}
+/* Nessun padding aggiuntivo sul body */
+#mlb2-39140121 .ml-form-embedBody,
+#mlb2-39140121 .ml-form-successBody{padding:0!important}
+/* Pulsante bianco con testo rosso */
+#mlb2-39140121 .ml-form-embedSubmit button.primary{background-color:#ffffff!important;color:#bd4033!important;font-size:15px!important;padding:13px!important;border-radius:6px!important}
+#mlb2-39140121 .ml-form-embedSubmit button.primary:hover{background-color:#f5f5f5!important}
+/* Testo privacy e checkbox bianchi */
+#mlb2-39140121 .ml-form-embedPermissionsContent p,
+#mlb2-39140121 .ml-form-embedPermissionsContent p a{color:rgba(255,255,255,0.88)!important}
+#mlb2-39140121 .ml-form-checkboxRow .label-description p,
+#mlb2-39140121 .ml-form-checkboxRow label p{color:#ffffff!important}
+/* Spazio tra checkbox e pulsante */
+#mlb2-39140121 .ml-form-checkboxRow{margin-bottom:16px!important;float:left;width:100%}
 </style>
 
 <div id="mlb2-39140121" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-39140121">
