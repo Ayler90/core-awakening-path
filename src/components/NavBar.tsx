@@ -66,7 +66,7 @@ const NavBar = ({ showCountdown = false }: NavBarProps) => {
         <div className={`${showCountdown ? "flex-1" : ""} flex justify-end`}>
           <a
             href="#iscrizione"
-            className="px-5 py-2.5 rounded-lg text-sm font-semibold font-body text-white transition-all hover:opacity-90"
+            className="px-3 py-2 rounded-lg text-xs sm:text-sm sm:px-5 sm:py-2.5 font-semibold font-body text-white transition-all hover:opacity-90 whitespace-nowrap"
             style={{ backgroundColor: "#bd4033" }}
           >
             Voglio partecipare →
@@ -76,7 +76,7 @@ const NavBar = ({ showCountdown = false }: NavBarProps) => {
 
       {/* Countdown - seconda riga mobile (solo se showCountdown) */}
       {showCountdown && timeLeft && (
-        <div className="sm:hidden flex flex-col items-center py-2 border-t border-border/40">
+        <div className="sm:hidden flex flex-col items-center py-2">
           <span className="text-[11px] text-muted-foreground font-body leading-none mb-0.5">
             Il training inizia tra
           </span>
