@@ -87,7 +87,7 @@ const HeroSection = () => {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-lg">
               <img
-                src="https://static.wixstatic.com/media/40e4ee_51df092982b84d3cb2b271e3629b6c1b~mv2.jpg/v1/crop/x_0,y_94,w_4500,h_4312/fill/w_860,h_824,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Bacino%20illustrato%20Pavimento%20pelvico_scritte.jpg"
+                src="https://static.wixstatic.com/media/40e4ee_c8cad788f7294407857ed26ec7565041~mv2.png"
                 alt="Illustrazione del pavimento pelvico"
                 className="w-full h-auto object-cover"
                 loading="eager"

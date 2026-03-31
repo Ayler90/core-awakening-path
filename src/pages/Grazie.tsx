@@ -7,9 +7,9 @@ const steps = [
     icon: Send,
     title: "Entra nel canale Telegram",
     description:
-      "Il training si svolge dal vivo sul nostro canale Telegram. Entra subito per non perderti nulla: lì troverai tutti i video, gli esercizi e il supporto diretto di Michela e Moreno.",
+      "Il training si svolge sul nostro canale Telegram. Entra subito per non perderti nulla: lì troverai tutti i video, gli esercizi e il supporto diretto di Michela e Moreno.",
     cta: "Entra nel canale Telegram →",
-    href: "https://t.me/+PLACEHOLDER",
+    href: "https://t.me/+Cg5q-RPnxH03ZWFk",
   },
   {
     num: 2,
@@ -27,7 +27,7 @@ const steps = [
     description:
       "Aggiungi l'evento al tuo Google Calendar per ricordarti che si parte il 20 aprile. Non vorrai mica perderti il primo giorno!",
     cta: "Aggiungi al calendario →",
-    href: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=CORE+101+%E2%80%93+Training+Live&dates=20260420T080000Z/20260420T090000Z&details=Training+gratuito+dal+vivo+su+Telegram+con+Michela+e+Moreno.&sf=true&output=xml",
+    href: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Training+Gratuito+CORE+101+-+Con+Michela+e+Moreno&dates=20260420T080000Z/20260503T210000Z&details=CORE+101+%C3%A8+il+training+gratuito+di+2+settimane+con+14+video+sul+pavimento+pelvico%2C+con+assistenza+live+su+Telegram+con+Michela+e+Moreno+-+per+capire+cosa+succede+nel+tuo+corpo+e+iniziare+a+prendertene+cura%2C+con+dolcezza+e+senza+stress.%0A%0AAccedi+al+canale+Telegram+dove+verranno+condivisi+i+video%3A+https%3A%2F%2Ft.me%2F%2BCg5q-RPnxH03ZWFk&sf=true&output=xml",
   },
 ];
 
@@ -43,7 +43,7 @@ const Grazie = () => {
       </div>
       {/* Hero ringraziamento + video */}
       <section
-        className="py-16 lg:py-24 relative overflow-hidden"
+        className="pt-8 pb-16 lg:pt-10 lg:pb-20 relative overflow-hidden"
         style={{
           background:
             "linear-gradient(160deg, hsl(30 25% 97%), hsl(38 40% 95%), hsl(20 50% 92%))",
@@ -74,8 +74,8 @@ const Grazie = () => {
             <p className="text-lg text-muted-foreground font-body leading-relaxed mb-3">
               Hai appena fatto un passo importante verso il tuo benessere.
               Il training <strong className="text-foreground">CORE 101</strong> inizia il{" "}
-              <strong className="text-foreground">20 aprile</strong>, dal vivo su Telegram,
-              e noi non vediamo l'ora di accompagnarti in questo percorso. 💛
+              <strong className="text-foreground">20 aprile</strong>, 1 video al giorno
+              e l'assistenza live con Michela e Moreno sul Canale Telegram. 💛
             </p>
 
             <p className="text-base text-muted-foreground font-body leading-relaxed mb-5">
@@ -155,7 +155,7 @@ const Grazie = () => {
           </div>
 
           <div className="flex flex-col gap-6">
-            {steps.map((step, i) => (
+            {steps.map((step) => (
               <div
                 key={step.num}
                 className="relative bg-background rounded-2xl border border-border shadow-sm p-6 sm:p-8"
