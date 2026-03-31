@@ -63,7 +63,7 @@ const FORM_HTML = `
 .ml-error .label-description,.ml-error .label-description p,.ml-error label:first-child{color:#ffcccc!important}
 
 /* ── Personalizzazioni OfficinaMM ── */
-#mlb2-39140121 .ml-form-embedWrapper{background-color:#bd4033!important;border-radius:12px!important;padding:24px!important}
+#mlb2-39140121 .ml-form-embedWrapper{background-color:transparent!important;border-radius:0!important;padding:0!important}
 #mlb2-39140121 .ml-form-embedBody,
 #mlb2-39140121 .ml-form-successBody{padding:0!important}
 #mlb2-39140121 .ml-form-embedSubmit button.primary{background-color:#ffffff!important;color:#bd4033!important;font-size:15px!important;padding:13px!important;border-radius:6px!important}

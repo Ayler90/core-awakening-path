@@ -25,8 +25,8 @@ const benefits = [
   {
     icon: <Zap className="w-5 h-5" />,
     color: VIOLET,
-    title: "Un percorso chiaro, progressivo e senza contraddizioni",
-    text: "14 video in 2 settimane - dal 20 aprile - costruiti in progressione. Niente salti nel vuoto, niente contraddizioni: un filo conduttore chiaro per tornare a muoverti con fiducia.",
+    title: "Come postura e allineamento influenzano il pavimento pelvico",
+    text: "Scoprirai come le abitudini posturali di ogni giorno - stare seduta, camminare, sollevare pesi - influenzano direttamente il tuo core profondo e il pavimento pelvico, e come piccoli aggiustamenti possono fare una grande differenza.",
   },
   {
     icon: <Heart className="w-5 h-5" />,
