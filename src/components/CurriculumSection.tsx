@@ -54,27 +54,27 @@ const videos = [
   {
     thumb: "https://static.wixstatic.com/media/40e4ee_be6d0b9f501f4f16ae635745ffc72366~mv2.png",
     day: "Giorno 10",
-    title: "Conoscersi davvero – perché guardarsi è un gesto rivoluzionario",
+    title: "Autovalutazione della diastasi addominale – come osservare il tuo core",
   },
   {
     thumb: "https://static.wixstatic.com/media/40e4ee_a8ab5e5c3e55410b966440970f71346b~mv2.png",
     day: "Giorno 11",
-    title: "Lasciare andare – corpo, resistenze e apertura",
+    title: "Conoscersi davvero – perché guardarsi è un gesto rivoluzionario",
   },
   {
     thumb: "https://static.wixstatic.com/media/40e4ee_b4c5d57aea3c4c5ea80ba46f39d4571d~mv2.png",
     day: "Giorno 12",
-    title: "Stretching per lasciare andare il pavimento pelvico",
+    title: "Lasciare andare – corpo, resistenze e apertura",
   },
   {
     thumb: "https://static.wixstatic.com/media/40e4ee_cb2d1d643a584fe087a6481c250bd982~mv2.png",
     day: "Giorno 13",
-    title: "I prossimi passi con Core Foundation",
+    title: "Stretching per lasciare andare il pavimento pelvico",
   },
   {
     thumb: "https://static.wixstatic.com/media/40e4ee_b1b85528436b49219582f1696d6f6cb2~mv2.png",
     day: "Giorno 14",
-    title: "Recap finale e prossimi passi",
+    title: "I prossimi passi con Core Foundation",
   },
 ];
 
