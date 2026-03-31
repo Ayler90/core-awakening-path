@@ -39,7 +39,16 @@ const Grazie = () => {
         className="w-full py-3 px-4 text-center text-white font-body font-semibold text-sm sm:text-base"
         style={{ backgroundColor: "#bd4033" }}
       >
-        Sei dentro! Più in basso trovi il link per accedere al canale Telegram.
+        Sei dentro!{" "}
+        <a
+          href="https://t.me/+Cg5q-RPnxH03ZWFk"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline font-bold"
+        >
+          Clicca qui per accedere al canale Telegram
+        </a>
+        .
       </div>
       {/* Hero ringraziamento + video */}
       <section
