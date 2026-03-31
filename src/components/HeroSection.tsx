@@ -93,12 +93,9 @@ const HeroSection = () => {
                 loading="eager"
               />
             </div>
-            <div className="absolute -bottom-4 -left-4 bg-background/95 backdrop-blur-sm rounded-xl p-4 shadow-md border border-border">
-              <p className="text-sm font-semibold text-foreground font-body">
-                Con Michela & Moreno
-              </p>
-              <p className="text-xs text-muted-foreground font-body">
-                OfficinaMM · Training Gratuito su Telegram
+            <div className="absolute -bottom-4 -left-4 bg-background/95 backdrop-blur-sm rounded-xl p-4 shadow-md border border-border max-w-xs">
+              <p className="text-sm font-semibold text-foreground font-body leading-snug">
+                Problemi di pipì, difficoltà nei rapporti sessuali o senti che qualcosa non va? Il training fa per te
               </p>
             </div>
           </div>
