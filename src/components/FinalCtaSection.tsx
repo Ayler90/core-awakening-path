@@ -21,7 +21,7 @@ const FinalCtaSection = () => {
         <div className="text-center max-w-2xl mx-auto">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold font-body border border-white/30 text-white/80 mb-8">
             <Send className="w-3 h-3" />
-            Training live su Telegram - dal 20 aprile - 100% gratuito
+            Training Gratuito su Telegram - dal 20 aprile - 100% gratuito
           </div>
 
           <h2 className="text-3xl sm:text-5xl font-bold font-display text-white mb-6 leading-tight">
@@ -30,9 +30,9 @@ const FinalCtaSection = () => {
           </h2>
 
           <p className="text-white/80 font-body leading-relaxed mb-4 text-base sm:text-lg">
-            14 video gratuiti, dal vivo su Telegram, per iniziare a capire
-            cosa succede nel tuo corpo e ritrovare il contatto con il tuo
-            core profondo. Con Michela e Moreno, al tuo fianco ogni giorno.
+            14 video sul pavimento pelvico in 2 settimane, con assistenza live su
+            Telegram con Michela e Moreno - per iniziare a capire cosa succede nel
+            tuo corpo e ritrovare il contatto con il tuo core profondo.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4 mb-10 text-sm font-body text-white/70">
@@ -56,7 +56,7 @@ const FinalCtaSection = () => {
           </a>
 
           <p className="text-white/50 font-body text-xs mt-5">
-            ◇ 100% Gratuito - ◇ Dal vivo su Telegram - ◇ Con Michela & Moreno
+            ◇ 100% Gratuito - ◇ Con assistenza live su Telegram - ◇ Con Michela & Moreno
           </p>
         </div>
       </div>

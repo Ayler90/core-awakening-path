@@ -27,7 +27,7 @@ const HeroSection = () => {
               color: "#bd4033",
             }}
           >
-            ◆ Training live su Telegram · Inizia il 20 aprile
+            ◆ Training Gratuito su Telegram · Inizia il 20 aprile
           </span>
         </div>
 
@@ -53,10 +53,10 @@ const HeroSection = () => {
               <strong className="text-foreground">CORE 101</strong> è un training
               gratuito di{" "}
               <strong className="text-foreground">
-                2 settimane, dal vivo su Telegram
+                2 settimane con 14 video sul pavimento pelvico
               </strong>
-              , in cui Michela e Moreno ti guidano giorno dopo giorno a capire cosa
-              succede nel tuo corpo - e a iniziare a prendertene cura, con dolcezza
+              , con assistenza live su Telegram con Michela e Moreno - per capire
+              cosa succede nel tuo corpo e iniziare a prendertene cura, con dolcezza
               e senza stress.
             </p>
 
@@ -78,7 +78,7 @@ const HeroSection = () => {
             </div>
 
             <p className="text-sm text-muted-foreground mt-5 font-body">
-              ✓ Completamente gratuito · ✓ Dal vivo su Telegram · ✓ Nessuna carta richiesta
+              ✓ Completamente gratuito · ✓ Assistenza live su Telegram · ✓ Nessuna carta richiesta
             </p>
           </div>
 
@@ -98,7 +98,7 @@ const HeroSection = () => {
                 Con Michela & Moreno
               </p>
               <p className="text-xs text-muted-foreground font-body">
-                OfficinaMM · Dal vivo su Telegram
+                OfficinaMM · Training Gratuito su Telegram
               </p>
             </div>
           </div>

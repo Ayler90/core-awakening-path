@@ -6,7 +6,7 @@ const RED = "#bd4033";
 const faqs = [
   {
     q: "Il training è davvero gratuito?",
-    a: "Sì, CORE 101 è completamente gratuito. Nessuna carta di credito richiesta, nessun abbonamento. Ti iscrivi, entri nel canale Telegram e segui i video dal vivo. Fine.",
+    a: "Sì, CORE 101 è completamente gratuito. Nessuna carta di credito richiesta, nessun abbonamento. Ti iscrivi, entri nel canale Telegram e segui i video registrati del training e ricevi assistenza live da Michela e Moreno. Fine.",
   },
   {
     q: "Come funziona il training su Telegram?",
@@ -14,7 +14,7 @@ const faqs = [
   },
   {
     q: "Devo avere esperienza con gli esercizi?",
-    a: "No. CORE 101 è pensato per chi parte da zero - o quasi. I video sono progressivi, guidati passo dopo passo, e accessibili anche se non ti sei mai allenata o non sai da dove iniziare.",
+    a: "No. CORE 101 è pensato per chi parte da zero. I video sono progressivi, guidati passo dopo passo, e accessibili anche se non ti sei mai allenata o non sai da dove iniziare.",
   },
   {
     q: "Posso partecipare se sono ancora in gravidanza?",
@@ -26,7 +26,18 @@ const faqs = [
   },
   {
     q: "Se ho qualche domanda sul training, posso scrivervi?",
-    a: "Certo - siamo qui. Puoi scriverci in qualsiasi momento all'indirizzo ciao@officinamm.com e risponderemo il prima possibile.",
+    a: (
+      <>
+        Certo - siamo qui. Puoi scriverci in qualsiasi momento all'indirizzo{" "}
+        <a
+          href="mailto:ciao@officinamm.com"
+          style={{ color: RED, textDecoration: "underline" }}
+        >
+          ciao@officinamm.com
+        </a>{" "}
+        e risponderemo il prima possibile.
+      </>
+    ),
   },
 ];
 

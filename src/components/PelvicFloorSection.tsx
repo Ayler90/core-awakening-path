@@ -15,7 +15,7 @@ const PelvicFloorSection = () => {
                 color: "#bd4033",
               }}
             >
-              ◆ Training live su Telegram - 20 aprile
+              ◆ Training Gratuito su Telegram - inizia il 20 aprile
             </span>
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-display text-foreground mb-4 leading-tight">
@@ -70,10 +70,10 @@ const PelvicFloorSection = () => {
               style={{ backgroundColor: "#bd403310", borderColor: "#bd403330" }}
             >
               <p className="text-foreground font-display font-bold text-xl mb-2">
-                Vuoi iniziare a capire il tuo corpo?
+                Vuoi iniziare a prenderti cura del tuo pavimento pelvico?
               </p>
               <p className="text-muted-foreground font-body text-sm mb-5">
-                CORE 101 inizia il 20 aprile - dal vivo su Telegram, completamente gratuito.
+                CORE 101 inizia il 20 aprile su Telegram, completamente gratuito.
               </p>
               <a
                 href="#iscrizione"

@@ -7,44 +7,44 @@ const benefits = [
   {
     icon: <Droplets className="w-5 h-5" />,
     color: RED,
-    title: "Perdi pipì quando ridi, starnutisci o salti",
-    text: "Nel training live capirai perché succede davvero - non è inevitabile - e inizierai a lavorare sulla coordinazione tra respiro, pavimento pelvico e core per ridurre le perdite nella vita quotidiana.",
+    title: "Come ridurre le perdite di pipì nella vita quotidiana",
+    text: "Nel training capirai perché succede davvero - non è inevitabile - e inizierai a lavorare sulla coordinazione tra respiro, pavimento pelvico e core per ridurre le perdite nella vita quotidiana.",
   },
   {
     icon: <Weight className="w-5 h-5" />,
     color: VIOLET,
-    title: "Senti pesantezza o pressione in vagina",
+    title: "Come gestire la pressione pelvica con strategie pratiche",
     text: "Scoprirai cosa provoca quella sensazione di \"pallina\" o discesa, come gestire la pressione addominale con strategie pratiche - e perché certi movimenti peggiorano i sintomi e come cambiarli.",
   },
   {
     icon: <CircleDashed className="w-5 h-5" />,
     color: RED,
-    title: "La pancia è gonfia e senti un avvallamento al centro",
-    text: "Michela e Moreno ti guidano - dal vivo su Telegram - nel capire cos'è la diastasi, cosa aggrava la separazione e quali abitudini quotidiane puoi cambiare subito per iniziare il recupero.",
+    title: "Cos'è la diastasi e come iniziare il recupero",
+    text: "Ti guideremo nel capire cos'è la diastasi, cosa aggrava la separazione e quali abitudini quotidiane puoi cambiare subito per iniziare il recupero.",
   },
   {
     icon: <Zap className="w-5 h-5" />,
     color: VIOLET,
-    title: "Non sai da dove iniziare e hai paura di fare danni",
+    title: "Un percorso chiaro, progressivo e senza contraddizioni",
     text: "14 video in 2 settimane - dal 20 aprile - costruiti in progressione. Niente salti nel vuoto, niente contraddizioni: un filo conduttore chiaro per tornare a muoverti con fiducia.",
   },
   {
     icon: <Heart className="w-5 h-5" />,
     color: RED,
-    title: "Senti il tuo corpo come qualcosa di estraneo",
+    title: "Ritrovare il contatto con il tuo pavimento pelvico",
     text: "Lavorerai sulla consapevolezza corporea - imparare a sentire il pavimento pelvico, a respirare con il diaframma, a ritrovare il contatto con l'addome - senza fretta e senza giudizio.",
   },
   {
     icon: <Eye className="w-5 h-5" />,
     color: VIOLET,
-    title: "Hai provato esercizi a caso ma non hai visto risultati",
+    title: "Come respiro, core e pavimento pelvico lavorano insieme",
     text: "Con CORE 101 ogni video ha un perché. Capirai come respiro, pavimento pelvico e core profondo lavorano insieme - e potrai finalmente smettere di fare cose a caso sperando che funzionino.",
   },
 ];
 
 const BenefitsSection = () => {
   return (
-    <section className="py-20 lg:py-28 bg-background">
+    <section className="pt-20 lg:pt-28 bg-background">
       <div className="container mx-auto px-4 sm:px-6">
 
         <div
@@ -55,8 +55,7 @@ const BenefitsSection = () => {
             <span className="italic" style={{ color: VIOLET }}>Core 101</span>
           </h2>
           <p className="text-muted-foreground font-body leading-relaxed">
-            14 video dal vivo su Telegram per scoprire, capire e iniziare a
-            prenderti cura del tuo corpo - passo dopo passo, con dolcezza.
+            14 video sul pavimento pelvico in 2 settimane, con assistenza live su Telegram con Michela e Moreno.
             Inizia il{" "}
             <span className="font-semibold" style={{ color: RED }}>20 aprile</span>.
           </p>
@@ -92,7 +91,7 @@ const BenefitsSection = () => {
             Iscriviti gratis al training →
           </a>
           <p className="text-xs text-muted-foreground font-body mt-3">
-            ◇ Training live dal 20 aprile su Telegram - ◇ 100% gratuito
+            ◇ Training Gratuito su Telegram - dal 20 aprile - ◇ 100% gratuito
           </p>
         </div>
 

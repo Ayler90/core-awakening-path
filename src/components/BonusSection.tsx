@@ -31,7 +31,7 @@ const BonusSection = () => {
               className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold font-body border mb-6"
               style={{ backgroundColor: RED + "12", borderColor: RED + "30", color: RED }}
             >
-              ◆ Anteprima esclusiva
+              ◆ Bonus speciale per i partecipanti
             </span>
 
             <h2 className="text-3xl sm:text-4xl font-bold font-display text-foreground mb-5 leading-tight">

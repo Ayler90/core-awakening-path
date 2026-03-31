@@ -53,13 +53,13 @@ const SymptomsSection = () => {
                 color: "#bd4033",
               }}
             >
-              ◆ Training live su Telegram - 20 aprile
+              ◆ Training Gratuito su Telegram - inizia il 20 aprile
             </span>
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-display text-foreground mb-4 leading-tight">
               Ti suona familiare{" "}
               <span className="italic" style={{ color: "#bd4033" }}>
-                almeno una di queste?
+                una di queste situazioni?
               </span>
             </h2>
 
@@ -94,7 +94,7 @@ const SymptomsSection = () => {
               Voglio capire cosa succede nel mio corpo →
             </a>
             <p className="text-xs text-muted-foreground font-body mt-3">
-              ◇ Gratuito - ◇ Dal vivo su Telegram - ◇ Inizia il 20 aprile
+              ◇ Gratuito - ◇ Con assistenza live su Telegram - ◇ Inizia il 20 aprile
             </p>
           </div>
 
@@ -103,8 +103,8 @@ const SymptomsSection = () => {
           >
             <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/5]">
               <img
-                src="https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=800&q=80"
-                alt="Donna che vive i sintomi del pavimento pelvico nella vita quotidiana"
+                src="https://images.pexels.com/photos/7298668/pexels-photo-7298668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Donna che si prende cura del proprio corpo"
                 className="w-full h-full object-cover"
                 loading="lazy"
               />
