@@ -36,6 +36,7 @@ const steps = [
 
 const Grazie = () => {
   const [muted, setMuted] = useState(true);
+  const [showOverlay, setShowOverlay] = useState(true);
 
   const videoSrc = `https://www.youtube.com/embed/${WELCOME_VIDEO_ID}?autoplay=1&mute=${muted ? 1 : 0}&rel=0&controls=0`;
 
@@ -141,22 +142,22 @@ const Grazie = () => {
               />
             </div>
 
-            {/* Overlay trasparente: blocca tutti gli eventi mouse sull'iframe, impedendo l'apparizione dei controlli YouTube */}
-            <div
-              className="absolute inset-0 flex items-center justify-center"
-              style={{ backgroundColor: "transparent" }}
-            >
-              {muted && (
+            {/* Overlay: blocca hover YouTube finché non si clicca il pulsante audio */}
+            {showOverlay && (
+              <div
+                className="absolute inset-0 flex items-center justify-center"
+                style={{ backgroundColor: "transparent" }}
+              >
                 <button
-                  onClick={() => setMuted(false)}
+                  onClick={() => { setMuted(false); setShowOverlay(false); }}
                   className="flex items-center gap-2 px-5 py-2.5 rounded-full font-semibold font-body text-sm text-white shadow-lg transition-opacity hover:opacity-90"
                   style={{ backgroundColor: "#bd4033" }}
                 >
                   <Volume2 className="w-4 h-4" />
                   Clicca qui per ascoltare il video
                 </button>
-              )}
-            </div>
+              </div>
+            )}
           </div>
         </div>
       </section>
