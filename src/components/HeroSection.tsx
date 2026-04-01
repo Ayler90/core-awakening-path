@@ -94,9 +94,10 @@ const HeroSection = () => {
               />
             </div>
             <div className="absolute -bottom-4 -left-4 bg-background/95 backdrop-blur-sm rounded-xl p-4 shadow-md border border-border max-w-xs">
-              <p className="text-sm font-semibold text-foreground font-body leading-snug">
-                Problemi di pipì, difficoltà nei rapporti sessuali o senti che qualcosa non va? Il training fa per te
+              <p className="text-sm font-bold font-display leading-snug" style={{ color: "#bd4033" }}>
+                Problemi di pipì, difficoltà nei rapporti sessuali o senti che qualcosa non va?
               </p>
+              <p className="text-xs text-muted-foreground font-body mt-0.5">Il training fa per te</p>
             </div>
           </div>
 
