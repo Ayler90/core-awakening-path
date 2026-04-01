@@ -1,5 +1,8 @@
-import { Send, ClipboardList, CalendarPlus, CheckCircle2, Mail } from "lucide-react";
+import { useState } from "react";
+import { Send, ClipboardList, CalendarPlus, CheckCircle2, Mail, Volume2 } from "lucide-react";
 import Footer from "@/components/Footer";
+
+const WELCOME_VIDEO_ID = "8-m4nPExp78";
 
 const steps = [
   {
@@ -18,7 +21,7 @@ const steps = [
     description:
       "Aiutaci a conoscerti meglio! Rispondi a poche domande (anonime) sulla tua situazione attuale: ci permetterà di personalizzare il training e dedicare più spazio alle sfide più sentite.",
     cta: "Compila il questionario →",
-    href: "https://forms.gle/PLACEHOLDER",
+    href: "https://forms.gle/cCA6tkb5jRxbA6yP9",
   },
   {
     num: 3,
@@ -32,6 +35,10 @@ const steps = [
 ];
 
 const Grazie = () => {
+  const [muted, setMuted] = useState(true);
+
+  const videoSrc = `https://www.youtube.com/embed/${WELCOME_VIDEO_ID}?autoplay=1&mute=${muted ? 1 : 0}&rel=0`;
+
   return (
     <main>
       {/* Banner top */}
@@ -50,6 +57,7 @@ const Grazie = () => {
         </a>
         .
       </div>
+
       {/* Hero ringraziamento + video */}
       <section
         className="pt-8 pb-16 lg:pt-10 lg:pb-20 relative overflow-hidden"
@@ -108,37 +116,41 @@ const Grazie = () => {
             </div>
           </div>
 
-          {/* Video */}
+          {/* Video header */}
           <div>
             <h2 className="text-xl sm:text-2xl font-bold font-display text-foreground mb-2">
               Un messaggio per te
             </h2>
-            <p className="text-muted-foreground font-body text-sm mb-6">
+            <p className="text-muted-foreground font-body text-sm mb-4">
               Vogliamo darti il benvenuto all'interno del training che partirà il 20 aprile e spiegarti cosa faremo insieme.
             </p>
           </div>
         </div>
 
-        {/* Video allargato oltre il container del testo */}
-        <div
-          className="container mx-auto px-4 sm:px-6 relative z-10 max-w-5xl"
-        >
-          <div className="aspect-video rounded-2xl overflow-hidden bg-muted border border-border shadow-sm">
-            {/* Placeholder - sostituire con embed YouTube */}
-            <div className="w-full h-full flex items-center justify-center text-muted-foreground font-body text-sm">
-              <div className="text-center">
-                <div
-                  className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3"
-                  style={{ backgroundColor: "#bd403318" }}
-                >
-                  <svg viewBox="0 0 24 24" fill="#bd4033" className="w-7 h-7 ml-1">
-                    <path d="M8 5v14l11-7z" />
-                  </svg>
-                </div>
-                <p className="font-semibold text-foreground">Video di benvenuto</p>
-                <p className="text-xs mt-1">Inserisci qui l'embed del video</p>
-              </div>
+        {/* Video player */}
+        <div className="container mx-auto px-4 sm:px-6 relative z-10 max-w-5xl">
+          <div className="relative rounded-2xl overflow-hidden shadow-sm border border-border">
+            <div className="aspect-video">
+              <iframe
+                key={String(muted)}
+                src={videoSrc}
+                title="Messaggio di benvenuto"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full"
+              />
             </div>
+
+            {muted && (
+              <button
+                onClick={() => setMuted(false)}
+                className="absolute bottom-4 left-1/2 -translate-x-1/2 flex items-center gap-2 px-5 py-2.5 rounded-full font-semibold font-body text-sm text-white shadow-lg transition-opacity hover:opacity-90"
+                style={{ backgroundColor: "#bd4033" }}
+              >
+                <Volume2 className="w-4 h-4" />
+                Clicca qui per ascoltare il video
+              </button>
+            )}
           </div>
         </div>
       </section>
@@ -152,9 +164,7 @@ const Grazie = () => {
         }}
       >
         <div className="container mx-auto px-4 sm:px-6 max-w-3xl">
-          <div
-            className="text-center mb-14"
-          >
+          <div className="text-center mb-14">
             <h2 className="text-2xl sm:text-3xl font-bold font-display text-foreground mb-3">
               Ecco i tuoi prossimi passi
             </h2>

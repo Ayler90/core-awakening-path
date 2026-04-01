@@ -116,7 +116,7 @@ const ReviewsSection = () => {
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold font-body text-sm border-2 transition-all hover:opacity-80"
               style={{ borderColor: RED, color: RED }}
             >
-              Leggile tutte le altre recensioni ↓
+              Leggi tutte le altre recensioni ↓
             </button>
           </div>
         )}

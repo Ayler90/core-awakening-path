@@ -4,6 +4,7 @@ import HeroSection from "@/components/HeroSection";
 import HeroBenefits from "@/components/HeroBenefits";
 import InfiniteSlider from "@/components/InfiniteSlider";
 import RegistrationSection from "@/components/RegistrationSection";
+import VideoTestimonialsSection from "@/components/VideoTestimonialsSection";
 import SymptomsSection from "@/components/SymptomsSection";
 import PelvicFloorSection from "@/components/PelvicFloorSection";
 import BenefitsSection from "@/components/BenefitsSection";
@@ -40,6 +41,7 @@ const Index = () => {
       <HeroBenefits />
       <InfiniteSlider />
       <RegistrationSection />
+      <VideoTestimonialsSection />
       <SymptomsSection />
       <PelvicFloorSection />
       <BenefitsSection />
