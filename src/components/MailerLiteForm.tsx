@@ -52,9 +52,9 @@ const FORM_HTML = `
 #mlb2-39140121 .ml-form-checkboxRow label{font-weight:normal;margin:0;padding:0;position:relative;display:flex;align-items:flex-start;gap:8px;min-height:24px;cursor:pointer}
 #mlb2-39140121 .ml-form-checkboxRow label p{color:#ffffff!important;font-family:'Open Sans',Arial,Helvetica,sans-serif!important;font-size:12px!important;font-weight:normal!important;line-height:18px!important;padding:0!important;margin:0!important}
 #mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit{margin:0 0 20px;float:left;width:100%}
-#mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button{background-color:#6b5fa6!important;border:none!important;border-radius:50px!important;box-shadow:none!important;color:#fff!important;cursor:pointer;font-family:'Open Sans',Arial,Helvetica,sans-serif!important;font-size:15px!important;font-weight:700!important;line-height:21px!important;height:auto;padding:15px!important;width:100%!important;box-sizing:border-box!important;transition:box-shadow 0.25s ease,background-color 0.25s ease!important}
+#mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button{background-color:#F2E0DA!important;border:none!important;border-radius:50px!important;box-shadow:none!important;color:#bd4033!important;cursor:pointer;font-family:'Open Sans',Arial,Helvetica,sans-serif!important;font-size:15px!important;font-weight:700!important;line-height:21px!important;height:auto;padding:15px!important;width:100%!important;box-sizing:border-box!important;transition:box-shadow 0.25s ease,background-color 0.25s ease!important}
 #mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button.loading{display:none}
-#mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover{background-color:#5a4f96!important;box-shadow:0 6px 24px rgba(107,95,166,0.5)!important}
+#mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover{background-color:#e8cdc5!important;box-shadow:0 6px 24px rgba(189,64,51,0.25)!important}
 #mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions{text-align:left;float:left;width:100%}
 #mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsContent{margin:0 0 15px;text-align:left}
 #mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsContent p{color:#000;font-family:'Open Sans',Arial,Helvetica,sans-serif;font-size:12px;line-height:22px;margin:0 0 10px}
@@ -66,9 +66,9 @@ const FORM_HTML = `
 #mlb2-39140121 .ml-form-embedWrapper{background-color:transparent!important;border-radius:0!important;padding:0!important}
 #mlb2-39140121 .ml-form-embedBody,
 #mlb2-39140121 .ml-form-successBody{padding:0!important}
-#mlb2-39140121 .ml-form-embedSubmit button.primary{background-color:#6b5fa6!important;color:#fff!important;font-size:15px!important;padding:15px!important;border-radius:50px!important;transition:box-shadow 0.25s ease,background-color 0.25s ease!important}
+#mlb2-39140121 .ml-form-embedSubmit button.primary{background-color:#F2E0DA!important;color:#bd4033!important;font-size:15px!important;padding:15px!important;border-radius:50px!important;transition:box-shadow 0.25s ease,background-color 0.25s ease!important}
 #mlb2-39140121 .ml-form-embedSubmit button.primary::after{content:' →';display:inline-block;transition:transform 0.25s ease}
-#mlb2-39140121 .ml-form-embedSubmit button.primary:hover{background-color:#5a4f96!important;box-shadow:0 6px 24px rgba(107,95,166,0.5)!important}
+#mlb2-39140121 .ml-form-embedSubmit button.primary:hover{background-color:#e8cdc5!important;box-shadow:0 6px 24px rgba(189,64,51,0.25)!important}
 #mlb2-39140121 .ml-form-embedSubmit button.primary:hover::after{transform:translateX(5px)}
 #mlb2-39140121 .ml-form-embedPermissionsContent p,
 #mlb2-39140121 .ml-form-embedPermissionsContent p a{color:rgba(255,255,255,0.88)!important}
