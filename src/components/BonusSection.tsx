@@ -93,8 +93,8 @@ const BonusSection = () => {
               className="absolute -bottom-5 -right-4 rounded-xl p-4 shadow-lg border"
               style={{ backgroundColor: "hsl(30 25% 97%)", borderColor: RED + "20" }}
             >
-              <p className="font-bold font-display text-sm" style={{ color: RED }}>Michela & Moreno</p>
-              <p className="text-xs text-muted-foreground font-body">OfficinaMM</p>
+              <p className="font-bold font-display text-sm" style={{ color: RED }}>Bonus speciale</p>
+              <p className="text-xs text-muted-foreground font-body">solo per i partecipanti</p>
             </div>
           </div>
 
