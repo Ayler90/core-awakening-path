@@ -35,10 +35,10 @@ const steps = [
 ];
 
 const Grazie = () => {
-  const [muted, setMuted] = useState(true);
-  const [showOverlay, setShowOverlay] = useState(true);
+  const [playing, setPlaying] = useState(false);
 
-  const videoSrc = `https://www.youtube.com/embed/${WELCOME_VIDEO_ID}?autoplay=1&mute=${muted ? 1 : 0}&rel=0&controls=0&playsinline=1`;
+  const videoSrc = `https://www.youtube.com/embed/${WELCOME_VIDEO_ID}?autoplay=1&rel=0&playsinline=1`;
+  const thumbSrc = `https://img.youtube.com/vi/${WELCOME_VIDEO_ID}/maxresdefault.jpg`;
 
   return (
     <main>
@@ -131,35 +131,35 @@ const Grazie = () => {
         {/* Video player */}
         <div className="container mx-auto px-4 sm:px-6 relative z-10 max-w-5xl">
           <div className="relative rounded-2xl overflow-hidden shadow-sm border border-border">
-            <div className="aspect-video">
-              <iframe
-                key={String(muted)}
-                src={videoSrc}
-                title="Messaggio di benvenuto"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="w-full h-full"
-              />
+            <div className="aspect-video bg-black">
+              {playing ? (
+                <iframe
+                  src={videoSrc}
+                  title="Messaggio di benvenuto"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                />
+              ) : (
+                <>
+                  <img
+                    src={thumbSrc}
+                    alt="Video di benvenuto"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center bg-black/20">
+                    <button
+                      onClick={() => setPlaying(true)}
+                      className="flex items-center gap-2 px-5 py-2.5 rounded-full font-semibold font-body text-sm text-white shadow-lg transition-opacity hover:opacity-90"
+                      style={{ backgroundColor: "#bd4033" }}
+                    >
+                      <Volume2 className="w-4 h-4" />
+                      Clicca qui per ascoltare il video
+                    </button>
+                  </div>
+                </>
+              )}
             </div>
-
-            {/* Overlay: blocca hover YouTube finché non si clicca il pulsante audio */}
-            {showOverlay && (
-              <div
-                className="absolute inset-0 flex items-center justify-center"
-                style={{ backgroundColor: "transparent" }}
-                onTouchStart={(e) => e.stopPropagation()}
-                onClick={(e) => e.stopPropagation()}
-              >
-                <button
-                  onClick={() => { setMuted(false); setShowOverlay(false); }}
-                  className="flex items-center gap-2 px-5 py-2.5 rounded-full font-semibold font-body text-sm text-white shadow-lg transition-opacity hover:opacity-90"
-                  style={{ backgroundColor: "#bd4033" }}
-                >
-                  <Volume2 className="w-4 h-4" />
-                  Clicca qui per ascoltare il video
-                </button>
-              </div>
-            )}
           </div>
         </div>
       </section>
