@@ -37,7 +37,7 @@ const steps = [
 const Grazie = () => {
   const [muted, setMuted] = useState(true);
 
-  const videoSrc = `https://www.youtube.com/embed/${WELCOME_VIDEO_ID}?autoplay=1&mute=${muted ? 1 : 0}&rel=0`;
+  const videoSrc = `https://www.youtube.com/embed/${WELCOME_VIDEO_ID}?autoplay=1&mute=${muted ? 1 : 0}&rel=0&controls=0`;
 
   return (
     <main>
@@ -144,7 +144,7 @@ const Grazie = () => {
             {muted && (
               <button
                 onClick={() => setMuted(false)}
-                className="absolute bottom-4 left-1/2 -translate-x-1/2 flex items-center gap-2 px-5 py-2.5 rounded-full font-semibold font-body text-sm text-white shadow-lg transition-opacity hover:opacity-90"
+                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center gap-2 px-5 py-2.5 rounded-full font-semibold font-body text-sm text-white shadow-lg transition-opacity hover:opacity-90"
                 style={{ backgroundColor: "#bd4033" }}
               >
                 <Volume2 className="w-4 h-4" />
