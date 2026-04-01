@@ -167,10 +167,10 @@ const MailerLiteForm = () => {
     (window as any).ml_webform_success_39140121 = function () {
       try {
         (window.top as Window).location.href =
-          "https://officinamm.systeme.io/sei-dentro-training";
+          "https://core101.officinamm.com/grazie";
       } catch {
         window.location.href =
-          "https://officinamm.systeme.io/sei-dentro-training";
+          "https://core101.officinamm.com/grazie";
       }
     };
 

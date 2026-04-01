@@ -38,7 +38,7 @@ const Grazie = () => {
   const [muted, setMuted] = useState(true);
   const [showOverlay, setShowOverlay] = useState(true);
 
-  const videoSrc = `https://www.youtube.com/embed/${WELCOME_VIDEO_ID}?autoplay=1&mute=${muted ? 1 : 0}&rel=0&controls=0`;
+  const videoSrc = `https://www.youtube.com/embed/${WELCOME_VIDEO_ID}?autoplay=1&mute=${muted ? 1 : 0}&rel=0&controls=0&playsinline=1`;
 
   return (
     <main>
@@ -147,6 +147,8 @@ const Grazie = () => {
               <div
                 className="absolute inset-0 flex items-center justify-center"
                 style={{ backgroundColor: "transparent" }}
+                onTouchStart={(e) => e.stopPropagation()}
+                onClick={(e) => e.stopPropagation()}
               >
                 <button
                   onClick={() => { setMuted(false); setShowOverlay(false); }}
