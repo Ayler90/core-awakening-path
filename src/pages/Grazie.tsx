@@ -141,16 +141,22 @@ const Grazie = () => {
               />
             </div>
 
-            {muted && (
-              <button
-                onClick={() => setMuted(false)}
-                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center gap-2 px-5 py-2.5 rounded-full font-semibold font-body text-sm text-white shadow-lg transition-opacity hover:opacity-90"
-                style={{ backgroundColor: "#bd4033" }}
-              >
-                <Volume2 className="w-4 h-4" />
-                Clicca qui per ascoltare il video
-              </button>
-            )}
+            {/* Overlay trasparente: blocca tutti gli eventi mouse sull'iframe, impedendo l'apparizione dei controlli YouTube */}
+            <div
+              className="absolute inset-0 flex items-center justify-center"
+              style={{ backgroundColor: "transparent" }}
+            >
+              {muted && (
+                <button
+                  onClick={() => setMuted(false)}
+                  className="flex items-center gap-2 px-5 py-2.5 rounded-full font-semibold font-body text-sm text-white shadow-lg transition-opacity hover:opacity-90"
+                  style={{ backgroundColor: "#bd4033" }}
+                >
+                  <Volume2 className="w-4 h-4" />
+                  Clicca qui per ascoltare il video
+                </button>
+              )}
+            </div>
           </div>
         </div>
       </section>
