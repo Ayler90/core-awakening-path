@@ -47,7 +47,11 @@ const NavBar = ({ showCountdown = false }: NavBarProps) => {
       <div className="container mx-auto px-4 sm:px-6 h-16 flex items-center">
         {/* Logo - sinistra */}
         <div className={`font-display font-bold text-xl text-foreground ${showCountdown ? "flex-1" : ""}`}>
-          Officina<span style={{ color: "#bd4033" }}>.MM</span>
+          <img
+            src="https://static.wixstatic.com/media/40e4ee_7aa4963c885049e4b63f3cfa4accce2a~mv2.png/v1/fill/w_102,h_196,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Ese%20Logo%20Officina%20MM-educa%20allena%20riabilita_png%202.png"
+            alt="Officina.MM"
+            className="h-10 w-auto object-contain"
+          />
         </div>
 
         {/* Countdown - centro (solo desktop, solo se showCountdown) */}

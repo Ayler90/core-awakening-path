@@ -13,7 +13,7 @@ const items = [
   "◇ Esercizi guidati dal vivo",
   "◆ Inizia il 20 aprile",
   "◇ Pavimento pelvico · Diastasi · Core profondo",
-  "◆ Training live su Telegram",
+  "◆ Training Gratuito su Telegram",
   "◇ Inizia il 20 aprile",
 ];
 

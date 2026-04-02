@@ -38,7 +38,7 @@ const PelvicFloorSection = () => {
                 Il <strong>pavimento pelvico</strong> è un insieme di muscoli che
                 si trova alla base del bacino. È come un'{" "}
                 <em style={{ color: "#bd4033" }}>amaca</em> che sostiene i tuoi
-                organi interni - vescica, utero, intestino.
+                organi pelvici - vescica, utero o prostata, intestino.
               </p>
               <p className="text-muted-foreground font-body leading-relaxed">
                 Quando funziona bene, non ci pensi nemmeno. Ma quando qualcosa non

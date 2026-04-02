@@ -103,7 +103,7 @@ const SymptomsSection = () => {
           >
             <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/5]">
               <img
-                src="https://images.pexels.com/photos/7298668/pexels-photo-7298668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://static.wixstatic.com/media/40e4ee_099ddad35f02472f98e0cd77f22c89a0~mv2.png"
                 alt="Donna che si prende cura del proprio corpo"
                 className="w-full h-full object-cover"
                 loading="lazy"
@@ -113,7 +113,7 @@ const SymptomsSection = () => {
               className="absolute -bottom-5 -right-4 rounded-xl p-4 shadow-lg border border-white/20"
               style={{ backgroundColor: "#bd4033" }}
             >
-              <p className="text-white font-semibold font-body text-sm">+300 donnə</p>
+              <p className="text-white font-semibold font-body text-sm">+300 persone</p>
               <p className="text-white/80 font-body text-xs">hanno già partecipato</p>
             </div>
           </div>

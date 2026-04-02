@@ -6,7 +6,7 @@ const teachers = [
     photo: "https://static.wixstatic.com/media/40e4ee_5975f0a365f8489185bace7f83a0dca2~mv2.jpg/v1/crop/x_0,y_60,w_960,h_1038/fill/w_746,h_694,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Foto%20Michi.jpg",
     role: "Esperta in Pavimento Pelvico e Core",
     bio: [
-      "Dott.ssa in Educazione Professionale socio-sanitaria ed Educazione Sessuale.",
+      "Dott.ssa in Educazione Professionale ed Educazione Sessuale.",
       "Personal Trainer esperta nel movimento in gravidanza e post parto.",
     ],
     description:
@@ -15,9 +15,9 @@ const teachers = [
   {
     name: "Moreno",
     photo: "https://static.wixstatic.com/media/40e4ee_c1421113ec974ee187a7e6c7198798de~mv2.jpg/v1/crop/x_0,y_204,w_960,h_977/fill/w_746,h_694,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Foto%20Mori.jpg",
-    role: "Specialista in Movimento Funzionale",
+    role: "Infermiere e specialista in Movimento Funzionale",
     bio: [
-      "Dott. Infermiere esperto in Riabilitazione pelvi-perineale.",
+      "Dott. in Infermieristica esperto in Riabilitazione pelvi-perineale.",
       "CrossTraining Coach esperto in gravidanza e post parto.",
     ],
     description:
@@ -37,12 +37,12 @@ const TeachersSection = () => {
             className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold font-body border mb-6"
             style={{ backgroundColor: RED + "12", borderColor: RED + "30", color: RED }}
           >
-            ◆ Dal vivo su Telegram - dal 20 aprile
+            ◆ Training Gratuito su Telegram - dal 20 aprile
           </span>
 
           <h2 className="text-3xl sm:text-4xl font-bold font-display text-foreground mb-4 leading-tight">
             Ecco chi ti guiderà nel{" "}
-            <span className="italic" style={{ color: RED }}>training live</span>
+            <span className="italic" style={{ color: RED }}>training gratuito</span>
           </h2>
           <p className="text-muted-foreground font-body leading-relaxed">
             Due professionisti che hanno aiutato centinaia di persone a ritrovare il contatto con il proprio corpo.

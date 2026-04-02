@@ -8,7 +8,7 @@ const benefits = [
     icon: <Droplets className="w-5 h-5" />,
     color: RED,
     title: "Come ridurre le perdite di pipì nella vita quotidiana",
-    text: "Nel training capirai perché succede davvero - non è inevitabile - e inizierai a lavorare sulla coordinazione tra respiro, pavimento pelvico e core per ridurre le perdite nella vita quotidiana.",
+    text: "Nel training capirai perché succede davvero e inizierai a lavorare sulla coordinazione tra respiro, pavimento pelvico e core per ridurre le perdite nella vita quotidiana.",
   },
   {
     icon: <Weight className="w-5 h-5" />,

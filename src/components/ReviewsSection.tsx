@@ -12,7 +12,7 @@ const reviews = [
   "https://static.wixstatic.com/media/40e4ee_ac44822aea314c8f96979b6f511748da~mv2.jpg",
   "https://static.wixstatic.com/media/40e4ee_08fceb317ba1424b9b5eeb163d2f86df~mv2.jpg",
   "https://static.wixstatic.com/media/40e4ee_9fca9dedca28462ea95c56be11b3728e~mv2.jpg",
-  "https://static.wixstatic.com/media/40e4ee_c9a4c60a26834b7baf16e700bcd0701f~mv2.jpeg",
+  "https://static.wixstatic.com/media/40e4ee_e85b50f186924317b29f132024097d97~mv2.png",
   "https://static.wixstatic.com/media/40e4ee_0ff5c54a7be5472c944fe8cd7f27a17f~mv2.jpeg",
   "https://static.wixstatic.com/media/40e4ee_89afd747e9854ecdb26ede98b1655b34~mv2.jpg",
   "https://static.wixstatic.com/media/40e4ee_51be0b613ed34d75b6148a1fee19a18c~mv2.jpeg",

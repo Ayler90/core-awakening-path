@@ -14,11 +14,11 @@ const faqs = [
   },
   {
     q: "Devo avere esperienza con gli esercizi?",
-    a: "No. CORE 101 è pensato per chi parte da zero. I video sono progressivi, guidati passo dopo passo, e accessibili anche se non ti sei mai allenata o non sai da dove iniziare.",
+    a: "No. CORE 101 è pensato per chi parte da zero. I video sono progressivi, guidati passo dopo passo, e accessibili anche se non ti sei mai allenatə o non sai da dove iniziare.",
   },
   {
     q: "Posso partecipare se sono ancora in gravidanza?",
-    a: "Sì. I contenuti sono pensati anche per chi è in gravidanza, sempre con un approccio sicuro e rispettoso del corpo. In caso di dubbi specifici, ti consigliamo di confrontarti con il tuo medico.",
+    a: "Sì. I contenuti sono pensati anche per chi è in gravidanza, sempre con un approccio sicuro e rispettoso del corpo. In caso di dubbi specifici, puoi confrontarti con noi e/o con la tua persona sanitariə di riferimento.",
   },
   {
     q: "Quanto tempo devo dedicarci ogni giorno?",

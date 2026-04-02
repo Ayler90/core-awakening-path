@@ -54,9 +54,9 @@ const BonusSection = () => {
                 🎁 Bonus speciale per chi partecipa al training live
               </p>
               <p className="text-sm font-body text-muted-foreground leading-relaxed">
-                Chi segue CORE 101 dal vivo su Telegram avrà accesso a un{" "}
+                Chi segue il training gratuito CORE 101 su Telegram avrà accesso a un{" "}
                 <strong style={{ color: RED }}>bonus esclusivo</strong>{" "}
-                riservato solo ai partecipanti del training. I dettagli verranno svelati durante il percorso!
+                riservato solo alle persone che partecipano al training. I dettagli verranno svelati durante il percorso!
               </p>
             </div>
 
@@ -94,7 +94,7 @@ const BonusSection = () => {
               style={{ backgroundColor: "hsl(30 25% 97%)", borderColor: RED + "20" }}
             >
               <p className="font-bold font-display text-sm" style={{ color: RED }}>Bonus speciale</p>
-              <p className="text-xs text-muted-foreground font-body">solo per i partecipanti</p>
+              <p className="text-xs text-muted-foreground font-body">solo per chi partecipa</p>
             </div>
           </div>
 
