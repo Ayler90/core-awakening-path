@@ -9,7 +9,7 @@ const symptoms = [
     icon: "◆",
     title: "Sensazione di pesantezza o pressione",
     description:
-      "Quella sensazione che qualcosa prema verso il basso nella zona pelvica - a fine giornata o dopo essere stata in piedi a lungo.",
+      "Quella sensazione che qualcosa prema verso il basso nella zona pelvica - a fine giornata o dopo essere statə in piedi a lungo.",
   },
   {
     icon: "◆",
@@ -21,7 +21,7 @@ const symptoms = [
     icon: "◆",
     title: "Difficoltà a trattenere lo stimolo",
     description:
-      "Devi correre in bagno appena senti lo stimolo, senza riuscire ad aspettare. O al contrario, fai fatica ad andare.",
+      "Devi correre in bagno appena senti lo stimolo, senza riuscire ad aspettare. O al contrario, fai fatica ad andare e devi spingere.",
   },
   {
     icon: "◆",
@@ -94,7 +94,7 @@ const SymptomsSection = () => {
               Voglio capire cosa succede nel mio corpo →
             </a>
             <p className="text-xs text-muted-foreground font-body mt-3">
-              ◇ Gratuito - ◇ Con assistenza live su Telegram - ◇ Inizia il 20 aprile
+              ◇ Gratuito - ◇ Un video al giorno su Telegram - ◇ Inizia il 20 aprile
             </p>
           </div>
 

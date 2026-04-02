@@ -20,7 +20,7 @@ const Footer = () => {
               Contattaci
             </p>
             <p className="text-sm font-semibold font-body" style={{ color: "#bd4033" }}>
-              Officina M.M
+              Officina.MM
             </p>
             <p className="text-sm text-muted-foreground font-body">
               Contattaci per prendere un appuntamento con noi
@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
 
         <p className="text-center text-xs text-muted-foreground font-body mt-10">
-          © 2026 by Officina M.M, Michela Imperio e Resnati Moreno
+          © 2026 by Officina.MM, Michela Imperio e Moreno Resnati
         </p>
       </div>
     </footer>

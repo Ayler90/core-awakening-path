@@ -47,7 +47,7 @@ const NavBar = ({ showCountdown = false }: NavBarProps) => {
       <div className="container mx-auto px-4 sm:px-6 h-16 flex items-center">
         {/* Logo - sinistra */}
         <div className={`font-display font-bold text-xl text-foreground ${showCountdown ? "flex-1" : ""}`}>
-          Officina<span style={{ color: "#bd4033" }}>MM</span>
+          Officina<span style={{ color: "#bd4033" }}>.MM</span>
         </div>
 
         {/* Countdown - centro (solo desktop, solo se showCountdown) */}

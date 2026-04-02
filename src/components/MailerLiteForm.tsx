@@ -102,7 +102,7 @@ const FORM_HTML = `
             <label class="checkbox">
               <input type="checkbox" id="ml-checkbox-39140121">
               <div class="label-description">
-                <p>Voglio ricevere comunicazioni relative al Training Live*</p>
+                <p>Voglio ricevere comunicazioni relative al Training Gratuito*</p>
               </div>
             </label>
           </div>

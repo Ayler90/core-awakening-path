@@ -53,7 +53,7 @@ const HeroSection = () => {
               <strong className="text-foreground">CORE 101</strong> è un training
               gratuito di{" "}
               <strong className="text-foreground">
-                2 settimane con 14 video sul pavimento pelvico
+                2 settimane con 14 video, uno al giorno, sul pavimento pelvico
               </strong>
               , con assistenza live su Telegram con Michela e Moreno - per capire
               cosa succede nel tuo corpo e iniziare a prendertene cura, con dolcezza

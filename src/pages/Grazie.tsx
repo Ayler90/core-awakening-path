@@ -10,7 +10,7 @@ const steps = [
     icon: Send,
     title: "Entra nel canale Telegram",
     description:
-      "Il training si svolge sul nostro canale Telegram. Entra subito per non perderti nulla: lì troverai tutti i video, gli esercizi e il supporto diretto di Michela e Moreno.",
+      "Il training si svolge nel nostro canale Telegram, con un video al giorno e la nostra presenza quotidiana in chat. Clicca qui sotto per accedere.",
     cta: "Entra nel canale Telegram →",
     href: "https://t.me/+Cg5q-RPnxH03ZWFk",
   },

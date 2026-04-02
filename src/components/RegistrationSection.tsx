@@ -43,7 +43,7 @@ const RegistrationSection = () => {
 
               <div className="grid grid-cols-2 gap-3 mb-8">
                 {[
-                  { icon: <Video className="w-3.5 h-3.5" />, text: "14 video guidati" },
+                  { icon: <Video className="w-3.5 h-3.5" />, text: "14 video giornalieri" },
                   { icon: <MessageCircle className="w-3.5 h-3.5" />, text: "Canale Telegram dedicato" },
                   { icon: <Calendar className="w-3.5 h-3.5" />, text: "Inizia il 20 aprile" },
                   { icon: <Users className="w-3.5 h-3.5" />, text: "100% gratuito" },
@@ -78,7 +78,7 @@ const RegistrationSection = () => {
                 style={{ backgroundColor: "hsl(30 25% 97%)", borderColor: "#bd403320" }}
               >
                 <p className="font-bold font-display text-sm" style={{ color: "#bd4033" }}>Michela & Moreno</p>
-                <p className="text-xs text-muted-foreground font-body">OfficinaMM - Training Gratuito su Telegram</p>
+                <p className="text-xs text-muted-foreground font-body">Officina.MM - Training Gratuito su Telegram</p>
               </div>
             </div>
 
