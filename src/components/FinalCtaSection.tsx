@@ -5,7 +5,7 @@ const FinalCtaSection = () => {
     <section
       className="py-24 lg:py-32 relative overflow-hidden"
       style={{
-        background: "linear-gradient(135deg, #4a4580 0%, #6b5fa6 60%, #5a4f96 100%)",
+        background: "linear-gradient(135deg, #4a4580 0%, #61438C 60%, #52398a 100%)",
       }}
     >
       <div

@@ -1,6 +1,6 @@
 import { Video, MessageCircle, CalendarDays } from "lucide-react";
 
-const RED = "#bd4033";
+const RED = "#AF2B43";
 
 const features = [
   {

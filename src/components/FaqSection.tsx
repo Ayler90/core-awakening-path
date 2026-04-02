@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 
-const RED = "#bd4033";
+const RED = "#AF2B43";
 
 const faqs = [
   {

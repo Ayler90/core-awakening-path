@@ -45,7 +45,7 @@ const Grazie = () => {
       {/* Banner top */}
       <div
         className="w-full py-3 px-4 text-center text-white font-body font-semibold text-sm sm:text-base"
-        style={{ backgroundColor: "#bd4033" }}
+        style={{ backgroundColor: "#AF2B43" }}
       >
         Sei dentro!{" "}
         <a
@@ -69,22 +69,22 @@ const Grazie = () => {
       >
         <div
           className="absolute top-0 right-0 w-96 h-96 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"
-          style={{ backgroundColor: "#bd403314" }}
+          style={{ backgroundColor: "#AF2B4314" }}
         />
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10 max-w-3xl text-center">
           <div>
             <div
               className="inline-flex items-center justify-center w-16 h-16 rounded-full mb-5"
-              style={{ backgroundColor: "#bd403318" }}
+              style={{ backgroundColor: "#AF2B4318" }}
             >
-              <CheckCircle2 className="w-8 h-8" style={{ color: "#bd4033" }} />
+              <CheckCircle2 className="w-8 h-8" style={{ color: "#AF2B43" }} />
             </div>
 
             <h1 className="text-3xl sm:text-5xl font-bold font-display leading-tight text-foreground mb-4">
               Complimenti! 🎉
               <br />
-              <span className="italic" style={{ color: "#bd4033" }}>
+              <span className="italic" style={{ color: "#AF2B43" }}>
                 Il tuo posto è confermato
               </span>
             </h1>
@@ -104,11 +104,11 @@ const Grazie = () => {
             <div
               className="inline-flex items-center gap-3 px-6 py-4 rounded-xl border text-left max-w-md mx-auto mb-10"
               style={{
-                backgroundColor: "#bd403310",
-                borderColor: "#bd403330",
+                backgroundColor: "#AF2B4310",
+                borderColor: "#AF2B4330",
               }}
             >
-              <Mail className="w-5 h-5 shrink-0" style={{ color: "#bd4033" }} />
+              <Mail className="w-5 h-5 shrink-0" style={{ color: "#AF2B43" }} />
               <p className="text-sm font-body text-foreground">
                 <strong>Non trovi l'email?</strong> Controlla nelle cartelle{" "}
                 <strong>Spam</strong> e <strong>Promozioni</strong> e, se la trovi lì,
@@ -151,7 +151,7 @@ const Grazie = () => {
                     <button
                       onClick={() => setPlaying(true)}
                       className="flex items-center gap-2 px-5 py-2.5 rounded-full font-semibold font-body text-sm text-white shadow-lg transition-opacity hover:opacity-90"
-                      style={{ backgroundColor: "#bd4033" }}
+                      style={{ backgroundColor: "#AF2B43" }}
                     >
                       <Volume2 className="w-4 h-4" />
                       Clicca qui per ascoltare il video
@@ -191,14 +191,14 @@ const Grazie = () => {
                 <div className="flex items-start gap-5">
                   <div
                     className="shrink-0 w-12 h-12 rounded-full flex items-center justify-center font-display font-bold text-lg text-white"
-                    style={{ backgroundColor: "#bd4033" }}
+                    style={{ backgroundColor: "#AF2B43" }}
                   >
                     {step.num}
                   </div>
 
                   <div className="flex-1">
                     <h3 className="text-lg font-bold font-display text-foreground mb-2 flex items-center gap-2">
-                      <step.icon className="w-4 h-4" style={{ color: "#bd4033" }} />
+                      <step.icon className="w-4 h-4" style={{ color: "#AF2B43" }} />
                       {step.title}
                     </h3>
                     <p className="text-muted-foreground font-body text-sm leading-relaxed mb-4">
@@ -209,7 +209,7 @@ const Grazie = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 px-6 py-3 rounded-lg text-white font-semibold font-body text-sm transition-all hover:opacity-90 shadow-sm"
-                      style={{ backgroundColor: "#bd4033" }}
+                      style={{ backgroundColor: "#AF2B43" }}
                     >
                       {step.cta}
                     </a>

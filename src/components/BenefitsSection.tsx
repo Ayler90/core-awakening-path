@@ -1,7 +1,7 @@
 import { Droplets, Weight, CircleDashed, Zap, Heart, Eye } from "lucide-react";
 
-const RED = "#bd4033";
-const VIOLET = "#6b5fa6";
+const RED = "#AF2B43";
+const VIOLET = "#61438C";
 
 const benefits = [
   {

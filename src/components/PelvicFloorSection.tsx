@@ -10,9 +10,9 @@ const PelvicFloorSection = () => {
             <span
               className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold font-body border mb-6"
               style={{
-                backgroundColor: "#bd403312",
-                borderColor: "#bd403330",
-                color: "#bd4033",
+                backgroundColor: "#AF2B4312",
+                borderColor: "#AF2B4330",
+                color: "#AF2B43",
               }}
             >
               ◆ Training Gratuito su Telegram - inizia il 20 aprile
@@ -20,7 +20,7 @@ const PelvicFloorSection = () => {
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-display text-foreground mb-4 leading-tight">
               La causa si chiama{" "}
-              <span className="italic" style={{ color: "#bd4033" }}>
+              <span className="italic" style={{ color: "#AF2B43" }}>
                 pavimento pelvico
               </span>
             </h2>
@@ -37,7 +37,7 @@ const PelvicFloorSection = () => {
               <p className="text-foreground font-body leading-relaxed text-lg mb-4">
                 Il <strong>pavimento pelvico</strong> è un insieme di muscoli che
                 si trova alla base del bacino. È come un'{" "}
-                <em style={{ color: "#bd4033" }}>amaca</em> che sostiene i tuoi
+                <em style={{ color: "#AF2B43" }}>amaca</em> che sostiene i tuoi
                 organi pelvici - vescica, utero o prostata, intestino.
               </p>
               <p className="text-muted-foreground font-body leading-relaxed">
@@ -67,7 +67,7 @@ const PelvicFloorSection = () => {
 
             <div
               className="rounded-2xl p-6 lg:p-8 border text-center"
-              style={{ backgroundColor: "#bd403310", borderColor: "#bd403330" }}
+              style={{ backgroundColor: "#AF2B4310", borderColor: "#AF2B4330" }}
             >
               <p className="text-foreground font-display font-bold text-xl mb-2">
                 Vuoi iniziare a prenderti cura del tuo pavimento pelvico?
@@ -78,7 +78,7 @@ const PelvicFloorSection = () => {
               <a
                 href="#iscrizione"
                 className="inline-flex items-center gap-2 px-7 py-3.5 rounded-lg text-white font-semibold font-body shadow-sm hover:opacity-90 transition-all"
-                style={{ backgroundColor: "#bd4033" }}
+                style={{ backgroundColor: "#AF2B43" }}
               >
                 Iscriviti al training gratuito →
               </a>

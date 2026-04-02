@@ -1,6 +1,6 @@
 import { Video, MessageCircle, Calendar, Users } from "lucide-react";
 
-const RED = "#bd4033";
+const RED = "#AF2B43";
 
 const benefits = [
   { icon: <Video className="w-6 h-6" />, text: "14 video guidati in 2 settimane" },

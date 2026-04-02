@@ -48,7 +48,7 @@ const NavBar = ({ showCountdown = false }: NavBarProps) => {
         {/* Logo - sinistra */}
         <div className={`font-display font-bold text-xl text-foreground ${showCountdown ? "flex-1" : ""}`}>
           <img
-            src="https://static.wixstatic.com/media/40e4ee_7aa4963c885049e4b63f3cfa4accce2a~mv2.png/v1/fill/w_102,h_196,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Ese%20Logo%20Officina%20MM-educa%20allena%20riabilita_png%202.png"
+            src="https://static.wixstatic.com/media/40e4ee_3fabf91ebc5d418ca1c0be0173f4b3f9~mv2.png"
             alt="Officina.MM"
             className="h-10 w-auto object-contain"
           />
@@ -60,7 +60,7 @@ const NavBar = ({ showCountdown = false }: NavBarProps) => {
             <span className="text-[11px] text-muted-foreground font-body leading-none mb-0.5">
               Il training inizia tra
             </span>
-            <span className="text-sm font-bold font-body tabular-nums" style={{ color: "#bd4033" }}>
+            <span className="text-sm font-bold font-body tabular-nums" style={{ color: "#AF2B43" }}>
               {timeLeft.days}g {pad(timeLeft.hours)}h {pad(timeLeft.minutes)}m {pad(timeLeft.seconds)}s
             </span>
           </div>
@@ -71,7 +71,7 @@ const NavBar = ({ showCountdown = false }: NavBarProps) => {
           <a
             href="#iscrizione"
             className="px-3 py-2 rounded-lg text-xs sm:text-sm sm:px-5 sm:py-2.5 font-semibold font-body text-white transition-all hover:opacity-90 whitespace-nowrap"
-            style={{ backgroundColor: "#bd4033" }}
+            style={{ backgroundColor: "#AF2B43" }}
           >
             Voglio partecipare →
           </a>
@@ -84,7 +84,7 @@ const NavBar = ({ showCountdown = false }: NavBarProps) => {
           <span className="text-[11px] text-muted-foreground font-body leading-none mb-0.5">
             Il training inizia tra
           </span>
-          <span className="text-sm font-bold font-body tabular-nums" style={{ color: "#bd4033" }}>
+          <span className="text-sm font-bold font-body tabular-nums" style={{ color: "#AF2B43" }}>
             {timeLeft.days}g {pad(timeLeft.hours)}h {pad(timeLeft.minutes)}m {pad(timeLeft.seconds)}s
           </span>
         </div>

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Star, X } from "lucide-react";
 
-const RED = "#bd4033";
+const RED = "#AF2B43";
 
 const reviews = [
   "https://static.wixstatic.com/media/40e4ee_ac844cd9c7d34870a3750067c2f66974~mv2.jpg",

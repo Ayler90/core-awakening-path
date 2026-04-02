@@ -48,9 +48,9 @@ const SymptomsSection = () => {
             <span
               className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold font-body border mb-6"
               style={{
-                backgroundColor: "#bd403312",
-                borderColor: "#bd403330",
-                color: "#bd4033",
+                backgroundColor: "#AF2B4312",
+                borderColor: "#AF2B4330",
+                color: "#AF2B43",
               }}
             >
               ◆ Training Gratuito su Telegram - inizia il 20 aprile
@@ -58,7 +58,7 @@ const SymptomsSection = () => {
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-display text-foreground mb-4 leading-tight">
               Ti suona familiare{" "}
-              <span className="italic" style={{ color: "#bd4033" }}>
+              <span className="italic" style={{ color: "#AF2B43" }}>
                 una di queste situazioni?
               </span>
             </h2>
@@ -75,7 +75,7 @@ const SymptomsSection = () => {
                   key={i}
                   className="flex gap-3 p-4 rounded-xl border border-border bg-card"
                 >
-                  <span className="text-sm mt-0.5 shrink-0 font-bold" style={{ color: "#bd4033" }}>
+                  <span className="text-sm mt-0.5 shrink-0 font-bold" style={{ color: "#AF2B43" }}>
                     {s.icon}
                   </span>
                   <div>
@@ -89,7 +89,7 @@ const SymptomsSection = () => {
             <a
               href="#iscrizione"
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-lg text-white font-semibold font-body shadow-sm hover:opacity-90 transition-all"
-              style={{ backgroundColor: "#bd4033" }}
+              style={{ backgroundColor: "#AF2B43" }}
             >
               Voglio capire cosa succede nel mio corpo →
             </a>
@@ -111,7 +111,7 @@ const SymptomsSection = () => {
             </div>
             <div
               className="absolute -bottom-5 -right-4 rounded-xl p-4 shadow-lg border border-white/20"
-              style={{ backgroundColor: "#bd4033" }}
+              style={{ backgroundColor: "#AF2B43" }}
             >
               <p className="text-white font-semibold font-body text-sm">+300 persone</p>
               <p className="text-white/80 font-body text-xs">hanno già partecipato</p>

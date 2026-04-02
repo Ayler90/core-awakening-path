@@ -1,4 +1,4 @@
-const RED = "#bd4033";
+const RED = "#AF2B43";
 
 const videos = [
   {

@@ -44,7 +44,7 @@ const InfiniteSlider = () => {
   return (
     <div
       className="w-full overflow-hidden py-4 border-y border-border"
-      style={{ backgroundColor: "#bd4033" }}
+      style={{ backgroundColor: "#AF2B43" }}
     >
       <div
         ref={trackRef}

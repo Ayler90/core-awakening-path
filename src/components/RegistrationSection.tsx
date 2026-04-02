@@ -12,7 +12,7 @@ const RegistrationSection = () => {
       <div className="container mx-auto px-4 sm:px-6">
         <div
           className="rounded-3xl p-8 lg:p-12 max-w-5xl mx-auto"
-          style={{ backgroundColor: "#bd4033" }}
+          style={{ backgroundColor: "#AF2B43" }}
         >
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
@@ -75,9 +75,9 @@ const RegistrationSection = () => {
               </div>
               <div
                 className="absolute -bottom-5 -left-4 rounded-xl p-4 shadow-lg border"
-                style={{ backgroundColor: "hsl(30 25% 97%)", borderColor: "#bd403320" }}
+                style={{ backgroundColor: "hsl(30 25% 97%)", borderColor: "#AF2B4320" }}
               >
-                <p className="font-bold font-display text-sm" style={{ color: "#bd4033" }}>Michela & Moreno</p>
+                <p className="font-bold font-display text-sm" style={{ color: "#AF2B43" }}>Michela & Moreno</p>
                 <p className="text-xs text-muted-foreground font-body">Officina.MM - Training Gratuito su Telegram</p>
               </div>
             </div>

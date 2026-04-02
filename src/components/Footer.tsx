@@ -6,7 +6,7 @@ const Footer = () => {
 
           <div className="flex flex-col items-start gap-3">
             <img
-              src="https://static.wixstatic.com/media/40e4ee_7aa4963c885049e4b63f3cfa4accce2a~mv2.png/v1/fill/w_102,h_196,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Ese%20Logo%20Officina%20MM-educa%20allena%20riabilita_png%202.png"
+              src="https://static.wixstatic.com/media/40e4ee_3fabf91ebc5d418ca1c0be0173f4b3f9~mv2.png"
               alt="Logo OfficinaMM"
               className="h-16 w-auto object-contain"
               loading="lazy"
@@ -16,10 +16,10 @@ const Footer = () => {
           <div className="flex-1" />
 
           <div className="flex flex-col gap-2">
-            <p className="font-bold font-display text-base" style={{ color: "#bd4033" }}>
+            <p className="font-bold font-display text-base" style={{ color: "#AF2B43" }}>
               Contattaci
             </p>
-            <p className="text-sm font-semibold font-body" style={{ color: "#bd4033" }}>
+            <p className="text-sm font-semibold font-body" style={{ color: "#AF2B43" }}>
               Officina.MM
             </p>
             <p className="text-sm text-muted-foreground font-body">
@@ -28,14 +28,14 @@ const Footer = () => {
             <a
               href="mailto:ciao@officinamm.com"
               className="text-sm font-body font-medium hover:underline"
-              style={{ color: "#bd4033" }}
+              style={{ color: "#AF2B43" }}
             >
               ciao@officinamm.com
             </a>
             <a
               href="https://www.officinamm.com/privacy"
               className="text-sm font-body underline mt-1"
-              style={{ color: "#bd4033" }}
+              style={{ color: "#AF2B43" }}
             >
               Privacy Policy
             </a>
