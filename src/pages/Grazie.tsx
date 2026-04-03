@@ -93,7 +93,7 @@ const Grazie = () => {
               Hai appena fatto un passo importante verso il tuo benessere.
               Il training <strong className="text-foreground">CORE 101</strong> inizia il{" "}
               <strong className="text-foreground">20 aprile</strong>, 1 video al giorno
-              e l'assistenza live con Michela e Moreno sul Canale Telegram. 💛
+              e l'assistenza live con Michela e Moreno sul Canale Telegram. ✨
             </p>
 
             <p className="text-base text-muted-foreground font-body leading-relaxed mb-5">

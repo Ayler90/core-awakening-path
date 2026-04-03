@@ -103,7 +103,7 @@ const SymptomsSection = () => {
           >
             <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/5]">
               <img
-                src="https://static.wixstatic.com/media/40e4ee_099ddad35f02472f98e0cd77f22c89a0~mv2.png"
+                src="https://static.wixstatic.com/media/40e4ee_822cffa15d0e49e990d1543d64c91a9c~mv2.png"
                 alt="Donna che si prende cura del proprio corpo"
                 className="w-full h-full object-cover"
                 loading="lazy"
