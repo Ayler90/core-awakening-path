@@ -73,7 +73,7 @@ body { overflow-x: hidden; }
     --shadow-warm: 0 8px 30px -8px hsl(250 22% 46% / 0.2);
     --shadow-card: 0 4px 20px -4px hsl(250 15% 15% / 0.08);
 
-    --font-display: 'Alloha', Georgia, serif;
+    --font-display: 'Poppins', system-ui, sans-serif;
     --font-body: 'Poppins', system-ui, sans-serif;
   }
 
