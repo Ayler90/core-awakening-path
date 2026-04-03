@@ -3,8 +3,7 @@ const HeroSection = () => {
     <section
       className="relative min-h-screen overflow-hidden"
       style={{
-        background:
-          "linear-gradient(160deg, hsl(30 25% 97%), hsl(38 40% 95%), hsl(20 50% 92%))",
+        background: "#ffffff",
       }}
     >
       <div
