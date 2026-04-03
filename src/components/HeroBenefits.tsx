@@ -12,8 +12,8 @@ const benefits = [
 const HeroBenefits = () => {
   return (
     <section
-      className="py-10"
-      style={{ background: "linear-gradient(160deg, hsl(38 40% 95%), hsl(20 50% 92%))" }}
+      className="py-6"
+      style={{ background: "#ffffff" }}
     >
       <div className="container mx-auto px-4 sm:px-6">
         <div
