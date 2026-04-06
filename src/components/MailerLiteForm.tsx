@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 
 const FORM_HTML = `
-<style type="text/css">@import url("https://assets.mlcdn.com/fonts.css?version=1774528");</style>
+<style type="text/css">@import url("https://assets.mlcdn.com/fonts.css?version=1775464");</style>
 <style type="text/css">
 .ml-form-embedSubmitLoad{display:inline-block;width:20px;height:20px}
 .ml-form-embedSubmitLoad:after{content:" ";display:block;width:11px;height:11px;margin:1px;border-radius:50%;border:4px solid #fff;border-color:#fff #fff #fff transparent;animation:ml-form-embedSubmitLoad 1.2s linear infinite}
@@ -22,6 +22,7 @@ const FORM_HTML = `
 #mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p:last-child{margin:0}
 #mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody form{margin:0;width:100%}
 #mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent{margin:0 0 20px;width:100%}
+#mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow{margin:0 0 20px;width:100%;float:left}
 #mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow{margin:0 0 10px;width:100%}
 #mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow.ml-last-item{margin:0}
 #mlb2-39140121.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input{background-color:#fff!important;color:#333!important;border-color:#ccc;border-radius:4px!important;border-style:solid!important;border-width:1px!important;font-family:'Open Sans',Arial,Helvetica,sans-serif;font-size:14px!important;height:auto;line-height:21px!important;margin:0;padding:10px!important;width:100%!important;box-sizing:border-box!important;max-width:100%!important}
@@ -72,7 +73,6 @@ const FORM_HTML = `
 #mlb2-39140121 .ml-form-embedSubmit button.primary:hover::after{transform:translateX(5px)}
 #mlb2-39140121 .ml-form-embedPermissionsContent p,
 #mlb2-39140121 .ml-form-embedPermissionsContent p a{color:rgba(255,255,255,0.88)!important}
-#mlb2-39140121 .ml-form-checkboxRow{margin-bottom:16px!important;float:left;width:100%}
 </style>
 
 <div id="mlb2-39140121" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-39140121">
@@ -84,12 +84,12 @@ const FORM_HTML = `
           <div class="ml-form-formContent">
             <div class="ml-form-fieldRow">
               <div class="ml-field-group ml-field-name ml-validate-required">
-                <input aria-label="name" aria-required="true" type="text" class="form-control" name="fields[name]" placeholder="Inserisci il tuo Nome*" autocomplete="given-name">
+                <input aria-label="name" aria-required="true" type="text" class="form-control" data-inputmask="" name="fields[name]" placeholder="Inserisci il tuo Nome*" autocomplete="given-name">
               </div>
             </div>
             <div class="ml-form-fieldRow ml-last-item">
               <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
-                <input aria-label="email" aria-required="true" type="email" class="form-control" name="fields[email]" placeholder="Inserisci la tua Email*" autocomplete="email">
+                <input aria-label="email" aria-required="true" type="email" class="form-control" data-inputmask="" name="fields[email]" placeholder="Inserisci la tua Email*" autocomplete="email">
               </div>
             </div>
           </div>
@@ -100,7 +100,7 @@ const FORM_HTML = `
           </div>
           <div class="ml-form-checkboxRow ml-validate-required">
             <label class="checkbox">
-              <input type="checkbox" id="ml-checkbox-39140121">
+              <input type="checkbox">
               <div class="label-description">
                 <p>Voglio ricevere comunicazioni relative al Training Gratuito*</p>
               </div>
@@ -143,7 +143,6 @@ function setupCheckboxValidation() {
     });
   }
 
-  // Intercept submit in capture phase (before MailerLite)
   form.addEventListener(
     "submit",
     (e) => {
@@ -163,7 +162,6 @@ function setupCheckboxValidation() {
 
 const MailerLiteForm = () => {
   useEffect(() => {
-    // Callback di successo
     (window as any).ml_webform_success_39140121 = function () {
       try {
         (window.top as Window).location.href =
@@ -174,7 +172,6 @@ const MailerLiteForm = () => {
       }
     };
 
-    // Carica script MailerLite una sola volta
     if (!document.querySelector('script[src*="webforms.min.js"]')) {
       const script = document.createElement("script");
       script.src =
