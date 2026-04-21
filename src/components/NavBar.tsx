@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const TARGET = new Date("2026-04-19T23:59:00");
+const TARGET = new Date("2026-04-22T23:59:00");
 
 function getTimeLeft() {
   const diff = TARGET.getTime() - Date.now();
@@ -58,7 +58,7 @@ const NavBar = ({ showCountdown = false }: NavBarProps) => {
         {showCountdown && timeLeft && (
           <div className="hidden sm:flex flex-col items-center flex-1">
             <span className="text-[11px] text-muted-foreground font-body leading-none mb-0.5">
-              Il training inizia tra
+              Le iscrizioni al training gratuito chiudono tra
             </span>
             <span className="text-sm font-bold font-body tabular-nums" style={{ color: "#AF2B43" }}>
               {timeLeft.days}g {pad(timeLeft.hours)}h {pad(timeLeft.minutes)}m {pad(timeLeft.seconds)}s
