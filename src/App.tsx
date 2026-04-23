@@ -6,6 +6,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import Index from "./pages/Index.tsx";
 import Grazie from "./pages/Grazie.tsx";
 import GrazieFoundation from "./pages/GrazieFoundation.tsx";
+import GrazieAdvance from "./pages/GrazieAdvance.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
@@ -20,6 +21,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/grazie" element={<Grazie />} />
           <Route path="/grazie-iscrizione-core-foundation" element={<GrazieFoundation />} />
+          <Route path="/grazie-iscrizione-core-advance" element={<GrazieAdvance />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
