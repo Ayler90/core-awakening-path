@@ -55,8 +55,8 @@ const RegistrationSection = () => {
                 ))}
               </div>
 
-              <div id="iscrizione">
-                <MailerLiteForm />
+              <div id="iscrizione" className="py-6 text-center">
+                <p className="text-2xl font-bold font-display text-white">Le iscrizioni sono chiuse</p>
               </div>
 
               <p className="text-xs font-body mt-4" style={{ color: "rgba(255,255,255,0.65)" }}>
