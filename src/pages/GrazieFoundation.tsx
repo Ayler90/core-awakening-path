@@ -4,6 +4,18 @@ import Footer from "@/components/Footer";
 const TELEGRAM_URL = "https://t.me/+3H2hj6ukATQzNmY8";
 const DRIVE_URL = "https://drive.google.com/drive/folders/1DiyzjsXZR6snoLVsTu9lCnv9Y2ItJAVY?usp=share_link";
 
+const GCAL_LIVE1 =
+  "https://calendar.google.com/calendar/render?action=TEMPLATE" +
+  "&text=Core+Foundation+-+prima+live" +
+  "&dates=20260513T103000Z/20260513T113000Z" +
+  "&details=Questa+%C3%A8+la+prima+live+di+Core+Foundation.+Per+accedere+alla+diretta%2C+accedi+al+canale+Telegram+del+percorso+e+clicca+sul+link+della+diretta.";
+
+const GCAL_LIVE2 =
+  "https://calendar.google.com/calendar/render?action=TEMPLATE" +
+  "&text=Core+Foundation+-+seconda+live" +
+  "&dates=20260526T103000Z/20260526T113000Z" +
+  "&details=Questa+%C3%A8+la+seconda+live+di+Core+Foundation.+Per+accedere+alla+diretta%2C+accedi+al+canale+Telegram+del+percorso+e+clicca+sul+link+della+diretta.";
+
 const GrazieFoundation = () => {
   return (
     <main>
@@ -12,16 +24,7 @@ const GrazieFoundation = () => {
         className="w-full py-3 px-4 text-center text-white font-body font-semibold text-sm sm:text-base"
         style={{ backgroundColor: "#AF2B43" }}
       >
-        Sei dentro!{" "}
-        <a
-          href={TELEGRAM_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline font-bold"
-        >
-          Clicca qui per accedere al canale Telegram
-        </a>
-        .
+        Sei dentro! Non chiudere la pagina e controlla qui sotto le istruzioni per accedere al percorso.
       </div>
 
       {/* Hero ringraziamento */}
@@ -46,7 +49,7 @@ const GrazieFoundation = () => {
             Ciao e benvenutə! 🎉
             <br />
             <span className="italic" style={{ color: "#AF2B43" }}>
-              Il tuo posto è confermato
+              Il tuo posto a Core Foundation è confermato
             </span>
           </h1>
 
@@ -62,7 +65,7 @@ const GrazieFoundation = () => {
 
           {/* Avviso email */}
           <div
-            className="inline-flex items-center gap-3 px-6 py-4 rounded-xl border text-left max-w-md mx-auto"
+            className="inline-flex items-center gap-3 px-6 py-4 rounded-xl border text-left max-w-md mx-auto mb-10"
             style={{ backgroundColor: "#AF2B4310", borderColor: "#AF2B4330" }}
           >
             <Mail className="w-5 h-5 shrink-0" style={{ color: "#AF2B43" }} />
@@ -71,6 +74,30 @@ const GrazieFoundation = () => {
               <strong>Spam</strong> e <strong>Promozioni</strong> e, se la trovi lì,
               spostala in <strong>Posta in Arrivo</strong>.
             </p>
+          </div>
+
+          {/* Foto Michela e Moreno */}
+          <div className="flex justify-center gap-6 sm:gap-10">
+            <div className="flex flex-col items-center gap-2">
+              <div className="w-28 h-28 sm:w-36 sm:h-36 rounded-full overflow-hidden shadow-md border-2" style={{ borderColor: "#AF2B4330" }}>
+                <img
+                  src="https://static.wixstatic.com/media/40e4ee_5975f0a365f8489185bace7f83a0dca2~mv2.jpg/v1/crop/x_0,y_60,w_960,h_1038/fill/w_746,h_694,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Foto%20Michi.jpg"
+                  alt="Michela"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <p className="font-semibold font-display text-foreground text-sm">Michela</p>
+            </div>
+            <div className="flex flex-col items-center gap-2">
+              <div className="w-28 h-28 sm:w-36 sm:h-36 rounded-full overflow-hidden shadow-md border-2" style={{ borderColor: "#AF2B4330" }}>
+                <img
+                  src="https://static.wixstatic.com/media/40e4ee_c1421113ec974ee187a7e6c7198798de~mv2.jpg/v1/crop/x_0,y_204,w_960,h_977/fill/w_746,h_694,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Foto%20Mori.jpg"
+                  alt="Moreno"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <p className="font-semibold font-display text-foreground text-sm">Moreno</p>
+            </div>
           </div>
         </div>
       </section>
@@ -168,19 +195,37 @@ const GrazieFoundation = () => {
                       </p>
                       {/* Date live */}
                       <div
-                        className="rounded-xl p-4 flex flex-col gap-2"
-                        style={{ backgroundColor: "#AF2B4310", borderLeft: "3px solid #AF2B43" }}
+                        className="rounded-xl p-4 flex flex-col gap-3"
+                        style={{ backgroundColor: "#AF2B4310" }}
                       >
                         <p className="font-semibold text-foreground text-sm">Segna in agenda:</p>
-                        <div className="flex items-center gap-2">
+                        <div className="flex flex-wrap items-center gap-2">
                           <span style={{ color: "#AF2B43" }}>📅</span>
                           <span className="text-foreground font-medium">Mercoledì 13 maggio</span>
                           <span>ore 12.30–13.30</span>
+                          <a
+                            href={GCAL_LIVE1}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="underline font-medium"
+                            style={{ color: "#AF2B43" }}
+                          >
+                            (Aggiungi a Google Calendar)
+                          </a>
                         </div>
-                        <div className="flex items-center gap-2">
+                        <div className="flex flex-wrap items-center gap-2">
                           <span style={{ color: "#AF2B43" }}>📅</span>
                           <span className="text-foreground font-medium">Martedì 26 maggio</span>
                           <span>ore 12.30–13.30</span>
+                          <a
+                            href={GCAL_LIVE2}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="underline font-medium"
+                            style={{ color: "#AF2B43" }}
+                          >
+                            (Aggiungi a Google Calendar)
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -259,7 +304,7 @@ const GrazieFoundation = () => {
               Un abbraccio,
             </p>
             <p className="font-body text-muted-foreground">
-              Michela e Moreno — Officina.MM
+              Michela e Moreno – Officina.MM
             </p>
           </div>
         </div>
