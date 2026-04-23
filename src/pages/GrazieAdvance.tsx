@@ -155,7 +155,17 @@ const GrazieAdvance = () => {
                         >
                           <p className="font-medium text-foreground mb-1">🏐 Palla da Pilates</p>
                           <p>
-                            Es. Decathlon Softball. Se non ce l'hai, puoi sostituirla con un cuscino o fare senza:
+                            Es.{" "}
+                            <a
+                              href="https://www.decathlon.it/p/palla-softball-celeste-diametro-240-mm/_/R-p-305188"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="underline font-medium"
+                              style={{ color: "#AF2B43" }}
+                            >
+                              Decathlon Softball
+                            </a>
+                            . Se non ce l'hai, puoi sostituirla con un cuscino o fare senza:
                             la sensazione e la resistenza saranno diverse, ma gli esercizi rimarranno efficaci.
                           </p>
                         </div>
@@ -165,7 +175,17 @@ const GrazieAdvance = () => {
                         >
                           <p className="font-medium text-foreground mb-1">🎽 Banda Elastica</p>
                           <p>
-                            Es. Decathlon Elastico. Se hai un elastico circolare chiuso, va benissimo lo stesso.
+                            Es.{" "}
+                            <a
+                              href="https://www.decathlon.it/p/elastico-ginnastica-pilates-100-light-resistenza-2-kg-azzurro/_/R-p-305202?mc=8527896"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="underline font-medium"
+                              style={{ color: "#AF2B43" }}
+                            >
+                              Decathlon Elastico
+                            </a>
+                            . Se hai un elastico circolare chiuso, va benissimo lo stesso.
                             Se non hai nulla, ci saranno alternative (es. la cintura dell'accappatoio per alcuni esercizi)
                             o potrai lavorare a corpo libero.
                           </p>
