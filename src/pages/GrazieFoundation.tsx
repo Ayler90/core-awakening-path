@@ -76,29 +76,6 @@ const GrazieFoundation = () => {
             </p>
           </div>
 
-          {/* Foto Michela e Moreno */}
-          <div className="flex justify-center gap-6 sm:gap-10">
-            <div className="flex flex-col items-center gap-2">
-              <div className="w-28 h-28 sm:w-36 sm:h-36 rounded-full overflow-hidden shadow-md border-2" style={{ borderColor: "#AF2B4330" }}>
-                <img
-                  src="https://static.wixstatic.com/media/40e4ee_5975f0a365f8489185bace7f83a0dca2~mv2.jpg/v1/crop/x_0,y_60,w_960,h_1038/fill/w_746,h_694,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Foto%20Michi.jpg"
-                  alt="Michela"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <p className="font-semibold font-display text-foreground text-sm">Michela</p>
-            </div>
-            <div className="flex flex-col items-center gap-2">
-              <div className="w-28 h-28 sm:w-36 sm:h-36 rounded-full overflow-hidden shadow-md border-2" style={{ borderColor: "#AF2B4330" }}>
-                <img
-                  src="https://static.wixstatic.com/media/40e4ee_c1421113ec974ee187a7e6c7198798de~mv2.jpg/v1/crop/x_0,y_204,w_960,h_977/fill/w_746,h_694,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Foto%20Mori.jpg"
-                  alt="Moreno"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <p className="font-semibold font-display text-foreground text-sm">Moreno</p>
-            </div>
-          </div>
         </div>
       </section>
 
