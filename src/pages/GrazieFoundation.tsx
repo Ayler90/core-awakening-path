@@ -210,7 +210,7 @@ const GrazieFoundation = () => {
                     <div>
                       <p className="font-semibold text-foreground mb-1">Materiali del percorso</p>
                       <p className="mb-3">
-                        Nella cartella Drive trovi tutti i video di Core Foundation, i video extra e le registrazioni delle dirette.
+                        Nella cartella Drive trovi tutti i video di Core 101, i video extra e le registrazioni delle dirette.
                       </p>
                       <a
                         href={DRIVE_URL}
