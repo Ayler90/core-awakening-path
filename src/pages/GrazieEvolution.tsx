@@ -178,7 +178,7 @@ const GrazieEvolution = () => {
                           <p>
                             Es.{" "}
                             <a
-                              href="https://www.decathlon.it/p/elastico-ginnastica-pilates-100-light-resistenza-2-kg-azzurro/_/R-p-305202?mc=8527896"
+                              href="https://www.decathlon.it/p/elastico-fitness-100-medium-resistenza-3-kg-bordeaux/305168/c88m8527897"
                               target="_blank"
                               rel="noopener noreferrer"
                               className="underline font-medium"
@@ -205,8 +205,35 @@ const GrazieEvolution = () => {
                         className="rounded-xl p-4"
                         style={{ backgroundColor: "#AF2B4310" }}
                       >
-                        <p className="font-semibold text-foreground text-sm mb-1">Segna in agenda:</p>
-                        <p className="text-muted-foreground italic">Le date verranno comunicate a breve nel canale Telegram.</p>
+                        <p className="font-semibold text-foreground text-sm mb-2">Segna in agenda:</p>
+                        <div className="flex flex-wrap items-center gap-2 mb-2">
+                          <span style={{ color: "#AF2B43" }}>📅</span>
+                          <span className="text-foreground font-medium">Mercoledì 13 maggio</span>
+                          <span>ore 12.00–12.30</span>
+                          <a
+                            href={"https://calendar.google.com/calendar/render?action=TEMPLATE&text=Core+Evolution+-+prima+live&dates=20260513T100000Z/20260513T103000Z&details=Questa+%C3%A8+la+prima+live+di+Core+Evolution.+Per+accedere+alla+diretta%2C+accedi+al+canale+Telegram+del+percorso+e+clicca+sul+link+della+diretta."}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="underline font-medium"
+                            style={{ color: "#AF2B43" }}
+                          >
+                            (Aggiungi a Google Calendar)
+                          </a>
+                        </div>
+                        <div className="flex flex-wrap items-center gap-2">
+                          <span style={{ color: "#AF2B43" }}>📅</span>
+                          <span className="text-foreground font-medium">Martedì 26 maggio</span>
+                          <span>ore 12.00–12.30</span>
+                          <a
+                            href={"https://calendar.google.com/calendar/render?action=TEMPLATE&text=Core+Evolution+-+seconda+live&dates=20260526T100000Z/20260526T103000Z&details=Questa+%C3%A8+la+seconda+live+di+Core+Evolution.+Per+accedere+alla+diretta%2C+accedi+al+canale+Telegram+del+percorso+e+clicca+sul+link+della+diretta."}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="underline font-medium"
+                            style={{ color: "#AF2B43" }}
+                          >
+                            (Aggiungi a Google Calendar)
+                          </a>
+                        </div>
                       </div>
                     </div>
 
