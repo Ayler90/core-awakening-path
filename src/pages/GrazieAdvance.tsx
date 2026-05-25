@@ -1,7 +1,7 @@
 import { Send, CalendarDays, MessageCircle, CheckCircle2, Mail, FolderOpen } from "lucide-react";
 import Footer from "@/components/Footer";
 
-const TELEGRAM_URL = "https://t.me/+tPIOWGm1TrxjZjM0";
+const TELEGRAM_URL = "https://t.me/+NZ23GK-gLt0yYjA0";
 const DRIVE_URL = "https://drive.google.com/drive/folders/1R-jRr1pMobtVTCUnL6yIyZRwzOvbGFqi";
 
 const GrazieAdvance = () => {
@@ -189,49 +189,6 @@ const GrazieAdvance = () => {
                             Se non hai nulla, ci saranno alternative (es. la cintura dell'accappatoio per alcuni esercizi)
                             o potrai lavorare a corpo libero.
                           </p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div>
-                      <p className="font-semibold text-foreground mb-1">Due momenti Live insieme</p>
-                      <p className="mb-3">
-                        Due dirette in cui risponderemo alle domande, valuteremo le vostre situazioni e percorsi,
-                        condivideremo i progressi e capiremo insieme come proseguire.
-                        Troverai il link per accedere alle dirette direttamente nel canale Telegram il giorno della diretta.
-                      </p>
-                      <div
-                        className="rounded-xl p-4"
-                        style={{ backgroundColor: "#AF2B4310" }}
-                      >
-                        <p className="font-semibold text-foreground text-sm mb-2">Segna in agenda:</p>
-                        <div className="flex flex-wrap items-center gap-2 mb-2">
-                          <span style={{ color: "#AF2B43" }}>📅</span>
-                          <span className="text-foreground font-medium">Mercoledì 13 maggio</span>
-                          <span>ore 12.00–12.30</span>
-                          <a
-                            href={"https://calendar.google.com/calendar/render?action=TEMPLATE&text=Core+Advance+-+prima+live&dates=20260513T100000Z/20260513T103000Z&details=Questa+%C3%A8+la+prima+live+di+Core+Advance.+Per+accedere+alla+diretta%2C+accedi+al+canale+Telegram+del+percorso+e+clicca+sul+link+della+diretta."}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="underline font-medium"
-                            style={{ color: "#AF2B43" }}
-                          >
-                            (Aggiungi a Google Calendar)
-                          </a>
-                        </div>
-                        <div className="flex flex-wrap items-center gap-2">
-                          <span style={{ color: "#AF2B43" }}>📅</span>
-                          <span className="text-foreground font-medium">Martedì 26 maggio</span>
-                          <span>ore 12.00–12.30</span>
-                          <a
-                            href={"https://calendar.google.com/calendar/render?action=TEMPLATE&text=Core+Advance+-+seconda+live&dates=20260526T100000Z/20260526T103000Z&details=Questa+%C3%A8+la+seconda+live+di+Core+Advance.+Per+accedere+alla+diretta%2C+accedi+al+canale+Telegram+del+percorso+e+clicca+sul+link+della+diretta."}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="underline font-medium"
-                            style={{ color: "#AF2B43" }}
-                          >
-                            (Aggiungi a Google Calendar)
-                          </a>
                         </div>
                       </div>
                     </div>
