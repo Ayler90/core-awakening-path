@@ -194,6 +194,42 @@ const GrazieAdvance = () => {
                     </div>
 
                     <div>
+                      <p className="font-semibold text-foreground mb-2">Due momenti Live insieme</p>
+                      <div className="flex flex-col gap-2">
+                        <div
+                          className="rounded-xl p-4"
+                          style={{ backgroundColor: "#AF2B4310" }}
+                        >
+                          <p className="font-medium text-foreground mb-1">📅 Lunedì 15 giugno, 12:00–14:00</p>
+                          <a
+                            href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Core+Advance+-+prima+live&dates=20260615T100000Z/20260615T120000Z&details=Questa+%C3%A8+la+prima+live+di+Core+Advance.+Per+accedere+alla+diretta,+accedi+al+canale+Telegram+del+percorso+e+clicca+sul+link+della+diretta."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-xs underline"
+                            style={{ color: "#AF2B43" }}
+                          >
+                            Aggiungi a Google Calendar
+                          </a>
+                        </div>
+                        <div
+                          className="rounded-xl p-4"
+                          style={{ backgroundColor: "#AF2B4310" }}
+                        >
+                          <p className="font-medium text-foreground mb-1">📅 Venerdì 26 giugno, 12:00–14:00</p>
+                          <a
+                            href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Core+Advance+-+seconda+live&dates=20260626T100000Z/20260626T120000Z&details=Questa+%C3%A8+la+seconda+live+di+Core+Advance.+Per+accedere+alla+diretta,+accedi+al+canale+Telegram+del+percorso+e+clicca+sul+link+della+diretta."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-xs underline"
+                            style={{ color: "#AF2B43" }}
+                          >
+                            Aggiungi a Google Calendar
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div>
                       <p className="font-semibold text-foreground mb-1">Materiali del percorso</p>
                       <p className="mb-3">
                         Nella cartella Drive trovi i contenuti di Core 101, i Fondamentali di Core Foundation,
