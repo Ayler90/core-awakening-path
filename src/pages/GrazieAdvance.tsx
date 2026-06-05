@@ -135,7 +135,7 @@ const GrazieAdvance = () => {
                     <div>
                       <p className="font-semibold text-foreground mb-1">Durata</p>
                       <p>
-                        Per le prossime 4 settimane (a partire dal <strong className="text-foreground">4 maggio</strong>),
+                        Per le prossime 4 settimane,
                         ogni giorno troverai un video di 10 minuti con esercizi guidati da Michela,
                         studiati per sfidare e rafforzare il tuo Core, migliorando la tua resistenza e il controllo.
                       </p>
