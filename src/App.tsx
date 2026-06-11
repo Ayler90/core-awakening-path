@@ -8,6 +8,7 @@ import Grazie from "./pages/Grazie.tsx";
 import GrazieFoundation from "./pages/GrazieFoundation.tsx";
 import GrazieAdvance from "./pages/GrazieAdvance.tsx";
 import GrazieEvolution from "./pages/GrazieEvolution.tsx";
+import FondamentaRimiseForme from "./pages/FondamentaRimiseForme.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/grazie-iscrizione-core-foundation" element={<GrazieFoundation />} />
           <Route path="/grazie-iscrizione-core-advance" element={<GrazieAdvance />} />
           <Route path="/grazie-iscrizione-core-evolution" element={<GrazieEvolution />} />
+          <Route path="/fondamenta-rimise-forme" element={<FondamentaRimiseForme />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

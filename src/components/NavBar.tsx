@@ -16,9 +16,11 @@ const pad = (n: number) => String(n).padStart(2, "0");
 
 interface NavBarProps {
   showCountdown?: boolean;
+  ctaText?: string;
+  ctaHref?: string;
 }
 
-const NavBar = ({ showCountdown = false }: NavBarProps) => {
+const NavBar = ({ showCountdown = false, ctaText = "Voglio partecipare →", ctaHref = "#iscrizione" }: NavBarProps) => {
   const [scrolled, setScrolled] = useState(false);
   const [timeLeft, setTimeLeft] = useState(getTimeLeft());
 
@@ -69,11 +71,11 @@ const NavBar = ({ showCountdown = false }: NavBarProps) => {
         {/* CTA - destra */}
         <div className={`${showCountdown ? "flex-1" : ""} flex justify-end`}>
           <a
-            href="#iscrizione"
+            href={ctaHref}
             className="px-3 py-2 rounded-lg text-xs sm:text-sm sm:px-5 sm:py-2.5 font-semibold font-body text-white transition-all hover:opacity-90 whitespace-nowrap"
             style={{ backgroundColor: "#AF2B43" }}
           >
-            Voglio partecipare →
+            {ctaText}
           </a>
         </div>
       </div>
