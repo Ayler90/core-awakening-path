@@ -193,7 +193,7 @@ const RitrovareCorpoPostParto = () => {
                   {[
                     { icon: <FileText className="w-3.5 h-3.5" />, text: "PDF + video guidati" },
                     { icon: <BookOpen className="w-3.5 h-3.5" />, text: "7 giorni pratici" },
-                    { icon: <Compass className="w-3.5 h-3.5" />, text: "Dalle basi, con metodo" },
+                    { icon: <Compass className="w-3.5 h-3.5" />, text: "Mini training per email" },
                     { icon: <Users className="w-3.5 h-3.5" />, text: "100% gratuito" },
                   ].map((item, i) => (
                     <div key={i} className="flex items-center gap-2 text-xs font-body" style={{ color: "rgba(255,255,255,0.8)" }}>
