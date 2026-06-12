@@ -1,4 +1,4 @@
-import { CheckCircle2, Mail, ClipboardList, Download } from "lucide-react";
+import { CheckCircle2, Mail, ClipboardList } from "lucide-react";
 import Footer from "@/components/Footer";
 
 const RED = "#AF2B43";
@@ -14,18 +14,10 @@ const steps = [
   },
   {
     num: 2,
-    icon: Download,
-    title: "Scarica la guida e inizia il Giorno 1",
-    description:
-      "Non aspettare — appena hai l'email, apri la guida e inizia dal primo giorno. Bastano 10 minuti: un video breve e una pratica guidata per tornare a sentire il tuo corpo.",
-    cta: null,
-  },
-  {
-    num: 3,
     icon: ClipboardList,
-    title: "Dicci a che punto sei",
+    title: "Compila il questionario anonimo",
     description:
-      "Rispondi a poche domande sulla tua situazione attuale: a che punto ti trovi nel post parto, quali sfide stai affrontando, cosa vorresti migliorare. Ci aiuta a capire dove sei e a crearti contenuti davvero utili per te.",
+      "Rispondi a poche domande sulla tua situazione attuale: a che punto ti trovi nel post parto, quali sfide stai affrontando, cosa vorresti migliorare. Ci aiuta a capire dove sei e a creare contenuti davvero utili per te.",
     cta: "Compila il questionario →",
     href: "https://forms.gle/placeholder",
   },
@@ -108,7 +100,7 @@ const GrazieRitrovareCorpo = () => {
               Ecco cosa fare adesso
             </h2>
             <p className="text-muted-foreground font-body max-w-lg mx-auto">
-              Tre piccoli passi per iniziare subito e aiutarci a conoscerti meglio.
+              Due piccoli passi per iniziare subito e aiutarci a conoscerti meglio.
             </p>
           </div>
 
@@ -149,35 +141,6 @@ const GrazieRitrovareCorpo = () => {
                 </div>
               </div>
             ))}
-          </div>
-
-          {/* Box questionario highlight */}
-          <div
-            className="mt-10 rounded-2xl p-8 text-center border"
-            style={{ backgroundColor: RED + "08", borderColor: RED + "25" }}
-          >
-            <ClipboardList className="w-8 h-8 mx-auto mb-3" style={{ color: RED }} />
-            <h3 className="text-xl font-bold font-display text-foreground mb-2">
-              Aiutaci a conoscerti
-            </h3>
-            <p className="text-muted-foreground font-body text-sm leading-relaxed mb-6 max-w-md mx-auto">
-              Rispondendo al questionario ci dici a che punto sei nel post parto e quali sfide
-              stai affrontando. In questo modo possiamo creare contenuti dedicati alla tua
-              situazione e aiutarti davvero, nei prossimi passi del tuo percorso.
-            </p>
-            <a
-              href="https://forms.gle/placeholder"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-lg text-white font-semibold font-body text-sm transition-all hover:opacity-90 shadow-sm"
-              style={{ backgroundColor: RED }}
-            >
-              <ClipboardList className="w-4 h-4" />
-              Compila il questionario →
-            </a>
-            <p className="text-xs text-muted-foreground font-body mt-3">
-              ◇ Anonimo e gratuito – ◇ Ci vogliono meno di 3 minuti
-            </p>
           </div>
 
         </div>
