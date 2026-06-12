@@ -18,9 +18,10 @@ interface NavBarProps {
   showCountdown?: boolean;
   ctaText?: string;
   ctaHref?: string;
+  centerText?: string;
 }
 
-const NavBar = ({ showCountdown = false, ctaText = "Voglio partecipare →", ctaHref = "#iscrizione" }: NavBarProps) => {
+const NavBar = ({ showCountdown = false, ctaText = "Voglio partecipare →", ctaHref = "#iscrizione", centerText }: NavBarProps) => {
   const [scrolled, setScrolled] = useState(false);
   const [timeLeft, setTimeLeft] = useState(getTimeLeft());
 
@@ -48,7 +49,7 @@ const NavBar = ({ showCountdown = false, ctaText = "Voglio partecipare →", cta
       {/* Riga principale */}
       <div className="container mx-auto px-4 sm:px-6 h-16 flex items-center">
         {/* Logo - sinistra */}
-        <div className={`font-display font-bold text-xl text-foreground ${showCountdown ? "flex-1" : ""}`}>
+        <div className={`font-display font-bold text-xl text-foreground ${showCountdown || centerText ? "flex-1" : ""}`}>
           <img
             src="https://static.wixstatic.com/media/40e4ee_3fabf91ebc5d418ca1c0be0173f4b3f9~mv2.png"
             alt="Officina.MM"
@@ -68,8 +69,17 @@ const NavBar = ({ showCountdown = false, ctaText = "Voglio partecipare →", cta
           </div>
         )}
 
+        {/* Testo centrale personalizzato */}
+        {centerText && !showCountdown && (
+          <div className="hidden sm:flex flex-col items-center flex-1 text-center px-4">
+            <span className="text-sm font-semibold font-body text-foreground leading-snug">
+              {centerText}
+            </span>
+          </div>
+        )}
+
         {/* CTA - destra */}
-        <div className={`${showCountdown ? "flex-1" : ""} flex justify-end`}>
+        <div className={`${showCountdown || centerText ? "flex-1" : ""} flex justify-end`}>
           <a
             href={ctaHref}
             className="px-3 py-2 rounded-lg text-xs sm:text-sm sm:px-5 sm:py-2.5 font-semibold font-body text-white transition-all hover:opacity-90 whitespace-nowrap"

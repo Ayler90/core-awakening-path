@@ -65,7 +65,7 @@ const RitrovareCorpoPostParto = () => {
 
   return (
     <main className="pt-16">
-      <NavBar showCountdown={false} ctaText="Scarica gratis →" ctaHref="#scarica" />
+      <NavBar showCountdown={false} ctaText="Scarica gratis →" ctaHref="#scarica" centerText="Per le donne nel post parto che vogliono ritrovare il proprio corpo" />
 
       {/* ─── HERO ─────────────────────────────────────────────────────────── */}
       <section className="relative overflow-hidden" style={{ background: "#ffffff" }}>
