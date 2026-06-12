@@ -137,9 +137,9 @@ const RitrovareCorpoPostParto = () => {
               </div>
               <div className="absolute -bottom-4 -left-4 bg-background/95 backdrop-blur-sm rounded-xl p-4 shadow-md border border-border max-w-xs">
                 <p className="text-sm font-bold font-display leading-snug" style={{ color: RED }}>
-                  Il corpo non ha bisogno di tornare indietro. Ha bisogno di essere accompagnato in avanti.
+                  Una guida per ritrovare il tuo corpo dopo il parto. Senza giudizio e senza fretta.
                 </p>
-                <p className="text-xs text-muted-foreground font-body mt-0.5">Guida gratuita di Officina.MM</p>
+                <p className="text-xs text-muted-foreground font-body mt-0.5">Con l'aiuto di Michela e Moreno. Officina.MM</p>
               </div>
             </div>
 
