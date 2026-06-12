@@ -392,10 +392,10 @@ const RitrovareCorpoPostParto = () => {
                 style={{ backgroundColor: RED + "10", borderColor: RED + "30" }}
               >
                 <p className="text-foreground font-display font-bold text-xl mb-2">
-                  Hai bisogno di un punto di partenza chiaro?
+                  Scarica gratis la guida.
                 </p>
                 <p className="text-muted-foreground font-body text-sm mb-5">
-                  Scarica gratis la guida di Michela e Moreno: 7 giorni con video per ritrovare il contatto con il tuo corpo.
+                  7 giorni con video per ritrovare il contatto con il tuo corpo dopo il parto.
                 </p>
                 <a
                   href="#scarica"
