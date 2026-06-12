@@ -113,7 +113,7 @@ const RitrovareCorpoPostParto = () => {
                   style={{ backgroundColor: RED }}
                 >
                   <Download className="w-4 h-4" />
-                  Voglio la guida gratuita →
+                  Scarica la guida gratuita →
                 </a>
                 <a
                   href="#cosa-trovi"
@@ -306,7 +306,7 @@ const RitrovareCorpoPostParto = () => {
                 className="inline-flex items-center gap-2 px-7 py-3.5 rounded-lg text-white font-semibold font-body shadow-sm hover:opacity-90 transition-all"
                 style={{ backgroundColor: RED }}
               >
-                Voglio ritrovare il mio corpo →
+                Scarica la guida gratuita →
               </a>
               <p className="text-xs text-muted-foreground font-body mt-3">
                 ◇ PDF + video gratuiti – ◇ 7 giorni pratici – ◇ Di Michela e Moreno, Officina.MM
@@ -488,7 +488,7 @@ const RitrovareCorpoPostParto = () => {
               style={{ backgroundColor: RED }}
             >
               <Download className="w-4 h-4" />
-              Scarica gratis i 7 giorni →
+              Scarica la guida gratuita →
             </a>
             <p className="text-xs text-muted-foreground font-body mt-3">
               ◇ PDF + video gratuiti – ◇ 7 giorni pratici – ◇ Di Michela e Moreno, Officina.MM
@@ -582,7 +582,7 @@ const RitrovareCorpoPostParto = () => {
               style={{ backgroundColor: RED }}
             >
               <Download className="w-4 h-4" />
-              Voglio iniziare i 7 giorni →
+              Scarica la guida gratuita →
             </a>
             <p className="text-xs text-muted-foreground font-body mt-3">
               ◇ Gratuita – ◇ Scaricabile subito – ◇ Di Michela e Moreno, Officina.MM
@@ -682,7 +682,7 @@ const RitrovareCorpoPostParto = () => {
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold font-body text-white text-sm transition-opacity hover:opacity-90"
               style={{ backgroundColor: RED }}
             >
-              Scarica la loro guida gratuita →
+              Scarica la guida gratuita →
             </a>
             <p className="text-xs text-muted-foreground font-body mt-3">
               ◇ Gratuita – ◇ Scaricabile subito
@@ -818,7 +818,7 @@ const RitrovareCorpoPostParto = () => {
               style={{ backgroundColor: "white", color: "#4a4580" }}
             >
               <Download className="w-4 h-4" />
-              Voglio la guida gratuita →
+              Scarica la guida gratuita →
             </a>
 
             <p className="text-white/50 font-body text-xs mt-5">
