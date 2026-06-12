@@ -90,15 +90,15 @@ const RitrovareCorpoPostParto = () => {
 
               <p className="text-lg text-muted-foreground font-body leading-relaxed mb-4">
                 L'addome che non senti più, il pavimento pelvico che sembra sparito, la sensazione
-                di non sapere come muoverti senza sbagliare qualcosa — e nessuno che ti spiega
+                di non sapere come muoverti senza sbagliare qualcosa, e nessuno che ti spiega
                 davvero da dove iniziare.
               </p>
 
               <p className="text-base text-muted-foreground font-body leading-relaxed mb-8">
                 <strong className="text-foreground">7 giorni per ritrovare il tuo corpo dopo il parto</strong> è
                 una guida gratuita con video guidati: un percorso concreto per imparare a sentire
-                di nuovo quella zona, capire cosa è cambiato e riprendere il controllo —
-                senza fretta e senza paura di sbagliare.
+                di nuovo quella zona, capire cosa è cambiato e riprendere il controllo.
+                Senza fretta e senza paura di sbagliare.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-3">
@@ -147,30 +147,6 @@ const RitrovareCorpoPostParto = () => {
         </div>
       </section>
 
-      {/* ─── HERO BENEFITS ────────────────────────────────────────────────── */}
-      <section className="py-6" style={{ background: "#ffffff" }}>
-        <div className="container mx-auto px-4 sm:px-6">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
-            {[
-              { icon: <Eye className="w-6 h-6" />, text: "Ritrovare la connessione con il corpo" },
-              { icon: <Activity className="w-6 h-6" />, text: "Pavimento pelvico, respiro e diastasi" },
-              { icon: <BookOpen className="w-6 h-6" />, text: "7 giorni con video guidati" },
-              { icon: <RotateCcw className="w-6 h-6" />, text: "Dal tappetino alla vita reale" },
-            ].map((b, i) => (
-              <div key={i} className="flex flex-col items-center gap-2 text-center">
-                <div
-                  className="w-12 h-12 rounded-xl flex items-center justify-center"
-                  style={{ backgroundColor: RED + "15", color: RED }}
-                >
-                  {b.icon}
-                </div>
-                <p className="text-base font-semibold font-body text-foreground leading-snug">{b.text}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* ─── SLIDER ───────────────────────────────────────────────────────── */}
       <SliderStrip />
 
@@ -204,7 +180,7 @@ const RitrovareCorpoPostParto = () => {
 
                 <p className="font-body leading-relaxed mb-6" style={{ color: "rgba(255,255,255,0.85)" }}>
                   7 giorni concreti per imparare a sentire di nuovo il tuo corpo, capire cosa è
-                  cambiato dopo il parto e riprendere il controllo — con esercizi guidati da Michela,
+                  cambiato dopo il parto e riprendere il controllo, con esercizi guidati da Michela,
                   senza attrezzi e senza bisogno di esperienza previa.
                 </p>
 
@@ -280,7 +256,7 @@ const RitrovareCorpoPostParto = () => {
               </h2>
 
               <p className="text-lg text-muted-foreground font-body leading-relaxed mb-8">
-                Non sei l'unica. Dopo il parto è comunissimo sentirsi così — anche se quasi nessuno ne parla davvero.
+                Non sei l'unica. Dopo il parto è comunissimo sentirsi così, anche se quasi nessuno ne parla davvero.
               </p>
 
               <div className="space-y-4 mb-10">
@@ -291,7 +267,7 @@ const RitrovareCorpoPostParto = () => {
                   },
                   {
                     title: "Hai qualche piccola perdita quando ridi, starnutisci o tosse",
-                    desc: "Poca cosa, ti dici. Ti hanno detto che è normale dopo un parto. Ma è qualcosa che senti, che si ripete — e che vorresti non ignorare più.",
+                    desc: "Poca cosa, ti dici. Ti hanno detto che è normale dopo un parto. Ma è qualcosa che senti, che si ripete, e che vorresti non ignorare più.",
                   },
                   {
                     title: "Quando prendi in braccio il bambino, trattieni il respiro senza accorgertene",
@@ -302,7 +278,7 @@ const RitrovareCorpoPostParto = () => {
                     desc: "Hai sentito parlare di diastasi, di esercizi da evitare, di pavimento pelvico. E così resti ferma, in attesa di un segnale chiaro che non arriva mai.",
                   },
                   {
-                    title: "Vedi qualcuno che sembra già 'tornata' — e non capisci cosa stai sbagliando",
+                    title: "Vedi qualcuno che sembra già 'tornata', e non capisci cosa stai sbagliando",
                     desc: "Post di mamme con routine di allenamento a 6 settimane dal parto. E tu che ancora non sai se puoi fare un plank. Il confronto non aiuta, ma è difficile non farlo.",
                   },
                   {
@@ -373,7 +349,7 @@ const RitrovareCorpoPostParto = () => {
                 </span>
               </h2>
               <p className="text-lg text-muted-foreground font-body leading-relaxed">
-                Prima ancora di rinforzare, allenare o "sistemare" — c'è un passo fondamentale che quasi nessuno insegna.
+                Prima ancora di rinforzare, allenare o "sistemare": c'è un passo fondamentale che quasi nessuno insegna.
               </p>
             </div>
 
@@ -388,7 +364,7 @@ const RitrovareCorpoPostParto = () => {
                 <p className="text-muted-foreground font-body leading-relaxed">
                   Il problema è che quasi nessuno ti insegna questo primo passo. Tutti parlano di
                   "rinforzare il core", di "tornare in forma", di esercizi per la diastasi. Ma se
-                  non senti quella zona — se non c'è connessione — qualsiasi esercizio parte da
+                  non senti quella zona, se non c'è connessione, qualsiasi esercizio parte da
                   una base instabile.
                 </p>
               </div>
@@ -400,7 +376,7 @@ const RitrovareCorpoPostParto = () => {
                   Capire come si muovono, come si coordinano, come rispondere ai movimenti di ogni giorno.
                 </p>
                 <p className="text-muted-foreground font-body leading-relaxed">
-                  Solo da questo punto — concreto, pratico, accessibile a chiunque — il recupero
+                  Solo da questo punto, concreto, pratico e accessibile a chiunque, il recupero
                   può costruirsi in modo solido. Questa guida ti accompagna esattamente da qui,
                   giorno dopo giorno, con video e spiegazioni chiare.
                 </p>
@@ -414,7 +390,7 @@ const RitrovareCorpoPostParto = () => {
                   Hai bisogno di un punto di partenza chiaro?
                 </p>
                 <p className="text-muted-foreground font-body text-sm mb-5">
-                  Scarica gratis la guida di Michela e Moreno — 7 giorni con video per ritrovare il contatto con il tuo corpo.
+                  Scarica gratis la guida di Michela e Moreno: 7 giorni con video per ritrovare il contatto con il tuo corpo.
                 </p>
                 <a
                   href="#scarica"
@@ -440,7 +416,7 @@ const RitrovareCorpoPostParto = () => {
               <span className="italic" style={{ color: VIOLET }}>questi 7 giorni</span>
             </h2>
             <p className="text-muted-foreground font-body leading-relaxed">
-              Non esercizi a caso — un percorso con una logica precisa: prima impari a sentire, poi a coordinare, poi a integrare nella vita di ogni giorno.
+              Non esercizi a caso. Un percorso con una logica precisa: prima impari a sentire, poi a coordinare, poi a integrare nella vita di ogni giorno.
             </p>
           </div>
 
@@ -450,13 +426,13 @@ const RitrovareCorpoPostParto = () => {
                 icon: <Eye className="w-5 h-5" />,
                 color: RED,
                 title: "Tornare a sentire il tuo corpo",
-                text: "La consapevolezza corporea è il punto di partenza di tutto. Prima ancora di rinforzare, imparerai a riconnetterti — a sentire cosa c'è, come risponde, cosa è cambiato.",
+                text: "La consapevolezza corporea è il punto di partenza di tutto. Prima ancora di rinforzare, imparerai a riconnetterti: sentire cosa c'è, come risponde, cosa è cambiato.",
               },
               {
                 icon: <Compass className="w-5 h-5" />,
                 color: VIOLET,
                 title: "Capire postura e schemi post parto",
-                text: "Durante la gravidanza il corpo ha trovato nuovi equilibri — e dopo il parto questi schemi non spariscono da soli. Imparerai a ridare spazio e allineamento senza sforzo.",
+                text: "Durante la gravidanza il corpo ha trovato nuovi equilibri, e dopo il parto questi schemi non spariscono da soli. Imparerai a ridare spazio e allineamento senza sforzo.",
               },
               {
                 icon: <Zap className="w-5 h-5" />,
@@ -480,7 +456,7 @@ const RitrovareCorpoPostParto = () => {
                 icon: <RotateCcw className="w-5 h-5" />,
                 color: VIOLET,
                 title: "Portare il recupero nella vita reale",
-                text: "Non vivi sul tappetino. Imparerai a integrare quello che hai imparato nei movimenti di ogni giorno — prendere in braccio, piegarti, camminare — in modo automatico e naturale.",
+                text: "Non vivi sul tappetino. Imparerai a integrare quello che hai imparato nei movimenti di ogni giorno: prendere in braccio, piegarti, camminare. In modo automatico e naturale.",
               },
             ].map((b, i) => (
               <div
@@ -564,7 +540,7 @@ const RitrovareCorpoPostParto = () => {
               {
                 num: "Giorno 5",
                 title: "La pancia e la diastasi: fare chiarezza",
-                desc: "Cosa sta succedendo davvero all'addome e come lavorarci in modo sicuro, efficace e rispettoso — senza fretta e senza paura.",
+                desc: "Cosa sta succedendo davvero all'addome e come lavorarci in modo sicuro, efficace e rispettoso. Senza fretta e senza paura.",
               },
               {
                 num: "Giorno 6",
@@ -629,7 +605,7 @@ const RitrovareCorpoPostParto = () => {
             </h2>
             <p className="text-muted-foreground font-body leading-relaxed">
               Due professionisti che lavorano ogni giorno con donne nel post parto e sanno quanto
-              sia difficile orientarsi — e quanto faccia differenza avere una guida davvero competente.
+              sia difficile orientarsi, e quanto faccia differenza avere una guida davvero competente.
             </p>
           </div>
 
@@ -643,7 +619,7 @@ const RitrovareCorpoPostParto = () => {
                   "Dott.ssa in Educazione Professionale ed Educazione Sessuale.",
                   "Personal Trainer esperta nel movimento in gravidanza e post parto.",
                 ],
-                desc: "Con passione e delicatezza, Michela guida ogni persona nell'esplorazione del proprio corpo. Sa quanto sia difficile il post parto — e per questo crea uno spazio sicuro, in cui ogni domanda è benvenuta e ogni passo è rispettato.",
+                desc: "Con passione e delicatezza, Michela guida ogni persona nell'esplorazione del proprio corpo. Sa quanto sia difficile il post parto, e per questo crea uno spazio sicuro in cui ogni domanda è benvenuta e ogni passo è rispettato.",
               },
               {
                 name: "Moreno",
@@ -733,7 +709,7 @@ const RitrovareCorpoPostParto = () => {
               },
               {
                 q: "Per chi è questa guida?",
-                a: "È pensata per chi è nel post parto — vicino o lontano dal parto — e si sente disconnessa dal proprio corpo, non sa da dove iniziare, o vuole finalmente capire come ritrovare connessione e controllo in modo sicuro.",
+                a: "È pensata per chi è nel post parto, vicino o lontano dal giorno del parto, e si sente disconnessa dal proprio corpo, non sa da dove iniziare o vuole capire come ritrovare connessione e controllo in modo sicuro.",
               },
               {
                 q: "Cosa trovo esattamente? Solo testo o ci sono anche gli esercizi?",
@@ -741,7 +717,7 @@ const RitrovareCorpoPostParto = () => {
               },
               {
                 q: "Da quanti giorni dopo il parto posso iniziare?",
-                a: "La guida è pensata per accompagnare il corpo nel post parto, in modo graduale e rispettoso. Puoi iniziarla sia nelle prime settimane dopo il parto, sia molto dopo — non è mai troppo tardi per ripartire dalle basi.",
+                a: "La guida è pensata per accompagnare il corpo nel post parto, in modo graduale e rispettoso. Puoi iniziarla sia nelle prime settimane dopo il parto, sia molto dopo: non è mai troppo tardi per ripartire dalle basi.",
               },
               {
                 q: "Devo avere attrezzatura o esperienza con gli esercizi?",
@@ -820,7 +796,7 @@ const RitrovareCorpoPostParto = () => {
 
             <p className="text-white/80 font-body leading-relaxed mb-4 text-base sm:text-lg">
               7 giorni per tornare a sentire il tuo corpo, capire cosa è cambiato
-              e riprendere il controllo — con video guidati da Michela e Moreno, gratis.
+              e riprendere il controllo, con video guidati da Michela e Moreno, gratis.
             </p>
 
             <div className="flex flex-wrap items-center justify-center gap-4 mb-10 text-sm font-body text-white/70">
