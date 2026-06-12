@@ -209,7 +209,7 @@ const RitrovareCorpoPostParto = () => {
                 </div>
 
                 <p className="text-xs font-body mt-4" style={{ color: "rgba(255,255,255,0.65)" }}>
-                  ✓ Completamente gratuita – ✓ Nessuna carta richiesta – ✓ Puoi cancellarti quando vuoi
+                  ✓ Completamente gratuita – ✓ PDF scaricabile – ✓ Mini training gratuito via email
                 </p>
               </div>
 
