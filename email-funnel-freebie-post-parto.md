@@ -1,4 +1,4 @@
-# Email Funnel — Freebie "7 giorni per ritrovare il tuo corpo dopo il parto"
+# Email Funnel: Freebie "7 giorni per ritrovare il tuo corpo dopo il parto"
 
 > 8 email della sequenza automatica post-iscrizione. Le email 1–4 accompagnano i giorni 1–4 della guida.
 > Le email 5–7 condividono i giorni 5–7 e introducono progressivamente la consulenza.
@@ -23,7 +23,7 @@
 
 ---
 
-## Email 1 — Giorno 0: benvenuto + primo video
+## Email 1: Giorno 0 benvenuto + primo video
 
 **Oggetto:** Eccoti il Giorno 1, {$name}
 **Preheader:** Il primo passo per ritrovare il tuo corpo dopo il parto
@@ -36,13 +36,13 @@ ci siamo. Hai fatto il primo passo e noi siamo felici di accompagnarti in questo
 
 Nella tua casella trovi già la guida completa in PDF. Ma oggi vogliamo iniziare subito dal vivo, con il primo video del Giorno 1.
 
-**Giorno 1 — Tornare a sentire il tuo corpo**
+**Giorno 1: Tornare a sentire il tuo corpo**
 
 Prima ancora di rinforzare, allenare o "rimettere a posto" qualcosa, c'è un passo che quasi nessuno insegna: tornare a percepire. L'addome, il pavimento pelvico, il respiro. Capire come rispondono, come si muovono, dove si sono fermati.
 
 È da qui che parte tutto. Senza questo primo contatto, qualsiasi esercizio lavora su una base instabile.
 
-👉 [LINK VIDEO GIORNO 1 — Tornare a sentire il tuo corpo]
+👉 [LINK VIDEO GIORNO 1: Tornare a sentire il tuo corpo]
 
 Prenditi 10 minuti, un posto tranquillo e metti in pausa tutto il resto. Meriti questo spazio.
 
@@ -54,14 +54,14 @@ Una cosa in più: se vuoi un posto dove trovare esercizi, contenuti e un confron
 
 👉 [LINK CANALE TELEGRAM]
 
-È uno spazio senza fretta e senza giudizio — esattamente come questo percorso.
+È uno spazio senza fretta e senza giudizio, esattamente come questo percorso.
 
 A domani con il Giorno 2,
 Michela e Moreno di Officina.MM
 
 ---
 
-## Email 2 — Giorno 1: secondo video
+## Email 2: Giorno 1 secondo video
 
 **Oggetto:** Il modo in cui stai nel corpo è cambiato. Eccoti il Giorno 2
 **Preheader:** Gli schemi della gravidanza non spariscono da soli dopo il parto
@@ -74,7 +74,7 @@ come è andato il Giorno 1? Speriamo che tu abbia ritagliato quei 10 minuti per 
 
 Oggi entriamo in qualcosa che riguarda quasi tutte le persone nel post parto, ma di cui si parla pochissimo.
 
-**Giorno 2 — Quel modo di stare nel corpo che è cambiato**
+**Giorno 2: Quel modo di stare nel corpo che è cambiato**
 
 Durante la gravidanza il corpo ha cercato nuovi equilibri. Ha spostato il peso, ha adattato la postura, ha trovato compensazioni per portare avanti quella pancia che cresceva ogni settimana. È stato intelligente e straordinario.
 
@@ -82,11 +82,11 @@ Ma quegli schemi non spariscono da soli dopo il parto.
 
 Resti con quella postura. Con quella tensione nelle spalle. Con quel modo di portare il bacino in avanti. Con la sensazione che il tuo centro di gravità sia ancora da qualche parte fuori posto.
 
-Non è pigrizia. Non è mancanza di volontà. È semplicemente che il corpo ha bisogno di qualcuno che lo guidi a ritrovare un nuovo allineamento — quello di adesso, non quello di prima.
+Non è pigrizia. Non è mancanza di volontà. È semplicemente che il corpo ha bisogno di qualcuno che lo guidi a ritrovare un nuovo allineamento: quello di adesso, non quello di prima.
 
 Nel video di oggi lavoriamo esattamente su questo.
 
-👉 [LINK VIDEO GIORNO 2 — Quel modo di stare nel corpo che è cambiato]
+👉 [LINK VIDEO GIORNO 2: Quel modo di stare nel corpo che è cambiato]
 
 Prenditi il tuo spazio, {$name}. A domani.
 
@@ -94,7 +94,7 @@ Michela e Moreno di Officina.MM
 
 ---
 
-## Email 3 — Giorno 2: terzo video
+## Email 3: Giorno 2 terzo video
 
 **Oggetto:** {$name}, stai respirando nel modo giusto?
 **Preheader:** Sembra una domanda strana. Ma la risposta cambia tutto
@@ -107,19 +107,19 @@ ti faccio una domanda che sembra banale ma non lo è: come stai respirando in qu
 
 Corto? Alto? Stai tenendo un po' la pancia dentro?
 
-Se sì, non sei l'unica. È una delle cose che cambia di più nel post parto — spesso senza che ce ne accorgiamo.
+Se sì, non sei l'unica. È una delle cose che cambia di più nel post parto, spesso senza che ce ne accorgiamo.
 
-**Giorno 3 — Il respiro che ti aiuta davvero**
+**Giorno 3: Il respiro che ti aiuta davvero**
 
 Il respiro non è solo aria che entra ed esce. È uno degli strumenti più potenti che hai per lavorare su pavimento pelvico, addome e core profondo.
 
-Quando il respiro è corto, trattenuto o disfunzionale, il pavimento pelvico non riesce a muoversi come dovrebbe. L'addome rimane in tensione. Le pressioni non vengono gestite bene — e questo si sente in mille piccoli modi nella vita di ogni giorno.
+Quando il respiro è corto, trattenuto o disfunzionale, il pavimento pelvico non riesce a muoversi come dovrebbe. L'addome rimane in tensione. Le pressioni non vengono gestite bene, e questo si sente in mille piccoli modi nella vita di ogni giorno.
 
 Imparare a usare il respiro in modo funzionale non è complicato. Ma richiede qualcuno che te lo mostri passo dopo passo.
 
 Nel video di oggi lo facciamo insieme.
 
-👉 [LINK VIDEO GIORNO 3 — Il respiro che ti aiuta davvero]
+👉 [LINK VIDEO GIORNO 3: Il respiro che ti aiuta davvero]
 
 Dopo il video, prova a fare questa cosa semplice: prima di alzarti dal letto domani mattina, fai tre respiri profondi con la pancia. Osserva cosa succede.
 
@@ -128,7 +128,7 @@ Michela e Moreno di Officina.MM
 
 ---
 
-## Email 4 — Giorno 3: quarto video
+## Email 4: Giorno 3 quarto video
 
 **Oggetto:** Il pavimento pelvico non è solo "stringere", {$name}
 **Preheader:** Il consiglio che ti hanno dato probabilmente non è completo
@@ -139,19 +139,19 @@ Ciao {$name},
 
 scommetto che a un certo punto ti hanno detto: "fai gli esercizi di Kegel." Stringi e lascia. Venti volte, tre volte al giorno.
 
-E probabilmente ci hai anche provato — senza essere del tutto sicura di sentire qualcosa, o aspettando risultati che non sono mai arrivati del tutto.
+E probabilmente ci hai anche provato, senza essere del tutto sicura di sentire qualcosa, o aspettando risultati che non sono mai arrivati del tutto.
 
 Il Kegel non è sbagliato. Ma è incompleto.
 
-**Giorno 4 — Il pavimento pelvico: quello che nessuno ti spiega**
+**Giorno 4: Il pavimento pelvico, quello che nessuno ti spiega**
 
 Il pavimento pelvico è una struttura complessa. Ha bisogno di saper contrarsi, sì. Ma anche di saper rilasciare completamente. Di coordinarsi con il respiro. Di rispondere in modo automatico ai movimenti di ogni giorno.
 
-In molti casi, dopo il parto, il problema non è che sia "troppo debole". A volte è in tensione, incapace di lasciarsi andare. E in quel caso, continuare a stringere non aiuta — fa il contrario.
+In molti casi, dopo il parto, il problema non è che sia "troppo debole". A volte è in tensione, incapace di lasciarsi andare. E in quel caso, continuare a stringere non aiuta. Fa il contrario.
 
 Nel Giorno 4 ti aiutiamo a ritrovare davvero il contatto con questa zona, capire in che stato si trova e iniziare a lavorarci nel modo giusto.
 
-👉 [LINK VIDEO GIORNO 4 — Il pavimento pelvico: quello che nessuno ti spiega]
+👉 [LINK VIDEO GIORNO 4: Il pavimento pelvico, quello che nessuno ti spiega]
 
 Se vuoi, dopo il video rispondici: avevi già sentito parlare di ipertono del pavimento pelvico? È qualcosa che ti riguarda?
 
@@ -160,7 +160,7 @@ Michela e Moreno di Officina.MM
 
 ---
 
-## Email 5 — Giorno 4: quinto video + intro consulenza
+## Email 5: Giorno 4 quinto video + intro consulenza
 
 **Oggetto:** La pancia dopo il parto: quello che nessuno spiega, {$name}
 **Preheader:** E un'opportunità per lavorarci insieme, in modo personalizzato
@@ -171,7 +171,7 @@ Ciao {$name},
 
 oggi arriviamo a un argomento che sento molto spesso nelle conversazioni con chi è nel post parto: la pancia. L'addome che non risponde, la diastasi di cui si parla tanto ma spesso nel modo sbagliato, la sensazione di non riconoscersi più allo specchio.
 
-**Giorno 5 — La pancia e la diastasi: fare chiarezza**
+**Giorno 5: La pancia e la diastasi, fare chiarezza**
 
 La domanda che si sente di più è: "ho la diastasi, devo chiuderla?"
 
@@ -179,9 +179,9 @@ Come se la diastasi fosse un problema da eliminare il prima possibile, una ferit
 
 Ma la vera domanda non è "si è chiusa?". È: il tuo core funziona? Riesci a gestire le pressioni nei movimenti quotidiani? Hai stabilità quando sollevi, cammini, ti alleni?
 
-Una diastasi ancora presente ma con un core che funziona è già un grande risultato. Nel video di oggi ti aiutiamo a capire cosa sta succedendo davvero — e come lavorarci in modo sicuro.
+Una diastasi ancora presente ma con un core che funziona è già un grande risultato. Nel video di oggi ti aiutiamo a capire cosa sta succedendo davvero, e come lavorarci in modo sicuro.
 
-👉 [LINK VIDEO GIORNO 5 — La pancia e la diastasi: fare chiarezza]
+👉 [LINK VIDEO GIORNO 5: La pancia e la diastasi, fare chiarezza]
 
 ---
 
@@ -207,7 +207,7 @@ Michela e Moreno di Officina.MM
 
 ---
 
-## Email 6 — Giorno 5: sesto video + perché adesso
+## Email 6: Giorno 5 sesto video + perché adesso
 
 **Oggetto:** {$name}, questo è il momento giusto
 **Preheader:** Perché aspettare ha un costo che non si vede subito
@@ -216,15 +216,15 @@ Michela e Moreno di Officina.MM
 
 Ciao {$name},
 
-siamo quasi alla fine del percorso. Hai già fatto tantissimo in questi giorni — più di quanto immagini.
+siamo quasi alla fine del percorso. Hai già fatto tantissimo in questi giorni, più di quanto immagini.
 
-**Giorno 6 — Muoverti nella vita reale, non solo negli esercizi**
+**Giorno 6: Muoverti nella vita reale, non solo negli esercizi**
 
 Sul tappetino si impara. Ma si vive altrove. Quando prendi in braccio il bambino. Quando ti pieghi a raccogliere qualcosa. Quando sali le scale con le borse della spesa. Quando sei in piedi per ore.
 
 Il Giorno 6 è dedicato a questo: portare quello che hai imparato nei movimenti di ogni giorno, in modo automatico e naturale. Senza doverti ricordare di "fare l'esercizio". Semplicemente muovendoti meglio.
 
-👉 [LINK VIDEO GIORNO 6 — Muoverti nella vita reale, non solo negli esercizi]
+👉 [LINK VIDEO GIORNO 6: Muoverti nella vita reale, non solo negli esercizi]
 
 ---
 
@@ -232,13 +232,13 @@ Il Giorno 6 è dedicato a questo: portare quello che hai imparato nei movimenti 
 
 Lo so a cosa stai pensando: "finisco la guida, poi vedo."
 
-Capisco. Ma ti voglio dire una cosa onesta: il corpo cambia quando riceve stimoli continuativi e mirati. Questa guida ti ha dato le fondamenta — e ora quelle fondamenta hanno bisogno di qualcuno che le guidi nel modo giusto per te.
+Capisco. Ma ti voglio dire una cosa onesta: il corpo cambia quando riceve stimoli continuativi e mirati. Questa guida ti ha dato le fondamenta, e ora quelle fondamenta hanno bisogno di qualcuno che le guidi nel modo giusto per te.
 
 Ogni settimana che passa senza una direzione chiara è una settimana in cui i compensi rimangono, i sintomi restano e l'energia che ci metti non si traduce in risultati.
 
-Prenotare una consulenza adesso significa partire da quello che hai già costruito questa settimana — non ricominciare da capo tra qualche mese.
+Prenotare una consulenza adesso significa partire da quello che hai già costruito questa settimana, senza ricominciare da capo tra qualche mese.
 
-👉 [LINK CONSULENZA — Prenota il tuo spazio]
+👉 [LINK CONSULENZA: Prenota il tuo spazio]
 
 Hai ancora domande? Rispondici a questa email. Siamo qui.
 
@@ -247,7 +247,7 @@ Michela e Moreno di Officina.MM
 
 ---
 
-## Email 7 — Giorno 6: settimo video + per chi è la consulenza
+## Email 7: Giorno 6 settimo video + per chi è la consulenza
 
 **Oggetto:** Per chi è pensata la consulenza (e cosa faremo insieme)
 **Preheader:** Non è per tutti. Ecco per chi ha senso davvero
@@ -258,11 +258,11 @@ Ciao {$name},
 
 domani è l'ultimo giorno della guida. Prima di arrivarci, voglio rispondere a una domanda che arriva spesso: "ma la consulenza fa al caso mio?"
 
-**Giorno 7 — anteprima di domani**
+**Giorno 7: anteprima di domani**
 
 Domani chiudiamo il cerchio: una routine completa che unisce tutto quello che hai imparato, e una direzione per continuare con metodo. Non voglio rovinarti la sorpresa, quindi ti lascio il video di oggi.
 
-👉 [LINK VIDEO GIORNO 7 — Da dove riparti davvero]
+👉 [LINK VIDEO GIORNO 7: Da dove riparti davvero]
 
 ---
 
@@ -271,20 +271,20 @@ Domani chiudiamo il cerchio: una routine completa che unisce tutto quello che ha
 La consulenza ha senso per te se:
 
 - Hai finito la guida e senti che c'è ancora qualcosa che non torna nel tuo corpo, ma non sai esattamente cosa fare dopo
-- Convivi con perdite di urina, senso di peso, dolore, diastasi o disconnessione dall'addome — da settimane, mesi o anni
+- Convivi con perdite di urina, senso di peso, dolore, diastasi o disconnessione dall'addome da settimane, mesi o anni
 - Hai già provato esercizi in autonomia ma senza una direzione precisa e i risultati non arrivano
 - Hai poco tempo e vuoi usarlo nel modo più efficace possibile, senza sprecare energie sulla cosa sbagliata
-- Vuoi capire se hai bisogno di un percorso guidato o se puoi proseguire da sola — e come
+- Vuoi capire se hai bisogno di un percorso guidato o se puoi proseguire in autonomia, e come farlo
 
 **Cosa faremo insieme nella consulenza:**
 
 Nella prima parte della consulenza raccogliamo la tua storia: quando sono iniziati i sintomi, cosa hai già provato, come ti senti adesso. Nessun giudizio, nessuna fretta.
 
-Nella seconda parte ti diamo una lettura chiara della tua situazione e ti indichiamo la direzione più efficace per te — che sia un percorso insieme o un piano in autonomia.
+Nella seconda parte ti diamo una lettura chiara della tua situazione e ti indichiamo la direzione più efficace per te, che sia un percorso insieme o un piano in autonomia.
 
 Esci dalla consulenza con una mappa. Non con altri esercizi a caso.
 
-👉 [LINK CONSULENZA — Prenota il tuo spazio]
+👉 [LINK CONSULENZA: Prenota il tuo spazio]
 
 Se hai domande prima di prenotare, rispondici a questa email. Leggiamo tutto noi, personalmente.
 
@@ -293,7 +293,7 @@ Michela e Moreno di Officina.MM
 
 ---
 
-## Email 8 — Chiusura + caso studio + CTA finale
+## Email 8: Chiusura + caso studio + CTA finale
 
 **Oggetto:** {$name}, hai completato i 7 giorni. E adesso?
 **Preheader:** Una storia vera, e la prossima mossa per il tuo corpo
@@ -311,7 +311,7 @@ Non è poco. Davvero.
 - Hai ritrovato il contatto con l'addome e il pavimento pelvico (Giorno 1)
 - Hai capito come gli schemi posturali della gravidanza influenzano ancora il tuo corpo (Giorno 2)
 - Hai scoperto come usare il respiro come alleato, non come automatismo (Giorno 3)
-- Hai capito cos'è davvero il pavimento pelvico — e perché "stringere" non basta (Giorno 4)
+- Hai capito cos'è davvero il pavimento pelvico e perché "stringere" non basta (Giorno 4)
 - Hai fatto chiarezza su pancia e diastasi, senza i falsi miti (Giorno 5)
 - Hai iniziato a portare tutto nella vita reale, nei movimenti quotidiani (Giorno 6)
 - Hai una routine completa e una direzione da cui ripartire (Giorno 7)
@@ -326,7 +326,7 @@ Sono basi solide. Sono le fondamenta giuste.
 
 Abbiamo iniziato con una consulenza. In quell'ora abbiamo capito da dove partire: non da più esercizi, ma dalla qualità di quelli che già stava facendo.
 
-[X settimane/mesi] dopo, [NOME/INIZIALE] ci ha scritto: "[CITAZIONE REALE — es. 'Non metto più il salvaslip da tre settimane. Ho ricominciato a correre. Mi sento di nuovo intera.']"
+[X settimane/mesi] dopo, [NOME/INIZIALE] ci ha scritto: "[CITAZIONE REALE, es: 'Non metto più il salvaslip da tre settimane. Ho ricominciato a correre. Mi sento di nuovo intera.']"
 
 Non è magia. È il risultato di un lavoro mirato, progressivo, pensato per la sua situazione specifica.
 
@@ -336,9 +336,9 @@ Non è magia. È il risultato di un lavoro mirato, progressivo, pensato per la s
 
 La consulenza con Michela e Moreno è uno spazio di 60 minuti in cui guardiamo esattamente la tua situazione e ti diamo una direzione chiara.
 
-Non ti promettiamo che tutto si risolve in un'ora. Ti promettiamo che esci da quella conversazione sapendo cosa fare — e smettendo di andare a tentativi.
+Non ti promettiamo che tutto si risolve in un'ora. Ti promettiamo che esci da quella conversazione sapendo cosa fare, senza dover più andare a tentativi.
 
-👉 [LINK CONSULENZA — Prenota il tuo spazio]
+👉 [LINK CONSULENZA: Prenota il tuo spazio]
 
 Se hai domande, rispondici a questa email. Siamo qui.
 
