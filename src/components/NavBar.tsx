@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import type { ReactNode } from "react";
 
 const TARGET = new Date("2026-04-22T23:59:00");
 
@@ -18,7 +19,7 @@ interface NavBarProps {
   showCountdown?: boolean;
   ctaText?: string;
   ctaHref?: string;
-  centerText?: string;
+  centerText?: ReactNode;
 }
 
 const NavBar = ({ showCountdown = false, ctaText = "Voglio partecipare →", ctaHref = "#iscrizione", centerText }: NavBarProps) => {
@@ -71,8 +72,8 @@ const NavBar = ({ showCountdown = false, ctaText = "Voglio partecipare →", cta
 
         {/* Testo centrale personalizzato */}
         {centerText && !showCountdown && (
-          <div className="hidden sm:flex flex-col items-center flex-1 text-center px-4">
-            <span className="text-sm font-semibold font-body text-foreground leading-snug">
+          <div className="hidden sm:flex items-center justify-center flex-1 px-4">
+            <span className="text-sm font-semibold font-body text-foreground whitespace-nowrap">
               {centerText}
             </span>
           </div>
