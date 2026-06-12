@@ -16,7 +16,7 @@ const sliderItems = [
   "◇ Video guidati inclusi",
   "◆ 7 giorni per ritrovare il tuo corpo",
   "◇ Connessione · Controllo · Sicurezza",
-  "◆ Nessuna carta richiesta",
+  "◆ Mini training gratuito via email",
   "◇ Pavimento pelvico · Respiro · Diastasi",
   "◆ Di Michela e Moreno",
   "◇ Ripartire davvero dalle basi",
@@ -120,7 +120,7 @@ const RitrovareCorpoPostParto = () => {
               </div>
 
               <p className="text-sm text-muted-foreground mt-5 font-body">
-                ✓ PDF + video gratuiti · ✓ Scaricabile subito · ✓ Nessuna carta richiesta
+                ✓ PDF + video gratuiti · ✓ Scaricabile subito · ✓ Mini training per email
               </p>
             </div>
 
@@ -705,7 +705,7 @@ const RitrovareCorpoPostParto = () => {
             {[
               {
                 q: "È davvero gratuita?",
-                a: "Sì, completamente. Non devi inserire nessuna carta di credito e non ci sono costi nascosti. Ti iscrivi con nome e email, e ricevi la guida direttamente nella tua casella.",
+                a: "Sì, completamente. Ti iscrivi con nome e email, ricevi il PDF scaricabile e un mini training gratuito via email. Nessun costo nascosto.",
               },
               {
                 q: "Per chi è questa guida?",
@@ -817,7 +817,7 @@ const RitrovareCorpoPostParto = () => {
             </a>
 
             <p className="text-white/50 font-body text-xs mt-5">
-              ◇ 100% gratuita – ◇ Nessuna carta richiesta – ◇ Di Officina.MM
+              ◇ 100% gratuita – ◇ Mini training per email – ◇ Di Officina.MM
             </p>
           </div>
         </div>
