@@ -1,4 +1,4 @@
-import { CheckCircle2, Mail, ClipboardList } from "lucide-react";
+import { CheckCircle2, Mail, ClipboardList, Send } from "lucide-react";
 import Footer from "@/components/Footer";
 
 const RED = "#AF2B43";
@@ -20,6 +20,15 @@ const steps = [
       "Rispondi a poche domande sulla tua situazione attuale: a che punto ti trovi nel post parto, quali sfide stai affrontando, cosa vorresti migliorare. Ci aiuta a capire dove sei e a creare contenuti davvero utili per te.",
     cta: "Compila il questionario →",
     href: "https://forms.gle/placeholder",
+  },
+  {
+    num: 3,
+    icon: Send,
+    title: "Entra nel canale Telegram gratuito",
+    description:
+      "Un canale dedicato a chi vuole imparare a prendersi cura del proprio pavimento pelvico e del core, al proprio ritmo. Video, esercizi e contenuti per chi vuole capire il proprio corpo senza fretta e senza pressione.",
+    cta: "Entra nel canale Telegram →",
+    href: "https://t.me/placeholder",
   },
 ];
 
@@ -100,7 +109,7 @@ const GrazieRitrovareCorpo = () => {
               Ecco cosa fare adesso
             </h2>
             <p className="text-muted-foreground font-body max-w-lg mx-auto">
-              Due piccoli passi per iniziare subito e aiutarci a conoscerti meglio.
+              Tre piccoli passi per iniziare subito e far parte della community.
             </p>
           </div>
 
