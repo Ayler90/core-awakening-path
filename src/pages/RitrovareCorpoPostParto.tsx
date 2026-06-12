@@ -181,7 +181,7 @@ const RitrovareCorpoPostParto = () => {
                 <p className="font-body leading-relaxed mb-6" style={{ color: "rgba(255,255,255,0.85)" }}>
                   7 giorni concreti per imparare a sentire di nuovo il tuo corpo, capire cosa è
                   cambiato dopo il parto e riprendere il controllo, con esercizi guidati da Michela,
-                  senza attrezzi e senza bisogno di esperienza previa.
+                  senza attrezzi e senza giudizio, ma al tuo ritmo.
                 </p>
 
                 <div className="grid grid-cols-2 gap-3 mb-8">
