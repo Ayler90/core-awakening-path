@@ -605,11 +605,11 @@ const RitrovareCorpoPostParto = () => {
             </span>
 
             <h2 className="text-3xl sm:text-4xl font-bold font-display text-foreground mb-4 leading-tight">
-              La guida è di{" "}
+              Ciao, siamo{" "}
               <span className="italic" style={{ color: RED }}>Michela e Moreno</span>
             </h2>
             <p className="text-muted-foreground font-body leading-relaxed">
-              Due professionisti che lavorano ogni giorno con donne nel post parto e sanno quanto
+              Lavoriamo ogni giorno con donne nel post parto e sappiamo quanto
               sia difficile orientarsi, e quanto faccia differenza avere una guida davvero competente.
             </p>
           </div>
@@ -624,7 +624,7 @@ const RitrovareCorpoPostParto = () => {
                   "Dott.ssa in Educazione Professionale ed Educazione Sessuale.",
                   "Personal Trainer esperta nel movimento in gravidanza e post parto.",
                 ],
-                desc: "Con passione e delicatezza, Michela guida ogni persona nell'esplorazione del proprio corpo. Sa quanto sia difficile il post parto, e per questo crea uno spazio sicuro in cui ogni domanda è benvenuta e ogni passo è rispettato.",
+                desc: "Con passione e delicatezza, guido ogni persona nell'esplorazione del proprio corpo. So quanto sia difficile il post parto, e per questo creo uno spazio sicuro in cui ogni domanda è benvenuta e ogni passo è rispettato.",
               },
               {
                 name: "Moreno",
@@ -634,7 +634,7 @@ const RitrovareCorpoPostParto = () => {
                   "Dott. in Infermieristica esperto in Riabilitazione pelvi-perineale.",
                   "CrossTraining Coach esperto in gravidanza e post parto.",
                 ],
-                desc: "Moreno porta chiarezza e competenza in ogni contenuto. Con un approccio professionale ma accessibile, accompagna negli esercizi pratici con attenzione al dettaglio e rispetto per il corpo.",
+                desc: "Porto chiarezza e competenza in ogni contenuto. Con un approccio professionale ma accessibile, accompagno negli esercizi pratici con attenzione al dettaglio e rispetto per il corpo.",
               },
             ].map((t, i) => (
               <div
