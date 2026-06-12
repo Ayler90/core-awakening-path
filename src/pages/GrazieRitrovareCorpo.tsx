@@ -73,8 +73,7 @@ const GrazieRitrovareCorpo = () => {
 
           <p className="text-lg text-muted-foreground font-body leading-relaxed mb-3">
             Hai appena fatto il primo passo. Tra pochi minuti riceverai nella tua email{" "}
-            <strong className="text-foreground">la guida PDF</strong> e il link per accedere
-            al <strong className="text-foreground">mini training gratuito</strong>.
+            <strong className="text-foreground">la guida PDF</strong>.
           </p>
 
           <p className="text-base text-muted-foreground font-body leading-relaxed mb-8">
