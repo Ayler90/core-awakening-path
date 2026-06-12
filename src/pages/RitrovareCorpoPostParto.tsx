@@ -20,7 +20,7 @@ const sliderItems = [
   "◇ Pavimento pelvico · Respiro · Diastasi",
   "◆ Di Michela e Moreno",
   "◇ Ripartire davvero dalle basi",
-  "◆ Con Officina.MM",
+  "◆ Mini training per email",
   "◇ Scaricabile subito",
 ];
 
