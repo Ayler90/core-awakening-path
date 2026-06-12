@@ -97,7 +97,7 @@ const RitrovareCorpoPostParto = () => {
               <p className="text-base text-muted-foreground font-body leading-relaxed mb-8">
                 <strong className="text-foreground">7 giorni per ritrovare il tuo corpo dopo il parto</strong> è
                 una guida gratuita con video guidati: un percorso concreto per imparare a sentire
-                di nuovo quella zona, capire cosa è cambiato e riprendere il controllo.
+                di nuovo addome e pavimento pelvico, capire cosa è cambiato e riprendere il controllo.
                 Senza fretta e senza paura di sbagliare.
               </p>
 
