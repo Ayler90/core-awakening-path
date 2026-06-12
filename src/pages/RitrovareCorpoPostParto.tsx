@@ -80,7 +80,7 @@ const RitrovareCorpoPostParto = () => {
                 ◆ Guida PDF gratuita · Con video guidati
               </span>
 
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-display leading-tight text-foreground mb-6">
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-display leading-tight text-foreground mb-6">
                 Dopo il parto, tutti ti dicono di tornare come prima.{" "}
                 <br className="hidden sm:block" />
                 <span className="italic" style={{ color: RED }}>
