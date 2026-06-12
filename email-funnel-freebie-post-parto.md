@@ -32,32 +32,32 @@
 
 Ciao {$name},
 
-ci siamo. Hai fatto il primo passo e noi siamo felici di accompagnarti in questo percorso.
+immagino che tu stia leggendo questa email con una mano libera, se va bene. Magari mentre il bambino dorme, o mentre qualcuno te lo tiene per qualche minuto.
 
-Nella tua casella trovi già la guida completa in PDF. Ma oggi vogliamo iniziare subito dal vivo, con il primo video del Giorno 1.
+Quel piccolo spazio che ti sei presa conta. Davvero.
+
+Ti scrivo io, Michela, una delle due persone dietro Officina.MM, insieme a Moreno. E prima di mandarti il video del Giorno 1, voglio dirti una cosa che mi sento dire spesso dalle donne che arrivano a noi nel post parto: "Non mi riconosco più nel mio corpo."
+
+Non lo dicono solo per i cambiamenti fisici. Lo dicono perché il corpo non risponde più come si aspettano. Perché alzarsi dal letto fa male in posti nuovi. Perché fare una cosa semplice come ridere forte o starnutire è diventata una cosa a cui prestare attenzione. Perché guardano la propria pancia e non la sentono loro.
+
+Se qualcosa di quello che ho scritto ti ha sfiorata, sei nel posto giusto.
 
 **Giorno 1: Tornare a sentire il tuo corpo**
 
-Prima ancora di rinforzare, allenare o "rimettere a posto" qualcosa, c'è un passo che quasi nessuno insegna: tornare a percepire. L'addome, il pavimento pelvico, il respiro. Capire come rispondono, come si muovono, dove si sono fermati.
+Prima di rinforzare qualcosa, prima di "rimettere a posto" qualcosa, c'è un passo che quasi nessuno insegna: tornare a percepire. L'addome, il pavimento pelvico, il respiro. Capire come rispondono adesso, dove si sono fermati, cosa è cambiato.
 
-È da qui che parte tutto. Senza questo primo contatto, qualsiasi esercizio lavora su una base instabile.
+È da qui che parte tutto. Non da esercizi più difficili. Da questo.
 
 👉 [LINK VIDEO GIORNO 1: Tornare a sentire il tuo corpo]
 
-Prenditi 10 minuti, un posto tranquillo e metti in pausa tutto il resto. Meriti questo spazio.
+Prenditi 10 minuti. Un posto abbastanza tranquillo. Il resto può aspettare.
 
-Dopo il video, se ti va, rispondici a questa email. Dicci com'è andata, cosa hai sentito, cosa ti ha sorpreso. Leggiamo tutto noi, personalmente.
+Se dopo il video hai voglia di scriverci, fallo. Rispondi a questa email e dicci com'è andata. Leggiamo tutto noi, personalmente.
 
----
-
-Una cosa in più: se vuoi un posto dove trovare esercizi, contenuti e un confronto reale con altre persone in un percorso simile al tuo, entra nel nostro canale Telegram gratuito.
-
-👉 [LINK CANALE TELEGRAM]
-
-È uno spazio senza fretta e senza giudizio, esattamente come questo percorso.
-
-A domani con il Giorno 2,
+Un passo alla volta,
 Michela e Moreno di Officina.MM
+
+P.S. Se vuoi uno spazio dove trovare altri contenuti e un posto in cui non sentirti sola in questo percorso, entra nel nostro canale Telegram gratuito. 👉 [LINK CANALE TELEGRAM]
 
 ---
 
@@ -70,26 +70,29 @@ Michela e Moreno di Officina.MM
 
 Ciao {$name},
 
-come è andato il Giorno 1? Speriamo che tu abbia ritagliato quei 10 minuti per te.
+come è andato ieri? Spero che tu abbia trovato quei 10 minuti.
 
-Oggi entriamo in qualcosa che riguarda quasi tutte le persone nel post parto, ma di cui si parla pochissimo.
+Voglio raccontarti una cosa che mi è rimasta impressa.
+
+Qualche anno fa, lavorando con le prime donne nel post parto, ho fatto un'osservazione che mi ha cambiato il modo di vedere le cose. Stavo guardando una paziente camminare verso di me in corridoio. Aveva il bambino appena nato in braccio. E io vedevo chiaramente tutto quello che il suo corpo stava ancora "ricordando" della gravidanza: il bacino proiettato in avanti, le spalle portate verso il bambino, una leggera inclinazione del busto. Schemi perfetti per portare una pancia enorme. Schemi che adesso, però, non servivano più.
+
+Il punto è che lei non ci faceva caso. Non lo sentiva. Per lei era semplicemente il modo in cui stava nel corpo.
 
 **Giorno 2: Quel modo di stare nel corpo che è cambiato**
 
-Durante la gravidanza il corpo ha cercato nuovi equilibri. Ha spostato il peso, ha adattato la postura, ha trovato compensazioni per portare avanti quella pancia che cresceva ogni settimana. È stato intelligente e straordinario.
+Durante la gravidanza il corpo è stato straordinariamente intelligente. Ha spostato pesi, cambiato appoggi, trovato compensazioni per portarti avanti settimana dopo settimana.
 
 Ma quegli schemi non spariscono da soli dopo il parto.
 
-Resti con quella postura. Con quella tensione nelle spalle. Con quel modo di portare il bacino in avanti. Con la sensazione che il tuo centro di gravità sia ancora da qualche parte fuori posto.
+Resti con quella tensione alle spalle quando allatti o tieni il bambino in braccio per ore. Resti con quel modo di portare il bacino in avanti quando cammini. Resti con quella sensazione che qualcosa nel tuo centro sia ancora fuori posto. Non doloroso, magari. Solo strano. Diverso da come eri.
 
-Non è pigrizia. Non è mancanza di volontà. È semplicemente che il corpo ha bisogno di qualcuno che lo guidi a ritrovare un nuovo allineamento: quello di adesso, non quello di prima.
+Non è che qualcosa si è rotto. È che il corpo aspetta qualcuno che lo aiuti a trovare un nuovo equilibrio: quello di adesso, non quello di nove mesi fa.
 
 Nel video di oggi lavoriamo esattamente su questo.
 
 👉 [LINK VIDEO GIORNO 2: Quel modo di stare nel corpo che è cambiato]
 
-Prenditi il tuo spazio, {$name}. A domani.
-
+A domani,
 Michela e Moreno di Officina.MM
 
 ---
@@ -103,25 +106,25 @@ Michela e Moreno di Officina.MM
 
 Ciao {$name},
 
-ti faccio una domanda che sembra banale ma non lo è: come stai respirando in questo momento?
+fai una cosa prima di leggere il resto: porta l'attenzione al tuo respiro, adesso, mentre leggi questa email.
 
-Corto? Alto? Stai tenendo un po' la pancia dentro?
+Dove arriva? In petto? Nella pancia? O arriva a metà strada e si ferma lì?
 
-Se sì, non sei l'unica. È una delle cose che cambia di più nel post parto, spesso senza che ce ne accorgiamo.
+Non è un test. È solo un'osservazione.
+
+Tra le cose che cambiano di più nel post parto, il respiro è spesso quella di cui si parla meno. Eppure è quella che cambia prima. Già durante la gravidanza, quando la pancia cresce e il diaframma perde spazio, il respiro si adatta: diventa più corto, più alto, più superficiale. E dopo il parto, spesso, rimane così.
+
+Quando me ne sono resa conto la prima volta, osservando attentamente una paziente nel post parto, ho capito che non stavo guardando pigrizia o mancanza di tono. Stavo guardando un pattern respiratorio che nessuno le aveva mai insegnato a correggere.
 
 **Giorno 3: Il respiro che ti aiuta davvero**
 
-Il respiro non è solo aria che entra ed esce. È uno degli strumenti più potenti che hai per lavorare su pavimento pelvico, addome e core profondo.
+Il respiro non è solo aria che entra ed esce. È il meccanismo che coordina tutto il resto. Quando respiri in modo disfunzionale, il pavimento pelvico non riesce a muoversi come dovrebbe. L'addome rimane in una tensione di fondo che non ti dà mai tregua. Le pressioni nel basso ventre non vengono gestite bene, e lo senti quando tossisci, quando starnutisci, quando sollevi qualcosa di pesante.
 
-Quando il respiro è corto, trattenuto o disfunzionale, il pavimento pelvico non riesce a muoversi come dovrebbe. L'addome rimane in tensione. Le pressioni non vengono gestite bene, e questo si sente in mille piccoli modi nella vita di ogni giorno.
-
-Imparare a usare il respiro in modo funzionale non è complicato. Ma richiede qualcuno che te lo mostri passo dopo passo.
-
-Nel video di oggi lo facciamo insieme.
+Imparare a respirare in modo funzionale non è complicato. Ma richiede che qualcuno te lo mostri, passo dopo passo. Nel video di oggi lo facciamo insieme.
 
 👉 [LINK VIDEO GIORNO 3: Il respiro che ti aiuta davvero]
 
-Dopo il video, prova a fare questa cosa semplice: prima di alzarti dal letto domani mattina, fai tre respiri profondi con la pancia. Osserva cosa succede.
+Dopo il video, prova questa cosa: domani mattina, prima di alzarti dal letto, fai tre respiri profondi che arrivano fino alla pancia. Solo questo. E osserva cosa succede.
 
 A domani,
 Michela e Moreno di Officina.MM
@@ -137,25 +140,29 @@ Michela e Moreno di Officina.MM
 
 Ciao {$name},
 
-scommetto che a un certo punto ti hanno detto: "fai gli esercizi di Kegel." Stringi e lascia. Venti volte, tre volte al giorno.
+scommetto che a un certo punto ti hanno detto di fare i Kegel.
 
-E probabilmente ci hai anche provato, senza essere del tutto sicura di sentire qualcosa, o aspettando risultati che non sono mai arrivati del tutto.
+Stringi e lascia. Venti volte, tre serie al giorno. Meglio se mentre aspetti il semaforo, così non dimentichi.
 
-Il Kegel non è sbagliato. Ma è incompleto.
+E scommetto anche che ci hai provato, con la vaga sensazione di non sentire esattamente cosa stessi contraendo. Aspettando risultati che non arrivavano del tutto, o che arrivavano per un po' e poi sparivano.
+
+Ecco la cosa: il Kegel non è sbagliato. Ma è incompleto. E in alcuni casi è addirittura il contrario di quello che serve.
+
+Me ne sono resa conto anni fa lavorando con una paziente che aveva seguito il consiglio diligentemente per mesi. Più stringeva, peggio stava. Le perdite non miglioravano, la tensione al basso ventre aumentava, a volte c'era anche dolore. Quando l'ho valutata ho capito immediatamente: il suo pavimento pelvico non era debole. Era ipertonico. Incapace di rilasciarsi. E lei stava aumentando quella tensione ogni giorno, convinta di star facendo la cosa giusta.
 
 **Giorno 4: Il pavimento pelvico, quello che nessuno ti spiega**
 
-Il pavimento pelvico è una struttura complessa. Ha bisogno di saper contrarsi, sì. Ma anche di saper rilasciare completamente. Di coordinarsi con il respiro. Di rispondere in modo automatico ai movimenti di ogni giorno.
+Il pavimento pelvico ha bisogno di saper contrarsi, sì. Ma soprattutto di saper rilasciare completamente. Di coordinarsi con il respiro. Di rispondere in modo automatico ai movimenti di ogni giorno, senza che tu ci debba pensare ogni volta.
 
-In molti casi, dopo il parto, il problema non è che sia "troppo debole". A volte è in tensione, incapace di lasciarsi andare. E in quel caso, continuare a stringere non aiuta. Fa il contrario.
+Dopo il parto, la direzione da prendere non è uguale per tutte. Per alcune il problema è debolezza. Per altre è ipertono, tensione accumulata, difficoltà a lasciarsi andare. E le due strade sono opposte.
 
-Nel Giorno 4 ti aiutiamo a ritrovare davvero il contatto con questa zona, capire in che stato si trova e iniziare a lavorarci nel modo giusto.
+Nel video di oggi ti aiutiamo a capire davvero in che stato si trova il tuo pavimento pelvico e come lavorarci in modo efficace, non a caso.
 
 👉 [LINK VIDEO GIORNO 4: Il pavimento pelvico, quello che nessuno ti spiega]
 
-Se vuoi, dopo il video rispondici: avevi già sentito parlare di ipertono del pavimento pelvico? È qualcosa che ti riguarda?
+Se ti va, rispondimi a questa email: prima di leggere questo, avevi mai sentito parlare di ipertono del pavimento pelvico? È qualcosa che senti riguardarti?
 
-A domani con il Giorno 5,
+A domani,
 Michela e Moreno di Officina.MM
 
 ---
@@ -169,17 +176,23 @@ Michela e Moreno di Officina.MM
 
 Ciao {$name},
 
-oggi arriviamo a un argomento che sento molto spesso nelle conversazioni con chi è nel post parto: la pancia. L'addome che non risponde, la diastasi di cui si parla tanto ma spesso nel modo sbagliato, la sensazione di non riconoscersi più allo specchio.
+oggi parliamo di pancia. E voglio farlo partendo da una cosa che mi ha colpita.
+
+Una collega di vecchia data, fisioterapista esperta, mi ha chiamata qualche tempo fa dopo la sua seconda gravidanza. Mi ha detto: "Michela, sto impazzendo. Ho la diastasi. Ho trovato venti liste di esercizi vietati, trenta esercizi da fare, cinque cose da evitare assolutamente. E non so da dove iniziare."
+
+Era preparata tecnicamente, sapeva benissimo di cosa stava parlando. Eppure si sentiva completamente persa.
+
+Figurati chi non ha una formazione specifica.
 
 **Giorno 5: La pancia e la diastasi, fare chiarezza**
 
-La domanda che si sente di più è: "ho la diastasi, devo chiuderla?"
+La diastasi è diventata una parola che spaventa. Si cerca di capire se ce l'hai, si misura ogni settimana se si è chiusa un po', si eliminano esercizi con il terrore di fare danni.
 
-Come se la diastasi fosse un problema da eliminare il prima possibile, una ferita da ricucire. E allora si cercano gli esercizi giusti, si evitano quelli sbagliati, si monitora ogni settimana se si è chiusa di più.
+Ma la domanda vera non è "si è chiusa?". È: il tuo core funziona? Riesci a gestire le pressioni nei movimenti di ogni giorno? Hai stabilità quando sollevi il bambino, quando cammini, quando ti alleni?
 
-Ma la vera domanda non è "si è chiusa?". È: il tuo core funziona? Riesci a gestire le pressioni nei movimenti quotidiani? Hai stabilità quando sollevi, cammini, ti alleni?
+Una diastasi ancora presente ma con un core che funziona è già un grande risultato. Un addome che sembra "a posto" visivamente ma che non sa coordinarsi è ancora un problema.
 
-Una diastasi ancora presente ma con un core che funziona è già un grande risultato. Nel video di oggi ti aiutiamo a capire cosa sta succedendo davvero, e come lavorarci in modo sicuro.
+Nel video di oggi ti aiutiamo a guardare la tua pancia senza paura, capire cosa sta succedendo davvero e iniziare a lavorarci nel modo giusto.
 
 👉 [LINK VIDEO GIORNO 5: La pancia e la diastasi, fare chiarezza]
 
@@ -187,16 +200,13 @@ Una diastasi ancora presente ma con un core che funziona è già un grande risul
 
 **Una cosa in più, {$name}.**
 
-Guardando i video di questa guida hai iniziato a capire come funziona il tuo corpo. Hai iniziato a sentire cose che prima non sentivi. È già un risultato enorme.
+Sei al Giorno 5. Hai imparato cose che la maggior parte delle persone nel post parto non conosce. Hai iniziato a sentire il tuo corpo in modo diverso da prima.
 
-Ma lo sappiamo entrambi: ogni corpo è diverso. La tua storia, i tuoi sintomi, il tuo punto di partenza sono unici. E a volte quello che serve non è più contenuto generico, ma una guida che guardi esattamente la tua situazione.
+Ma sai cosa mi dice spesso chi arriva a questo punto del percorso? "Ho capito molto più di prima. E adesso mi rendo conto di quanto avevo bisogno di qualcuno che guardasse esattamente la mia situazione."
 
-Per questo abbiamo creato la **consulenza individuale** con Michela e Moreno.
+Ogni corpo è diverso. La tua storia, i tuoi sintomi, il tuo punto di partenza sono unici. E a volte quello che serve non è più contenuto generico, ma uno spazio in cui qualcuno guarda solo te.
 
-È uno spazio di 60 minuti solo per te, in cui:
-- analizziamo la tua situazione specifica (storia, sintomi, obiettivi)
-- capiamo insieme da dove partire e cosa ha senso fare per te
-- ti diamo una direzione chiara e personalizzata
+Per questo esiste la **consulenza individuale** con Michela e Moreno: 60 minuti in cui analizziamo la tua storia specifica, i tuoi sintomi e il tuo punto di partenza, e ti diamo una direzione chiara e personalizzata.
 
 Non è una sessione di allenamento. È una mappa per il tuo percorso.
 
@@ -216,13 +226,23 @@ Michela e Moreno di Officina.MM
 
 Ciao {$name},
 
-siamo quasi alla fine del percorso. Hai già fatto tantissimo in questi giorni, più di quanto immagini.
+siamo quasi alla fine. Domani è l'ultimo giorno.
+
+Prima di mandarti il video del Giorno 6, voglio dirti una cosa. Una cosa che dico spesso alle donne che conosco nel post parto, e che a volte non è facile da sentire.
+
+Il corpo non migliora da solo. Non con il tempo. Non aspettando che il bambino cresca un po', che le cose si sistemino, che la vita diventi un po' meno frenetica.
+
+Lo so perché l'ho visto succedere tante volte. Donne che aspettano sei mesi, un anno, due anni. E quando tornano, la situazione è la stessa. Solo più radicata, più abitudinaria, più difficile da spostare.
+
+Non lo dico per spaventarti. Lo dico perché il post parto è una finestra di tempo preziosa, in cui il corpo è ancora in piena trasformazione e risponde molto meglio agli stimoli giusti. È il momento in cui un lavoro mirato fa la differenza maggiore.
 
 **Giorno 6: Muoverti nella vita reale, non solo negli esercizi**
 
-Sul tappetino si impara. Ma si vive altrove. Quando prendi in braccio il bambino. Quando ti pieghi a raccogliere qualcosa. Quando sali le scale con le borse della spesa. Quando sei in piedi per ore.
+Sul tappetino si impara. Nella vita reale si vive.
 
-Il Giorno 6 è dedicato a questo: portare quello che hai imparato nei movimenti di ogni giorno, in modo automatico e naturale. Senza doverti ricordare di "fare l'esercizio". Semplicemente muovendoti meglio.
+Quando prendi il bambino dalla culla e senti tirare in fondo alla schiena. Quando sei in piedi in cucina per venti minuti e le gambe si fanno pesanti. Quando fai le scale con la borsa della spesa e trattieni il respiro senza accorgertene. Quando ridi forte o starnutisci e hai quel momento di tensione che conosci bene.
+
+Il Giorno 6 è dedicato a portare quello che hai imparato in questi movimenti quotidiani: non per "ricordarti di fare l'esercizio", ma per muoverti semplicemente meglio, perché il corpo ha imparato a farlo.
 
 👉 [LINK VIDEO GIORNO 6: Muoverti nella vita reale, non solo negli esercizi]
 
@@ -230,19 +250,17 @@ Il Giorno 6 è dedicato a questo: portare quello che hai imparato nei movimenti 
 
 **Perché adesso è il momento giusto per la consulenza.**
 
-Lo so a cosa stai pensando: "finisco la guida, poi vedo."
+"Finisco la guida e poi vedo." Lo capisco. Ma adesso, dopo sei giorni di lavoro, sei nel momento migliore per partire con una direzione personalizzata. Stai sentendo di più. Capisci di più. Hai una base su cui costruire.
 
-Capisco. Ma ti voglio dire una cosa onesta: il corpo cambia quando riceve stimoli continuativi e mirati. Questa guida ti ha dato le fondamenta, e ora quelle fondamenta hanno bisogno di qualcuno che le guidi nel modo giusto per te.
+Ogni settimana senza una guida precisa è una settimana in cui il corpo continua ad adattarsi in modo autonomo. E i compensi si consolidano.
 
-Ogni settimana che passa senza una direzione chiara è una settimana in cui i compensi rimangono, i sintomi restano e l'energia che ci metti non si traduce in risultati.
-
-Prenotare una consulenza adesso significa partire da quello che hai già costruito questa settimana, senza ricominciare da capo tra qualche mese.
+La consulenza con noi è uno spazio di 60 minuti per capire esattamente da dove continuare, senza sprecare energie sulla cosa sbagliata.
 
 👉 [LINK CONSULENZA: Prenota il tuo spazio]
 
-Hai ancora domande? Rispondici a questa email. Siamo qui.
+Hai domande? Rispondici a questa email.
 
-A domani con l'ultimo giorno,
+A domani, ultimo giorno,
 Michela e Moreno di Officina.MM
 
 ---
@@ -256,40 +274,52 @@ Michela e Moreno di Officina.MM
 
 Ciao {$name},
 
-domani è l'ultimo giorno della guida. Prima di arrivarci, voglio rispondere a una domanda che arriva spesso: "ma la consulenza fa al caso mio?"
+domani è l'ultimo giorno della guida. Ci siamo quasi.
 
-**Giorno 7: anteprima di domani**
+Prima di mandartelo, voglio rispondere a una domanda che arriva spesso, anche se non sempre viene posta esplicitamente: "Perché dovrei prenotare una consulenza? Non posso continuare da sola?"
 
-Domani chiudiamo il cerchio: una routine completa che unisce tutto quello che hai imparato, e una direzione per continuare con metodo. Non voglio rovinarti la sorpresa, quindi ti lascio il video di oggi.
+Puoi. E alcune persone lo fanno con ottimi risultati.
+
+Ma voglio essere onesta su una cosa.
+
+Prima di costruire Officina.MM insieme a Moreno, ho lavorato per anni in palestra e in studio. Ho visto centinaia di donne nel post parto. E la cosa che mi ha colpita di più non era la complessità dei casi, ma quante di loro ci mettevano mesi ad arrivare da noi perché aspettavano di "farcela da sole". Nel frattempo vivevano con sintomi che limitavano la loro quotidianità. Facevano esercizi nel modo sbagliato o non li facevano del tutto. Avevano la sensazione costante di non sapere se stessero andando nella direzione giusta.
+
+La consulenza non è per chi non ce la fa. È per chi vuole smettere di andare a tentativi.
+
+**Giorno 7: L'ultimo video**
+
+Domani chiudiamo il cerchio con una routine completa che unisce tutto quello che hai imparato in questi giorni. È pensato per lasciarti qualcosa di concreto da portare avanti. Non ti anticipo di più.
+
+Oggi guarda il video del Giorno 7.
 
 👉 [LINK VIDEO GIORNO 7: Da dove riparti davvero]
 
 ---
 
-**Per chi è la consulenza con Michela e Moreno.**
+**Per chi ha senso la consulenza.**
 
-La consulenza ha senso per te se:
+Ha senso per te se:
 
-- Hai finito la guida e senti che c'è ancora qualcosa che non torna nel tuo corpo, ma non sai esattamente cosa fare dopo
-- Convivi con perdite di urina, senso di peso, dolore, diastasi o disconnessione dall'addome da settimane, mesi o anni
-- Hai già provato esercizi in autonomia ma senza una direzione precisa e i risultati non arrivano
-- Hai poco tempo e vuoi usarlo nel modo più efficace possibile, senza sprecare energie sulla cosa sbagliata
-- Vuoi capire se hai bisogno di un percorso guidato o se puoi proseguire in autonomia, e come farlo
+- Hai finito la guida e senti che c'è ancora qualcosa che non torna, ma non sai cosa fare dopo o da dove ricominciare
+- Convivi da settimane o mesi con perdite di urina, senso di peso al basso ventre, dolore durante i rapporti, diastasi o difficoltà a sentire l'addome
+- Hai già provato esercizi o programmi in autonomia, ma senza una direzione i risultati non arrivano o non durano
+- Hai poco tempo e vuoi usarlo in modo mirato, senza sprecare energie sulla cosa sbagliata
+- Vuoi capire se hai bisogno di un percorso guidato o se puoi proseguire da sola, e in quel caso come farlo davvero
 
-**Cosa faremo insieme nella consulenza:**
+**Cosa succede in quell'ora:**
 
-Nella prima parte della consulenza raccogliamo la tua storia: quando sono iniziati i sintomi, cosa hai già provato, come ti senti adesso. Nessun giudizio, nessuna fretta.
+Nella prima parte raccogliamo la tua storia: quando sono iniziati i sintomi, cosa hai già provato, come ti senti adesso nel corpo. Nessun giudizio, nessuna fretta.
 
-Nella seconda parte ti diamo una lettura chiara della tua situazione e ti indichiamo la direzione più efficace per te, che sia un percorso insieme o un piano in autonomia.
+Nella seconda parte ti diamo una lettura chiara della tua situazione: qual è il punto di partenza, cosa ha senso fare per te e in che ordine.
 
-Esci dalla consulenza con una mappa. Non con altri esercizi a caso.
+Esci con una mappa. Non con altri esercizi a caso.
 
 👉 [LINK CONSULENZA: Prenota il tuo spazio]
 
-Se hai domande prima di prenotare, rispondici a questa email. Leggiamo tutto noi, personalmente.
+Se hai domande prima di decidere, rispondimi a questa email. Leggo tutto io, personalmente.
 
 A domani per il gran finale,
-Michela e Moreno di Officina.MM
+Michela di Officina.MM
 
 ---
 
@@ -302,37 +332,43 @@ Michela e Moreno di Officina.MM
 
 Ciao {$name},
 
-hai fatto i 7 giorni. Hai dedicato del tempo a te, al tuo corpo, a imparare qualcosa che nessuno ti aveva mai spiegato in questo modo.
+ti dico una cosa che succede spesso.
 
-Non è poco. Davvero.
+Una persona finisce una guida, impara cose nuove, inizia a sentire il proprio corpo in modo diverso. Poi passano qualche giorno. La routine riprende. Il bambino ha bisogno di attenzioni, il lavoro riprende, la vita si fa densa di nuovo. E quella sensazione di "ci voglio lavorare davvero" piano piano si mette in attesa.
 
-**Cosa hai imparato in questi 7 giorni:**
+Non perché la motivazione sia sparita. Ma perché senza un passo successivo concreto, è difficile mantenere lo slancio.
 
-- Hai ritrovato il contatto con l'addome e il pavimento pelvico (Giorno 1)
-- Hai capito come gli schemi posturali della gravidanza influenzano ancora il tuo corpo (Giorno 2)
-- Hai scoperto come usare il respiro come alleato, non come automatismo (Giorno 3)
-- Hai capito cos'è davvero il pavimento pelvico e perché "stringere" non basta (Giorno 4)
-- Hai fatto chiarezza su pancia e diastasi, senza i falsi miti (Giorno 5)
-- Hai iniziato a portare tutto nella vita reale, nei movimenti quotidiani (Giorno 6)
-- Hai una routine completa e una direzione da cui ripartire (Giorno 7)
+Ti scrivo oggi perché non voglio che questi sette giorni rimangano solo sette video guardati.
 
-Sono basi solide. Sono le fondamenta giuste.
+**Quello che hai costruito in questi 7 giorni:**
+
+- Hai ritrovato il contatto con addome e pavimento pelvico, partendo da zero
+- Hai capito come gli schemi posturali della gravidanza influenzano ancora il tuo corpo adesso
+- Hai scoperto come il respiro coordina tutto il resto, e come usarlo come strumento
+- Hai fatto chiarezza sul pavimento pelvico, al di là dei Kegel
+- Hai guardato la pancia e la diastasi senza paura, capendo cosa conta davvero
+- Hai iniziato a portare tutto nei movimenti quotidiani
+- Hai una routine completa da cui ripartire
+
+Sono fondamenta vere. E le fondamenta, per diventare una casa, hanno bisogno di qualcuno che continui a costruire.
 
 ---
 
 **Una storia che voglio condividere con te.**
 
-[NOME O INIZIALE] è arrivata da noi [X mesi/anni] dopo il parto. Conviveva con piccole perdite di urina, una sensazione di peso al basso ventre e un addome che "non sentiva più suo". Aveva già provato esercizi in autonomia, guardato reel, letto articoli. Ma senza una direzione, i risultati non arrivavano.
+[NOME O INIZIALE] è arrivata da noi [X mesi] dopo il parto. Aveva ancora perdite di urina quando rideva, correva o starnutiva. Aveva una sensazione di peso al basso ventre che l'accompagnava tutto il giorno. L'addome non lo "sentiva" suo: c'era, ma era come se non le appartenesse più.
 
-Abbiamo iniziato con una consulenza. In quell'ora abbiamo capito da dove partire: non da più esercizi, ma dalla qualità di quelli che già stava facendo.
+Aveva già guardato video, letto articoli, provato qualche esercizio in autonomia. Ma senza una direzione, ogni cosa che faceva le sembrava un tentativo nel buio.
 
-[X settimane/mesi] dopo, [NOME/INIZIALE] ci ha scritto: "[CITAZIONE REALE, es: 'Non metto più il salvaslip da tre settimane. Ho ricominciato a correre. Mi sento di nuovo intera.']"
+Abbiamo iniziato con una consulenza. In quell'ora abbiamo capito dove intervenire davvero: non mancavano esercizi, mancavano qualità e sequenza.
 
-Non è magia. È il risultato di un lavoro mirato, progressivo, pensato per la sua situazione specifica.
+[X settimane/mesi] dopo ci ha scritto: "[CITAZIONE REALE, es: 'Non metto più il salvaslip da tre settimane. Ho ricominciato a correre. Mi sento di nuovo intera.']"
+
+Non è stata magia. È stato lavoro mirato, pensato per la sua situazione specifica.
 
 ---
 
-**Vuoi lo stesso per il tuo corpo?**
+**Vuoi lo stesso per il tuo corpo, {$name}?**
 
 La consulenza con Michela e Moreno è uno spazio di 60 minuti in cui guardiamo esattamente la tua situazione e ti diamo una direzione chiara.
 
@@ -340,9 +376,7 @@ Non ti promettiamo che tutto si risolve in un'ora. Ti promettiamo che esci da qu
 
 👉 [LINK CONSULENZA: Prenota il tuo spazio]
 
-Se hai domande, rispondici a questa email. Siamo qui.
-
-Grazie per aver percorso questi 7 giorni con noi, {$name}.
+Se hai domande, rispondici a questa email. Ci siamo.
 
 Con affetto,
 Michela e Moreno di Officina.MM
