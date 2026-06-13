@@ -343,35 +343,35 @@ Michela e Moreno di Officina.MM
 ## Email 7: Giorno 6 settimo video + per chi è la consulenza
 
 **Oggetto:** Per chi è pensata la consulenza (e cosa faremo insieme)
-**Preheader:** Non è per tutti. Ecco per chi ha senso davvero
+**Preheader:** Ecco per chi ha senso davvero
 
 ---
 
-Ciao {$name},
+Ciao {$name}, domani è l'ultimo giorno del mini training. Come sono andati questi giorni? Spero bene e spero che ti abbiano aiutato ad avere una nuova consapevolezza sul tuo corpo.
 
-domani è l'ultimo giorno della guida. Ci siamo quasi.
+Intanto, eccoti il settimo e ultimo video del training gratuito.
 
-Prima di mandartelo, voglio rispondere a una domanda che arriva spesso, anche se non sempre viene posta esplicitamente: "Perché dovrei prenotare una consulenza? Non posso continuare da sola?"
+👉 [LINK VIDEO GIORNO 7: Da dove riparti davvero]
+
+E poi, non chiudere immediatamente questa email. Voglio rispondere a una domanda che arriva spesso, anche se non sempre viene posta esplicitamente: **"Perché dovrei prenotare una consulenza? Non posso continuare da sola?"**
 
 Puoi. E alcune persone lo fanno con ottimi risultati.
 
 Ma voglio essere onesta su una cosa.
 
-Prima di costruire Officina.MM insieme a Moreno, ho lavorato per anni in palestra e in studio. Ho visto centinaia di donne nel post parto. E la cosa che mi ha colpita di più non era la complessità dei casi, ma quante di loro ci mettevano mesi ad arrivare da noi perché aspettavano di "farcela da sole". Nel frattempo vivevano con sintomi che limitavano la loro quotidianità. Facevano esercizi nel modo sbagliato o non li facevano del tutto. Avevano la sensazione costante di non sapere se stessero andando nella direzione giusta.
+Prima di costruire Officina.MM insieme a Moreno, ho lavorato per anni in palestra e in studio.
+
+Ho visto centinaia di donne nel post parto e la cosa che mi ha colpita di più non era la complessità dei casi, ma quante di loro ci mettevano mesi ad arrivare da noi perché aspettavano di "farcela da sole".
+
+Nel frattempo vivevano con sintomi che limitavano la loro quotidianità.
+
+Facevano esercizi nel modo sbagliato o non li facevano del tutto.
+
+Avevano la sensazione costante di non sapere se stessero andando nella direzione giusta.
 
 La consulenza non è per chi non ce la fa. È per chi vuole smettere di andare a tentativi.
 
-**Giorno 7: L'ultimo video**
-
-Domani chiudiamo il cerchio con una routine completa che unisce tutto quello che hai imparato in questi giorni. È pensato per lasciarti qualcosa di concreto da portare avanti. Non ti anticipo di più.
-
-Oggi guarda il video del Giorno 7.
-
-👉 [LINK VIDEO GIORNO 7: Da dove riparti davvero]
-
----
-
-**Per chi ha senso la consulenza.**
+**Per chi ha senso la consulenza?**
 
 Ha senso per te se:
 
@@ -381,20 +381,19 @@ Ha senso per te se:
 - Hai poco tempo e vuoi usarlo in modo mirato, senza sprecare energie sulla cosa sbagliata
 - Vuoi capire se hai bisogno di un percorso guidato o se puoi proseguire da sola, e in quel caso come farlo davvero
 
-**Cosa succede in quell'ora:**
+**Cosa succede in quest'ora insieme?**
 
 Nella prima parte raccogliamo la tua storia: quando sono iniziati i sintomi, cosa hai già provato, come ti senti adesso nel corpo. Nessun giudizio, nessuna fretta.
 
 Nella seconda parte ti diamo una lettura chiara della tua situazione: qual è il punto di partenza, cosa ha senso fare per te e in che ordine.
 
-Esci con una mappa. Non con altri esercizi a caso.
-
 👉 [LINK CONSULENZA: Prenota il tuo spazio]
 
-Se hai domande prima di decidere, rispondimi a questa email. Leggo tutto io, personalmente.
+Se hai domande prima di decidere, rispondimi a questa email. Leggiamo tutto io e Moreno, personalmente.
 
-A domani per il gran finale,
-Michela di Officina.MM
+A domani {$name},
+
+Michela e Moreno di Officina.MM
 
 ---
 
