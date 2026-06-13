@@ -95,6 +95,7 @@ La **missione** di Officina.MM: combattere la disinformazione attorno al pavimen
 ## Cose da evitare
 
 - Trattini e em-dash (mai, in nessun caso)
+- Il punto prima di una emoji: scrivere `sono curiosa di sapere :)` e non `sono curiosa di sapere. :)`
 - Intestazioni in grassetto come titoli di sezione dentro il corpo email (es. `**Giorno 1: Tornare a sentire il tuo corpo**`): integrare il contenuto nel flusso
 - Aperture generiche ("ci siamo", "eccoci qui", "spero tu stia bene")
 - Aperture troppo dirette senza cuscinetto empatico: dalla seconda email in poi, sempre aggiungere una frase di rassicurazione dopo la domanda di follow-up
