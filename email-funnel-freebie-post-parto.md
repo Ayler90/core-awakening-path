@@ -63,37 +63,58 @@ P.S. Se vuoi uno spazio dove trovare altri contenuti e un posto in cui non senti
 
 ## Email 2: Giorno 1 secondo video
 
-**Oggetto:** Il modo in cui stai nel corpo è cambiato. Eccoti il Giorno 2
+**Oggetto:** [Giorno 2] Cosa succede al corpo dopo la gravidanza?
 **Preheader:** Gli schemi della gravidanza non spariscono da soli dopo il parto
 
 ---
 
-Ciao {$name},
+Ciao {$name}, com'è andata ieri con il video del Giorno 1? Sei riuscita a percepire già qualche cambiamento o a notare cose che prima non avevi mai notato?
 
-come è andato ieri? Spero che tu abbia trovato quei 10 minuti.
+Non ti preoccupare se ancora non senti nulla: ci vuole tempo, non affrettare il tutto e prenditi tutto quello che ti serve.
 
-Voglio raccontarti una cosa che mi è rimasta impressa.
+Prima di tutto: se non hai ancora scaricato la guida, puoi farlo qui 👉 [LINK GUIDA PDF]
 
-Qualche anno fa, lavorando con le prime donne nel post parto, ho fatto un'osservazione che mi ha cambiato il modo di vedere le cose. Stavo guardando una paziente camminare verso di me in corridoio. Aveva il bambino appena nato in braccio. E io vedevo chiaramente tutto quello che il suo corpo stava ancora "ricordando" della gravidanza: il bacino proiettato in avanti, le spalle portate verso il bambino, una leggera inclinazione del busto. Schemi perfetti per portare una pancia enorme. Schemi che adesso, però, non servivano più.
+E poi, voglio raccontarti una cosa che mi è rimasta impressa.
+
+Qualche anno fa, lavorando con le prime donne nel post parto, **ho fatto un'osservazione che mi ha cambiato il modo di vedere le cose.**
+
+Stavo guardando una paziente camminare verso di me in corridoio.
+
+Aveva il bambino appena nato in braccio.
+
+E io vedevo chiaramente tutto quello che il suo corpo stava ancora "ricordando" della gravidanza: **il bacino proiettato in avanti, le spalle portate verso il bambino, una leggera inclinazione del busto.**
+
+Schemi perfetti per portare una pancia enorme. Schemi che adesso, però, non servivano più.
 
 Il punto è che lei non ci faceva caso. Non lo sentiva. Per lei era semplicemente il modo in cui stava nel corpo.
 
-**Giorno 2: Quel modo di stare nel corpo che è cambiato**
-
-Durante la gravidanza il corpo è stato straordinariamente intelligente. Ha spostato pesi, cambiato appoggi, trovato compensazioni per portarti avanti settimana dopo settimana.
+Durante la gravidanza il corpo è stato straordinariamente intelligente. **Ha spostato pesi, cambiato appoggi, trovato compensazioni per portarti avanti settimana dopo settimana.**
 
 Ma quegli schemi non spariscono da soli dopo il parto.
 
-Resti con quella tensione alle spalle quando allatti o tieni il bambino in braccio per ore. Resti con quel modo di portare il bacino in avanti quando cammini. Resti con quella sensazione che qualcosa nel tuo centro sia ancora fuori posto. Non doloroso, magari. Solo strano. Diverso da come eri.
+Resti con quella tensione alle spalle quando allatti o tieni il bambino in braccio per ore.
 
-Non è che qualcosa si è rotto. È che il corpo aspetta qualcuno che lo aiuti a trovare un nuovo equilibrio: quello di adesso, non quello di nove mesi fa.
+Resti con quel modo di portare il bacino in avanti quando cammini.
+
+Resti con quella sensazione che qualcosa nel tuo centro sia ancora fuori posto. Non doloroso, magari.
+
+Solo strano. Diverso da come eri, {$name}.
+
+Non è che qualcosa si è rotto.
+
+È che il corpo aspetta qualcuno che lo aiuti a trovare un nuovo equilibrio: **quello di adesso, non quello di nove mesi fa.**
 
 Nel video di oggi lavoriamo esattamente su questo.
 
 👉 [LINK VIDEO GIORNO 2: Quel modo di stare nel corpo che è cambiato]
 
-A domani,
+E non perderti l'email di domani, con il terzo video.
+
+A domani {$name},
+
 Michela e Moreno di Officina.MM
+
+P.S. hai notato qualche schema di comportamento anche nel tuo corpo, in questo periodo? Qualcosa che ti è rimasto dalla gravidanza e che adesso non senti più tuo? Se vuoi, rispondimi pure a questa email. Io e Moreno le leggiamo tutte, personalmente :)
 
 ---
 

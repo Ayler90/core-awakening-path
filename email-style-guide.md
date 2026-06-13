@@ -29,10 +29,13 @@ La **missione** di Officina.MM: combattere la disinformazione attorno al pavimen
 ### Apertura
 - Saluto caldo, breve. Può essere una scena, una domanda, un'osservazione sensoriale o un benvenuto diretto.
 - Non aprire mai con "ci siamo" o frasi generiche di completamento.
-- Usare il nome `{$name}` nell'apertura e, se naturale, una seconda volta nel corpo.
+- Dalla seconda email in poi: aprire con una domanda di follow-up su come è andato il giorno precedente, seguita da una frase di rassicurazione ("Non ti preoccupare se non senti ancora nulla: ci vuole tempo"). Il tono deve essere morbido ed empatico, non diretto.
+- Usare il nome `{$name}` nell'apertura, una seconda volta nel corpo (in un momento emotivamente rilevante) e nella chiusura ("A domani {$name},").
 
 ### Corpo
 - **Pain point**: presentare i punti di dolore su righe separate, con paragrafo dedicato a ciascuno. Non in prosa continua.
+- **Frasi narrative brevi su righe proprie**: spezzare la narrazione (soprattutto nelle storie cliniche) in frasi molto corte, ciascuna come paragrafo a sé. Crea ritmo e impatto. Es.: "Stavo guardando una paziente camminare verso di me in corridoio." / (riga bianca) / "Aveva il bambino appena nato in braccio."
+- **Grassetto per enfasi selettiva**: usare il grassetto su frasi chiave dentro il paragrafo, non come titolo di sezione. Es.: "**Ha spostato pesi, cambiato appoggi, trovato compensazioni per portarti avanti settimana dopo settimana.**" Usarlo con parsimonia, solo sui concetti più importanti.
 - **Citazioni o frasi chiave**: isolarle in corsivo su riga propria, es. *"Non mi riconosco più nel mio corpo."*
 - **Storie personali di Michela**: inserirle dove pertinenti (episodi clinici, la sua esperienza di mamma, osservazioni sul campo). Devono sembrare ricordi autentici, non esempi didattici.
 - **Promesse concrete**: se si dichiara un impegno di tempo o di contenuto, renderlo esplicito e preciso ("massimo 10 minuti al giorno, niente di più").
@@ -51,9 +54,14 @@ La **missione** di Officina.MM: combattere la disinformazione attorno al pavimen
 - Formato link: emoji 👉 seguita dal testo del link in maiuscolo o descrittivo.
 
 ### Chiusura
-- Breve. Una frase di chiusura + firma.
+- Breve. Una frase di chiusura con il nome (`A domani {$name},`) + firma.
 - Firma standard: `Michela e Moreno di Officina.MM`
-- Nella prima email va bene anche solo `Michela e Moreno di Officina.MM` senza formula iniziale.
+- Aggiungere sempre "E non perderti l'email di domani, con il video del Giorno X" prima della chiusura, per mantenere l'aspettativa sulla prossima email (non nell'ultima email del funnel).
+
+### P.S.
+- Nelle email di contenuto (Giorni 1–7): il P.S. è uno spazio di dialogo. Fare una domanda personale e specifica sulla propria esperienza, invitando a rispondere via email. Es.: "hai notato qualche schema nel tuo corpo in questo periodo? Rispondimi pure qui, leggiamo tutto personalmente."
+- Nelle email con CTA consulenza: il P.S. può ospitare un link secondario (es. canale Telegram) o una domanda che avvicina alla prenotazione.
+- Tono del P.S.: caldo, informale. L'emoji :) è benvenuta.
 
 ---
 
@@ -75,11 +83,21 @@ La **missione** di Officina.MM: combattere la disinformazione attorno al pavimen
 
 ---
 
+## Oggetto delle email
+
+- Formato: `[Giorno X] Titolo descrittivo`
+- Il tag `[Giorno X]` all'inizio rende la sequenza riconoscibile e facile da seguire.
+- Il titolo dopo il tag deve essere una domanda o una frase che incuriosisce, non un'affermazione secca.
+- Esempi: `[Giorno 2] Cosa succede al corpo dopo la gravidanza?` / `[Giorno 3] Stai respirando nel modo giusto?`
+
+---
+
 ## Cose da evitare
 
 - Trattini e em-dash (mai, in nessun caso)
 - Intestazioni in grassetto come titoli di sezione dentro il corpo email (es. `**Giorno 1: Tornare a sentire il tuo corpo**`): integrare il contenuto nel flusso
 - Aperture generiche ("ci siamo", "eccoci qui", "spero tu stia bene")
+- Aperture troppo dirette senza cuscinetto empatico: dalla seconda email in poi, sempre aggiungere una frase di rassicurazione dopo la domanda di follow-up
 - Elenchi puntati per i pain point: meglio paragrafi separati con riga bianca
 - Tono troppo "professionale" o levigato: deve sembrare scritto a mano
 
