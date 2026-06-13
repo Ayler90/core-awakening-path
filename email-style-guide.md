@@ -46,7 +46,9 @@ La **missione** di Officina.MM: combattere la disinformazione attorno al pavimen
 
 ### Consegna dei contenuti
 - Nella prima email del funnel: consegnare prima la guida/il freebie promesso, poi il video. La guida è la promessa fatta all'iscrizione: mantenerla subito.
-- Spiegare la struttura della sequenza: "giorno per giorno ti manderò anche il video di accompagnamento" così la lettrice sa cosa aspettarsi.
+- Nella seconda email: aggiungere il link alla guida come promemoria ("se non hai ancora scaricato la guida, puoi farlo qui"), nel caso in cui qualcuno non l'abbia ancora scaricata.
+- Dalla terza email in poi: non ripetere più il link alla guida.
+- Spiegare la struttura della sequenza nella prima email: "giorno per giorno ti manderò anche il video di accompagnamento" così la lettrice sa cosa aspettarsi.
 
 ### Reminder SPAM
 - Inserirlo nel corpo del testo in modo naturale, non in un box separato.
