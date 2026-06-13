@@ -167,37 +167,52 @@ P.S. mentre leggevi, hai fatto caso a come stavi respirando? Alto, in petto, o �
 
 ## Email 4: Giorno 3 quarto video
 
-**Oggetto:** Il pavimento pelvico non è solo "stringere", {$name}
+**Oggetto:** [Giorno 4] Il pavimento pelvico non è solo "stringere"
 **Preheader:** Il consiglio che ti hanno dato probabilmente non è completo
 
 ---
 
-Ciao {$name},
-
-scommetto che a un certo punto ti hanno detto di fare i Kegel.
+Ciao {$name}, scommetto che a un certo punto ti hanno detto di fare i Kegel.
 
 Stringi e lascia. Venti volte, tre serie al giorno. Meglio se mentre aspetti il semaforo, così non dimentichi.
 
-E scommetto anche che ci hai provato, con la vaga sensazione di non sentire esattamente cosa stessi contraendo. Aspettando risultati che non arrivavano del tutto, o che arrivavano per un po' e poi sparivano.
+E scommetto anche che ci hai provato, con la vaga sensazione di non sentire esattamente cosa stessi contraendo.
 
-Ecco la cosa: il Kegel non è sbagliato. Ma è incompleto. E in alcuni casi è addirittura il contrario di quello che serve.
+Aspettando risultati che non arrivavano del tutto, o che arrivavano per un po' e poi sparivano.
 
-Me ne sono resa conto anni fa lavorando con una paziente che aveva seguito il consiglio diligentemente per mesi. Più stringeva, peggio stava. Le perdite non miglioravano, la tensione al basso ventre aumentava, a volte c'era anche dolore. Quando l'ho valutata ho capito immediatamente: il suo pavimento pelvico non era debole. Era ipertonico. Incapace di rilasciarsi. E lei stava aumentando quella tensione ogni giorno, convinta di star facendo la cosa giusta.
+Ecco la cosa: il Kegel non è sbagliato. **Ma è incompleto. E in alcuni casi è addirittura il contrario di quello che serve.**
 
-**Giorno 4: Il pavimento pelvico, quello che nessuno ti spiega**
+Me ne sono resa conto anni fa lavorando con una paziente che aveva seguito il consiglio diligentemente per mesi.
 
-Il pavimento pelvico ha bisogno di saper contrarsi, sì. Ma soprattutto di saper rilasciare completamente. Di coordinarsi con il respiro. Di rispondere in modo automatico ai movimenti di ogni giorno, senza che tu ci debba pensare ogni volta.
+Più stringeva, peggio stava.
 
-Dopo il parto, la direzione da prendere non è uguale per tutte. Per alcune il problema è debolezza. Per altre è ipertono, tensione accumulata, difficoltà a lasciarsi andare. E le due strade sono opposte.
+Le perdite non miglioravano, la tensione al basso ventre aumentava, a volte c'era anche dolore.
 
-Nel video di oggi ti aiutiamo a capire davvero in che stato si trova il tuo pavimento pelvico e come lavorarci in modo efficace, non a caso.
+Quando l'ho valutata, ho capito immediatamente: **il suo pavimento pelvico non era debole. Era ipertonico. Incapace di rilasciarsi.**
+
+E lei stava aumentando quella tensione ogni giorno, convinta di star facendo la cosa giusta.
+
+Il pavimento pelvico ha bisogno di saper contrarsi, sì. **Ma soprattutto di saper rilasciare completamente.** Di coordinarsi con il respiro. Di rispondere in modo automatico ai movimenti di ogni giorno, senza che tu ci debba pensare ogni volta.
+
+Dopo il parto, la direzione da prendere non è uguale per tutte.
+
+Per alcune il problema è debolezza.
+
+Per altre è ipertono, tensione accumulata, difficoltà a lasciarsi andare.
+
+**E le due strade sono opposte.**
+
+Nel video di oggi ti aiutiamo a capire in che stato si trova il tuo pavimento pelvico, {$name}, e come lavorarci in modo efficace, non a caso.
 
 👉 [LINK VIDEO GIORNO 4: Il pavimento pelvico, quello che nessuno ti spiega]
 
-Se ti va, rispondimi a questa email: prima di leggere questo, avevi mai sentito parlare di ipertono del pavimento pelvico? È qualcosa che senti riguardarti?
+Non perderti l'email di domani, con il quinto video.
 
-A domani,
+A domani {$name},
+
 Michela e Moreno di Officina.MM
+
+P.S. prima di leggere questa email, avevi mai sentito parlare di ipertono del pavimento pelvico? È qualcosa che senti riguardarti? Rispondimi pure qui :)
 
 ---
 
