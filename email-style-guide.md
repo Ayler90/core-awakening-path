@@ -41,7 +41,7 @@ La **missione** di Officina.MM: combattere la disinformazione attorno al pavimen
 - **Grassetto per istruzioni pratiche finali**: l'esercizio o azione da fare dopo il video può essere in grassetto per farlo risaltare, es. "**Dopo il video, prova questa cosa: ...**"
 - **Frase di setup isolata**: una frase breve di setup può stare su riga propria prima della frase chiave in grassetto, per darle più peso. Es.: "Il respiro non è solo aria che entra ed esce." / (riga bianca) / "**È il meccanismo che coordina tutto il resto.**"
 - **Citazioni o frasi chiave**: isolarle in corsivo su riga propria, es. *"Non mi riconosco più nel mio corpo."*
-- **Storie personali di Michela**: inserirle dove pertinenti (episodi clinici, la sua esperienza di mamma, osservazioni sul campo). Devono sembrare ricordi autentici, non esempi didattici.
+- **Storie personali di Michela**: inserirle solo se il materiale è stato fornito da Michela stessa. Non inventare episodi, storie di pazienti o aneddoti clinici. Se in un punto dell'email una storia personale aggiungerebbe valore, inserire un placeholder esplicito, es.: `[STORIA PERSONALE: inserire qui un episodio reale di Michela su questo argomento]`
 - **Promesse concrete**: se si dichiara un impegno di tempo o di contenuto, renderlo esplicito e preciso ("massimo 10 minuti al giorno, niente di più").
 
 ### Consegna dei contenuti
