@@ -285,48 +285,57 @@ P.S. se hai già domande sulla consulenza, rispondimi pure a questa email. Ci si
 
 ## Email 6: Giorno 5 sesto video + perché adesso
 
-**Oggetto:** {$name}, questo è il momento giusto
+**Oggetto:** [Giorno 6] {$name}, questo è il momento giusto
 **Preheader:** Perché aspettare ha un costo che non si vede subito
 
 ---
 
-Ciao {$name},
+Ciao {$name}, siamo quasi alla fine. Domani è l'ultimo giorno.
 
-siamo quasi alla fine. Domani è l'ultimo giorno.
+Prima di mandarti il video del Giorno 6, voglio dirti una cosa.
 
-Prima di mandarti il video del Giorno 6, voglio dirti una cosa. Una cosa che dico spesso alle donne che conosco nel post parto, e che a volte non è facile da sentire.
+In questi sei giorni hai imparato a sentire il tuo corpo in modo diverso. Hai capito come funziona, cosa gli serve, come si muove. Hai costruito una base.
 
-Il corpo non migliora da solo. Non con il tempo. Non aspettando che il bambino cresca un po', che le cose si sistemino, che la vita diventi un po' meno frenetica.
+**E adesso la domanda che ti chiedo di porti non è "sto abbastanza bene?". Ma "come voglio sentirmi tra tre mesi?".**
 
-Lo so perché l'ho visto succedere tante volte. Donne che aspettano sei mesi, un anno, due anni. E quando tornano, la situazione è la stessa. Solo più radicata, più abitudinaria, più difficile da spostare.
-
-Non lo dico per spaventarti. Lo dico perché il post parto è una finestra di tempo preziosa, in cui il corpo è ancora in piena trasformazione e risponde molto meglio agli stimoli giusti. È il momento in cui un lavoro mirato fa la differenza maggiore.
-
-**Giorno 6: Muoverti nella vita reale, non solo negli esercizi**
+Perché il corpo risponde. Risponde agli stimoli giusti, alla costanza, a una direzione precisa. E il post parto è il momento in cui questa risposta è più forte: il corpo è ancora in trasformazione e si lascia guidare con più facilità.
 
 Sul tappetino si impara. Nella vita reale si vive.
 
-Quando prendi il bambino dalla culla e senti tirare in fondo alla schiena. Quando sei in piedi in cucina per venti minuti e le gambe si fanno pesanti. Quando fai le scale con la borsa della spesa e trattieni il respiro senza accorgertene. Quando ridi forte o starnutisci e hai quel momento di tensione che conosci bene.
+Prendere il bambino dalla culla.
 
-Il Giorno 6 è dedicato a portare quello che hai imparato in questi movimenti quotidiani: non per "ricordarti di fare l'esercizio", ma per muoverti semplicemente meglio, perché il corpo ha imparato a farlo.
+Stare in piedi in cucina per venti minuti.
+
+Fare le scale con la borsa della spesa.
+
+Ridere forte o starnutire senza pensarci.
+
+Il video del Giorno 6 ti mostra come portare quello che hai imparato in questi movimenti quotidiani, in modo automatico, senza dover "ricordarti di fare l'esercizio".
 
 👉 [LINK VIDEO GIORNO 6: Muoverti nella vita reale, non solo negli esercizi]
 
----
+Tutto questo, ciò che ti ho appena descritto in queste righe, {$name}, lo puoi fare per conto tuo, giorno per giorno, oppure lo possiamo vedere insieme in 1 ora di consulenza.
 
-**Perché adesso è il momento giusto per la consulenza.**
+Io e Moreno abbiamo creato apposta questo spazio per chi si trova in questo momento: ha una base, inizia a capire il suo corpo, e vuole una direzione personalizzata per continuare.
 
-"Finisco la guida e poi vedo." Lo capisco. Ma adesso, dopo sei giorni di lavoro, sei nel momento migliore per partire con una direzione personalizzata. Stai sentendo di più. Capisci di più. Hai una base su cui costruire.
+È quello che è successo a [CLIENTE] che, dopo la consulenza, è riuscita a [RISULTATI].
 
-Ogni settimana senza una guida precisa è una settimana in cui il corpo continua ad adattarsi in modo autonomo. E i compensi si consolidano.
+O anche a [ALTRA SITUAZIONE].
 
-La consulenza con noi è uno spazio di 60 minuti per capire esattamente da dove continuare, senza sprecare energie sulla cosa sbagliata.
+Hai un dubbio su quello che senti nel tuo corpo? Non sai se quello che ti succede è normale, se hai bisogno di una visita o no, da dove partire, cosa fare nell'attesa?
 
-👉 [LINK CONSULENZA: Prenota il tuo spazio]
+Questo spazio è dedicato a te.
 
-Hai domande? Rispondici a questa email.
+La consulenza con me e Moreno dura 60 minuti. 1 ora in cui guardiamo insieme la tua situazione e la approfondiamo.
 
-A domani, ultimo giorno,
+Il pavimento pelvico, la diastasi, la vita sessuale, l'allenamento, il corpo nel post parto, l'incontinenza. Ti diamo una direzione chiara, personalizzata sulla tua storia specifica.
+
+Non esci con una lista di esercizi a caso. Esci sapendo cosa fare, in che ordine e perché.
+
+LINK → Clicca qui per accedere alla consulenza e prenotarla.
+
+A domani {$name},
+
 Michela e Moreno di Officina.MM
 
 ---
