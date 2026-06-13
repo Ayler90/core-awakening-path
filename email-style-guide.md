@@ -28,6 +28,7 @@ La **missione** di Officina.MM: combattere la disinformazione attorno al pavimen
 
 ### Apertura
 - Saluto caldo, breve. Può essere una scena, una domanda, un'osservazione sensoriale o un benvenuto diretto.
+- Il saluto e la prima frase stanno sulla stessa riga, senza andare a capo. Es.: `Ciao {$name}, com'è andata ieri con il video del Giorno 1?` — non `Ciao {$name},` seguito da riga bianca e poi la frase.
 - Non aprire mai con "ci siamo" o frasi generiche di completamento.
 - Dalla seconda email in poi: aprire con una domanda di follow-up su come è andato il giorno precedente, seguita da una frase di rassicurazione ("Non ti preoccupare se non senti ancora nulla: ci vuole tempo"). Il tono deve essere morbido ed empatico, non diretto.
 - Usare il nome `{$name}` nell'apertura, una seconda volta nel corpo (in un momento emotivamente rilevante) e nella chiusura ("A domani {$name},").
