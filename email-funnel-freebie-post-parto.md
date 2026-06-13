@@ -120,35 +120,48 @@ P.S. hai notato qualche schema di comportamento anche nel tuo corpo, in questo p
 
 ## Email 3: Giorno 2 terzo video
 
-**Oggetto:** {$name}, stai respirando nel modo giusto?
-**Preheader:** Sembra una domanda strana. Ma la risposta cambia tutto
+**Oggetto:** [Giorno 3] {$name}, stai respirando nel modo giusto?
+**Preheader:** Sembra una domanda strana ma c'è un motivo
 
 ---
 
-Ciao {$name},
+Ciao {$name}, fai una cosa prima di leggere il resto: porta l'attenzione al tuo respiro, adesso, mentre leggi questa email.
 
-fai una cosa prima di leggere il resto: porta l'attenzione al tuo respiro, adesso, mentre leggi questa email.
-
-Dove arriva? In petto? Nella pancia? O arriva a metà strada e si ferma lì?
+**Dove arriva? In petto? Nella pancia? O arriva a metà strada e si ferma lì?**
 
 Non è un test. È solo un'osservazione.
 
-Tra le cose che cambiano di più nel post parto, il respiro è spesso quella di cui si parla meno. Eppure è quella che cambia prima. Già durante la gravidanza, quando la pancia cresce e il diaframma perde spazio, il respiro si adatta: diventa più corto, più alto, più superficiale. E dopo il parto, spesso, rimane così.
+Tra le cose che cambiano di più nel post parto, **il respiro è spesso quella di cui si parla meno.** Eppure è quella che cambia prima.
 
-Quando me ne sono resa conto la prima volta, osservando attentamente una paziente nel post parto, ho capito che non stavo guardando pigrizia o mancanza di tono. Stavo guardando un pattern respiratorio che nessuno le aveva mai insegnato a correggere.
+Già durante la gravidanza, quando la pancia cresce e il diaframma perde spazio, il respiro si adatta: diventa più corto, più alto, più superficiale.
 
-**Giorno 3: Il respiro che ti aiuta davvero**
+E dopo il parto, spesso, rimane così.
 
-Il respiro non è solo aria che entra ed esce. È il meccanismo che coordina tutto il resto. Quando respiri in modo disfunzionale, il pavimento pelvico non riesce a muoversi come dovrebbe. L'addome rimane in una tensione di fondo che non ti dà mai tregua. Le pressioni nel basso ventre non vengono gestite bene, e lo senti quando tossisci, quando starnutisci, quando sollevi qualcosa di pesante.
+Quando me ne sono resa conto la prima volta, osservando attentamente una paziente, ho capito che stava seguendo un pattern respiratorio sbagliato non per colpa sua, ma perché nessuno gliel'aveva mai corretto.
+
+Il respiro non è solo aria che entra ed esce.
+
+**È il meccanismo che coordina tutto il resto.**
+
+Quando respiri in modo disfunzionale, il pavimento pelvico non riesce a muoversi come dovrebbe.
+
+L'addome rimane in una tensione di fondo che non ti dà mai tregua.
+
+Le pressioni nel basso ventre non vengono gestite bene, e lo senti quando tossisci, quando starnutisci, quando sollevi qualcosa di pesante, {$name}.
 
 Imparare a respirare in modo funzionale non è complicato. Ma richiede che qualcuno te lo mostri, passo dopo passo. Nel video di oggi lo facciamo insieme.
 
 👉 [LINK VIDEO GIORNO 3: Il respiro che ti aiuta davvero]
 
-Dopo il video, prova questa cosa: domani mattina, prima di alzarti dal letto, fai tre respiri profondi che arrivano fino alla pancia. Solo questo. E osserva cosa succede.
+**Dopo il video, prova questa cosa: domani mattina, prima di alzarti dal letto, fai tre respiri profondi che arrivano fino alla pancia. Solo questo, e osserva cosa succede.**
 
-A domani,
+Non perderti l'email di domani, con il quarto video.
+
+A domani {$name},
+
 Michela e Moreno di Officina.MM
+
+P.S. mentre leggevi, hai fatto caso a come stavi respirando? Alto, in petto, o è arrivato nella pancia? Rispondimi pure qui, sono curiosa di sapere :)
 
 ---
 

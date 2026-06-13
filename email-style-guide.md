@@ -37,6 +37,9 @@ La **missione** di Officina.MM: combattere la disinformazione attorno al pavimen
 - **Pain point**: presentare i punti di dolore su righe separate, con paragrafo dedicato a ciascuno. Non in prosa continua.
 - **Frasi narrative brevi su righe proprie**: spezzare la narrazione (soprattutto nelle storie cliniche) in frasi molto corte, ciascuna come paragrafo a sé. Crea ritmo e impatto. Es.: "Stavo guardando una paziente camminare verso di me in corridoio." / (riga bianca) / "Aveva il bambino appena nato in braccio."
 - **Grassetto per enfasi selettiva**: usare il grassetto su frasi chiave dentro il paragrafo, non come titolo di sezione. Es.: "**Ha spostato pesi, cambiato appoggi, trovato compensazioni per portarti avanti settimana dopo settimana.**" Usarlo con parsimonia, solo sui concetti più importanti.
+- **Grassetto per domande chiave nell'apertura**: le domande che invitano il lettore a riflettere su sé stesso possono essere in grassetto, es. "**Dove arriva? In petto? Nella pancia?**"
+- **Grassetto per istruzioni pratiche finali**: l'esercizio o azione da fare dopo il video può essere in grassetto per farlo risaltare, es. "**Dopo il video, prova questa cosa: ...**"
+- **Frase di setup isolata**: una frase breve di setup può stare su riga propria prima della frase chiave in grassetto, per darle più peso. Es.: "Il respiro non è solo aria che entra ed esce." / (riga bianca) / "**È il meccanismo che coordina tutto il resto.**"
 - **Citazioni o frasi chiave**: isolarle in corsivo su riga propria, es. *"Non mi riconosco più nel mio corpo."*
 - **Storie personali di Michela**: inserirle dove pertinenti (episodi clinici, la sua esperienza di mamma, osservazioni sul campo). Devono sembrare ricordi autentici, non esempi didattici.
 - **Promesse concrete**: se si dichiara un impegno di tempo o di contenuto, renderlo esplicito e preciso ("massimo 10 minuti al giorno, niente di più").
@@ -97,6 +100,7 @@ La **missione** di Officina.MM: combattere la disinformazione attorno al pavimen
 
 - Trattini e em-dash (mai, in nessun caso)
 - Il punto prima di una emoji: scrivere `sono curiosa di sapere :)` e non `sono curiosa di sapere. :)`
+- Costruzioni innaturali in italiano come "non stavo guardando X": preferire formulazioni dirette, es. "ho capito che stava seguendo X non per colpa sua, ma perché..."
 - Intestazioni in grassetto come titoli di sezione dentro il corpo email (es. `**Giorno 1: Tornare a sentire il tuo corpo**`): integrare il contenuto nel flusso
 - Aperture generiche ("ci siamo", "eccoci qui", "spero tu stia bene")
 - Aperture troppo dirette senza cuscinetto empatico: dalla seconda email in poi, sempre aggiungere una frase di rassicurazione dopo la domanda di follow-up
