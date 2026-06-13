@@ -57,7 +57,16 @@ La **missione** di Officina.MM: combattere la disinformazione attorno al pavimen
 ### CTA e link
 - Un solo link principale per email (il video del giorno, oppure la consulenza).
 - Il P.S. è lo spazio giusto per un secondo link secondario (es. canale Telegram).
-- Formato link: emoji 👉 seguita dal testo del link in maiuscolo o descrittivo.
+- Formato link video: emoji 👉 seguita dal testo del link in maiuscolo o descrittivo.
+- Formato link CTA consulenza: `LINK → Clicca qui per accedere alla consulenza e prenotarla.`
+- Placeholder screenshot/recensione: `SCREENSHOT [descrizione breve di cosa deve contenere]`
+
+### Elenchi puntati
+- Di norma evitare: i pain point vanno su paragrafi separati con riga bianca.
+- Eccezione: domande specifiche o criteri ben distinti (es. le 3 domande sul core) possono stare in lista puntata per chiarezza.
+
+### Tono con il lettore
+- I comportamenti delle pazienti (domande frequenti, dubbi comuni) si scrivono in prima persona da Michela: "Mi arrivano domande su questo", "Mi dicono che..." — non in terzo generico ("si cerca di capire", "si misura").
 
 ### Chiusura
 - Breve. Una frase di chiusura con il nome (`A domani {$name},`) + firma.

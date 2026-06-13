@@ -218,51 +218,68 @@ P.S. prima di leggere questa email, avevi mai sentito parlare di ipertono del pa
 
 ## Email 5: Giorno 4 quinto video + intro consulenza
 
-**Oggetto:** La pancia dopo il parto: quello che nessuno spiega, {$name}
-**Preheader:** E un'opportunità per lavorarci insieme, in modo personalizzato
+**Oggetto:** [Giorno 5] La pancia dopo il parto: quello che nessuno spiega
+**Preheader:** Come possiamo lavorarci insieme?
 
 ---
 
-Ciao {$name},
+Ciao {$name}, oggi parliamo di pancia.
 
-oggi parliamo di pancia. E voglio farlo partendo da una cosa che mi ha colpita.
+*[STORIA PERSONALE: inserire qui un episodio reale di Michela o di una paziente che illustri il disorientamento attorno alla diastasi]*
 
-Una collega di vecchia data, fisioterapista esperta, mi ha chiamata qualche tempo fa dopo la sua seconda gravidanza. Mi ha detto: "Michela, sto impazzendo. Ho la diastasi. Ho trovato venti liste di esercizi vietati, trenta esercizi da fare, cinque cose da evitare assolutamente. E non so da dove iniziare."
+La diastasi è diventata una parola che spaventa.
 
-Era preparata tecnicamente, sapeva benissimo di cosa stava parlando. Eppure si sentiva completamente persa.
+Mi arrivano domande, praticamente sempre, di persone che mi chiedono come capire se ce l'hanno.
 
-Figurati chi non ha una formazione specifica.
+Mi dicono che la misurano in continuazione e che hanno eliminato esercizi con il terrore di fare danni.
 
-**Giorno 5: La pancia e la diastasi, fare chiarezza**
+**Ma la domanda vera non è "si è chiusa?".**
 
-La diastasi è diventata una parola che spaventa. Si cerca di capire se ce l'hai, si misura ogni settimana se si è chiusa un po', si eliminano esercizi con il terrore di fare danni.
+È:
 
-Ma la domanda vera non è "si è chiusa?". È: il tuo core funziona? Riesci a gestire le pressioni nei movimenti di ogni giorno? Hai stabilità quando sollevi il bambino, quando cammini, quando ti alleni?
+- il tuo core funziona?
+- Riesci a gestire le pressioni nei movimenti di ogni giorno?
+- Hai stabilità quando sollevi il bambino, {$name}, quando cammini, quando ti alleni?
 
-Una diastasi ancora presente ma con un core che funziona è già un grande risultato. Un addome che sembra "a posto" visivamente ma che non sa coordinarsi è ancora un problema.
+Una diastasi ancora presente ma con un core che funziona è già un grande risultato.
+
+Un addome che sembra "a posto" visivamente ma che non sa coordinarsi è ancora un problema.
 
 Nel video di oggi ti aiutiamo a guardare la tua pancia senza paura, capire cosa sta succedendo davvero e iniziare a lavorarci nel modo giusto.
 
 👉 [LINK VIDEO GIORNO 5: La pancia e la diastasi, fare chiarezza]
 
----
+Intanto wow, {$name}, siamo già al 5° giorno!
 
-**Una cosa in più, {$name}.**
+In questi giorni, da quando hai iniziato il mini training gratuito e hai scaricato la guida, hai imparato cose che la maggior parte delle donne nel post parto non conosce.
 
-Sei al Giorno 5. Hai imparato cose che la maggior parte delle persone nel post parto non conosce. Hai iniziato a sentire il tuo corpo in modo diverso da prima.
+Hai iniziato a sentire il tuo corpo in modo diverso da prima.
 
-Ma sai cosa mi dice spesso chi arriva a questo punto del percorso? "Ho capito molto più di prima. E adesso mi rendo conto di quanto avevo bisogno di qualcuno che guardasse esattamente la mia situazione."
+Ma sai cosa mi dice spesso chi arriva a questo punto del percorso?
 
-Ogni corpo è diverso. La tua storia, i tuoi sintomi, il tuo punto di partenza sono unici. E a volte quello che serve non è più contenuto generico, ma uno spazio in cui qualcuno guarda solo te.
+*"Ho capito molto più di prima. E adesso mi rendo conto di quanto avevo bisogno di qualcuno che guardasse esattamente la mia situazione."*
 
-Per questo esiste la **consulenza individuale** con Michela e Moreno: 60 minuti in cui analizziamo la tua storia specifica, i tuoi sintomi e il tuo punto di partenza, e ti diamo una direzione chiara e personalizzata.
+SCREENSHOT RECENSIONE COLLEGATA A QUESTO
 
-Non è una sessione di allenamento. È una mappa per il tuo percorso.
+Il punto è che ogni corpo è diverso.
+
+La tua storia, i tuoi sintomi, il tuo punto di partenza sono unici.
+
+A volte quello che serve non è più contenuto generico, perché di informazioni in giro ce ne sono tante (e, spesso, quello è un problema perché non sai cosa fare), ma uno spazio in cui qualcuno guarda solo te.
+
+Per questo io e Moreno abbiamo creato la **consulenza individuale**: 60 minuti in cui analizziamo la tua storia specifica, i tuoi sintomi e il tuo punto di partenza, e ti diamo una direzione chiara e personalizzata.
+
+**Non è una sessione di allenamento, {$name}. È una consulenza dove esci fuori con una direzione chiara su quello che è meglio per te e il tuo corpo.**
+
+LINK → Clicca qui per accedere alla consulenza e prenotarla.
 
 Domani ti racconto qualcosa in più. Per ora, concentrati sul video di oggi.
 
-A domani,
+A domani {$name},
+
 Michela e Moreno di Officina.MM
+
+P.S. se hai già domande sulla consulenza, rispondimi pure a questa email. Ci siamo e ti leggiamo molto volentieri :)
 
 ---
 
