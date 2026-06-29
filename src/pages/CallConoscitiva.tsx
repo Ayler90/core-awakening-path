@@ -2,16 +2,18 @@ import { useEffect, useRef } from "react";
 import {
   MessageCircle, Compass, CheckCircle2,
   Users, Heart, Zap, Activity, Eye,
+  ChevronDown,
 } from "lucide-react";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
+import VideoTestimonialsSection from "@/components/VideoTestimonialsSection";
 
 const RED = "#AF2B43";
 const VIOLET = "#61438C";
 
 const sliderItems = [
   "◆ Consulenza individuale",
-  "◇ 60 minuti · Online",
+  "◇ 30 minuti · Online",
   "◆ Pavimento pelvico · Diastasi · Post parto",
   "◇ Una direzione chiara per il tuo corpo",
   "◆ Con Michela e Moreno",
@@ -54,6 +56,33 @@ const SliderStrip = () => {
   );
 };
 
+const faqs = [
+  {
+    q: "La call è davvero gratuita?",
+    a: "Sì, completamente. Non ti chiediamo nessun pagamento per prenotarla o partecipare. È il nostro modo di conoscerti e capire come possiamo aiutarti.",
+  },
+  {
+    q: "Quanto dura?",
+    a: "30 minuti. Un tempo sufficiente per raccontare la tua situazione, capire cosa sta succedendo e uscire con una direzione chiara.",
+  },
+  {
+    q: "Come si svolge?",
+    a: "Online, via video call. Ti basta un telefono o un computer con connessione internet. Riceverai il link dopo la prenotazione.",
+  },
+  {
+    q: "Chi sarà in call con me?",
+    a: "Michela e/o Moreno di Officina.MM, a seconda della tua situazione specifica. Professionisti specializzati nel pavimento pelvico, nella riabilitazione pelvi-perineale e nel movimento post parto.",
+  },
+  {
+    q: "Devo avere già un problema specifico per prenotare?",
+    a: "No. Basta avere un dubbio, una sensazione che non sai come interpretare, o semplicemente non sapere da dove partire. Questo spazio esiste esattamente per questo.",
+  },
+  {
+    q: "Cosa succede dopo la call?",
+    a: "Ti daremo una direzione chiara: cosa fare, in che ordine e perché. Se ha senso continuare insieme con un percorso, te lo proporremo. Senza pressioni.",
+  },
+];
+
 const CallConoscitiva = () => {
   useEffect(() => {
     const script = document.createElement("script");
@@ -71,7 +100,7 @@ const CallConoscitiva = () => {
     <main className="pt-16">
       <NavBar showCountdown={false} ctaText="Prenota la call →" ctaHref="#prenota" />
 
-      {/* ─── HERO ─────────────────────────────────────────────────────────── */}
+      {/* HERO */}
       <section className="relative overflow-hidden bg-white">
         <div className="container mx-auto px-4 sm:px-6 pt-10 pb-20 lg:pt-14 lg:pb-28">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -81,7 +110,7 @@ const CallConoscitiva = () => {
                 className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-semibold font-body border mb-6"
                 style={{ backgroundColor: VIOLET + "18", borderColor: VIOLET + "40", color: VIOLET }}
               >
-                ◆ Consulenza individuale · 60 minuti
+                ◆ Consulenza individuale · 30 minuti · Gratuita
               </span>
 
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-display leading-tight text-foreground mb-6">
@@ -93,36 +122,42 @@ const CallConoscitiva = () => {
 
               <p className="text-lg text-muted-foreground font-body leading-relaxed mb-4">
                 Non sai se quello che senti è normale, non sai a chi rivolgerti, non sai da dove
-                partire — o hai già provato qualcosa ma senza risultati concreti.
+                partire, o hai già provato qualcosa ma senza risultati concreti.
               </p>
 
               <p className="text-base text-muted-foreground font-body leading-relaxed mb-8">
                 La call conoscitiva è uno spazio di{" "}
-                <strong className="text-foreground">60 minuti</strong> con Michela e Moreno in cui
+                <strong className="text-foreground">30 minuti</strong> con Michela e Moreno in cui
                 guardiamo insieme la tua situazione specifica e ti diamo una direzione chiara.
                 Non esci con una lista di esercizi a caso. Esci sapendo{" "}
                 <strong className="text-foreground">cosa fare, in che ordine e perché.</strong>
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-3">
-                <a
-                  href="#prenota"
-                  className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-lg text-white font-semibold font-body text-base shadow-sm hover:opacity-90 transition-all"
-                  style={{ backgroundColor: RED }}
-                >
-                  Prenota la call →
-                </a>
-                <a
-                  href="#come-funziona"
-                  className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-lg border-2 font-semibold font-body text-base transition-all hover:bg-foreground/5"
-                  style={{ borderColor: VIOLET, color: VIOLET }}
-                >
-                  Come funziona ↓
-                </a>
+              <div className="flex flex-col sm:flex-row gap-3 mb-2">
+                <div className="flex flex-col items-start gap-1">
+                  <a
+                    href="#prenota"
+                    className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-lg text-white font-semibold font-body text-base shadow-sm hover:opacity-90 transition-all"
+                    style={{ backgroundColor: RED }}
+                  >
+                    Prenota la call →
+                  </a>
+                  <p className="text-xs font-body text-muted-foreground pl-1">La call è gratuita</p>
+                </div>
+                <div className="flex flex-col items-start gap-1">
+                  <a
+                    href="#come-funziona"
+                    className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-lg border-2 font-semibold font-body text-base transition-all hover:bg-foreground/5"
+                    style={{ borderColor: VIOLET, color: VIOLET }}
+                  >
+                    Come funziona ↓
+                  </a>
+                  <p className="text-xs font-body text-muted-foreground pl-1">La call è gratuita</p>
+                </div>
               </div>
 
-              <p className="text-sm text-muted-foreground mt-5 font-body">
-                ✓ Online · ✓ 60 minuti · ✓ Con Michela e Moreno di Officina.MM
+              <p className="text-sm text-muted-foreground mt-4 font-body">
+                ✓ Online · ✓ 30 minuti · ✓ Gratuita · ✓ Con Michela e Moreno di Officina.MM
               </p>
             </div>
 
@@ -150,7 +185,7 @@ const CallConoscitiva = () => {
 
       <SliderStrip />
 
-      {/* ─── COME FUNZIONA ────────────────────────────────────────────────── */}
+      {/* COME FUNZIONA */}
       <section
         id="come-funziona"
         className="py-20 lg:py-28"
@@ -166,7 +201,7 @@ const CallConoscitiva = () => {
               ◆ Come funziona
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold font-display text-foreground mb-4 leading-tight">
-              60 minuti.{" "}
+              30 minuti.{" "}
               <span className="italic" style={{ color: RED }}>Una direzione chiara.</span>
             </h2>
             <p className="text-muted-foreground font-body leading-relaxed">
@@ -192,7 +227,7 @@ const CallConoscitiva = () => {
                 num: "03",
                 icon: <Compass className="w-5 h-5" />,
                 title: "Esci con una mappa",
-                desc: "Non con altri esercizi a caso. Esci sapendo cosa fare, in che ordine e perché — pensato per la tua storia specifica, non per un caso generico.",
+                desc: "Non con altri esercizi a caso. Esci sapendo cosa fare, in che ordine e perché, pensato per la tua storia specifica e non per un caso generico.",
               },
             ].map((step, i) => (
               <div
@@ -216,7 +251,7 @@ const CallConoscitiva = () => {
             ))}
           </div>
 
-          <div className="text-center mt-12">
+          <div className="text-center mt-12 flex flex-col items-center gap-1">
             <a
               href="#prenota"
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold font-body text-white text-sm transition-opacity hover:opacity-90"
@@ -224,12 +259,13 @@ const CallConoscitiva = () => {
             >
               Prenota la call →
             </a>
+            <p className="text-xs font-body text-muted-foreground">La call è gratuita</p>
           </div>
 
         </div>
       </section>
 
-      {/* ─── PER CHI È ────────────────────────────────────────────────────── */}
+      {/* PER CHI È */}
       <section className="py-20 lg:py-28 bg-background">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
@@ -282,13 +318,16 @@ const CallConoscitiva = () => {
                 ))}
               </div>
 
-              <a
-                href="#prenota"
-                className="inline-flex items-center gap-2 px-7 py-3.5 rounded-lg text-white font-semibold font-body shadow-sm hover:opacity-90 transition-all"
-                style={{ backgroundColor: RED }}
-              >
-                Prenota la call →
-              </a>
+              <div className="flex flex-col items-start gap-1">
+                <a
+                  href="#prenota"
+                  className="inline-flex items-center gap-2 px-7 py-3.5 rounded-lg text-white font-semibold font-body shadow-sm hover:opacity-90 transition-all"
+                  style={{ backgroundColor: RED }}
+                >
+                  Prenota la call →
+                </a>
+                <p className="text-xs font-body text-muted-foreground pl-1">La call è gratuita</p>
+              </div>
             </div>
 
             <div className="flex flex-col gap-6">
@@ -337,7 +376,7 @@ const CallConoscitiva = () => {
         </div>
       </section>
 
-      {/* ─── MICHELA E MORENO ─────────────────────────────────────────────── */}
+      {/* MICHELA E MORENO */}
       <section className="py-20 lg:py-28" style={{ backgroundColor: "hsl(30 25% 97%)" }}>
         <div className="container mx-auto px-4 sm:px-6">
 
@@ -368,7 +407,7 @@ const CallConoscitiva = () => {
                   "Dott.ssa in Educazione Professionale ed Educazione Sessuale.",
                   "Personal Trainer esperta nel movimento in gravidanza e post parto.",
                 ],
-                desc: "Con passione e delicatezza, Michela guida ogni persona nell'esplorazione del proprio corpo. Sa quanto sia difficile il post parto — e per questo crea uno spazio sicuro, in cui ogni domanda è benvenuta e ogni passo è rispettato.",
+                desc: "Con passione e delicatezza, Michela guida ogni persona nell'esplorazione del proprio corpo. Sa quanto sia difficile il post parto, e per questo crea uno spazio sicuro, in cui ogni domanda è benvenuta e ogni passo è rispettato.",
               },
               {
                 name: "Moreno",
@@ -420,7 +459,7 @@ const CallConoscitiva = () => {
             ))}
           </div>
 
-          <div className="text-center mt-12">
+          <div className="text-center mt-12 flex flex-col items-center gap-1">
             <a
               href="#prenota"
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold font-body text-white text-sm transition-opacity hover:opacity-90"
@@ -428,12 +467,16 @@ const CallConoscitiva = () => {
             >
               Prenota la call con loro →
             </a>
+            <p className="text-xs font-body text-muted-foreground">La call è gratuita</p>
           </div>
 
         </div>
       </section>
 
-      {/* ─── CALENDLY ─────────────────────────────────────────────────────── */}
+      {/* VIDEO TESTIMONIANZE */}
+      <VideoTestimonialsSection />
+
+      {/* CALENDLY */}
       <section
         id="prenota"
         className="py-20 lg:py-28 relative overflow-hidden"
@@ -449,26 +492,76 @@ const CallConoscitiva = () => {
         />
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
-          <div className="text-center mb-12 max-w-2xl mx-auto">
+          <div className="text-center mb-12 max-w-3xl mx-auto">
             <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold font-body border border-white/30 text-white/80 mb-8">
               ◆ Scegli il tuo orario
             </span>
             <h2 className="text-3xl sm:text-5xl font-bold font-display text-white mb-4 leading-tight">
-              Prenota la tua call.{" "}
-              <span className="italic">Subito.</span>
+              Prendiamoci 30 minuti insieme, gratuitamente, e parliamo di te e del tuo corpo.
             </h2>
             <p className="text-white/80 font-body leading-relaxed text-base sm:text-lg">
-              Scegli il giorno e l'orario che preferisci. La call dura 60 minuti ed è online.
+              Scegli il giorno e l'orario che preferisci. La call dura 30 minuti ed è online.
             </p>
           </div>
 
-          <div className="max-w-3xl mx-auto bg-white rounded-2xl overflow-hidden shadow-xl">
+          <div className="max-w-4xl mx-auto bg-white rounded-2xl overflow-hidden shadow-xl">
             <div
               className="calendly-inline-widget"
               data-url="https://calendly.com/iscrizioni-officinamm/30min"
-              style={{ minWidth: "320px", height: "700px" }}
+              style={{ minWidth: "320px", height: "950px" }}
             />
           </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-20 lg:py-28 bg-background">
+        <div className="container mx-auto px-4 sm:px-6 max-w-3xl">
+
+          <div className="text-center mb-14">
+            <span
+              className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold font-body border mb-6"
+              style={{ backgroundColor: VIOLET + "12", borderColor: VIOLET + "30", color: VIOLET }}
+            >
+              ◆ Domande frequenti
+            </span>
+            <h2 className="text-3xl sm:text-4xl font-bold font-display text-foreground leading-tight">
+              Hai qualche dubbio{" "}
+              <span className="italic" style={{ color: RED }}>sulla call?</span>
+            </h2>
+          </div>
+
+          <div className="flex flex-col gap-4">
+            {faqs.map((faq, i) => (
+              <details
+                key={i}
+                className="group rounded-2xl border border-border bg-card overflow-hidden"
+              >
+                <summary className="flex items-center justify-between gap-4 px-6 py-5 cursor-pointer list-none font-semibold font-body text-foreground text-sm sm:text-base">
+                  {faq.q}
+                  <ChevronDown
+                    className="w-4 h-4 shrink-0 transition-transform group-open:rotate-180"
+                    style={{ color: VIOLET }}
+                  />
+                </summary>
+                <p className="px-6 pb-5 text-sm text-muted-foreground font-body leading-relaxed border-t border-border pt-4">
+                  {faq.a}
+                </p>
+              </details>
+            ))}
+          </div>
+
+          <div className="text-center mt-12 flex flex-col items-center gap-1">
+            <a
+              href="#prenota"
+              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold font-body text-white text-sm transition-opacity hover:opacity-90"
+              style={{ backgroundColor: RED }}
+            >
+              Prenota la call →
+            </a>
+            <p className="text-xs font-body text-muted-foreground">La call è gratuita</p>
+          </div>
+
         </div>
       </section>
 
