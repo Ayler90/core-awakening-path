@@ -10,6 +10,7 @@ import GrazieAdvance from "./pages/GrazieAdvance.tsx";
 import GrazieEvolution from "./pages/GrazieEvolution.tsx";
 import RitrovareCorpoPostParto from "./pages/RitrovareCorpoPostParto.tsx";
 import GrazieRitrovareCorpo from "./pages/GrazieRitrovareCorpo.tsx";
+import CallConoscitiva from "./pages/CallConoscitiva.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => (
           <Route path="/grazie-iscrizione-core-evolution" element={<GrazieEvolution />} />
           <Route path="/ritrovare-corpo-post-parto" element={<RitrovareCorpoPostParto />} />
           <Route path="/grazie-ritrovare-corpo-post-parto" element={<GrazieRitrovareCorpo />} />
+          <Route path="/call-conoscitiva" element={<CallConoscitiva />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
