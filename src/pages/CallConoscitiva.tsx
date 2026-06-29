@@ -130,7 +130,7 @@ const CallConoscitiva = () => {
               </span>
 
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-display leading-tight text-foreground mb-6">
-                Hai un dubbio sul tuo corpo?{" "}
+                Il tuo pavimento pelvico non risponde più come prima?{" "}
                 <span className="italic" style={{ color: RED }}>
                   Parliamone, insieme.
                 </span>

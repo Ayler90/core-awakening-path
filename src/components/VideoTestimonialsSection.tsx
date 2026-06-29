@@ -8,13 +8,13 @@ const videos = [
 
 const VideoTestimonialsSection = () => {
   return (
-    <section className="pt-16 lg:pt-20 bg-background">
+    <section className="pt-16 lg:pt-20 pb-16 lg:pb-20 bg-background">
       <div className="container mx-auto px-4 sm:px-6">
 
         <div className="text-center mb-10 max-w-2xl mx-auto">
           <h2 className="text-2xl sm:text-3xl font-bold font-display text-foreground leading-tight">
-            Ascolta chi ha già partecipato al{" "}
-            <span className="italic" style={{ color: RED }}>training e ai nostri percorsi</span>
+            Ascolta chi ha già partecipato{" "}
+            <span className="italic" style={{ color: RED }}>ai nostri percorsi</span>
           </h2>
         </div>
 
