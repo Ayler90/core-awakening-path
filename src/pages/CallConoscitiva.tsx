@@ -98,7 +98,7 @@ const CallConoscitiva = () => {
 
   return (
     <main className="pt-16">
-      <NavBar showCountdown={false} ctaText="Prenota la call →" ctaHref="#prenota" />
+      <NavBar showCountdown={false} ctaText="Prenota la call gratuita" ctaHref="#prenota" centerCta />
 
       {/* HERO */}
       <section className="relative overflow-hidden bg-white">

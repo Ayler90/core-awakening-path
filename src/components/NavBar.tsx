@@ -20,9 +20,10 @@ interface NavBarProps {
   ctaText?: string;
   ctaHref?: string;
   centerText?: ReactNode;
+  centerCta?: boolean;
 }
 
-const NavBar = ({ showCountdown = false, ctaText = "Voglio partecipare →", ctaHref = "#iscrizione", centerText }: NavBarProps) => {
+const NavBar = ({ showCountdown = false, ctaText = "Voglio partecipare →", ctaHref = "#iscrizione", centerText, centerCta = false }: NavBarProps) => {
   const [scrolled, setScrolled] = useState(false);
   const [timeLeft, setTimeLeft] = useState(getTimeLeft());
 
@@ -50,7 +51,7 @@ const NavBar = ({ showCountdown = false, ctaText = "Voglio partecipare →", cta
       {/* Riga principale */}
       <div className="container mx-auto px-4 sm:px-6 h-16 flex items-center">
         {/* Logo - sinistra */}
-        <div className={`font-display font-bold text-xl text-foreground ${showCountdown || centerText ? "flex-1" : ""}`}>
+        <div className={`font-display font-bold text-xl text-foreground ${showCountdown || centerText || centerCta ? "flex-1" : ""}`}>
           <img
             src="https://static.wixstatic.com/media/40e4ee_3fabf91ebc5d418ca1c0be0173f4b3f9~mv2.png"
             alt="Officina.MM"
@@ -79,16 +80,34 @@ const NavBar = ({ showCountdown = false, ctaText = "Voglio partecipare →", cta
           </div>
         )}
 
-        {/* CTA - destra */}
-        <div className={`${showCountdown || centerText ? "flex-1" : ""} flex justify-end`}>
-          <a
-            href={ctaHref}
-            className="px-3 py-2 rounded-lg text-xs sm:text-sm sm:px-5 sm:py-2.5 font-semibold font-body text-white transition-all hover:opacity-90 whitespace-nowrap"
-            style={{ backgroundColor: "#AF2B43" }}
-          >
-            {ctaText}
-          </a>
-        </div>
+        {/* CTA centrata */}
+        {centerCta && !showCountdown && !centerText && (
+          <div className="flex-1 flex justify-center">
+            <a
+              href={ctaHref}
+              className="px-3 py-2 rounded-lg text-xs sm:text-sm sm:px-5 sm:py-2.5 font-semibold font-body text-white transition-all hover:opacity-90 whitespace-nowrap"
+              style={{ backgroundColor: "#AF2B43" }}
+            >
+              {ctaText}
+            </a>
+          </div>
+        )}
+
+        {/* CTA - destra (default) */}
+        {!centerCta && (
+          <div className={`${showCountdown || centerText ? "flex-1" : ""} flex justify-end`}>
+            <a
+              href={ctaHref}
+              className="px-3 py-2 rounded-lg text-xs sm:text-sm sm:px-5 sm:py-2.5 font-semibold font-body text-white transition-all hover:opacity-90 whitespace-nowrap"
+              style={{ backgroundColor: "#AF2B43" }}
+            >
+              {ctaText}
+            </a>
+          </div>
+        )}
+
+        {/* Spacer destra quando CTA è centrata */}
+        {centerCta && <div className="flex-1" />}
       </div>
 
       {/* Countdown - seconda riga mobile (solo se showCountdown) */}
