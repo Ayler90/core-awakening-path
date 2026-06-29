@@ -56,6 +56,22 @@ const SliderStrip = () => {
   );
 };
 
+const GratuitaBadge = () => (
+  <p className="text-xs font-body text-muted-foreground flex items-center justify-center gap-1.5 mt-1">
+    <span className="relative flex h-2 w-2 shrink-0">
+      <span
+        className="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"
+        style={{ backgroundColor: RED }}
+      />
+      <span
+        className="relative inline-flex rounded-full h-2 w-2"
+        style={{ backgroundColor: RED }}
+      />
+    </span>
+    La call è gratuita
+  </p>
+);
+
 const faqs = [
   {
     q: "La call è davvero gratuita?",
@@ -134,26 +150,20 @@ const CallConoscitiva = () => {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-3 mb-2">
-                <div className="flex flex-col items-start gap-1">
-                  <a
-                    href="#prenota"
-                    className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-lg text-white font-semibold font-body text-base shadow-sm hover:opacity-90 transition-all"
-                    style={{ backgroundColor: RED }}
-                  >
-                    Prenota la call →
-                  </a>
-                  <p className="text-xs font-body text-muted-foreground pl-1">La call è gratuita</p>
-                </div>
-                <div className="flex flex-col items-start gap-1">
-                  <a
-                    href="#come-funziona"
-                    className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-lg border-2 font-semibold font-body text-base transition-all hover:bg-foreground/5"
-                    style={{ borderColor: VIOLET, color: VIOLET }}
-                  >
-                    Come funziona ↓
-                  </a>
-                  <p className="text-xs font-body text-muted-foreground pl-1">La call è gratuita</p>
-                </div>
+                <a
+                  href="#prenota"
+                  className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-lg text-white font-semibold font-body text-base shadow-sm hover:opacity-90 transition-all"
+                  style={{ backgroundColor: RED }}
+                >
+                  Prenota la call →
+                </a>
+                <a
+                  href="#come-funziona"
+                  className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-lg border-2 font-semibold font-body text-base transition-all hover:bg-foreground/5"
+                  style={{ borderColor: VIOLET, color: VIOLET }}
+                >
+                  Come funziona ↓
+                </a>
               </div>
 
               <p className="text-sm text-muted-foreground mt-4 font-body">
@@ -259,7 +269,7 @@ const CallConoscitiva = () => {
             >
               Prenota la call →
             </a>
-            <p className="text-xs font-body text-muted-foreground">La call è gratuita</p>
+            <GratuitaBadge />
           </div>
 
         </div>
@@ -318,7 +328,7 @@ const CallConoscitiva = () => {
                 ))}
               </div>
 
-              <div className="flex flex-col items-start gap-1">
+              <div className="flex flex-col items-center gap-0">
                 <a
                   href="#prenota"
                   className="inline-flex items-center gap-2 px-7 py-3.5 rounded-lg text-white font-semibold font-body shadow-sm hover:opacity-90 transition-all"
@@ -326,7 +336,7 @@ const CallConoscitiva = () => {
                 >
                   Prenota la call →
                 </a>
-                <p className="text-xs font-body text-muted-foreground pl-1">La call è gratuita</p>
+                <GratuitaBadge />
               </div>
             </div>
 
@@ -467,7 +477,7 @@ const CallConoscitiva = () => {
             >
               Prenota la call con loro →
             </a>
-            <p className="text-xs font-body text-muted-foreground">La call è gratuita</p>
+            <GratuitaBadge />
           </div>
 
         </div>
@@ -559,7 +569,7 @@ const CallConoscitiva = () => {
             >
               Prenota la call →
             </a>
-            <p className="text-xs font-body text-muted-foreground">La call è gratuita</p>
+            <GratuitaBadge />
           </div>
 
         </div>
