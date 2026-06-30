@@ -144,7 +144,7 @@ const RitrovareCorpoPostParto = () => {
                 <p className="text-sm font-bold font-display leading-snug" style={{ color: RED }}>
                   Una guida per ritrovare il tuo corpo dopo il parto. Senza giudizio e senza fretta.
                 </p>
-                <p className="text-xs text-muted-foreground font-body mt-0.5">Con l'aiuto di Michela e Moreno. Officina.MM</p>
+                <p className="text-xs text-muted-foreground font-body mt-0.5">Con l'aiuto di Michela e Moreno - Officina.MM</p>
               </div>
             </div>
 
