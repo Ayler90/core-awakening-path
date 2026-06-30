@@ -14,7 +14,7 @@ const VIOLET = "#61438C";
 const sliderItems = [
   "◆ Guida PDF gratuita",
   "◇ Video guidati inclusi",
-  "◆ 7 giorni per ritrovare il tuo corpo",
+  "◆ 7 passi per ritrovare il tuo corpo",
   "◇ Connessione · Controllo · Sicurezza",
   "◆ Mini training gratuito via email",
   "◇ Pavimento pelvico · Respiro · Diastasi",
@@ -82,7 +82,7 @@ const RitrovareCorpoPostParto = () => {
                 className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-semibold font-body border mb-6"
                 style={{ backgroundColor: RED + "18", borderColor: RED + "40", color: RED }}
               >
-                ◆ Guida PDF gratuita · Con video guidati
+                ◆ Guida PDF gratuita · Con video-esercizi guidati
               </span>
 
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-display leading-tight text-foreground mb-6">
@@ -94,15 +94,15 @@ const RitrovareCorpoPostParto = () => {
               </h1>
 
               <p className="text-lg text-muted-foreground font-body leading-relaxed mb-4">
-                L'addome che non senti più, il pavimento pelvico che sembra sparito, la sensazione
+                Il pavimento pelvico che sembra sparito, l'addome che non senti più, la sensazione
                 di non sapere come muoverti senza sbagliare qualcosa, e nessuno che ti spiega
                 davvero da dove iniziare.
               </p>
 
               <p className="text-base text-muted-foreground font-body leading-relaxed mb-8">
-                <strong className="text-foreground">7 giorni per ritrovare il tuo corpo dopo il parto</strong> è
-                una guida gratuita con video guidati: un percorso concreto per imparare a sentire
-                di nuovo addome e pavimento pelvico, capire cosa è cambiato e riprendere il controllo.
+                <strong className="text-foreground">7 passi per ritrovare il tuo corpo dopo il parto</strong> è
+                una guida gratuita con video-esercizi guidati: un percorso concreto per imparare a sentire
+                di nuovo pavimento pelvico e addome, capire cosa è cambiato e riprendere il controllo.
                 Senza fretta e senza paura di sbagliare.
               </p>
 
@@ -120,7 +120,7 @@ const RitrovareCorpoPostParto = () => {
                   className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-lg border-2 font-semibold font-body text-base transition-all hover:bg-foreground/5"
                   style={{ borderColor: RED, color: RED }}
                 >
-                  Scopri i 7 giorni ↓
+                  Scopri i 7 passi ↓
                 </a>
               </div>
 
@@ -173,26 +173,26 @@ const RitrovareCorpoPostParto = () => {
                   className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold font-body border mb-6"
                   style={{ backgroundColor: "rgba(255,255,255,0.15)", borderColor: "rgba(255,255,255,0.35)", color: "white" }}
                 >
-                  ◆ Guida PDF + video guidati – gratis
+                  ◆ Guida PDF + video-esercizi guidati – gratis
                 </span>
 
                 <h2 className="text-3xl sm:text-4xl font-bold font-display text-white mb-3 leading-tight">
                   Scarica gratis{" "}
                   <span className="italic">
-                    7 giorni per ritrovare il tuo corpo dopo il parto
+                    7 passi per ritrovare il tuo corpo dopo il parto
                   </span>
                 </h2>
 
                 <p className="font-body leading-relaxed mb-6" style={{ color: "rgba(255,255,255,0.85)" }}>
-                  7 giorni concreti per imparare a sentire di nuovo il tuo corpo, capire cosa è
+                  7 passi concreti per imparare a sentire di nuovo il tuo corpo, capire cosa è
                   cambiato dopo il parto e riprendere il controllo, con esercizi guidati da Michela,
                   senza attrezzi e senza giudizio, ma al tuo ritmo.
                 </p>
 
                 <div className="grid grid-cols-2 gap-3 mb-8">
                   {[
-                    { icon: <FileText className="w-3.5 h-3.5" />, text: "PDF + video guidati" },
-                    { icon: <BookOpen className="w-3.5 h-3.5" />, text: "7 giorni pratici" },
+                    { icon: <FileText className="w-3.5 h-3.5" />, text: "PDF + video-esercizi guidati" },
+                    { icon: <BookOpen className="w-3.5 h-3.5" />, text: "7 passi pratici" },
                     { icon: <Compass className="w-3.5 h-3.5" />, text: "Mini training per email" },
                     { icon: <Users className="w-3.5 h-3.5" />, text: "100% gratuito" },
                   ].map((item, i) => (
@@ -309,7 +309,7 @@ const RitrovareCorpoPostParto = () => {
                 Scarica la guida gratuita →
               </a>
               <p className="text-xs text-muted-foreground font-body mt-3">
-                ◇ PDF + video gratuiti – ◇ 7 giorni pratici – ◇ Di Michela e Moreno, Officina.MM
+                ◇ PDF + video gratuiti – ◇ 7 passi pratici – ◇ Di Michela e Moreno, Officina.MM
               </p>
             </div>
 
@@ -395,7 +395,7 @@ const RitrovareCorpoPostParto = () => {
                   Scarica gratis la guida.
                 </p>
                 <p className="text-muted-foreground font-body text-sm mb-5">
-                  7 giorni con video per ritrovare il contatto con il tuo corpo dopo il parto.
+                  7 passi con video per ritrovare il contatto con il tuo corpo dopo il parto.
                 </p>
                 <a
                   href="#scarica"
@@ -418,7 +418,7 @@ const RitrovareCorpoPostParto = () => {
           <div className="text-center mb-14 max-w-2xl mx-auto">
             <h2 className="text-3xl sm:text-4xl font-bold font-display text-foreground mb-4 leading-tight">
               Cosa cambia in{" "}
-              <span className="italic" style={{ color: VIOLET }}>questi 7 giorni</span>
+              <span className="italic" style={{ color: VIOLET }}>questi 7 passi</span>
             </h2>
             <p className="text-muted-foreground font-body leading-relaxed">
               Non esercizi a caso. Un percorso con una logica precisa: prima impari a sentire, poi a coordinare, poi a integrare nella vita di ogni giorno.
@@ -491,14 +491,14 @@ const RitrovareCorpoPostParto = () => {
               Scarica la guida gratuita →
             </a>
             <p className="text-xs text-muted-foreground font-body mt-3">
-              ◇ PDF + video gratuiti – ◇ 7 giorni pratici – ◇ Di Michela e Moreno, Officina.MM
+              ◇ PDF + video gratuiti – ◇ 7 passi pratici – ◇ Di Michela e Moreno, Officina.MM
             </p>
           </div>
 
         </div>
       </section>
 
-      {/* ─── CURRICULUM SECTION (7 giorni) ───────────────────────────────── */}
+      {/* ─── CURRICULUM SECTION (7 passi) ───────────────────────────────── */}
       <section className="py-20 lg:py-28 bg-background">
         <div className="container mx-auto px-4 sm:px-6">
 
@@ -507,11 +507,11 @@ const RitrovareCorpoPostParto = () => {
               className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold font-body border mb-6"
               style={{ backgroundColor: RED + "12", borderColor: RED + "30", color: RED }}
             >
-              ◆ Guida PDF + video guidati – gratis
+              ◆ Guida PDF + video-esercizi guidati – gratis
             </span>
 
             <h2 className="text-3xl sm:text-4xl font-bold font-display text-foreground mb-4 leading-tight">
-              I 7 giorni{" "}
+              I 7 passi{" "}
               <span className="italic" style={{ color: RED }}>della guida</span>
             </h2>
             <p className="text-muted-foreground font-body leading-relaxed">
@@ -729,10 +729,10 @@ const RitrovareCorpoPostParto = () => {
                 a: "No. Gli esercizi sono pensati per ripartire davvero dalle basi, senza attrezzi e senza esperienza previa. Ti basta uno spazio tranquillo e voglia di iniziare.",
               },
               {
-                q: "Dopo i 7 giorni, c'è un percorso per continuare?",
+                q: "Dopo i 7 passi, c'è un percorso per continuare?",
                 a: (
                   <>
-                    Sì. Al termine dei 7 giorni troverai nella guida indicazioni su come continuare con un percorso
+                    Sì. Al termine dei 7 passi troverai nella guida indicazioni su come continuare con un percorso
                     guidato e progressivo. Puoi anche scriverci a{" "}
                     <a href="mailto:ciao@officinamm.com" style={{ color: RED, textDecoration: "underline" }}>
                       ciao@officinamm.com
@@ -791,7 +791,7 @@ const RitrovareCorpoPostParto = () => {
 
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold font-body border border-white/30 text-white/80 mb-8">
               <Download className="w-3 h-3" />
-              PDF + video guidati – 100% gratuiti
+              PDF + video-esercizi guidati – 100% gratuiti
             </div>
 
             <h2 className="text-3xl sm:text-5xl font-bold font-display text-white mb-6 leading-tight">
@@ -800,14 +800,14 @@ const RitrovareCorpoPostParto = () => {
             </h2>
 
             <p className="text-white/80 font-body leading-relaxed mb-4 text-base sm:text-lg">
-              7 giorni per tornare a sentire il tuo corpo, capire cosa è cambiato
-              e riprendere il controllo, con video guidati da Michela e Moreno, gratis.
+              7 passi per tornare a sentire il tuo corpo, capire cosa è cambiato
+              e riprendere il controllo, con video-esercizi guidati da Michela e Moreno, gratis.
             </p>
 
             <div className="flex flex-wrap items-center justify-center gap-4 mb-10 text-sm font-body text-white/70">
               <span>◇ PDF + video gratuiti</span>
               <span className="text-white/30">·</span>
-              <span>◇ 7 giorni pratici</span>
+              <span>◇ 7 passi pratici</span>
               <span className="text-white/30">·</span>
               <span>◇ Di Michela e Moreno</span>
             </div>
