@@ -355,36 +355,46 @@ const RitrovareCorpoPostParto = () => {
                 </span>
               </h2>
               <p className="text-lg text-muted-foreground font-body leading-relaxed">
-                Prima ancora di rinforzare, allenare o "sistemare": c'è un passo fondamentale che quasi nessuno insegna.
+                Prima ancora di rinforzare, allenare o "cercare di sistemare": c'è un passo fondamentale che quasi nessuno insegna.
               </p>
             </div>
 
             <div className="space-y-6">
               <div className="bg-background rounded-2xl p-6 lg:p-8 border border-border shadow-sm">
                 <p className="text-foreground font-body leading-relaxed text-lg mb-4">
-                  Il tuo corpo ha appena fatto la cosa più grande della sua vita. L'addome si è allungato,
-                  il pavimento pelvico ha sostenuto un peso enorme, il sistema nervoso si è riorganizzato.
-                  Dopo il parto, quella zona del corpo ha bisogno di qualcosa di specifico:{" "}
-                  <em style={{ color: RED }}>essere ascoltata, non solo allenata.</em>
+                  Il tuo corpo ha appena fatto una delle cose più straordinarie che possa fare. L'addome si è allungato,
+                  il pavimento pelvico è cambiato profondamente e ha sostenuto, e tutto il corpo si è adattato per
+                  accompagnare la gravidanza e il parto.
+                </p>
+                <p className="text-muted-foreground font-body leading-relaxed mb-4">
+                  Ora non ha bisogno solo di essere allenato. Ha bisogno, prima di tutto, di essere ascoltato.
                 </p>
                 <p className="text-muted-foreground font-body leading-relaxed">
-                  Il problema è che quasi nessuno ti insegna questo primo passo. Tutti parlano di
-                  "rinforzare il core", di "tornare in forma", di esercizi per la diastasi. Ma se
-                  non senti quella zona, se non c'è connessione, qualsiasi esercizio parte da
-                  una base instabile.
+                  Eppure è proprio questo il passaggio che quasi nessuno ti insegna. Si parla di rinforzare il core,
+                  di tornare in forma, di esercizi per la diastasi. Ma prima ancora degli esercizi, c'è un bisogno
+                  fondamentale: ritrovare la connessione con il tuo corpo.
+                </p>
+                <p className="text-muted-foreground font-body leading-relaxed mt-4">
+                  Perché se fai fatica a percepire il pavimento pelvico, a sentire l'addome o a fidarti dei tuoi
+                  movimenti, è difficile costruire un recupero che poggi su fondamenta solide.
                 </p>
               </div>
 
               <div className="bg-background rounded-2xl p-6 lg:p-8 border border-border shadow-sm">
                 <p className="text-foreground font-body leading-relaxed text-lg mb-4">
-                  Riconnettersi significa:{" "}
-                  <em style={{ color: RED }}>tornare a percepire l'addome, il pavimento pelvico, il respiro.</em>{" "}
-                  Capire come si muovono, come si coordinano, come rispondere ai movimenti di ogni giorno.
+                  Riconnettersi al proprio corpo significa, prima di tutto,{" "}
+                  <em style={{ color: RED }}>ri-conoscerlo e tornare in relazione con parti di esso</em>{" "}
+                  che dopo il parto possono sembrarti diverse, lontane, quasi estranee.
+                </p>
+                <p className="text-muted-foreground font-body leading-relaxed mb-4">
+                  Significa osservare, comprendere e tornare a fidarti di certe sensazioni e movimenti;
+                  tornare a percepire il pavimento pelvico, l'addome e quella connessione con il respiro
+                  che li accompagna in ogni gesto quotidiano. Solo partendo da qui il recupero può
+                  costruirsi su basi solide.
                 </p>
                 <p className="text-muted-foreground font-body leading-relaxed">
-                  Solo da questo punto, concreto, pratico e accessibile a chiunque, il recupero
-                  può costruirsi in modo solido. Questa guida ti accompagna esattamente da qui,
-                  giorno dopo giorno, con video e spiegazioni chiare.
+                  Ed è proprio da qui che inizia questa guida, accompagnandoti, un passo alla volta,
+                  con video-esercizi e spiegazioni chiare.
                 </p>
               </div>
 
