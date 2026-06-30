@@ -219,12 +219,13 @@ const RitrovareCorpoPostParto = () => {
               </div>
 
               <div className="relative">
-                {/* Placeholder — sostituire con foto Michela e Moreno */}
-                <div
-                  className="rounded-2xl overflow-hidden shadow-lg aspect-[4/5] flex items-center justify-center"
-                  style={{ backgroundColor: "rgba(255,255,255,0.15)" }}
-                >
-                  <p className="text-white/50 text-sm font-body">Foto Michela e Moreno</p>
+                <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/5]">
+                  <img
+                    src="https://static.wixstatic.com/media/40e4ee_19fed71ae15c4d6d8abe2d1d3ddb5356~mv2.jpg/v1/crop/x_218,y_399,w_1588,h_1521/fill/w_860,h_824,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Foto%20Michela%20e%20Moreno%202.jpg"
+                    alt="Michela e Moreno di Officina.MM"
+                    className="w-full h-full object-cover object-top"
+                    loading="lazy"
+                  />
                 </div>
                 <div
                   className="absolute -bottom-5 -left-4 rounded-xl p-4 shadow-lg border"
