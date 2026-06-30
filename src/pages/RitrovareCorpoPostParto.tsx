@@ -262,34 +262,34 @@ const RitrovareCorpoPostParto = () => {
               </h2>
 
               <p className="text-lg text-muted-foreground font-body leading-relaxed mb-8">
-                Non sei l'unica. Dopo il parto è comunissimo sentirsi così, anche se quasi nessuno ne parla davvero.
+                Se hai risposto "sì", sappi che non sei l'unica e non c'è niente di sbagliato in te.
               </p>
 
               <div className="space-y-4 mb-10">
                 {[
                   {
-                    title: "Provi a sentire l'addome e sembra non esserci più",
-                    desc: "Quella zona che prima conoscevi ora ti sembra estranea. Ci provi, ma non risponde. È come se il collegamento tra mente e corpo si fosse interrotto.",
+                    title: "Ti guardi la pancia e la senti diversa da prima",
+                    desc: "Ti sembra cambiata, più morbida, meno reattiva. Ti chiedi se tornerà mai come prima. Provi a muoverti e ad attivare l'addome, ma fai fatica a percepire una risposta: è come se avessi perso il dialogo con quella parte del tuo corpo.",
                   },
                   {
-                    title: "Hai qualche piccola perdita quando ridi, starnutisci o tosse",
-                    desc: "Poca cosa, ti dici. Ti hanno detto che è normale dopo un parto. Ma è qualcosa che senti, che si ripete, e che vorresti non ignorare più.",
+                    title: "Hai qualche piccola perdita quando ridi, starnutisci o tossisci",
+                    desc: "Poca cosa, ti dici. Ti hanno detto che è normale dopo un parto. Ma continua a succedere e dentro di te senti che non andrebbe ignorato.",
                   },
                   {
-                    title: "Quando prendi in braccio il bambino, trattieni il respiro senza accorgertene",
-                    desc: "Sforzi, piegamenti, salire le scale: senza volerlo spingi, trattieni, compensi. Il corpo si è adattato, ma in un modo che non ti aiuta davvero.",
+                    title: "Ti senti meno stabile nei movimenti di tutti i giorni",
+                    desc: "Prendere in braccio il bambino, piegarti, alzarti dal divano, salire le scale… gesti che prima erano automatici e che ora possono richiedere più fatica, farti sentire meno stabile o meno sicura. E a volte sono accompagnati da fastidi o piccoli dolori.",
                   },
                   {
                     title: "Vorresti muoverti, ma hai paura di fare la cosa sbagliata",
-                    desc: "Hai sentito parlare di diastasi, di esercizi da evitare, di pavimento pelvico. E così resti ferma, in attesa di un segnale chiaro che non arriva mai.",
+                    desc: "Hai letto e sentito tante cose: diastasi, pavimento pelvico, esercizi da evitare, esercizi da fare. Hai paura che un esercizio sbagliato possa peggiorare la situazione o rallentare il recupero. E così, nel dubbio, resti ferma, in attesa di un segnale chiaro che sembra non arrivare mai.",
                   },
                   {
-                    title: "Vedi qualcuno che sembra già 'tornata', e non capisci cosa stai sbagliando",
-                    desc: "Post di mamme con routine di allenamento a 6 settimane dal parto. E tu che ancora non sai se puoi fare un plank. Il confronto non aiuta, ma è difficile non farlo.",
+                    title: "Ti confronti con chi sembra essere già 'tornata come prima'",
+                    desc: "Vedi post di mamme con super routine di allenamento a poche settimane dal parto, mentre tu stai ancora cercando di ritrovare il tuo corpo e capire come iniziare. E inevitabilmente ti chiedi perché per te sia così diverso. Quel confronto non ti aiuta, ma è difficile smettere di farlo.",
                   },
                   {
-                    title: "Sai che dovresti fare qualcosa, ma non sai da dove cominciare",
-                    desc: "Tra stanchezza, allattamento, bambino e mille consigli contraddittori, trovare un punto di partenza chiaro sembra impossibile. E così rimandi ancora.",
+                    title: "Vorresti iniziare a prenderti cura di te, ma non sai da dove cominciare",
+                    desc: "Tra la mancanza di sonno, l'allattamento, le attenzioni per il tuo bambino e mille consigli che si contraddicono, trovare un punto di partenza chiaro sembra impossibile. E così finisci per rimandare ancora.",
                   },
                 ].map((s, i) => (
                   <div key={i} className="flex gap-3 p-4 rounded-xl border border-border bg-card">
