@@ -211,6 +211,18 @@ const RitrovareCorpoPostParto = () => {
           border-radius: inherit;
         }
         .cta-progress:hover::before { width: 88%; }
+        .cta-progress-inv::before {
+          background: repeating-linear-gradient(
+            -45deg,
+            rgba(0,0,0,0.07) 0px,
+            rgba(0,0,0,0.07) 10px,
+            rgba(0,0,0,0.02) 10px,
+            rgba(0,0,0,0.02) 20px
+          );
+          background-size: 28px 28px;
+          animation: stripe-flow 0.6s linear infinite;
+        }
+        .cta-progress-inv:hover::before { width: 88%; }
       `}</style>
       <NavBar
         showCountdown={false}
@@ -981,7 +993,7 @@ const RitrovareCorpoPostParto = () => {
 
             <a
               href="#scarica"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-bold font-body text-base transition-all cta-progress"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-bold font-body text-base transition-all cta-progress cta-progress-inv"
               style={{ backgroundColor: "white", color: "#4a4580" }}
             >
               <Download className="w-4 h-4" />
