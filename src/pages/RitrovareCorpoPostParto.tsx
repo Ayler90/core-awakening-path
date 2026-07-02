@@ -449,7 +449,7 @@ const RitrovareCorpoPostParto = () => {
                 Scarica la guida gratuita →
               </a>
               <p className="text-xs text-muted-foreground font-body mt-3">
-                ◇ PDF + video gratuiti – ◇ 7 passi pratici – ◇ Di Michela e Moreno, Officina.MM
+                ◇ PDF + video gratuiti – ◇ 7 passi pratici – ◇ Di Michela e Moreno - Officina.MM
               </p>
             </div>
 
@@ -647,7 +647,7 @@ const RitrovareCorpoPostParto = () => {
               Scarica la guida gratuita →
             </a>
             <p className="text-xs text-muted-foreground font-body mt-3">
-              ◇ PDF + video gratuiti – ◇ 7 passi pratici – ◇ Di Michela e Moreno, Officina.MM
+              ◇ PDF + video gratuiti – ◇ 7 passi pratici – ◇ Di Michela e Moreno - Officina.MM
             </p>
           </div>
 
@@ -741,7 +741,7 @@ const RitrovareCorpoPostParto = () => {
               Scarica la guida gratuita →
             </a>
             <p className="text-xs text-muted-foreground font-body mt-3">
-              ◇ Gratuita – ◇ Scaricabile subito – ◇ Di Michela e Moreno, Officina.MM
+              ◇ Gratuita – ◇ Scaricabile subito – ◇ Di Michela e Moreno - Officina.MM
             </p>
           </div>
 
