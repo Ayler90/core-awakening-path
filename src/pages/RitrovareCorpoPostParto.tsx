@@ -6,7 +6,7 @@ import {
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 
-const RED = "#5F438B";
+const RED = "#645b8f";
 const VIOLET = "#61438C";
 
 // ─── Infinite Slider ──────────────────────────────────────────────────────────
@@ -227,7 +227,7 @@ const RitrovareCorpoPostParto = () => {
           transition: box-shadow 0.4s ease, transform 0.35s ease;
         }
         .card-glow:hover {
-          box-shadow: 0 0 24px rgba(95,67,139,0.22), 0 0 52px rgba(95,67,139,0.10);
+          box-shadow: 0 0 24px rgba(100,91,143,0.22), 0 0 52px rgba(100,91,143,0.10);
           transform: translateY(-3px);
         }
       `}</style>
