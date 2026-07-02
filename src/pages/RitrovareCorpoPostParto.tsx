@@ -223,6 +223,13 @@ const RitrovareCorpoPostParto = () => {
           animation: stripe-flow 0.6s linear infinite;
         }
         .cta-progress-inv:hover::before { width: 88%; }
+        .card-glow {
+          transition: box-shadow 0.4s ease, transform 0.35s ease;
+        }
+        .card-glow:hover {
+          box-shadow: 0 0 24px rgba(95,67,139,0.22), 0 0 52px rgba(95,67,139,0.10);
+          transform: translateY(-3px);
+        }
       `}</style>
       <NavBar
         showCountdown={false}
@@ -629,7 +636,7 @@ const RitrovareCorpoPostParto = () => {
             ].map((b, i) => (
               <div
                 key={i}
-                className="rounded-2xl p-6 flex flex-col items-center text-center gap-4"
+                className="rounded-2xl p-6 flex flex-col items-center text-center gap-4 card-glow"
                 style={{ backgroundColor: "hsl(30 20% 97%)" }}
               >
                 <div className="relative flex items-center justify-center w-16 h-16 mt-2">
