@@ -28,7 +28,7 @@ const steps = [
     description:
       "Un canale dedicato a chi vuole imparare a prendersi cura del proprio pavimento pelvico e del core, al proprio ritmo. Video, esercizi e contenuti per chi vuole capire il proprio corpo senza fretta e senza pressione.",
     cta: "Entra nel canale Telegram →",
-    href: "https://t.me/placeholder",
+    href: "https://t.me/+CcCDqr5HPWY5NzE0",
   },
 ];
 
