@@ -975,28 +975,17 @@ const RitrovareCorpoPostParto = () => {
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
           <div className="text-center max-w-2xl mx-auto">
 
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold font-body border border-white/30 text-white/80 mb-8">
-              <Download className="w-3 h-3" />
-              PDF + video-esercizi guidati – 100% gratuiti
-            </div>
-
-            <h2 className="text-3xl sm:text-5xl font-bold font-display text-white mb-6 leading-tight">
-              Smetti di aspettare il momento giusto.{" "}
-              <span className="italic">Il momento giusto è adesso.</span>
+            <h2 className="text-3xl sm:text-5xl font-bold font-display text-white mb-4 leading-tight">
+              Quando sai da dove partire, il primo passo diventa più semplice.
             </h2>
 
-            <p className="text-white/80 font-body leading-relaxed mb-4 text-base sm:text-lg">
-              7 passi per tornare a sentire il tuo corpo, capire cosa è cambiato
-              e riprendere il controllo, con video-esercizi guidati da Michela e Moreno, gratis.
+            <p className="text-white/90 font-display font-semibold text-lg sm:text-xl mb-5 leading-snug">
+              Ogni recupero duraturo parte dalle fondamenta.
             </p>
 
-            <div className="flex flex-wrap items-center justify-center gap-4 mb-10 text-sm font-body text-white/70">
-              <span>◇ PDF + video gratuiti</span>
-              <span className="text-white/30">·</span>
-              <span>◇ 7 passi pratici</span>
-              <span className="text-white/30">·</span>
-              <span>◇ Di Michela e Moreno</span>
-            </div>
+            <p className="text-white/75 font-body leading-relaxed mb-10 text-sm sm:text-base">
+              Lasciati accompagnare con 7 passi guidati, spiegazioni semplici e video pratici per aiutarti a ripartire dalle basi e prenderti cura del tuo corpo dopo il parto.
+            </p>
 
             <a
               href="#scarica"
