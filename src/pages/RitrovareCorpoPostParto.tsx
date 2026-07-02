@@ -182,6 +182,36 @@ const RitrovareCorpoPostParto = () => {
 
   return (
     <main className="pt-16">
+      <style>{`
+        @keyframes stripe-flow {
+          0% { background-position: 0 0; }
+          100% { background-position: 28px 0; }
+        }
+        .cta-progress {
+          position: relative;
+          overflow: hidden;
+        }
+        .cta-progress::before {
+          content: '';
+          position: absolute;
+          inset: 0;
+          right: auto;
+          width: 0;
+          background: repeating-linear-gradient(
+            -45deg,
+            rgba(255,255,255,0.18) 0px,
+            rgba(255,255,255,0.18) 10px,
+            rgba(255,255,255,0.07) 10px,
+            rgba(255,255,255,0.07) 20px
+          );
+          background-size: 28px 28px;
+          animation: stripe-flow 0.6s linear infinite;
+          transition: width 1.6s cubic-bezier(0.2, 0.8, 0.3, 1);
+          pointer-events: none;
+          border-radius: inherit;
+        }
+        .cta-progress:hover::before { width: 88%; }
+      `}</style>
       <NavBar
         showCountdown={false}
         ctaText="Scarica gratis →"
@@ -226,7 +256,7 @@ const RitrovareCorpoPostParto = () => {
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
                   href="#scarica"
-                  className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-lg text-white font-semibold font-body text-base shadow-sm hover:opacity-90 transition-all"
+                  className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-lg text-white font-semibold font-body text-base shadow-sm transition-all cta-progress"
                   style={{ backgroundColor: RED }}
                 >
                   <Download className="w-4 h-4" />
@@ -413,7 +443,7 @@ const RitrovareCorpoPostParto = () => {
 
               <a
                 href="#scarica"
-                className="inline-flex items-center gap-2 px-7 py-3.5 rounded-lg text-white font-semibold font-body shadow-sm hover:opacity-90 transition-all"
+                className="inline-flex items-center gap-2 px-7 py-3.5 rounded-lg text-white font-semibold font-body shadow-sm transition-all cta-progress"
                 style={{ backgroundColor: RED }}
               >
                 Scarica la guida gratuita →
@@ -512,14 +542,14 @@ const RitrovareCorpoPostParto = () => {
                 style={{ backgroundColor: RED + "10", borderColor: RED + "30" }}
               >
                 <p className="text-foreground font-display font-bold text-xl mb-2">
-                  Scarica gratis la guida.
+                  Inizia il tuo recupero da qui
                 </p>
                 <p className="text-muted-foreground font-body text-sm mb-5">
-                  7 passi con video per ritrovare il contatto con il tuo corpo dopo il parto.
+                  7 passi - con esercizi video guidati - per ritrovare il tuo corpo dopo il parto
                 </p>
                 <a
                   href="#scarica"
-                  className="inline-flex items-center gap-2 px-7 py-3.5 rounded-lg text-white font-semibold font-body shadow-sm hover:opacity-90 transition-all"
+                  className="inline-flex items-center gap-2 px-7 py-3.5 rounded-lg text-white font-semibold font-body shadow-sm transition-all cta-progress"
                   style={{ backgroundColor: RED }}
                 >
                   Scarica la guida gratuita →
@@ -604,7 +634,7 @@ const RitrovareCorpoPostParto = () => {
           <div className="text-center mt-12">
             <a
               href="#scarica"
-              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold font-body text-white text-sm transition-opacity hover:opacity-90"
+              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold font-body text-white text-sm transition-all cta-progress"
               style={{ backgroundColor: RED }}
             >
               <Download className="w-4 h-4" />
@@ -698,7 +728,7 @@ const RitrovareCorpoPostParto = () => {
           <div className="text-center mt-12">
             <a
               href="#scarica"
-              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold font-body text-white text-sm transition-opacity hover:opacity-90"
+              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold font-body text-white text-sm transition-all cta-progress"
               style={{ backgroundColor: RED }}
             >
               <Download className="w-4 h-4" />
@@ -799,7 +829,7 @@ const RitrovareCorpoPostParto = () => {
           <div className="text-center mt-12">
             <a
               href="#scarica"
-              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold font-body text-white text-sm transition-opacity hover:opacity-90"
+              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold font-body text-white text-sm transition-all cta-progress"
               style={{ backgroundColor: RED }}
             >
               Scarica la guida gratuita →
@@ -934,7 +964,7 @@ const RitrovareCorpoPostParto = () => {
 
             <a
               href="#scarica"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-bold font-body text-base transition-opacity hover:opacity-90"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-bold font-body text-base transition-all cta-progress"
               style={{ backgroundColor: "white", color: "#4a4580" }}
             >
               <Download className="w-4 h-4" />
