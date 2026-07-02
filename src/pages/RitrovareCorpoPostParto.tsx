@@ -15,7 +15,7 @@ const sliderItems = [
   "◆ Guida PDF gratuita",
   "◇ Video guidati inclusi",
   "◆ 7 passi per ritrovare il tuo corpo",
-  "◇ Connessione · Controllo · Sicurezza",
+  "◇ Connessione · Consapevolezza · Sicurezza",
   "◆ Mini training gratuito via email",
   "◇ Pavimento pelvico · Respiro · Diastasi",
   "◆ Di Michela e Moreno",
@@ -186,7 +186,7 @@ const RitrovareCorpoPostParto = () => {
         showCountdown={false}
         ctaText="Scarica gratis →"
         ctaHref="#scarica"
-        centerText={<>Per le donne nel <span style={{ color: "#AF2B43" }}>post parto</span> che vogliono <span style={{ color: "#AF2B43" }}>ritrovare il proprio corpo</span>.</>}
+        centerText={<>Per chi sta attraversando il <span style={{ color: "#AF2B43" }}>post parto</span> e desidera <span style={{ color: "#AF2B43" }}>ritrovare il proprio corpo</span>.</>}
       />
 
       {/* ─── HERO ─────────────────────────────────────────────────────────── */}
@@ -301,9 +301,9 @@ const RitrovareCorpoPostParto = () => {
                 </h2>
 
                 <p className="font-body leading-relaxed mb-6" style={{ color: "rgba(255,255,255,0.85)" }}>
-                  7 passi concreti per imparare a sentire di nuovo il tuo corpo, capire cosa è
-                  cambiato dopo il parto e riprendere il controllo, con esercizi guidati da Michela,
-                  senza attrezzi e senza giudizio, ma al tuo ritmo.
+                  7 passi pratici per riconnetterti al tuo corpo dopo il parto, comprendere cosa è
+                  cambiato e iniziare a costruire, con gradualità, le basi del tuo recupero. Con
+                  esercizi guidati da Michela, senza attrezzi, senza giudizio e da seguire al tuo ritmo.
                 </p>
 
                 <div className="grid grid-cols-2 gap-3 mb-8">
