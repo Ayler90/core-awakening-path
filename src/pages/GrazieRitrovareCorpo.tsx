@@ -1,7 +1,7 @@
 import { CheckCircle2, Mail, ClipboardList, Send } from "lucide-react";
 import Footer from "@/components/Footer";
 
-const RED = "#AF2B43";
+const RED = "#5F438B";
 
 const steps = [
   {
@@ -154,7 +154,7 @@ const GrazieRitrovareCorpo = () => {
         </div>
       </section>
 
-      <Footer />
+      <Footer accentColor={RED} />
     </main>
   );
 };
