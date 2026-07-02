@@ -69,7 +69,7 @@ const MAILERLITE_CSS = `
 #mlb2-43222508.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::-webkit-input-placeholder{color:rgba(255,255,255,0.65)!important}
 #mlb2-43222508.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::-moz-placeholder{color:rgba(255,255,255,0.65)!important}
 #mlb2-43222508.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:-ms-input-placeholder{color:rgba(255,255,255,0.65)!important}
-#mlb2-43222508.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button{background-color:#ffffff!important;color:#AF2B43!important;border-radius:999px!important;font-size:15px!important;padding:14px!important}
+#mlb2-43222508.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button{background-color:#ffffff!important;color:#645b8f!important;border-radius:999px!important;font-size:15px!important;padding:14px!important}
 #mlb2-43222508.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover{background-color:rgba(255,255,255,0.92)!important}
 #mlb2-43222508.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsContent p{color:rgba(255,255,255,0.7)!important}
 #mlb2-43222508.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsContent p a{color:rgba(255,255,255,0.9)!important}
