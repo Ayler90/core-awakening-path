@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import {
   Download, BookOpen, Users, ChevronDown,
-  FileText, Compass, Heart, Zap, Eye, RotateCcw, Activity,
+  FileText, Compass, Heart, Wind, Layers, Activity, Feather,
 } from "lucide-react";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
@@ -69,7 +69,7 @@ const MAILERLITE_CSS = `
 #mlb2-43222508.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::-webkit-input-placeholder{color:rgba(255,255,255,0.65)!important}
 #mlb2-43222508.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::-moz-placeholder{color:rgba(255,255,255,0.65)!important}
 #mlb2-43222508.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:-ms-input-placeholder{color:rgba(255,255,255,0.65)!important}
-#mlb2-43222508.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button{background-color:#ffffff!important;color:#AF2B43!important;border-radius:8px!important;font-size:15px!important;padding:14px!important}
+#mlb2-43222508.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button{background-color:#ffffff!important;color:#AF2B43!important;border-radius:999px!important;font-size:15px!important;padding:14px!important}
 #mlb2-43222508.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover{background-color:rgba(255,255,255,0.92)!important}
 #mlb2-43222508.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsContent p{color:rgba(255,255,255,0.7)!important}
 #mlb2-43222508.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsContent p a{color:rgba(255,255,255,0.9)!important}
@@ -256,7 +256,7 @@ const RitrovareCorpoPostParto = () => {
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
                   href="#scarica"
-                  className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-lg text-white font-semibold font-body text-base shadow-sm transition-all cta-progress"
+                  className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-full text-white font-semibold font-body text-base shadow-sm transition-all cta-progress"
                   style={{ backgroundColor: RED }}
                 >
                   <Download className="w-4 h-4" />
@@ -264,7 +264,7 @@ const RitrovareCorpoPostParto = () => {
                 </a>
                 <a
                   href="#cosa-trovi"
-                  className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-lg border-2 font-semibold font-body text-base transition-all hover:bg-foreground/5"
+                  className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-full border-2 font-semibold font-body text-base transition-all hover:bg-foreground/5"
                   style={{ borderColor: RED, color: RED }}
                 >
                   Scopri i 7 passi ↓
@@ -443,7 +443,7 @@ const RitrovareCorpoPostParto = () => {
 
               <a
                 href="#scarica"
-                className="inline-flex items-center gap-2 px-7 py-3.5 rounded-lg text-white font-semibold font-body shadow-sm transition-all cta-progress"
+                className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full text-white font-semibold font-body shadow-sm transition-all cta-progress"
                 style={{ backgroundColor: RED }}
               >
                 Scarica la guida gratuita →
@@ -549,7 +549,7 @@ const RitrovareCorpoPostParto = () => {
                 </p>
                 <a
                   href="#scarica"
-                  className="inline-flex items-center gap-2 px-7 py-3.5 rounded-lg text-white font-semibold font-body shadow-sm transition-all cta-progress"
+                  className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full text-white font-semibold font-body shadow-sm transition-all cta-progress"
                   style={{ backgroundColor: RED }}
                 >
                   Scarica la guida gratuita →
@@ -567,63 +567,69 @@ const RitrovareCorpoPostParto = () => {
 
           <div className="text-center mb-14 max-w-2xl mx-auto">
             <h2 className="text-3xl sm:text-4xl font-bold font-display text-foreground mb-4 leading-tight">
-              Cosa cambia in{" "}
+              Dove ti accompagneranno{" "}
               <span className="italic" style={{ color: VIOLET }}>questi 7 passi</span>
             </h2>
             <p className="text-muted-foreground font-body leading-relaxed">
-              Non esercizi a caso. Un percorso con una logica precisa: prima impari a sentire, poi a coordinare, poi a integrare nella vita di ogni giorno.
+              Non troverai esercizi isolati, ma un percorso in cui ogni pratica prepara la successiva: prima impari ad ascoltare il tuo corpo, poi a coordinare le diverse parti e, infine, a integrarle in una routine completa.
             </p>
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-5xl mx-auto">
             {[
               {
-                icon: <Eye className="w-5 h-5" />,
+                icon: <Heart className="w-6 h-6" />,
                 color: RED,
-                title: "Tornare a sentire il tuo corpo",
-                text: "La consapevolezza corporea è il punto di partenza di tutto. Prima ancora di rinforzare, imparerai a riconnetterti: sentire cosa c'è, come risponde, cosa è cambiato.",
+                title: "Il primo passo è la riconnessione",
+                text: "Dopo il parto è facile sentirsi un po' scollegatə dal proprio corpo. Prima ancora di allenare, inizierai a riconnetterti a ciò che senti e a comprendere meglio cosa è cambiato.",
               },
               {
-                icon: <Compass className="w-5 h-5" />,
+                icon: <Compass className="w-6 h-6" />,
                 color: VIOLET,
-                title: "Capire postura e schemi post parto",
-                text: "Durante la gravidanza il corpo ha trovato nuovi equilibri, e dopo il parto questi schemi non spariscono da soli. Imparerai a ridare spazio e allineamento senza sforzo.",
+                title: "Quel modo di stare nel corpo che è cambiato",
+                text: "Durante la gravidanza il corpo trova nuovi equilibri che non scompaiono automaticamente dopo il parto. Scoprirai come questi cambiamenti influenzano postura, movimento e respiro e perché vale la pena partire proprio da qui.",
               },
               {
-                icon: <Zap className="w-5 h-5" />,
+                icon: <Wind className="w-6 h-6" />,
                 color: RED,
-                title: "Usare il respiro come alleato",
-                text: "Il respiro è uno degli strumenti più potenti che hai. Quando torna funzionale, il pavimento pelvico si muove in modo più naturale, l'addome si attiva e le pressioni si gestiscono meglio.",
+                title: "Il respiro che ti aiuta davvero",
+                text: "Il respiro è molto più di un semplice atto automatico. Scoprirai come può diventare uno strumento concreto per favorire la sinergia tra addome, pavimento pelvico e tutto il Core.",
               },
               {
-                icon: <Heart className="w-5 h-5" />,
+                icon: <Layers className="w-6 h-6" />,
                 color: VIOLET,
-                title: "Capire il pavimento pelvico davvero",
-                text: "Non è solo 'stringere i kegel'. Il pavimento pelvico funziona bene quando è elastico e sa attivarsi e lasciar andare nel momento giusto. Imparerai a ritrovare il contatto con questa zona.",
+                title: "Il pavimento pelvico: quello che nessuno ti spiega",
+                text: "Il recupero del pavimento pelvico non si riduce a fare esercizi di Kegel. Comprenderai perché la sua funzione dipende anche dalla capacità di attivarsi e rilasciarsi con elasticità, in sinergia con il respiro e tutto il Core.",
               },
               {
-                icon: <Activity className="w-5 h-5" />,
+                icon: <Activity className="w-6 h-6" />,
                 color: RED,
-                title: "Fare chiarezza sulla pancia e la diastasi",
-                text: "Il recupero non passa dal fare di più, ma dal fare nel modo giusto. Imparerai come coinvolgere l'addome in modo sicuro ed efficace, senza forzare e senza paura.",
+                title: "Il vero ruolo dell'addome dopo il parto",
+                text: "Prima di chiedere all'addome di lavorare di più, è importante permettergli di ritrovare il suo ruolo all'interno del Core. Scoprirai perché il recupero parte dalla coordinazione, prima ancora che dalla forza.",
               },
               {
-                icon: <RotateCcw className="w-5 h-5" />,
+                icon: <Feather className="w-6 h-6" />,
                 color: VIOLET,
-                title: "Portare il recupero nella vita reale",
-                text: "Non vivi sul tappetino. Imparerai a integrare quello che hai imparato nei movimenti di ogni giorno: prendere in braccio, piegarti, camminare. In modo automatico e naturale.",
+                title: "Perché recuperare significa anche lasciare andare",
+                text: "Recuperare non significa solo riattivare, ma soprattutto ritrovare elasticità. Capirai perché imparare a lasciare andare alcune tensioni è una parte fondamentale del lavoro del Core e del recupero post parto.",
               },
             ].map((b, i) => (
               <div
                 key={i}
-                className="rounded-2xl p-6 flex flex-col gap-4"
+                className="rounded-2xl p-6 flex flex-col items-center text-center gap-4"
                 style={{ backgroundColor: "hsl(30 20% 97%)" }}
               >
-                <div
-                  className="w-10 h-10 rounded-xl flex items-center justify-center"
-                  style={{ backgroundColor: b.color + "18", color: b.color }}
-                >
-                  {b.icon}
+                <div className="relative flex items-center justify-center w-16 h-16 mt-2">
+                  <div
+                    className="absolute inset-0 rounded-full blur-lg opacity-40"
+                    style={{ backgroundColor: b.color }}
+                  />
+                  <div
+                    className="relative w-12 h-12 rounded-full flex items-center justify-center"
+                    style={{ backgroundColor: b.color + "20", color: b.color }}
+                  >
+                    {b.icon}
+                  </div>
                 </div>
                 <h3 className="font-bold font-display text-base text-foreground leading-snug">{b.title}</h3>
                 <p className="text-sm text-muted-foreground font-body leading-relaxed">{b.text}</p>
