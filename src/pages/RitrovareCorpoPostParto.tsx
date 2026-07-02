@@ -641,7 +641,7 @@ const RitrovareCorpoPostParto = () => {
               >
                 <div className="relative flex items-center justify-center w-16 h-16 mt-2">
                   <div
-                    className="absolute inset-0 rounded-full blur-lg opacity-40"
+                    className="absolute inset-0 rounded-full blur-md opacity-20"
                     style={{ backgroundColor: b.color }}
                   />
                   <div
