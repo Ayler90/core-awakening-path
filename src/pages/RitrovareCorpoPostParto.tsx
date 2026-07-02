@@ -764,8 +764,7 @@ const RitrovareCorpoPostParto = () => {
               <span className="italic" style={{ color: RED }}>Michela e Moreno</span>
             </h2>
             <p className="text-muted-foreground font-body leading-relaxed">
-              Lavoriamo ogni giorno con donne nel post parto e sappiamo quanto
-              sia difficile orientarsi, e quanto faccia differenza avere una guida davvero competente.
+              Ogni giorno accompagniamo persone nel recupero post parto e sappiamo quanto possa essere difficile orientarsi tra consigli, esercizi e informazioni spesso contrastanti. Per questo abbiamo creato una guida che unisce ciò che osserviamo ogni giorno nella pratica, il lavoro sul movimento e le migliori evidenze disponibili.
             </p>
           </div>
 
