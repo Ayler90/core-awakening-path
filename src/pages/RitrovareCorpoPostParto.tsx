@@ -671,8 +671,7 @@ const RitrovareCorpoPostParto = () => {
               <span className="italic" style={{ color: RED }}>della guida</span>
             </h2>
             <p className="text-muted-foreground font-body leading-relaxed">
-              Ogni giorno un tema, un video e una pratica. Una progressione pensata per costruire
-              basi solide, passo dopo passo.
+              Ogni giorno un tema da comprendere, una pratica guidata da sperimentare e una nuova consapevolezza da portare con te. Una progressione pensata per accompagnarti e costruire basi solide, un passo alla volta.
             </p>
           </div>
 
@@ -681,37 +680,37 @@ const RitrovareCorpoPostParto = () => {
               {
                 num: "Giorno 1",
                 title: "Tornare a sentire il tuo corpo",
-                desc: "La riconnessione è la base di tutto. Prima ancora di allenare, impari a percepire e riconoscere il tuo corpo di adesso.",
+                desc: "Inizieremo dalla consapevolezza corporea, imparando ad ascoltare il tuo corpo e a riconoscere ciò che è cambiato dopo il parto.",
               },
               {
                 num: "Giorno 2",
-                title: "Quel modo di stare nel corpo che è cambiato",
-                desc: "Gli schemi posturali della gravidanza non spariscono da soli. Lavoriamo per ridare spazio e allineamento, senza sforzo.",
+                title: "Creare spazio",
+                desc: "Lavoreremo sulla mobilità di colonna, bacino e respiro per ritrovare spazio, movimento e nuovi equilibri.",
               },
               {
                 num: "Giorno 3",
-                title: "Il respiro che ti aiuta davvero",
-                desc: "Quando il respiro torna funzionale, tutto cambia: il pavimento pelvico si muove meglio, l'addome si attiva, le pressioni si gestiscono.",
+                title: "Riscoprire il respiro",
+                desc: "Esploreremo il respiro come base del lavoro del Core e scopriremo perché il suo ruolo è centrale nel recupero post parto.",
               },
               {
                 num: "Giorno 4",
-                title: "Il pavimento pelvico: quello che nessuno ti spiega",
-                desc: "Non solo 'stringere'. Il pavimento pelvico funziona bene quando sa attivarsi e lasciar andare nel momento giusto. Iniziamo dal contatto.",
+                title: "Ritrovare il contatto con il pavimento pelvico",
+                desc: "Impareremo a percepire e attivare il pavimento pelvico e a riconoscere il suo ruolo in sinergia con il respiro, l'addome e tutto il Core.",
               },
               {
                 num: "Giorno 5",
-                title: "La pancia e la diastasi: fare chiarezza",
-                desc: "Cosa sta succedendo davvero all'addome e come lavorarci in modo sicuro, efficace e rispettoso. Senza fretta e senza paura.",
+                title: "Riattivare l'addome profondo",
+                desc: "Inizieremo a coinvolgere l'addome profondo in un modo nuovo e graduale, nel respiro e nella sinergia del Core.",
               },
               {
                 num: "Giorno 6",
-                title: "Muoverti nella vita reale, non solo negli esercizi",
-                desc: "Non si vive sul tappetino. Porti quello che hai imparato nei movimenti quotidiani: prendere in braccio, piegarti, camminare.",
+                title: "Imparare a lasciare andare",
+                desc: "Dedicheremo uno spazio al rilascio e all'elasticità, imparando a riconoscere e non trattenere le tensioni che accumuliamo anche nella muscolatura profonda.",
               },
               {
                 num: "Giorno 7",
-                title: "Da dove riparti, davvero",
-                desc: "Una routine completa che unisce tutto. E la direzione per continuare con metodo, progressione e la guida giusta.",
+                title: "Integrare il lavoro svolto",
+                desc: "Uniremo tutto ciò che hai esplorato nei giorni precedenti, così da trasformare ogni singolo passo in un percorso coerente e completo.",
               },
             ].map((v, i) => (
               <div
