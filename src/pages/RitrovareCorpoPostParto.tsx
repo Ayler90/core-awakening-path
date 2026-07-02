@@ -6,7 +6,7 @@ import {
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 
-const RED = "#AF2B43";
+const RED = "#5F438B";
 const VIOLET = "#61438C";
 
 // ─── Infinite Slider ──────────────────────────────────────────────────────────
