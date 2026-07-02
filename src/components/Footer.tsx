@@ -1,4 +1,4 @@
-const Footer = () => {
+const Footer = ({ accentColor = "#AF2B43" }: { accentColor?: string }) => {
   return (
     <footer className="py-12 bg-background border-t" style={{ borderColor: "hsl(30 20% 90%)" }}>
       <div className="container mx-auto px-4 sm:px-6">
@@ -16,10 +16,10 @@ const Footer = () => {
           <div className="flex-1" />
 
           <div className="flex flex-col gap-2">
-            <p className="font-bold font-display text-base" style={{ color: "#AF2B43" }}>
+            <p className="font-bold font-display text-base" style={{ color: accentColor }}>
               Contattaci
             </p>
-            <p className="text-sm font-semibold font-body" style={{ color: "#AF2B43" }}>
+            <p className="text-sm font-semibold font-body" style={{ color: accentColor }}>
               Officina.MM
             </p>
             <p className="text-sm text-muted-foreground font-body">
@@ -28,14 +28,14 @@ const Footer = () => {
             <a
               href="mailto:ciao@officinamm.com"
               className="text-sm font-body font-medium hover:underline"
-              style={{ color: "#AF2B43" }}
+              style={{ color: accentColor }}
             >
               ciao@officinamm.com
             </a>
             <a
               href="https://www.officinamm.com/privacy"
               className="text-sm font-body underline mt-1"
-              style={{ color: "#AF2B43" }}
+              style={{ color: accentColor }}
             >
               Privacy Policy
             </a>

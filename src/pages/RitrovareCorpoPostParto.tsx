@@ -216,7 +216,8 @@ const RitrovareCorpoPostParto = () => {
         showCountdown={false}
         ctaText="Scarica gratis →"
         ctaHref="#scarica"
-        centerText={<>Per chi sta attraversando il <span style={{ color: "#AF2B43" }}>post parto</span> e desidera <span style={{ color: "#AF2B43" }}>ritrovare il proprio corpo</span>.</>}
+        accentColor={RED}
+        centerText={<>Per chi sta attraversando il <span style={{ color: RED }}>post parto</span> e desidera <span style={{ color: RED }}>ritrovare il proprio corpo</span>.</>}
       />
 
       {/* ─── HERO ─────────────────────────────────────────────────────────── */}
@@ -994,7 +995,7 @@ const RitrovareCorpoPostParto = () => {
         </div>
       </section>
 
-      <Footer />
+      <Footer accentColor={RED} />
     </main>
   );
 };

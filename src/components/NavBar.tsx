@@ -21,9 +21,10 @@ interface NavBarProps {
   ctaHref?: string;
   centerText?: ReactNode;
   centerCta?: boolean;
+  accentColor?: string;
 }
 
-const NavBar = ({ showCountdown = false, ctaText = "Voglio partecipare →", ctaHref = "#iscrizione", centerText, centerCta = false }: NavBarProps) => {
+const NavBar = ({ showCountdown = false, ctaText = "Voglio partecipare →", ctaHref = "#iscrizione", centerText, centerCta = false, accentColor = accentColor }: NavBarProps) => {
   const [scrolled, setScrolled] = useState(false);
   const [timeLeft, setTimeLeft] = useState(getTimeLeft());
 
@@ -65,7 +66,7 @@ const NavBar = ({ showCountdown = false, ctaText = "Voglio partecipare →", cta
             <span className="text-[11px] text-muted-foreground font-body leading-none mb-0.5">
               Le iscrizioni al training gratuito chiudono tra
             </span>
-            <span className="text-sm font-bold font-body tabular-nums" style={{ color: "#AF2B43" }}>
+            <span className="text-sm font-bold font-body tabular-nums" style={{ color: accentColor }}>
               {timeLeft.days}g {pad(timeLeft.hours)}h {pad(timeLeft.minutes)}m {pad(timeLeft.seconds)}s
             </span>
           </div>
@@ -86,7 +87,7 @@ const NavBar = ({ showCountdown = false, ctaText = "Voglio partecipare →", cta
             <a
               href={ctaHref}
               className="px-3 py-2 rounded-lg text-xs sm:text-sm sm:px-5 sm:py-2.5 font-semibold font-body text-white transition-all hover:opacity-90 whitespace-nowrap"
-              style={{ backgroundColor: "#AF2B43" }}
+              style={{ backgroundColor: accentColor }}
             >
               {ctaText}
             </a>
@@ -99,7 +100,7 @@ const NavBar = ({ showCountdown = false, ctaText = "Voglio partecipare →", cta
             <a
               href={ctaHref}
               className="px-3 py-2 rounded-lg text-xs sm:text-sm sm:px-5 sm:py-2.5 font-semibold font-body text-white transition-all hover:opacity-90 whitespace-nowrap"
-              style={{ backgroundColor: "#AF2B43" }}
+              style={{ backgroundColor: accentColor }}
             >
               {ctaText}
             </a>
@@ -116,7 +117,7 @@ const NavBar = ({ showCountdown = false, ctaText = "Voglio partecipare →", cta
           <span className="text-[11px] text-muted-foreground font-body leading-none mb-0.5">
             Il training inizia tra
           </span>
-          <span className="text-sm font-bold font-body tabular-nums" style={{ color: "#AF2B43" }}>
+          <span className="text-sm font-bold font-body tabular-nums" style={{ color: accentColor }}>
             {timeLeft.days}g {pad(timeLeft.hours)}h {pad(timeLeft.minutes)}m {pad(timeLeft.seconds)}s
           </span>
         </div>
