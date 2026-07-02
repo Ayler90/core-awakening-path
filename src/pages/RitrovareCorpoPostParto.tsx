@@ -7,7 +7,7 @@ import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 
 const RED = "#645b8f";
-const VIOLET = "#61438C";
+const VIOLET = "#645b8f";
 
 // ─── Infinite Slider ──────────────────────────────────────────────────────────
 
@@ -961,7 +961,7 @@ const RitrovareCorpoPostParto = () => {
       {/* ─── FINAL CTA ────────────────────────────────────────────────────── */}
       <section
         className="py-24 lg:py-32 relative overflow-hidden"
-        style={{ background: "linear-gradient(135deg, #4a4580 0%, #61438C 60%, #52398a 100%)" }}
+        style={{ background: "linear-gradient(135deg, #4e4878 0%, #645b8f 60%, #534d82 100%)" }}
       >
         <div
           className="absolute inset-0 opacity-10"
@@ -1001,7 +1001,7 @@ const RitrovareCorpoPostParto = () => {
             <a
               href="#scarica"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-bold font-body text-base transition-all cta-progress cta-progress-inv"
-              style={{ backgroundColor: "white", color: "#4a4580" }}
+              style={{ backgroundColor: "white", color: "#645b8f" }}
             >
               <Download className="w-4 h-4" />
               Scarica la guida gratuita →
