@@ -863,35 +863,47 @@ const RitrovareCorpoPostParto = () => {
           <div className="max-w-2xl mx-auto flex flex-col gap-3">
             {[
               {
-                q: "È davvero gratuita?",
-                a: "Sì, completamente. Ti iscrivi con nome e email, ricevi il PDF scaricabile e un mini training gratuito via email. Nessun costo nascosto.",
-              },
-              {
                 q: "Per chi è questa guida?",
-                a: "È pensata per chi è nel post parto, vicino o lontano dal giorno del parto, e si sente disconnessa dal proprio corpo, non sa da dove iniziare o vuole capire come ritrovare connessione e controllo in modo sicuro.",
-              },
-              {
-                q: "Cosa trovo esattamente? Solo testo o ci sono anche gli esercizi?",
-                a: "Ogni giorno ha una scheda scritta con spiegazioni chiare e un video con esercizi guidati da Michela. Non devi solo leggere: puoi seguire le pratiche video direttamente.",
+                a: "È pensata per chi è nel post parto, da pochi giorni o da più tempo, si sente un po' disconnessə dal proprio corpo e non sa da dove iniziare. Se desideri prenderti cura di te, iniziare il tuo recupero post parto ricostruendo basi solide e tornare a sentirti più sicurə e competente nel tuo corpo, questa guida è il tuo punto di partenza.",
               },
               {
                 q: "Da quanti giorni dopo il parto posso iniziare?",
-                a: "La guida è pensata per accompagnare il corpo nel post parto, in modo graduale e rispettoso. Puoi iniziarla sia nelle prime settimane dopo il parto, sia molto dopo: non è mai troppo tardi per ripartire dalle basi.",
+                a: "Se il parto è avvenuto in condizioni di fisiologia e ti senti prontə, non è necessario aspettare la classica visita dei 40 giorni per iniziare a prenderti cura di te. Anzi, respirazione, movimenti dolci e riattivazione graduale sono consigliati già nei primi giorni o nelle prime settimane dopo il parto, perché possono accompagnare il naturale processo di recupero del corpo. Se invece è passato più tempo, va bene lo stesso: non è mai troppo tardi per ripartire dalle basi.",
+              },
+              {
+                q: "La guida va bene anche dopo un parto cesareo?",
+                a: "Sì. Le pratiche sono pensate per accompagnare il recupero dopo un parto vaginale o un parto cesareo. Ogni corpo, però, ha tempi diversi: ascolta le tue sensazioni e rispetta sempre le indicazioni ricevute dal personale sanitario che ti ha seguito.",
+              },
+              {
+                q: "Cosa trovo esattamente nella guida? Solo informazioni da leggere o anche degli esercizi pratici?",
+                a: "Ogni giorno troverai una breve spiegazione per comprendere meglio cosa accade al tuo corpo dopo il parto e perché quel passaggio è importante. Ogni passaggio è accompagnato da una pratica guidata in video, semplice e concreta, da ripetere tutte le volte che vorrai, rispettando i tuoi tempi. Puoi accedere alla pratica anche subito. Se lo desideri, troverai anche uno spunto di riflessione per aiutarti a sviluppare maggiore consapevolezza e portare ciò che hai imparato nella tua quotidianità.",
+              },
+              {
+                q: "Quanto tempo mi serve ogni giorno?",
+                a: "Bastano pochi minuti. Non vogliamo aggiungere un altro impegno alle tue giornate, ma aiutarti a costruire una piccola abitudine che sia sostenibile nel tempo e che sostenga e aiuti il tuo corpo nel periodo del recupero.",
+              },
+              {
+                q: "E se non riesco a seguire ogni giorno?",
+                a: "Puoi seguire il ritmo che senti più adatto a te. Se ne hai bisogno, puoi fermarti più giorni sullo stesso passo o tornare alle pratiche ogni volta che lo desideri. Una volta scaricata, la guida rimarrà a tua disposizione. Se in futuro dovessimo aggiornarla o decidere di non renderla più disponibile, ti informeremo per tempo.",
               },
               {
                 q: "Devo avere attrezzatura o esperienza con gli esercizi?",
-                a: "No. Gli esercizi sono pensati per ripartire davvero dalle basi, senza attrezzi e senza esperienza previa. Ti basta uno spazio tranquillo e voglia di iniziare.",
+                a: "No. La guida è pensata proprio per aiutarti a ripartire dalle basi. Non servono attrezzi né esperienza: ti basta uno spazio tranquillo e sentirti prontə a dedicare qualche minuto a te, rispettando i tempi del tuo corpo, soprattutto se sei nelle primissime settimane postpartum.",
               },
               {
-                q: "Dopo i 7 passi, c'è un percorso per continuare?",
+                q: "È davvero gratuita?",
+                a: "Sì, completamente. Ti basta inserire il tuo nome e la tua email per ricevere subito la guida in PDF e, nei giorni successivi, un mini training gratuito via email che ti accompagnerà passo dopo passo.",
+              },
+              {
+                q: "Dopo i 7 passi, come posso continuare?",
                 a: (
                   <>
-                    Sì. Al termine dei 7 passi troverai nella guida indicazioni su come continuare con un percorso
-                    guidato e progressivo. Puoi anche scriverci a{" "}
+                    Al termine della guida troverai alcune indicazioni per capire come proseguire il tuo recupero,
+                    se lo desideri. Puoi anche scriverci a{" "}
                     <a href="mailto:ciao@officinamm.com" style={{ color: RED, textDecoration: "underline" }}>
                       ciao@officinamm.com
                     </a>{" "}
-                    per qualsiasi domanda.
+                    per qualsiasi domanda!
                   </>
                 ),
               },
