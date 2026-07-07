@@ -19,7 +19,7 @@ const steps = [
     description:
       "Rispondi a poche domande sulla tua situazione attuale: a che punto ti trovi nel post parto, quali sfide stai affrontando, cosa vorresti migliorare. Ci aiuta a capire dove sei e a creare contenuti davvero utili per te.",
     cta: "Compila il questionario →",
-    href: "https://forms.gle/placeholder",
+    href: "https://forms.gle/cCA6tkb5jRxbA6yP9",
   },
   {
     num: 3,
