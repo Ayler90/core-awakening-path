@@ -7,6 +7,7 @@ import {
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import VideoTestimonialsSection from "@/components/VideoTestimonialsSection";
+import PageMeta from "@/components/PageMeta";
 
 const RED = "#AF2B43";
 const VIOLET = "#61438C";
@@ -157,6 +158,10 @@ const CallConoscitiva = () => {
 
   return (
     <main className="pt-16">
+      <PageMeta
+        title="Prenota la Tua Chiamata Gratuita di 30 Minuti | OfficinaMM"
+        description="Prenota una chiamata gratuita di 30 minuti con Michela e Moreno di OfficinaMM. Parliamo della tua situazione: pavimento pelvico, diastasi, post parto e incontinenza."
+      />
       <NavBar showCountdown={false} ctaText="Prenota la call gratuita" ctaHref="#prenota" centerCta />
 
       {/* HERO */}
