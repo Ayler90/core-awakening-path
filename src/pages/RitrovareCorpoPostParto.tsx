@@ -5,6 +5,7 @@ import {
 } from "lucide-react";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
+import PageMeta from "@/components/PageMeta";
 
 const RED = "#645b8f";
 const VIOLET = "#645b8f";
@@ -182,6 +183,10 @@ const RitrovareCorpoPostParto = () => {
 
   return (
     <main className="pt-16">
+      <PageMeta
+        title="7 Passi per Ritrovare il Tuo Corpo Dopo il Parto – Guida Gratuita | OfficinaMM"
+        description="Scarica gratis la guida PDF con video-esercizi: 7 passi per riconnetterti al tuo corpo dopo il parto. Pavimento pelvico, respiro e addome profondo. Di Michela e Moreno."
+      />
       <style>{`
         @keyframes stripe-flow {
           0% { background-position: 0 0; }
