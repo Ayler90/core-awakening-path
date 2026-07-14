@@ -184,7 +184,7 @@ const RitrovareCorpoPostParto = () => {
   return (
     <main className="pt-16">
       <PageMeta
-        title="7 Passi per Ritrovare il Tuo Corpo Dopo il Parto – Guida Gratuita | OfficinaMM"
+        title="7 Passi per Ritrovare il Tuo Corpo Dopo il Parto – Guida Gratuita | Officina.MM"
         description="Scarica gratis la guida PDF con video-esercizi: 7 passi per riconnetterti al tuo corpo dopo il parto. Pavimento pelvico, respiro e addome profondo. Di Michela e Moreno."
       />
       <style>{`
