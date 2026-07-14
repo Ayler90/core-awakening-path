@@ -167,23 +167,28 @@ const CallConoscitiva = () => {
       {/* HERO */}
       <section className="relative overflow-hidden bg-white">
         <div className="container mx-auto px-4 sm:px-6 pt-10 pb-20 lg:pt-14 lg:pb-28">
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
-            <div>
-              <span
-                className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-semibold font-body border mb-6"
-                style={{ backgroundColor: VIOLET + "18", borderColor: VIOLET + "40", color: VIOLET }}
-              >
-                ◆ Chiamata gratuita · 30 minuti · Online
+          {/* Badge + titolo centrati */}
+          <div className="text-center mb-10 lg:mb-14">
+            <span
+              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-semibold font-body border mb-6"
+              style={{ backgroundColor: VIOLET + "18", borderColor: VIOLET + "40", color: VIOLET }}
+            >
+              ◆ Chiamata gratuita · 30 minuti · Online
+            </span>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-display leading-tight text-foreground">
+              Il tuo pavimento pelvico non risponde più come prima?{" "}
+              <span className="italic" style={{ color: RED }}>
+                Parliamone, insieme.
               </span>
+            </h1>
+          </div>
 
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-display leading-tight text-foreground mb-6">
-                Il tuo pavimento pelvico non risponde più come prima?{" "}
-                <span className="italic" style={{ color: RED }}>
-                  Parliamone, insieme.
-                </span>
-              </h1>
+          {/* Due colonne */}
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
 
+            {/* Sinistra: testo + CTA */}
+            <div>
               <p className="text-lg text-muted-foreground font-body leading-relaxed mb-4">
                 Non sai se quello che senti è normale, non sai a chi rivolgerti, non sai da dove
                 partire, o hai già provato qualcosa ma senza risultati concreti.
@@ -219,22 +224,9 @@ const CallConoscitiva = () => {
               </p>
             </div>
 
-            <div className="relative">
-              <div
-                className="relative rounded-2xl overflow-hidden shadow-lg aspect-[4/5] flex items-center justify-center"
-                style={{ backgroundColor: VIOLET + "10" }}
-              >
-                <div className="text-center p-8">
-                  <MessageCircle className="w-16 h-16 mx-auto mb-3" style={{ color: VIOLET + "60" }} />
-                  <p className="text-sm font-body" style={{ color: VIOLET + "80" }}>Immagine call conoscitiva</p>
-                </div>
-              </div>
-              <div className="absolute -bottom-4 -left-4 bg-background/95 backdrop-blur-sm rounded-xl p-4 shadow-md border border-border max-w-xs">
-                <p className="text-sm font-bold font-display leading-snug" style={{ color: RED }}>
-                  Non ti diciamo cosa fare in astratto. Guardiamo la tua situazione specifica.
-                </p>
-                <p className="text-xs text-muted-foreground font-body mt-0.5">Call conoscitiva · Officina.MM</p>
-              </div>
+            {/* Destra: video */}
+            <div>
+              <YoutubeFacade videoId="rh_qr6ija9U" />
             </div>
 
           </div>
@@ -243,19 +235,6 @@ const CallConoscitiva = () => {
 
       <SliderStrip />
 
-
-      {/* Video di presentazione */}
-      <section className="py-12 bg-background">
-        <div className="container mx-auto px-4 sm:px-6 max-w-3xl">
-          <div className="text-center mb-6">
-            <h2 className="text-xl sm:text-2xl font-bold font-display text-foreground mb-2">
-              Un messaggio per te da{" "}
-              <span className="italic" style={{ color: RED }}>Michela e Moreno</span>
-            </h2>
-          </div>
-          <YoutubeFacade videoId="rh_qr6ija9U" />
-        </div>
-      </section>
       {/* COME FUNZIONA */}
       <section
         id="come-funziona"
