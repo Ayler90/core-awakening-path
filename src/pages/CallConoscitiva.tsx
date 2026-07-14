@@ -12,7 +12,7 @@ const RED = "#AF2B43";
 const VIOLET = "#61438C";
 
 const sliderItems = [
-  "◆ Consulenza individuale",
+  "◆ Chiamata gratuita",
   "◇ 30 minuti · Online",
   "◆ Pavimento pelvico · Diastasi · Post parto",
   "◇ Una direzione chiara per il tuo corpo",
@@ -126,7 +126,7 @@ const CallConoscitiva = () => {
                 className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-semibold font-body border mb-6"
                 style={{ backgroundColor: VIOLET + "18", borderColor: VIOLET + "40", color: VIOLET }}
               >
-                ◆ Consulenza individuale · 30 minuti · Gratuita
+                ◆ Chiamata gratuita · 30 minuti · Online
               </span>
 
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-display leading-tight text-foreground mb-6">
@@ -195,6 +195,28 @@ const CallConoscitiva = () => {
 
       <SliderStrip />
 
+
+      {/* Video di presentazione */}
+      <section className="py-12 bg-background">
+        <div className="container mx-auto px-4 sm:px-6 max-w-3xl">
+          <div className="text-center mb-6">
+            <h2 className="text-xl sm:text-2xl font-bold font-display text-foreground mb-2">
+              Un messaggio per te da{" "}
+              <span className="italic" style={{ color: RED }}>Michela e Moreno</span>
+            </h2>
+          </div>
+          <div className="relative w-full rounded-2xl overflow-hidden shadow-lg" style={{ paddingBottom: "56.25%" }}>
+            <iframe
+              className="absolute inset-0 w-full h-full"
+              src="https://www.youtube.com/embed/rh_qr6ija9U"
+              title="Messaggio di Michela e Moreno - Chiamata gratuita"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </div>
+      </section>
       {/* COME FUNZIONA */}
       <section
         id="come-funziona"
