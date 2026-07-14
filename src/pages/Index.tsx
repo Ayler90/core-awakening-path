@@ -15,6 +15,7 @@ import BonusSection from "@/components/BonusSection";
 import FaqSection from "@/components/FaqSection";
 import FinalCtaSection from "@/components/FinalCtaSection";
 import Footer from "@/components/Footer";
+import PageMeta from "@/components/PageMeta";
 
 const Index = () => {
   useEffect(() => {
@@ -36,6 +37,10 @@ const Index = () => {
 
   return (
     <main className="pt-28 sm:pt-16">
+      <PageMeta
+        title="CORE 101 – Training Gratuito sul Pavimento Pelvico | OfficinaMM"
+        description="Iscriviti gratis a CORE 101: 14 video in 2 settimane per scoprire il core profondo, il pavimento pelvico e migliorare diastasi, incontinenza e prolasso. Con Michela e Moreno."
+      />
       <NavBar showCountdown />
       <HeroSection />
       <HeroBenefits />
