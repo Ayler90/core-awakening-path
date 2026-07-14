@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   MessageCircle, Compass, CheckCircle2,
   Users, Heart, Zap, Activity, Eye,
@@ -98,6 +98,49 @@ const faqs = [
     a: "Ti daremo una direzione chiara: cosa fare, in che ordine e perché. Se ha senso continuare insieme con un percorso, te lo proporremo. Senza pressioni.",
   },
 ];
+
+const YoutubeFacade = ({ videoId, className = "" }: { videoId: string; className?: string }) => {
+  const [active, setActive] = useState(false);
+  const thumb = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
+  return (
+    <div
+      className={`relative w-full rounded-2xl overflow-hidden shadow-lg cursor-pointer ${className}`}
+      style={{ paddingBottom: "56.25%" }}
+      onClick={() => setActive(true)}
+    >
+      {active ? (
+        <iframe
+          className="absolute inset-0 w-full h-full"
+          src={`https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&playsinline=1&rel=0`}
+          title="Video di presentazione"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
+      ) : (
+        <>
+          <img
+            src={thumb}
+            alt="Anteprima video"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/20" />
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div
+              className="w-16 h-16 rounded-full flex items-center justify-center shadow-xl transition-transform hover:scale-110"
+              style={{ backgroundColor: RED }}
+            >
+              <svg className="w-6 h-6 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+            </div>
+          </div>
+        </>
+      )}
+    </div>
+  );
+};
+
 
 const CallConoscitiva = () => {
   useEffect(() => {
@@ -205,16 +248,7 @@ const CallConoscitiva = () => {
               <span className="italic" style={{ color: RED }}>Michela e Moreno</span>
             </h2>
           </div>
-          <div className="relative w-full rounded-2xl overflow-hidden shadow-lg" style={{ paddingBottom: "56.25%" }}>
-            <iframe
-              className="absolute inset-0 w-full h-full"
-              src="https://www.youtube.com/embed/rh_qr6ija9U"
-              title="Messaggio di Michela e Moreno - Chiamata gratuita"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
-          </div>
+          <YoutubeFacade videoId="rh_qr6ija9U" />
         </div>
       </section>
       {/* COME FUNZIONA */}
