@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Send, ClipboardList, CalendarPlus, CheckCircle2, Mail, Volume2 } from "lucide-react";
 import Footer from "@/components/Footer";
+import PageMeta from "@/components/PageMeta";
 
 const WELCOME_VIDEO_ID = "8-m4nPExp78";
 
@@ -42,6 +43,10 @@ const Grazie = () => {
 
   return (
     <main>
+      <PageMeta
+        title="Grazie! Sei iscritto/a a CORE 101 | OfficinaMM"
+        description="Benvenuto/a in CORE 101. Entra nel canale Telegram per iniziare il training gratuito di 14 giorni sul pavimento pelvico e il core profondo. Con Michela e Moreno – OfficinaMM."
+      />
       {/* Banner top */}
       <div
         className="w-full py-3 px-4 text-center text-white font-body font-semibold text-sm sm:text-base"
