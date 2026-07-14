@@ -96,6 +96,28 @@ const GrazieRitrovareCorpo = () => {
         </div>
       </section>
 
+
+      {/* Video di presentazione */}
+      <section className="py-12 bg-background">
+        <div className="container mx-auto px-4 sm:px-6 max-w-3xl">
+          <div className="text-center mb-6">
+            <h2 className="text-xl sm:text-2xl font-bold font-display text-foreground mb-2">
+              Un messaggio per te da{" "}
+              <span className="italic" style={{ color: RED }}>Michela e Moreno</span>
+            </h2>
+          </div>
+          <div className="relative w-full rounded-2xl overflow-hidden shadow-lg" style={{ paddingBottom: "56.25%" }}>
+            <iframe
+              className="absolute inset-0 w-full h-full"
+              src="https://www.youtube.com/embed/AbAzckGQA6I"
+              title="Messaggio di Michela e Moreno"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </div>
+      </section>
       {/* Prossimi passi */}
       <section
         className="py-20"
