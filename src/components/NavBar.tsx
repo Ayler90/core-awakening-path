@@ -24,7 +24,7 @@ interface NavBarProps {
   accentColor?: string;
 }
 
-const NavBar = ({ showCountdown = false, ctaText = "Voglio partecipare →", ctaHref = "#iscrizione", centerText, centerCta = false, accentColor = accentColor }: NavBarProps) => {
+const NavBar = ({ showCountdown = false, ctaText = "Voglio partecipare →", ctaHref = "#iscrizione", centerText, centerCta = false, accentColor = "#AF2B43" }: NavBarProps) => {
   const [scrolled, setScrolled] = useState(false);
   const [timeLeft, setTimeLeft] = useState(getTimeLeft());
 
