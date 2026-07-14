@@ -1,5 +1,6 @@
 import { Send, CalendarDays, MessageCircle, CheckCircle2, Mail, FolderOpen } from "lucide-react";
 import Footer from "@/components/Footer";
+import PageMeta from "@/components/PageMeta";
 
 const TELEGRAM_URL = "https://t.me/+NZ23GK-gLt0yYjA0";
 const DRIVE_URL = "https://drive.google.com/drive/folders/1R-jRr1pMobtVTCUnL6yIyZRwzOvbGFqi";
@@ -7,6 +8,10 @@ const DRIVE_URL = "https://drive.google.com/drive/folders/1R-jRr1pMobtVTCUnL6yIy
 const GrazieAdvance = () => {
   return (
     <main>
+      <PageMeta
+        title="Grazie! Sei iscritto/a a CORE Advance | OfficinaMM"
+        description="Benvenuto/a in CORE Advance. Segui le istruzioni per accedere al percorso e unirti al gruppo Telegram dedicato. OfficinaMM – Michela e Moreno."
+      />
       {/* Banner top */}
       <div
         className="w-full py-3 px-4 text-center text-white font-body font-semibold text-sm sm:text-base"
