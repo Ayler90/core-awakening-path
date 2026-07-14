@@ -44,8 +44,8 @@ const Grazie = () => {
   return (
     <main>
       <PageMeta
-        title="Grazie! Sei iscritto/a a CORE 101 | OfficinaMM"
-        description="Benvenuto/a in CORE 101. Entra nel canale Telegram per iniziare il training gratuito di 14 giorni sul pavimento pelvico e il core profondo. Con Michela e Moreno – OfficinaMM."
+        title="Grazie! Sei iscritto/a a CORE 101 | Officina.MM"
+        description="Benvenuto/a in CORE 101. Entra nel canale Telegram per iniziare il training gratuito di 14 giorni sul pavimento pelvico e il core profondo. Con Michela e Moreno – Officina.MM."
       />
       {/* Banner top */}
       <div
