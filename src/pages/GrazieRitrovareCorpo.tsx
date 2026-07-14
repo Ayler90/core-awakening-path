@@ -83,8 +83,8 @@ const GrazieRitrovareCorpo = () => {
   return (
     <main>
       <PageMeta
-        title="Grazie! La tua guida è in arrivo via email | OfficinaMM"
-        description="Hai richiesto la guida gratuita 7 Passi per Ritrovare il Tuo Corpo Dopo il Parto. Controlla la tua email e segui i prossimi passi per iniziare il percorso con OfficinaMM."
+        title="Grazie! La tua guida è in arrivo via email | Officina.MM"
+        description="Hai richiesto la guida gratuita 7 Passi per Ritrovare il Tuo Corpo Dopo il Parto. Controlla la tua email e segui i prossimi passi per iniziare il percorso con Officina.MM."
       />
       {/* Banner top */}
       <div
