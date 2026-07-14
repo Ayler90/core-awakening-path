@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { CheckCircle2, Mail, ClipboardList, Send } from "lucide-react";
 import Footer from "@/components/Footer";
+import PageMeta from "@/components/PageMeta";
 
 const RED = "#645b8f";
 
@@ -81,6 +82,10 @@ const YoutubeFacade = ({ videoId, className = "" }: { videoId: string; className
 const GrazieRitrovareCorpo = () => {
   return (
     <main>
+      <PageMeta
+        title="Grazie! La tua guida è in arrivo via email | OfficinaMM"
+        description="Hai richiesto la guida gratuita 7 Passi per Ritrovare il Tuo Corpo Dopo il Parto. Controlla la tua email e segui i prossimi passi per iniziare il percorso con OfficinaMM."
+      />
       {/* Banner top */}
       <div
         className="w-full py-3 px-4 text-center text-white font-body font-semibold text-sm sm:text-base"
