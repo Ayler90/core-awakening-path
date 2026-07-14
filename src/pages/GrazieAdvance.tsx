@@ -9,8 +9,8 @@ const GrazieAdvance = () => {
   return (
     <main>
       <PageMeta
-        title="Grazie! Sei iscritto/a a CORE Advance | OfficinaMM"
-        description="Benvenuto/a in CORE Advance. Segui le istruzioni per accedere al percorso e unirti al gruppo Telegram dedicato. OfficinaMM – Michela e Moreno."
+        title="Grazie! Sei iscritto/a a CORE Advance | Officina.MM"
+        description="Benvenuto/a in CORE Advance. Segui le istruzioni per accedere al percorso e unirti al gruppo Telegram dedicato. Officina.MM – Michela e Moreno."
       />
       {/* Banner top */}
       <div
@@ -291,13 +291,13 @@ const GrazieAdvance = () => {
                       <span style={{ color: "#AF2B43" }}>•</span>
                       contattarci in privato su Telegram al contatto{" "}
                       <a
-                        href="https://t.me/OfficinaMM"
+                        href="https://t.me/Officina.MM"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="font-semibold underline"
                         style={{ color: "#AF2B43" }}
                       >
-                        @OfficinaMM
+                        @Officina.MM
                       </a>
                     </li>
                   </ul>
