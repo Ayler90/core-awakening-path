@@ -10,8 +10,8 @@ const GrazieFoundation = () => {
   return (
     <main>
       <PageMeta
-        title="Grazie! Sei iscritto/a a CORE Foundation | OfficinaMM"
-        description="Benvenuto/a in CORE Foundation. Segui le istruzioni per accedere al percorso e unirti al gruppo Telegram dedicato. OfficinaMM – Michela e Moreno."
+        title="Grazie! Sei iscritto/a a CORE Foundation | Officina.MM"
+        description="Benvenuto/a in CORE Foundation. Segui le istruzioni per accedere al percorso e unirti al gruppo Telegram dedicato. Officina.MM – Michela e Moreno."
       />
       {/* Banner top */}
       <div
@@ -240,13 +240,13 @@ const GrazieFoundation = () => {
                       <span style={{ color: "#AF2B43" }}>•</span>
                       contattarci in privato su Telegram al contatto{" "}
                       <a
-                        href="https://t.me/OfficinaMM"
+                        href="https://t.me/Officina.MM"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="font-semibold underline"
                         style={{ color: "#AF2B43" }}
                       >
-                        @OfficinaMM
+                        @Officina.MM
                       </a>
                     </li>
                   </ul>
