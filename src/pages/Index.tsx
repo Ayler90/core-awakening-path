@@ -38,7 +38,7 @@ const Index = () => {
   return (
     <main className="pt-28 sm:pt-16">
       <PageMeta
-        title="CORE 101 – Training Gratuito sul Pavimento Pelvico | OfficinaMM"
+        title="CORE 101 – Training Gratuito sul Pavimento Pelvico | Officina.MM"
         description="Iscriviti gratis a CORE 101: 14 video in 2 settimane per scoprire il core profondo, il pavimento pelvico e migliorare diastasi, incontinenza e prolasso. Con Michela e Moreno."
       />
       <NavBar showCountdown />
